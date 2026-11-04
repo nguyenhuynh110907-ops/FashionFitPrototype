@@ -1,0 +1,74 @@
+name: Publish checked FashionFit source
+on:
+  push:
+    branches: [main]
+    paths: ['SourceParts/manifest.json']
+permissions:
+  contents: write
+concurrency:
+  group: fashionfit-source-publication
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          fetch-depth: 1
+      - name: Verify archive and publish its exact file objects
+        shell: python
+        run: |
+          from pathlib import Path, PurePosixPath
+          import json, hashlib, zipfile, io, subprocess
+          root=Path.cwd()
+          manifest=json.loads((root/'SourceParts/manifest.json').read_text(encoding='utf-8'))
+          chunks=[]
+          for part in manifest['parts']:
+              name=part['name']
+              if Path(name).name!=name: raise RuntimeError('Invalid part name')
+              content=(root/'SourceParts'/name).read_bytes()
+              if len(content)!=part['bytes'] or hashlib.sha256(content).hexdigest()!=part['sha256']:
+                  raise RuntimeError('Part checksum mismatch: '+name)
+              chunks.append(content)
+          archive=b''.join(chunks)
+          if len(archive)!=manifest['archiveBytes'] or hashlib.sha256(archive).hexdigest()!=manifest['archiveSha256']:
+              raise RuntimeError('Archive checksum mismatch')
+          expected={f['path']:f for f in manifest['files']}
+          if len(expected)!=manifest['fileCount']:raise RuntimeError('Duplicate manifest path')
+          with zipfile.ZipFile(io.BytesIO(archive)) as bundle:
+              if len(bundle.namelist())!=len(expected) or set(bundle.namelist())!=set(expected):
+                  raise RuntimeError('Archive and manifest disagree')
+              for relative in bundle.namelist():
+                  path=PurePosixPath(relative)
+                  if path.is_absolute() or '..' in path.parts or path.parts[0] in {'.git','.github','SourceParts'} or '\\' in relative or '\n' in relative:
+                      raise RuntimeError('Unsafe member path')
+                  destination=(root/relative).resolve()
+                  if not destination.is_relative_to(root):raise RuntimeError('Path escape')
+                  content=bundle.read(relative)
+                  if len(content)!=expected[relative]['size'] or hashlib.sha256(content).hexdigest()!=expected[relative]['sha256']:
+                      raise RuntimeError('File checksum mismatch: '+relative)
+                  destination.parent.mkdir(parents=True,exist_ok=True)
+                  destination.write_bytes(content)
+          # Preserve the reviewed bytes, including Unity binary data and line endings.
+          paths=list(expected)
+          result=subprocess.run(['git','hash-object','-w','--no-filters','--stdin-paths'],input='\n'.join(paths)+'\n',text=True,capture_output=True,check=True)
+          shas=result.stdout.splitlines()
+          if len(shas)!=len(paths):raise RuntimeError('Git hash count mismatch')
+          for path,sha in zip(paths,shas):
+              if sha!=expected[path]['sha']:raise RuntimeError('Git blob mismatch: '+path)
+          index=b''.join(('100644 '+sha+'\t'+path+'\0').encode('utf-8')for path,sha in zip(paths,shas))
+          subprocess.run(['git','update-index','-z','--index-info'],input=index,check=True)
+          subprocess.run(['git','config','user.name','github-actions[bot]'],check=True)
+          subprocess.run(['git','config','user.email','41898282+github-actions[bot]@users.noreply.github.com'],check=True)
+          receipt={'fileCount':len(expected),'sourceArchiveSha256':manifest['archiveSha256'],
+                   'files':[{'path':f['path'],'sha':f['sha'],'sha256':f['sha256'],'bytes':f['size']}for f in expected.values()]}
+          receipt_path=root/'PUBLICATION_MANIFEST.json'
+          receipt_path.write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          subprocess.run(['git','add','PUBLICATION_MANIFEST.json'],check=True)
+          for part in manifest['parts']:
+              subprocess.run(['git','rm','--','SourceParts/'+part['name']],check=True)
+          subprocess.run(['git','rm','--','SourceParts/manifest.json'],check=True)
+          subprocess.run(['git','commit','-m','Publish complete FashionFit V092 source, assets and research snapshot'],check=True)
+          subprocess.run(['git','push','origin','HEAD:main'],check=True)
+          print(f'Published {len(expected)} verified source files.')
