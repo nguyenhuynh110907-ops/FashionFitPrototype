@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "version": "V087_MENS_REFERENCE",
+  "source_files": 144,
+  "player_files": 175,
+  "mens_checks": 55,
+  "pose_hat_checks": 29,
+  "automatic_layer_checks": 18,
+  "physical_HMD_verified": false
+}

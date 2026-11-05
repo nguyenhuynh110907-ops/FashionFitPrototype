@@ -1,0 +1,10 @@
+{
+  "vertices": 53514,
+  "triangles": 107024,
+  "height_m": 1.7200000286102295,
+  "max_bind_identity_error": 5.245208734017126e-08,
+  "max_weight_sum_error": 1.7881393432617188e-07,
+  "normals_finite_and_unit": true,
+  "indices_valid": true,
+  "asset_guids_unique": true
+}

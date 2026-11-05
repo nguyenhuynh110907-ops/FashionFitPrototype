@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "counts": {
+    "original_sha256": 10,
+    "photo_sha1": 6,
+    "photo_dimensions": 6,
+    "pdf_page_counts": 4,
+    "extracted_component_sha256": 30,
+    "original_parquet_component_sha256": 48,
+    "seam_endpoints": 480,
+    "html_local_targets": 19,
+    "runtime_audit_files_unchanged": 2
+  },
+  "distinct_support_train_designs": 6,
+  "raw_pack_bytes": 104816900,
+  "dataset_total_bytes": 29860149386,
+  "remaining_to_cap_bytes": 139850614,
+  "notes": [
+    "Integrity and provenance checks, not garment simulation QA",
+    "No Ao Dai training or gameplay test run"
+  ]
+}

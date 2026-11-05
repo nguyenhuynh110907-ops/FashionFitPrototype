@@ -1,0 +1,253 @@
+{
+  "status": "passed",
+  "method": "Full original body; libigl triangle distance + Embree ray parity; vertices, face centres and edge midpoints; 1 mm tolerance",
+  "continuous_collision_certified": false,
+  "self_collision_certified": false,
+  "cases": [
+    {
+      "file": "Player_Design.bin",
+      "sha256": "2bfe572a5e381c03b93633ee6831547a7744fa85abb3e14e48d8d373b4c4d207",
+      "body": [
+        {
+          "samples": 15737,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        },
+        {
+          "samples": 9437,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        },
+        {
+          "samples": 1505,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        },
+        {
+          "samples": 1505,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": [
+        {
+          "parts": [
+            1,
+            2
+          ],
+          "crossings": 0
+        },
+        {
+          "parts": [
+            1,
+            3
+          ],
+          "crossings": 0
+        },
+        {
+          "parts": [
+            2,
+            3
+          ],
+          "crossings": 0
+        }
+      ]
+    },
+    {
+      "file": "Player_Lift.bin",
+      "sha256": "3c97889c01ca1f2e4a3b844f29e69f671d31abcf64e939989b3f3dd4f882e23d",
+      "body": [
+        {
+          "samples": 15737,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        },
+        {
+          "samples": 9437,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        },
+        {
+          "samples": 1505,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        },
+        {
+          "samples": 1505,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": [
+        {
+          "parts": [
+            1,
+            2
+          ],
+          "crossings": 0
+        },
+        {
+          "parts": [
+            1,
+            3
+          ],
+          "crossings": 0
+        },
+        {
+          "parts": [
+            2,
+            3
+          ],
+          "crossings": 0
+        }
+      ]
+    },
+    {
+      "file": "Player_Recovery.bin",
+      "sha256": "a68754db35b89462d94a94f5e8af4c5dcb150c6104c2032eb7b27a13f0ce18dd",
+      "body": [
+        {
+          "samples": 15737,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        },
+        {
+          "samples": 9437,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        },
+        {
+          "samples": 1505,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        },
+        {
+          "samples": 1505,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": [
+        {
+          "parts": [
+            1,
+            2
+          ],
+          "crossings": 0
+        },
+        {
+          "parts": [
+            1,
+            3
+          ],
+          "crossings": 0
+        },
+        {
+          "parts": [
+            2,
+            3
+          ],
+          "crossings": 0
+        }
+      ]
+    },
+    {
+      "file": "Player_Rest.bin",
+      "sha256": "ed0ed64cd8d22118300a28bb6d26789ec3a59780e7dffd5698e32ec503f71658",
+      "body": [
+        {
+          "samples": 15737,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        },
+        {
+          "samples": 9437,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        },
+        {
+          "samples": 1505,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        },
+        {
+          "samples": 1505,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": [
+        {
+          "parts": [
+            1,
+            2
+          ],
+          "crossings": 0
+        },
+        {
+          "parts": [
+            1,
+            3
+          ],
+          "crossings": 0
+        },
+        {
+          "parts": [
+            2,
+            3
+          ],
+          "crossings": 0
+        }
+      ]
+    },
+    {
+      "file": "Player_Unpinned.bin",
+      "sha256": "b33488f787cb03d356445de1a89c6f865aa73abaede256ba70e51f34d49add82",
+      "body": [
+        {
+          "samples": 15737,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        },
+        {
+          "samples": 9437,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        },
+        {
+          "samples": 1505,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        },
+        {
+          "samples": 1505,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": [
+        {
+          "parts": [
+            1,
+            2
+          ],
+          "crossings": 0
+        },
+        {
+          "parts": [
+            1,
+            3
+          ],
+          "crossings": 0
+        },
+        {
+          "parts": [
+            2,
+            3
+          ],
+          "crossings": 0
+        }
+      ]
+    }
+  ]
+}

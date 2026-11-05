@@ -1,0 +1,21 @@
+{
+    "schema": 1,
+    "displayName": "Student garment pose-male",
+    "targetBodyId": "pose-male",
+    "referenceBodyKey": "b79c8621f5f26b1995de4e0599ccdfa4c7d23b5ae04a15774b3ed645cd3e2c72",
+    "sourceMode": "canonical",
+    "sourceBodyPath": "SourceBody",
+    "garmentPath": "Garment",
+    "restPose": "reference-neutral",
+    "unitMeters": 1.0,
+    "rotationEuler": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "offsetMeters": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    }
+}

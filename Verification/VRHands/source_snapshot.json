@@ -1,0 +1,86 @@
+[
+  {
+    "path": "Assets/FashionFit/Editor/PoseStudioVerification.cs",
+    "sha256": "c4cb84ebfd1a2c01cca61da0307242a36f2f7a51c92c195f5c795c0c091b6c33"
+  },
+  {
+    "path": "Assets/FashionFit/Editor/VRHandsVerification.cs",
+    "sha256": "9c4232a56d3493cffffefb5b20b0dc85686b8926a5abb25110aa6601f1ab85a0"
+  },
+  {
+    "path": "Assets/FashionFit/Editor/VRReadyVerification.cs",
+    "sha256": "5ec63dc0749b3896893c75e014d26bba0d61dc92fd4fd421518f1a1970d07146"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/FabricDetailTrial.cs",
+    "sha256": "328e5c41bfff0d0c7d2ce34f688c5ec4b32dc5a5c9fc0443d5a758a21ba3cbb0"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/ReferenceHatCatalog.cs",
+    "sha256": "0b24c1727e927f5c0771bfd2dc13790425d7347b72f85dac8f498e6bdcf87dca"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayPickup.cs",
+    "sha256": "d85c895bdab47bf52c15d13ee07abb47730203355414f45793eaa9a7b893e1c5"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayPlayer.cs",
+    "sha256": "50508941c469e4b27af799c3b5e4af8fbfb9c6ba139d002ad2317da747f6a16a"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayPoseRig.cs",
+    "sha256": "4f34a4613ac8cfad2381f78d39cef741a8e3b681631d813c18670d5bde6ed6f4"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayPoseStudio.cs",
+    "sha256": "f5123205707fef5c4bd21d414fe2426bc931796a1cb18661eea31626eb06ae59"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayUI.cs",
+    "sha256": "75b6ac00f66f3d5f346d8277d8c2d10f17b73e2cbb5b24ed786a0713c0a05308"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayVRGrabTarget.cs",
+    "sha256": "39baad102f2b554192bf4d6a3e1267280278cf43711c22be745d16160a496855"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayVRHands.cs",
+    "sha256": "1af2cfc24358e51e8e72096bfea7541bc5b0e82148c78b1ac436c588992dea85"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayVRPanel.cs",
+    "sha256": "9ae04cb4637693eb68d1595e7ad2ad5f22d31962d7184361157b971e227d6282"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayWardrobe.cs",
+    "sha256": "d13f563b317914a7883a6ae370d47f8a62114785f82bde7d8bfcd499b46cb41c"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/ShowroomPreviewCatalog.cs",
+    "sha256": "0f7b9b47689cdf407e5bff0ecadffef09af8933947f2ca104f74c102b767367a"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/StandaloneVerification.cs",
+    "sha256": "22e11dfe276f328dc0910a15299706ada731c3f3570705b5c44e49bcfc1c8fad"
+  },
+  {
+    "path": "Assets/Resources/Runway/HatFabric.shader",
+    "sha256": "04ea8e941424e688b784d9eecca0708c554bb6fa64a8e5fd03ee716ac3c5782c"
+  },
+  {
+    "path": "C:\\Users\\HUYNH\\Downloads\\FashionFit_Run\\FashionFittingRoom.exe",
+    "sha256": "0b62e9914456f6315d2d5799314c3cdcd398bd59f15ea24662c41a356a4e8669"
+  },
+  {
+    "path": "C:\\Users\\HUYNH\\Downloads\\FashionFit_Run\\UnityPlayer.dll",
+    "sha256": "04e79d026032d908be8cbd9fc96d267285491698d5b298bb562338b959bc499e"
+  },
+  {
+    "path": "C:\\Users\\HUYNH\\Downloads\\FashionFit_Run\\FashionFittingRoom_Data\\Managed\\Assembly-CSharp.dll",
+    "sha256": "de83b8f18809acb200e9f8d707206620feddf9ec2d0d9ef506b588a50bf19ffd"
+  },
+  {
+    "path": "C:\\Users\\HUYNH\\Downloads\\FashionFit_Run\\FashionFittingRoom_Data\\resources.assets",
+    "sha256": "7ae8fdac594064bf6066833439771739ed93f60d50ae782e5068ac775cbd9de1"
+  }
+]

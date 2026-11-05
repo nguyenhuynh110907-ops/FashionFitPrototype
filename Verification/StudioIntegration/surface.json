@@ -1,0 +1,22 @@
+{
+    "status": "passed",
+    "scope": "Real menu/near Grip routes, injected Touch and manually stepped solver; no physical headset",
+    "checks": 28,
+    "exceptions": 0,
+    "contacts": 8,
+    "shirtVertices": 5645,
+    "shirtTriangles": 10848,
+    "shirtComponents": 1,
+    "boundaryLoops": 4,
+    "hatSeamVertices": 64,
+    "connectedShirt": true,
+    "hatSeam": true,
+    "cabinetJoin": true,
+    "readoutStaysVisible": true,
+    "readoutUnits": true,
+    "cache": true,
+    "cottonTravelM": 0.0499999076128006,
+    "stretchTravelM": 0.09999056160449982,
+    "peakStrain": 0.7461709380149841,
+    "cachedMeshMs": 0.45930000000000006
+}

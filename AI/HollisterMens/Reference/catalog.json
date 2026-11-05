@@ -1,0 +1,265 @@
+{
+  "schema": 1,
+  "records": [
+    {
+      "id": "tee",
+      "name": "Boxy Heavyweight Crew T-Shirt",
+      "slug": "heavyweight-boxy-camo-pattern-t-shirt-60556819",
+      "composition": {
+        "cotton": 100
+      },
+      "areal_mass_kg_m2": 0.235,
+      "length_M_m": 0.6985,
+      "fit": "boxy",
+      "neck": "crew rib",
+      "sleeve": "short",
+      "image_code": null,
+      "notes": "Official product listing verifies 235 gsm. Image is not inferred from URL slug; color variants vary.",
+      "source": "https://www.hollisterco.com/shop/us/p/heavyweight-boxy-camo-pattern-t-shirt-60556819",
+      "retrieved": "2026-11-01",
+      "source_type": "official retailer product page; facts manually cross-checked with web",
+      "training_approved": false,
+      "rights": "Product images remain retailer/photographer copyright; reference only, not CC0/training cleared",
+      "simulation_calibrated": false,
+      "images": [
+        {
+          "path": "tee_prod1.jpg",
+          "url": "https://img.hollisterco.com/is/image/anf/KIC_324-6178-00620-908_prod1?policy=product-medium",
+          "bytes": 97645,
+          "sha256": "71061c99e247606f34f32cf4bca704d8ef5877f1851d7f88e027e1ec82a7a268"
+        }
+      ]
+    },
+    {
+      "id": "polo",
+      "name": "Must-Have Icon Polo",
+      "slug": "classic-fit-icon-polo-63915839",
+      "composition": {
+        "cotton": 98,
+        "elastane": 2
+      },
+      "length_M_m": 0.6985,
+      "fit": "classic",
+      "neck": "folded collar, button placket",
+      "sleeve": "short",
+      "image_code": "KIC_324-6787-00182-112",
+      "notes": "Pique structure. Material stiffness/recovery not measured on product page.",
+      "source": "https://www.hollisterco.com/shop/us/p/classic-fit-icon-polo-63915839",
+      "retrieved": "2026-11-01",
+      "source_type": "official retailer product page; facts manually cross-checked with web",
+      "training_approved": false,
+      "rights": "Product images remain retailer/photographer copyright; reference only, not CC0/training cleared",
+      "simulation_calibrated": false,
+      "images": [
+        {
+          "path": "polo_prod1.jpg",
+          "url": "https://img.hollisterco.com/is/image/anf/KIC_324-6787-00182-112_prod1?policy=product-medium",
+          "bytes": 145541,
+          "sha256": "44780af4de2d45956b84aa3c602bc2ecfc2b84616942d1c08d8ef9ba13b19fb9"
+        }
+      ],
+      "image_errors": [
+        {
+          "url": "https://img.hollisterco.com/is/image/anf/KIC_324-6787-00182-112_model1?policy=product-medium",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://img.hollisterco.com/is/image/anf/KIC_324-6787-00182-112_model2?policy=product-medium",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "id": "rugby",
+      "name": "Boxy Long-Sleeve Logo Graphic Rugby Polo",
+      "slug": "boxy-long-sleeve-logo-graphic-rugby-polo-62480319",
+      "composition": {
+        "cotton": 100
+      },
+      "fit": "boxy",
+      "neck": "folded collar, button placket",
+      "sleeve": "long",
+      "image_code": "KIC_324-6733-00138-504",
+      "source": "https://www.hollisterco.com/shop/us/p/boxy-long-sleeve-logo-graphic-rugby-polo-62480319",
+      "retrieved": "2026-11-01",
+      "source_type": "official retailer product page; facts manually cross-checked with web",
+      "training_approved": false,
+      "rights": "Product images remain retailer/photographer copyright; reference only, not CC0/training cleared",
+      "simulation_calibrated": false,
+      "images": [
+        {
+          "path": "rugby_model1.jpg",
+          "url": "https://img.hollisterco.com/is/image/anf/KIC_324-6733-00138-504_model1?policy=product-medium",
+          "bytes": 209689,
+          "sha256": "5b88bc2379099bca925ca9ce164472825b338247e5c3f6ecde232c6272f7a72a"
+        },
+        {
+          "path": "rugby_model2.jpg",
+          "url": "https://img.hollisterco.com/is/image/anf/KIC_324-6733-00138-504_model2?policy=product-medium",
+          "bytes": 147463,
+          "sha256": "4ad62b1d979e27041d68abdde95227461675f9775e918ee065cdf98a0da34581"
+        }
+      ]
+    },
+    {
+      "id": "henley",
+      "name": "Rib Henley",
+      "slug": "rib-henley-63765836",
+      "composition": {
+        "cotton": 95,
+        "elastane": 5
+      },
+      "fit": "slim",
+      "neck": "crew with button placket",
+      "sleeve": "long",
+      "image_code": "KIC_324-6391-00040-900",
+      "source": "https://www.hollisterco.com/shop/us/p/rib-henley-63765836",
+      "retrieved": "2026-11-01",
+      "source_type": "official retailer product page; facts manually cross-checked with web",
+      "training_approved": false,
+      "rights": "Product images remain retailer/photographer copyright; reference only, not CC0/training cleared",
+      "simulation_calibrated": false,
+      "images": [
+        {
+          "path": "henley_model1.jpg",
+          "url": "https://img.hollisterco.com/is/image/anf/KIC_324-6391-00040-900_model1?policy=product-medium",
+          "bytes": 145817,
+          "sha256": "30cf168f9a24999398bacf5743fe000ab4862fbf0d2877f8812a82e37638129a"
+        },
+        {
+          "path": "henley_model2.jpg",
+          "url": "https://img.hollisterco.com/is/image/anf/KIC_324-6391-00040-900_model2?policy=product-medium",
+          "bytes": 115480,
+          "sha256": "79676a4941f9be80928c56fe5f6b3315bc57f60d215bce32f68f4eb5b84980cd"
+        }
+      ]
+    },
+    {
+      "id": "layering",
+      "name": "Long-Sleeve Cotton Layering T-Shirt",
+      "slug": "long-sleeve-cotton-layering-t-shirt-63704319",
+      "composition": {
+        "cotton": 100
+      },
+      "length_M_m": 0.6985,
+      "fit": "layering",
+      "neck": "crew",
+      "sleeve": "long",
+      "image_code": "KIC_324-6631-00693-900",
+      "source": "https://www.hollisterco.com/shop/us/p/long-sleeve-cotton-layering-t-shirt-63704319",
+      "retrieved": "2026-11-01",
+      "source_type": "official retailer product page; facts manually cross-checked with web",
+      "training_approved": false,
+      "rights": "Product images remain retailer/photographer copyright; reference only, not CC0/training cleared",
+      "simulation_calibrated": false,
+      "images": [
+        {
+          "path": "layering_model1.jpg",
+          "url": "https://img.hollisterco.com/is/image/anf/KIC_324-6631-00693-900_model1?policy=product-medium",
+          "bytes": 158241,
+          "sha256": "d950f27879e419204fe6c0012d6c2f854891115d33f23bedcd1d8c9501957853"
+        },
+        {
+          "path": "layering_model2.jpg",
+          "url": "https://img.hollisterco.com/is/image/anf/KIC_324-6631-00693-900_model2?policy=product-medium",
+          "bytes": 162212,
+          "sha256": "defdea986227b370b80e5570b34aef665cc453c8b85835ce5a6f3816d379315a"
+        }
+      ]
+    },
+    {
+      "id": "chino",
+      "name": "Slim Straight Chino Pants",
+      "slug": "slim-straight-chino-pants-63233870",
+      "composition": {
+        "cotton": 98,
+        "elastane": 2
+      },
+      "fit": "slim straight",
+      "construction": "twill; pocket bags 65% polyester / 35% cotton",
+      "image_code": null,
+      "source": "https://www.hollisterco.com/shop/us/p/slim-straight-chino-pants-63233870",
+      "retrieved": "2026-11-01",
+      "source_type": "official retailer product page; facts manually cross-checked with web",
+      "training_approved": false,
+      "rights": "Product images remain retailer/photographer copyright; reference only, not CC0/training cleared",
+      "simulation_calibrated": false,
+      "images": [
+        {
+          "path": "chino_model2.jpg",
+          "url": "https://img.hollisterco.com/is/image/anf/KIC_330-6089-00144-200_model2?policy=product-medium",
+          "source_product_page": "https://www.hollisterco.com/shop/us/p/slim-straight-chino-pants-63233872",
+          "bytes": 146233,
+          "sha256": "074165021b7d13f08da8ee10105d3ad74b8f2ef65f433003fbbf05c9891a0299"
+        }
+      ]
+    },
+    {
+      "id": "jeans",
+      "name": "Relaxed Straight Jeans",
+      "slug": "relaxed-straight-jeans-63718496",
+      "composition": {
+        "cotton": 63,
+        "lyocell": 21,
+        "polyester": 15,
+        "elastane": 1
+      },
+      "fit": "relaxed straight",
+      "construction": "stretch denim, five-pocket",
+      "image_code": null,
+      "source": "https://www.hollisterco.com/shop/us/p/relaxed-straight-jeans-63718496",
+      "retrieved": "2026-11-01",
+      "source_type": "official retailer product page; facts manually cross-checked with web",
+      "training_approved": false,
+      "rights": "Product images remain retailer/photographer copyright; reference only, not CC0/training cleared",
+      "simulation_calibrated": false,
+      "images": [
+        {
+          "path": "jeans_model1.jpg",
+          "url": "https://img.hollisterco.com/is/image/anf/KIC_331-6341-00865-278_model1?policy=product-medium",
+          "bytes": 121329,
+          "sha256": "dc2a56c0045a159f8ff850de76251377f86c01a6d9dcf4e40b6e1104c6edfae4"
+        },
+        {
+          "path": "jeans_model2.jpg",
+          "url": "https://img.hollisterco.com/is/image/anf/KIC_331-6341-00865-278_model2?policy=product-medium",
+          "bytes": 197347,
+          "sha256": "3166cc6bb1d0f2496b6f20abe2dbec4ff8ab9c3735bfd5261a5ee308e5d3e284"
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "look": 7,
+      "top": "tee",
+      "bottom": "jeans",
+      "color_is_authored_variant": true
+    },
+    {
+      "look": 8,
+      "top": "polo",
+      "bottom": "chino",
+      "color_is_authored_variant": true
+    },
+    {
+      "look": 9,
+      "top": "rugby",
+      "bottom": "jeans",
+      "color_is_authored_variant": true
+    },
+    {
+      "look": 10,
+      "top": "henley",
+      "bottom": "chino",
+      "color_is_authored_variant": true
+    },
+    {
+      "look": 11,
+      "top": "layering",
+      "bottom": "chino",
+      "color_is_authored_variant": true
+    }
+  ],
+  "limitations": "Manual reference reconstruction, not original brand 3D models or sewing patterns. Photos not used as runtime textures or automatic training. No tensile strength inferred from appearance/composition."
+}

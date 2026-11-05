@@ -1,0 +1,18 @@
+{
+    "status": "passed",
+    "scope": "Rendered native cloth prototype, injected Touch input, no physical HMD",
+    "checks": 12,
+    "exceptions": 0,
+    "particles": 1021,
+    "poseTravel": 0.11999982595443726,
+    "clothTravel": 0.269052118062973,
+    "releaseTravel": 0.051799606531858447,
+    "clothMinY": 0.4452604651451111,
+    "maxStrain": 9.686392784118653,
+    "twoHands": true,
+    "mannequinHold": true,
+    "retainedAfterVRRelease": true,
+    "handReleased": true,
+    "materialValidation": "FAILED_strain_exceeds_preset",
+    "physicalHeadset": "NOT_ASSESSED"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "INCOMPLETE",
+  "functional": "passed",
+  "functionalChecks": 12,
+  "contact": "failed",
+  "material": "FAILED_strain_exceeds_preset",
+  "maximumObservedStrain": 9.686392784118652,
+  "physicalHeadset": "NOT_ASSESSED",
+  "note": "Experimental optional mode. Functional assertions do not certify textile mechanics or arbitrary poses."
+}

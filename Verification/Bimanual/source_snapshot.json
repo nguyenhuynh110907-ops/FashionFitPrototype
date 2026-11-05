@@ -1,0 +1,106 @@
+[
+  {
+    "path": "Assets/FashionFit/Editor/BimanualSpeedControls.cs",
+    "sha256": "eed59b5574fb9775ca5cca42a1ea2b4dc14c0d7c4c7b4acdbcfc8b2ce5cc99bc"
+  },
+  {
+    "path": "Assets/FashionFit/Editor/BimanualVerification.cs",
+    "sha256": "ccb40841daeb9841894240b2973c329714d942367bf61452d7597041173eadf7"
+  },
+  {
+    "path": "Assets/FashionFit/Editor/FashionFitAutoSetup.cs",
+    "sha256": "44376da0297455de530a4f8eff26499d5a924be8b8140e4f89c748f266008e1d"
+  },
+  {
+    "path": "Assets/FashionFit/Editor/FashionFitRecoveryBuild.cs",
+    "sha256": "7699109e9e8c65966a4a298879ca64a012ed5cac72fb027b9b13f436ff18acfd"
+  },
+  {
+    "path": "Assets/FashionFit/Editor/PoseBaseCollisionVerification.cs",
+    "sha256": "4c55380c92246ec0b4d189ade8cf438d5637974c728eedb7b84f155322feb07b"
+  },
+  {
+    "path": "Assets/FashionFit/Editor/SpeedContactVerification.cs",
+    "sha256": "457bd1c8a4698c12afdda16c10b4376af6e9ad03b7ce549a5d94e8a2b22cdf3b"
+  },
+  {
+    "path": "Assets/FashionFit/Editor/VRHandsVerification.cs",
+    "sha256": "fbf844a627a43072877f02cb3bfecbd26e3a6120d5baafd6a21226ada580ef3a"
+  },
+  {
+    "path": "Assets/FashionFit/Editor/VRReadyVerification.cs",
+    "sha256": "b5aa5e22cb6875d36c39a6ab37444890169fe3c0a46f0a543c84e1a20362b5e1"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/FashionFitApp.cs",
+    "sha256": "38bf2b14b6d532f86a1700d17a0f5e6d71915a88500548655216cfb721c2fe7d"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/FittingCloth.cs",
+    "sha256": "043e82dce4347ed271429bc7a72ed4da32f087dae64447cac2ee2ac34efb901c"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/FittingClothSolver.cs",
+    "sha256": "248bee827f1f509b6c8f4a747a22b716e7606a1191bd4f4dc9e15f28e3052212"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/InteractiveShirt.cs",
+    "sha256": "91e107c52e7468696e68bc7a98ce7a4f8bd809fc4306178afa80c594aa52022c"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayPickup.cs",
+    "sha256": "44acfc3f106c070b9e747299d63e31ccce9ea111866707030f3907e4cdcbdd84"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayPlayer.cs",
+    "sha256": "24e772daaf9f251a336055c4bcbcbfa95f80bddf85b9e129227b50159c2dff2c"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayPoseBase.cs",
+    "sha256": "295718e608645ae50c5ad2726e6504f4acad1f77f8eb85db08c9de211e23040d"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayPoseRig.cs",
+    "sha256": "512c3d6488a7be65fdfd3dafbc5641db3048827dd0e8c43775c2c72170516023"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayPoseStudio.cs",
+    "sha256": "798e499d98647cedf482ad4a80acf7f3c23681d692c4eb3dc0dbcaf8eff59357"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayUI.cs",
+    "sha256": "c70039844a230abca2a66f713c7caa1952952f019ed6856d35df748e11839c3d"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayVRGrabTarget.cs",
+    "sha256": "fcd55ca0574f087eeeaf86f4a59f0d3330b0f91cc5b2e41e7efe2ac5e8acb857"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayVRHands.cs",
+    "sha256": "943e5d765e6b464416a555a1589d24189ae8e73f0d66f51912186bc86113053b"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayVRPanel.cs",
+    "sha256": "aa9fce3eb4fb04f2ba5c3b6f5ae46154c563bdf8c88e867bd0112c018ff380c9"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/StandaloneVerification.cs",
+    "sha256": "fdb7be56f9b3ede71be65777ac26dddf2ec4f4b1a73abfa6342dc23fa85de3c8"
+  },
+  {
+    "path": "C:\\Users\\HUYNH\\Downloads\\FashionFit_Run\\FashionFittingRoom.exe",
+    "sha256": "0b62e9914456f6315d2d5799314c3cdcd398bd59f15ea24662c41a356a4e8669"
+  },
+  {
+    "path": "C:\\Users\\HUYNH\\Downloads\\FashionFit_Run\\FashionFittingRoom_Data\\Managed\\Assembly-CSharp.dll",
+    "sha256": "038805126f86fad97f360371216006ae03fc80cf72eab0e4810836308a335df1"
+  },
+  {
+    "path": "C:\\Users\\HUYNH\\Downloads\\FashionFit_Run\\UnityPlayer.dll",
+    "sha256": "04e79d026032d908be8cbd9fc96d267285491698d5b298bb562338b959bc499e"
+  },
+  {
+    "path": "C:\\Users\\HUYNH\\Downloads\\FashionFit_Run\\FashionFittingRoom_Data\\resources.assets",
+    "sha256": "1a897181ff35e423b519636a70ea2def73a0b0c9cc685fd24e50bc8d1b050ba6"
+  }
+]

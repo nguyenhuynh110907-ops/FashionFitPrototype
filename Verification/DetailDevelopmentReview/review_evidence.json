@@ -1,0 +1,102 @@
+{
+  "review_date": "2026-10-28",
+  "scope": "offline adversarial intake audit and runtime source snapshot comparison; no new Unity/headset run",
+  "intake_probe_results": [
+    {
+      "case": "material_index_out_of_range",
+      "expected": "flag malformed reference or missing data",
+      "actual_status": "dependencies_found_requires_render_review",
+      "issues": [],
+      "fault_detected": false,
+      "fixture_sha256": "4e3d4ff411cf62c07330bc3361b371da82039bafbab528382f1260ad56390a6a"
+    },
+    {
+      "case": "truncated_geometry_buffer",
+      "expected": "flag malformed reference or missing data",
+      "actual_status": "dependencies_found_requires_render_review",
+      "issues": [],
+      "fault_detected": false,
+      "fixture_sha256": "8405e319cae50356e6c102d94bc29e5f37b12af0ce2007368f1b4ff08ae55eda"
+    },
+    {
+      "case": "uv_accessor_out_of_range",
+      "expected": "flag malformed reference or missing data",
+      "actual_status": "dependencies_found_requires_render_review",
+      "issues": [],
+      "fault_detected": false,
+      "fixture_sha256": "81354ae917afb17014ac9ba40b2df50d4c210e3a33bc42a3504719d16805d38b"
+    },
+    {
+      "case": "missing_texture_reference",
+      "expected": "flag malformed reference or missing data",
+      "actual_status": "dependencies_found_requires_render_review",
+      "issues": [],
+      "fault_detected": false,
+      "fixture_sha256": "4f6560aad49ffe3e5e8c42b27870ffba380ca2da3ae481d2948345b334bf49af"
+    },
+    {
+      "case": "missing_uv_control",
+      "expected": "flag malformed reference or missing data",
+      "actual_status": "needs_source_fix",
+      "issues": [
+        "Primitive lacks TEXCOORD_0: None"
+      ],
+      "fault_detected": true,
+      "fixture_sha256": "9c5689045be3a7e10c5c1d38a2e32b312077022cf9afaaf062ed010c8c4edaa3"
+    },
+    {
+      "case": "missing_buffer_control",
+      "expected": "flag malformed reference or missing data",
+      "actual_status": "needs_source_fix",
+      "issues": [
+        "Missing buffer: absent.bin"
+      ],
+      "fault_detected": true,
+      "fixture_sha256": "1aa5b7f14a47889a01d63d796d0d38bf0ae5d2e601184aa12be245e692c5b273"
+    }
+  ],
+  "undetected_invalid_inputs": 4,
+  "runtime_hashes_checked": 25,
+  "runtime_files_changed_since_close_view_qa": [],
+  "existing_headset_tested": false,
+  "existing_continuous_triangle_contact_certified": false,
+  "collar_positive_designs_per_split": {
+    "train": 28,
+    "validation": 4,
+    "test": 1
+  },
+  "pattern_images_per_category_per_split": {
+    "train": {
+      "striped pattern": 143,
+      "dots pattern": 45,
+      "plaid pattern": 90,
+      "checkered pattern": 41,
+      "floral/plant pattern": 378,
+      "geometric pattern": 103
+    },
+    "validation": {
+      "plaid pattern": 12,
+      "floral/plant pattern": 47,
+      "dots pattern": 6,
+      "geometric pattern": 13,
+      "striped pattern": 18,
+      "checkered pattern": 5
+    },
+    "test": {
+      "checkered pattern": 6,
+      "plaid pattern": 11,
+      "striped pattern": 18,
+      "floral/plant pattern": 47,
+      "geometric pattern": 13,
+      "dots pattern": 6
+    }
+  },
+  "data_verification_rerun_status": "passed",
+  "valid_geometry_control": {
+    "actual_status": "dependencies_found_requires_render_review",
+    "issues": [],
+    "nondegenerate_triangle": true,
+    "fixture_sha256": "d38f727fef9391ac119b0d995beb153b21906faa07ed052dd1e357264a21c44e"
+  },
+  "probe_scope_note": "Four malformed glTF structural-reference/data cases plus two project intake-policy controls. Missing UV alone is allowed by glTF for untextured meshes but intentionally rejected by the current garment intake policy."
+}

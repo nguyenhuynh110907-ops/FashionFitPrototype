@@ -1,0 +1,84 @@
+{
+  "checked_utc": "2026-10-31T02:07:05Z",
+  "reviewed_pdf_pages": {
+    "hcem_md31_ao_dai": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      16
+    ],
+    "valverde_ao_dai_exhibition": [
+      2
+    ],
+    "unibo_across_ao_dai": [
+      16
+    ]
+  },
+  "method": "pypdf text inspection and Poppler-rendered full-page visual review",
+  "holds": [
+    {
+      "source": "hcem_md31_ao_dai",
+      "issue": "Numerical examples disagree: sample waist on page 6 vs back/front calculations on page 7; hip calculation likewise inconsistent.",
+      "action": "Do not create numeric labels or scale pattern from these examples. Refit an original pattern to measured mannequin."
+    },
+    {
+      "source": "iuh_hosted_ao_dai_silk_thesis",
+      "issue": "Python TLS chain failure; native Windows HTTPS check returned 403. PDF not downloaded.",
+      "action": "Reference candidate only; do not bypass server refusal."
+    },
+    {
+      "source": "VietFashion",
+      "url": "https://hng0303.github.io/VietFashion/",
+      "issue": "Dataset page states 21K synthesized images and 650 sketches; retrieval task, no paired sewn meshes/measured mechanics.",
+      "action": "Not collected as real cloth or motion ground truth; dataset-specific license/download still unverified."
+    },
+    {
+      "source": "Sketchfab",
+      "issue": "Original download endpoint returned HTTP401; metadata only.",
+      "action": "No mesh import or topology claim."
+    },
+    {
+      "source": "Fab Ao Dai listing",
+      "url": "https://www.fab.com/listings/0a8b3dfa-b837-417f-ac3b-3b7120dfca12",
+      "issue": "Listing disallows AI usage.",
+      "action": "Excluded from AI training collection."
+    }
+  ],
+  "references": [
+    {
+      "title": "Folkwear 139 construction overview",
+      "url": "https://www.folkwear.com/products/139-vietnamese-ao-dai",
+      "use": "Public description only; paid pattern not acquired"
+    },
+    {
+      "title": "GarmentCodeData official project",
+      "url": "https://igl.ethz.ch/projects/GarmentCodeData/",
+      "use": "Generic source paired geometry already present locally"
+    }
+  ],
+  "code_audit": [
+    {
+      "file": "Assets/FashionFit/Runtime/FittingClothSolver.cs",
+      "sha256": "248bee827f1f509b6c8f4a747a22b716e7606a1191bd4f4dc9e15f28e3052212",
+      "locations": [
+        54,
+        88,
+        115,
+        531
+      ],
+      "finding": "Ring-grid topology and within-solver point self contact; not an arbitrary sewn panel system."
+    },
+    {
+      "file": "Assets/FashionFit/Runtime/RunwayWardrobe.cs",
+      "sha256": "d13f563b317914a7883a6ae370d47f8a62114785f82bde7d8bfcd499b46cb41c",
+      "locations": [
+        137,
+        140
+      ],
+      "finding": "Skirt and shirt stepped independently; no shared cross-garment cloth contact pass here."
+    }
+  ]
+}

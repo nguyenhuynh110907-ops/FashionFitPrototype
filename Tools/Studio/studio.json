@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "name": "FashionFit focused studio",
+  "upstream": {
+    "repository": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+    "commit": "05ad7c8a5b8aa2aa86bbd3439ae7cf7295cac418",
+    "license": "MIT",
+    "adaptation": "6 roles + 3 project-specific workflows; no upstream hooks or auto-delegation"
+  },
+  "engine": {
+    "name": "Unity",
+    "version": "2022.3.62f1",
+    "platform": "Windows x64 / Meta Quest Link PCVR"
+  },
+  "runtime_root": "Assets/FashionFit/Runtime",
+  "editor_root": "Assets/FashionFit/Editor",
+  "execution": "sequential",
+  "verification_entry": "Verify_FashionFit.bat",
+  "capture_entry": "Record_VR_Performance.bat",
+  "performance": {
+    "proposed_hz": 72,
+    "proposed_frame_budget_ms": 13.88888888888889,
+    "enforcement": "report only until real headset measurements",
+    "missing_counter": "NOT_ASSESSED"
+  },
+  "material_calibration": "NOT_ASSESSED",
+  "physical_headset_acceptance": "NOT_ASSESSED",
+  "dependencies": {
+    "verification": "Python3 + pinned Unity + local QA libraries for independent contact",
+    "claude_cli_required_for_tests": false
+  },
+  "suites": {
+    "trial": [
+      "vr_config",
+      "picking_equivalence",
+      "readout_equivalence",
+      "bimanual",
+      "build",
+      "surface",
+      "surface_contact",
+      "pose_hat",
+      "rendered_trial"
+    ],
+    "full_adds": [
+      "mens",
+      "mens_contact",
+      "layers",
+      "layers_contact"
+    ]
+  },
+  "release": "V090_RESPONSE_OPTIMIZED"
+}

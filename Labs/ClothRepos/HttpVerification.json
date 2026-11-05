@@ -1,0 +1,32 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "bytes": 16237
+  },
+  {
+    "path": "/api/health",
+    "status": 200,
+    "bytes": 52
+  },
+  {
+    "path": "/results/REPORT.md",
+    "status": 200,
+    "bytes": 5308
+  },
+  {
+    "path": "/results/tee.glb",
+    "status": 200,
+    "bytes": 1026024
+  },
+  {
+    "path": "/results/skirt.glb",
+    "status": 200,
+    "bytes": 1048924
+  },
+  {
+    "path": "/results/custom.glb",
+    "status": 200,
+    "bytes": 1027600
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "SampleSkirtGeometry.cs": {
+    "sha256": "736bdfb5e7ea8a437a6310d9cda6ed004c8e35e1bcfbc4ad865579b369443e9f",
+    "matches_test_project": true
+  },
+  "FittingCloth.cs": {
+    "sha256": "75bd340e99041be71c6897afe3863187f19b66e6e50ee2511cf696f3ddd650d8",
+    "matches_test_project": true
+  },
+  "BodyFitProfile.cs": {
+    "sha256": "ecfac35ea9a0e50c40b67e2281878819e722fb542afbe36dfe57e0fe356a5e43",
+    "matches_test_project": true
+  },
+  "RunwayBodyCoverage.cs": {
+    "sha256": "465d595adfd6dccf0f34058cc10dbfa2f14603b6c41c582040d40abcf0d7f6dc",
+    "matches_test_project": true
+  },
+  "TailoredPoloStudy.cs": {
+    "sha256": "653fa8e0c39848c01ea11ed88666e807b49fc3dd90907a2f0da9d77b9b4a1b61",
+    "matches_test_project": true,
+    "post_pose_verification_change": "Editor-only flag for exporting uncached geometry; defaults false; runtime mesh generation unchanged"
+  },
+  "RunwayWardrobe.cs": {
+    "sha256": "efe98adb268dfc432faf04e802a132754daf0bf1a5e809c349bccdbe11f35ac4",
+    "matches_test_project": true
+  },
+  "FashionFitApp.cs": {
+    "sha256": "96d1a4a8679a7f4a484431a5a722265282f6097a0f212d938891df85d6bbbff9",
+    "matches_test_project": true
+  },
+  "RunwayUI.cs": {
+    "sha256": "0f1107dbf5e37f14bb577cac6131d2ee5f281514df38ffa4fa6c305317966eb5",
+    "matches_test_project": true
+  },
+  "RunwayPlayer.cs": {
+    "sha256": "6b9b71528aafafbeb64ba39da348eacf07d3e6be668edf024726c601e5a6efc5",
+    "matches_test_project": true
+  },
+  "contact_cache": {
+    "sha256": "701efcaa18baf562c446f10dd575419321c6e25db736e9b060783f4fc7749834",
+    "matches_test_project": true,
+    "bytes": 767182
+  },
+  "RunwayAvatar.cs": {
+    "sha256": "dd1d90a2c27aa806b0b04678b9278307f8d5a5215e4706a42b17e7f0f88f9839",
+    "matches_test_project": true
+  }
+}

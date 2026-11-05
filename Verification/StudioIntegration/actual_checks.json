@@ -1,0 +1,30 @@
+[
+  {
+    "check": "surface",
+    "exitCode": 0
+  },
+  {
+    "check": "surface_contact",
+    "exitCode": 0
+  },
+  {
+    "check": "rendered_trial",
+    "exitCode": 0
+  },
+  {
+    "check": "capture_analysis",
+    "exitCode": 0
+  },
+  {
+    "check": "capture_launcher",
+    "exitCode": 0
+  },
+  {
+    "check": "source_launcher",
+    "exitCode": 0
+  },
+  {
+    "check": "vr_launcher",
+    "exitCode": 0
+  }
+]

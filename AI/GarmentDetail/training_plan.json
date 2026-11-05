@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "goal": "Learn garment structure and fit from source patterns, seams, UVs and draped meshes",
+  "phase_a_static_geometry": {
+    "status": "pilot_trained",
+    "input": "rest graph, panel roles, sewing membership, body frame and measurements, source bending setting",
+    "target": "corresponding simulated garment vertices",
+    "source_candidates": 6304,
+    "pilot": {"train": 16, "validation": 4, "test_structural_only": 4},
+    "epochs": 8,
+    "runtime_deployed": false
+  },
+  "phase_b_contact": {
+    "status": "point_contact_data_ready_but_not_integrated_into_drape_loss",
+    "requirements": ["body signed distance or closest-surface constraints", "cloth triangle vs body checks", "cloth self-contact", "swept continuous motion checks"],
+    "reference_data_must_not_be_assumed_collision_free": true
+  },
+  "phase_c_motion": {
+    "status": "needs_paired_human_body_and_garment_motion",
+    "sphere_simple": "inspection only while dataset-specific license is unresolved"
+  },
+  "phase_d_real_photos_and_surface_detail": {
+    "status": "needs_exact_photo-pattern-mesh_correspondence_and_material_assets",
+    "existing_100_photos_are_paired_supervision": false,
+    "requirements": ["front, side and back garment references", "exact garment identities and measurements", "buttons, zippers, hems and lining assets", "UV textures and measured material response"]
+  },
+  "deployment_gate": ["held-out geometric error acceptable for garment fit", "target mannequin landmark and size retarget verified", "continuous contact tests", "VR frame-time budget met"],
+  "nonpenetration_certified": false
+}

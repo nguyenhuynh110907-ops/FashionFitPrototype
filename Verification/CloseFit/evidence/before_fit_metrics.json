@@ -1,0 +1,42 @@
+{
+  "status": "failed",
+  "note": "Neutral pose sampled shirt check. 50 mm torso p95 regression limit. No continuous collision certification.",
+  "cases": [
+    {
+      "name": "FemaleIvory",
+      "torso_gap_p50_mm": 44.24012833550592,
+      "torso_gap_p95_mm": 68.01999172473397,
+      "torso_gap_max_mm": 93.44858090042698,
+      "contact_samples": 32988,
+      "inside_over_1mm": 0,
+      "max_depth_mm": 0.0
+    },
+    {
+      "name": "MaleHenley",
+      "torso_gap_p50_mm": 44.42130682312865,
+      "torso_gap_p95_mm": 81.31425406287292,
+      "torso_gap_max_mm": 113.26105980474723,
+      "contact_samples": 51734,
+      "inside_over_1mm": 0,
+      "max_depth_mm": 0.0
+    },
+    {
+      "name": "MalePolo",
+      "torso_gap_p50_mm": 52.70829628774054,
+      "torso_gap_p95_mm": 89.16301680785043,
+      "torso_gap_max_mm": 122.31884150041192,
+      "contact_samples": 37637,
+      "inside_over_1mm": 0,
+      "max_depth_mm": 0.0
+    },
+    {
+      "name": "MaleRugby",
+      "torso_gap_p50_mm": 74.12582136385507,
+      "torso_gap_p95_mm": 107.40270430870278,
+      "torso_gap_max_mm": 136.56010566996156,
+      "contact_samples": 51734,
+      "inside_over_1mm": 0,
+      "max_depth_mm": 0.0
+    }
+  ]
+}

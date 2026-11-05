@@ -1,0 +1,274 @@
+{
+  "status": "passed",
+  "files": [
+    {
+      "path": ".claude/agents/fashionfit-art.md",
+      "sha256": "3e6907a5d90061e79f7fc9b3fbb236c458d4422602c5d9cece76f900debd4fef"
+    },
+    {
+      "path": ".claude/agents/fashionfit-materials.md",
+      "sha256": "d649ab902e30fc3ed1f6d8195b9bd548801d6cf8f6552007303bb2487a07c443"
+    },
+    {
+      "path": ".claude/agents/fashionfit-performance.md",
+      "sha256": "c65c9a8b882c6efa74e7a540ac42542f1f1b05ddf2644dd5e10fea94b8e337ea"
+    },
+    {
+      "path": ".claude/agents/fashionfit-qa.md",
+      "sha256": "3ebf0b4ba2f6179f1851749529e8db93ec544f20db3032d9b3fe303f3ac70d9c"
+    },
+    {
+      "path": ".claude/agents/fashionfit-release.md",
+      "sha256": "e83d39813f458c2147f5254838d11744e43d127eb178134c2fd3edcc7d3afe45"
+    },
+    {
+      "path": ".claude/agents/fashionfit-unity.md",
+      "sha256": "32de6255dbf3a38c4df6e43da7473d641805ea7ee6450f605fcb03b1d426d0e3"
+    },
+    {
+      "path": ".claude/rules/fashionfit-runtime.md",
+      "sha256": "0053faa53906866bc379457f1746fdce72d29acf9d9679741877ec3e034bab29"
+    },
+    {
+      "path": ".claude/skills/fashionfit-performance/SKILL.md",
+      "sha256": "9f72d6825f754e56f5eefa06179aecb35217cc48554fc44a2754c1bb9c5e8f87"
+    },
+    {
+      "path": ".claude/skills/fashionfit-review/SKILL.md",
+      "sha256": "db131766744b68f89986ec3fc0653c55ae9839885e110042a4d474827dbc78f4"
+    },
+    {
+      "path": ".claude/skills/fashionfit-verify/SKILL.md",
+      "sha256": "2c5b80bb993d90787e481c10893a5acf7ebf89be3ce740f92db2b38d06f6f2a4"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "c40462b4188d7faed2b22bfe301c5c77bf166e94c8ee5a7e140b87552fe87910"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "069b3a71f64b4005d13321b21f8ba478c1778a5fbb55ae9d7b14459c5331db84"
+    },
+    {
+      "path": "Assets/FashionFit/Editor/StudioBuild.cs",
+      "sha256": "42c68c3c9580b6f00ef1ae657178891286d67d4eedd7a58ff94260e7ad15311a"
+    },
+    {
+      "path": "Assets/FashionFit/Editor/StudioBuild.cs.meta",
+      "sha256": "ba5d720bd3aa1eabe437e1e633c93e737e121151aebcb91760aee4436dc6e9c7"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/FashionFitApp.cs",
+      "sha256": "1a519075fac37ab4380f28934fefba2ea6831f9d43171806a257eb2bca596b90"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/FashionFitApp.cs.meta",
+      "sha256": "99e4fc2fe566e3a436fc65ae013ff75613d467b091b7707419472db8b55cc652"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/StudioRenderedTrial.cs",
+      "sha256": "b79f75998994fa89fce47c7ad69d93e494d84067fd9b4be5f3d39aa9df40d99f"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/StudioRenderedTrial.cs.meta",
+      "sha256": "4c9bab8ea5dd8dfd272dee7945b90c626b9802e5856682815df22085ab91cabc"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/StudioTelemetry.cs",
+      "sha256": "186cf2c292e6e8160e7db2a71db68661f16c98248a01d7703201da606633e185"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/StudioTelemetry.cs.meta",
+      "sha256": "90bfe19f14ef91c550d80c7db1ba85a89b59b80ade3b80c8a9b492c31791da72"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "a2d6bd62de6ebc33e7e6f5e1d15063df045a3c6afbe9a51f6ddd98360f50040b"
+    },
+    {
+      "path": "Docs/INDEX.md",
+      "sha256": "a3bfbb1815174f79aa1293e9cad1d4f62147ef95b988f892a92cdc0291f0259b"
+    },
+    {
+      "path": "Docs/STUDIO_WORKFLOW.md",
+      "sha256": "21b890aaf4af01b4bb5bf2d68faca4895d84aa75acbafbf02a45060d417658e3"
+    },
+    {
+      "path": "README.md",
+      "sha256": "eb3054a7a343738170bbc4b73708f66b5d346759fa53cd4e3da4913d1565b0fb"
+    },
+    {
+      "path": "Record_VR_Performance.bat",
+      "sha256": "3bb297fdbe137c3611aba637fe02a7d98a54d48a2ecb9c43789102428caad160"
+    },
+    {
+      "path": "THIRD_PARTY/CCGS/LICENSE.txt",
+      "sha256": "dcc07fdb0ef4e445a80abc493e89c8ff2cd4d51bae067acd03911c77e575ba5d"
+    },
+    {
+      "path": "THIRD_PARTY/CCGS/NOTICE.md",
+      "sha256": "41846494427258573497a36f3e63f09458d4fe37d10149b95ece9a85fba81735"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "4494ce61dcffbe9878fa433bc8b6e539365d691b9bf57cf06a439ac9b0db80bc"
+    },
+    {
+      "path": "Tools/Studio/analyze_capture.py",
+      "sha256": "78fadd8e47b43183ac7a080910bc6224d16e735e1a07e14445ba1eb175971b73"
+    },
+    {
+      "path": "Tools/Studio/capture.py",
+      "sha256": "f74c5b60ae666460f0127f69b10d488138aea40865750005f2555cba4815944e"
+    },
+    {
+      "path": "Tools/Studio/contact_check.py",
+      "sha256": "72263cfdf622ec3c120f9afdab8acf030f3a650fa27be78271202d96ba5ba893"
+    },
+    {
+      "path": "Tools/Studio/studio.json",
+      "sha256": "c52d14282957483c2f5d4cb5f445835b67e6e531eeb288cf53739c4898e6d3c6"
+    },
+    {
+      "path": "Tools/Studio/studio.local.json",
+      "sha256": "82634d1a216038dea106127617befce0c65ebb7a123398b1616bcee27f4b9c2b"
+    },
+    {
+      "path": "Tools/Studio/test_evidence_gate.py",
+      "sha256": "c83a31c65c3b8640fd157bb4420d81e66dc29c511c4178c8409ed73c4e300ca6"
+    },
+    {
+      "path": "Tools/Studio/verify.py",
+      "sha256": "f8602e8eacb9423ad634ae2656cb82c0c011f435c96ea3c006b0d10f32b5297b"
+    },
+    {
+      "path": "Verification/StudioIntegration/REPORT.md",
+      "sha256": "c59af4c7fe341cad5662d787e214045d29a5cb9933073c8960229831aea33b76"
+    },
+    {
+      "path": "Verification/StudioIntegration/actual_checks.json",
+      "sha256": "da156f1d344d218cbd7398fdd47def91cc509f8554bafa5b040766103e127268"
+    },
+    {
+      "path": "Verification/StudioIntegration/actual_contact.json",
+      "sha256": "f5ea53ceb8c732151c4401ebb536f02950e77571f0b55b8c1408bb525f1e8dad"
+    },
+    {
+      "path": "Verification/StudioIntegration/actual_surface.json",
+      "sha256": "fbc8267f6f8e54afd530241d6d84dc7a94a340d9c2fe2adbb3dacc0087f3ebef"
+    },
+    {
+      "path": "Verification/StudioIntegration/actual_trial/capture_analysis.json",
+      "sha256": "47277a92327d66a08402451a402137d9adbb8c76345ab77b9ad3e4835cc6b0a3"
+    },
+    {
+      "path": "Verification/StudioIntegration/actual_trial/frames.csv",
+      "sha256": "74076623f17431b100049d1a038eca0f8cc9b926b19c36b80d8b70cdf58db1f3"
+    },
+    {
+      "path": "Verification/StudioIntegration/actual_trial/performance.json",
+      "sha256": "2505a9826ccf03f792099dc48b1c83a4188e3fea2ef7686ae5d213209a6decb1"
+    },
+    {
+      "path": "Verification/StudioIntegration/actual_trial/trial.json",
+      "sha256": "e6a2cef0a41c6b22aed43d86cc128434c345de0cf9f2fa233f047599ba911840"
+    },
+    {
+      "path": "Verification/StudioIntegration/bimanual.json",
+      "sha256": "1a2d49ee287d7f3c4122f525de6deacd424876654f5e87c10f448e7787f7c869"
+    },
+    {
+      "path": "Verification/StudioIntegration/build.json",
+      "sha256": "d2834f3f17a6d7a6a18f3a7ad7057601600b17610069550bdb9be8f7625db537"
+    },
+    {
+      "path": "Verification/StudioIntegration/build_receipt.json",
+      "sha256": "df65a7fa11d64ef24eb7e49a6e87297363b95d042b599adcab358745bd0dae25"
+    },
+    {
+      "path": "Verification/StudioIntegration/capture_analysis.json",
+      "sha256": "63a0189886d8af33fbd25df9fd3ebc04659695852f7b755293ed556554848645"
+    },
+    {
+      "path": "Verification/StudioIntegration/deployment.json",
+      "sha256": "19ebaf5a0cd987aa04698b06909755a4fc4789a47ab88b307be3da3ec74d4deb"
+    },
+    {
+      "path": "Verification/StudioIntegration/evidence_gate.txt",
+      "sha256": "6618190c623e23ed2f676e89a9d3f4b1b1f6cad36b4b00eb7ef40f35edaaba79"
+    },
+    {
+      "path": "Verification/StudioIntegration/final_audit.json",
+      "sha256": "de627b07a97bdbd6e1705da0b13998e22da359e4a152dce03e0e5e4a2ad05773"
+    },
+    {
+      "path": "Verification/StudioIntegration/final_run.json",
+      "sha256": "9765b86a8f9cd09983579ccbcdc452714b1798d3d14380e770613957f5df6721"
+    },
+    {
+      "path": "Verification/StudioIntegration/frames.csv",
+      "sha256": "b6745d236d0a7aaf0cd609a85c17b2139b02e3bae769d1020f20317d8c688986"
+    },
+    {
+      "path": "Verification/StudioIntegration/layers.json",
+      "sha256": "18e883afd658e21c0cff9374b8443105d2e8618af5bb20f7a8ceea47a9d68b45"
+    },
+    {
+      "path": "Verification/StudioIntegration/layers_contact.json",
+      "sha256": "6702b6160b11d4313576cb34fd870065772d2c96bf64c96ae6c4035f8022a30e"
+    },
+    {
+      "path": "Verification/StudioIntegration/mens.json",
+      "sha256": "5051f08ff68881b17d14a1b594c85952d7ac663e6fcfb14b9541c51c419fa198"
+    },
+    {
+      "path": "Verification/StudioIntegration/mens_contact.json",
+      "sha256": "d1e4f4addfd67661a17b005917b616c4f5703a710359a63f822737234f5dd4a5"
+    },
+    {
+      "path": "Verification/StudioIntegration/performance.json",
+      "sha256": "7e7d6e26dce2474bc0fb7700c325fca2bd9d901d7162296f486bc5474d6d1a18"
+    },
+    {
+      "path": "Verification/StudioIntegration/player_manifest.json",
+      "sha256": "68f49cfeaa4293c6cc8639e4409d5af03c8b752847694fd7131281cb6bb799e3"
+    },
+    {
+      "path": "Verification/StudioIntegration/pose_hat.json",
+      "sha256": "b5e269ce0e69add8d50832492f17d39deffabdd3ccc70a71b5c5be90d514ca84"
+    },
+    {
+      "path": "Verification/StudioIntegration/rendered_trial.json",
+      "sha256": "ab9a4914cfe6c5170dabcacdb416252e063297c3a85a4c3467a3f97df0f8380a"
+    },
+    {
+      "path": "Verification/StudioIntegration/source_manifest.json",
+      "sha256": "c096ba5ad1befdf9c39ce88e32eb59ae848a952f97b8d79e0ff966976029264d"
+    },
+    {
+      "path": "Verification/StudioIntegration/summary.json",
+      "sha256": "9db86a0aced4b9ca678e58e5bee74a49f0fb9f87a3e212e7c2ef15380e7bd4c7"
+    },
+    {
+      "path": "Verification/StudioIntegration/surface.json",
+      "sha256": "0dfc9576a542b0df479f5d37d0e117d09dbeda63fe4d03ba68a59e84018852b3"
+    },
+    {
+      "path": "Verification/StudioIntegration/surface_contact.json",
+      "sha256": "f5ea53ceb8c732151c4401ebb536f02950e77571f0b55b8c1408bb525f1e8dad"
+    },
+    {
+      "path": "Verification/StudioIntegration/trial.json",
+      "sha256": "ab9a4914cfe6c5170dabcacdb416252e063297c3a85a4c3467a3f97df0f8380a"
+    },
+    {
+      "path": "Verification/StudioIntegration/vr_config.json",
+      "sha256": "ddac71ad5b96311514ee9e9975df53abb5371da4b5b163adb14eab62d55ecc5d"
+    },
+    {
+      "path": "Verify_FashionFit.bat",
+      "sha256": "3309520ab1d16f0c47556d8284f8f8227d7cb61192f14f866f8e008ff3616081"
+    }
+  ],
+  "note": "Hashes after adding actual installed-player evidence; excludes this manifest itself."
+}

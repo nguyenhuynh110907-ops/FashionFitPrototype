@@ -1,0 +1,23 @@
+{
+    "status": "passed",
+    "scope": "Exported Windows desktop player, injected grab owners and real frame/PhysX updates; no physical HMD test",
+    "checks": 16,
+    "exceptions": 0,
+    "fixedPhysics": true,
+    "defaultsDressed": true,
+    "headFollow": true,
+    "twoHandHat": true,
+    "independentRelease": true,
+    "gravity": true,
+    "hatRecovery": true,
+    "twoHandCloth": true,
+    "clothRecovery": true,
+    "dropM": 1.873000144958496,
+    "hatOffset": 0.06499914824962616,
+    "hatRecovered": 0.00009698421490611508,
+    "clothError": 0.00817070621997118,
+    "clothRecovered": 0.0008109946502372623,
+    "meanFrameMs": 2.998286008834839,
+    "p95FrameMs": 11.254199981689454,
+    "maxPoseUpdateMs": 22.698600000000004
+}

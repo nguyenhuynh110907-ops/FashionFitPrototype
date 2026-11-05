@@ -1,0 +1,133 @@
+{
+    "label": "After",
+    "items": [
+        {
+            "look": 2,
+            "view": 0,
+            "pinkPixels": 47059,
+            "verticesOutsideBounds": 0,
+            "bounds": "Center: (0.00, 1.21, 0.05), Extents: (0.24, 0.18, 0.21)",
+            "expected": "Center: (0.00, 1.21, 0.05), Extents: (0.16, 0.10, 0.13)"
+        },
+        {
+            "look": 2,
+            "view": 1,
+            "pinkPixels": 24461,
+            "verticesOutsideBounds": 0,
+            "bounds": "Center: (0.00, 1.21, 0.05), Extents: (0.24, 0.18, 0.21)",
+            "expected": "Center: (0.00, 1.21, 0.05), Extents: (0.16, 0.10, 0.13)"
+        },
+        {
+            "look": 2,
+            "view": 2,
+            "pinkPixels": 34228,
+            "verticesOutsideBounds": 0,
+            "bounds": "Center: (0.00, 1.21, 0.05), Extents: (0.24, 0.18, 0.21)",
+            "expected": "Center: (0.00, 1.21, 0.05), Extents: (0.16, 0.10, 0.13)"
+        },
+        {
+            "look": 2,
+            "view": 3,
+            "pinkPixels": 29630,
+            "verticesOutsideBounds": 0,
+            "bounds": "Center: (0.00, 1.21, 0.05), Extents: (0.24, 0.18, 0.21)",
+            "expected": "Center: (0.00, 1.21, 0.05), Extents: (0.16, 0.10, 0.13)"
+        },
+        {
+            "look": 3,
+            "view": 0,
+            "pinkPixels": 50366,
+            "verticesOutsideBounds": 0,
+            "bounds": "Center: (0.00, 1.22, 0.05), Extents: (0.24, 0.18, 0.21)",
+            "expected": "Center: (0.00, 1.22, 0.05), Extents: (0.16, 0.10, 0.13)"
+        },
+        {
+            "look": 3,
+            "view": 1,
+            "pinkPixels": 22057,
+            "verticesOutsideBounds": 0,
+            "bounds": "Center: (0.00, 1.22, 0.05), Extents: (0.24, 0.18, 0.21)",
+            "expected": "Center: (0.00, 1.22, 0.05), Extents: (0.16, 0.10, 0.13)"
+        },
+        {
+            "look": 3,
+            "view": 2,
+            "pinkPixels": 31556,
+            "verticesOutsideBounds": 0,
+            "bounds": "Center: (0.00, 1.22, 0.05), Extents: (0.24, 0.18, 0.21)",
+            "expected": "Center: (0.00, 1.22, 0.05), Extents: (0.16, 0.10, 0.13)"
+        },
+        {
+            "look": 3,
+            "view": 3,
+            "pinkPixels": 29628,
+            "verticesOutsideBounds": 0,
+            "bounds": "Center: (0.00, 1.22, 0.05), Extents: (0.24, 0.18, 0.21)",
+            "expected": "Center: (0.00, 1.22, 0.05), Extents: (0.16, 0.10, 0.13)"
+        },
+        {
+            "look": 4,
+            "view": 0,
+            "pinkPixels": 49026,
+            "verticesOutsideBounds": 0,
+            "bounds": "Center: (0.00, 1.22, 0.05), Extents: (0.23, 0.19, 0.21)",
+            "expected": "Center: (0.00, 1.22, 0.05), Extents: (0.15, 0.11, 0.13)"
+        },
+        {
+            "look": 4,
+            "view": 1,
+            "pinkPixels": 24336,
+            "verticesOutsideBounds": 0,
+            "bounds": "Center: (0.00, 1.22, 0.05), Extents: (0.23, 0.19, 0.21)",
+            "expected": "Center: (0.00, 1.22, 0.05), Extents: (0.15, 0.11, 0.13)"
+        },
+        {
+            "look": 4,
+            "view": 2,
+            "pinkPixels": 31072,
+            "verticesOutsideBounds": 0,
+            "bounds": "Center: (0.00, 1.22, 0.05), Extents: (0.23, 0.19, 0.21)",
+            "expected": "Center: (0.00, 1.22, 0.05), Extents: (0.15, 0.11, 0.13)"
+        },
+        {
+            "look": 4,
+            "view": 3,
+            "pinkPixels": 26543,
+            "verticesOutsideBounds": 0,
+            "bounds": "Center: (0.00, 1.22, 0.05), Extents: (0.23, 0.19, 0.21)",
+            "expected": "Center: (0.00, 1.22, 0.05), Extents: (0.15, 0.11, 0.13)"
+        },
+        {
+            "look": 5,
+            "view": 0,
+            "pinkPixels": 136208,
+            "verticesOutsideBounds": 0,
+            "bounds": "Center: (0.00, 1.24, 0.05), Extents: (0.45, 0.41, 0.39)",
+            "expected": "Center: (0.00, 1.26, 0.05), Extents: (0.25, 0.20, 0.14)"
+        },
+        {
+            "look": 5,
+            "view": 1,
+            "pinkPixels": 75061,
+            "verticesOutsideBounds": 0,
+            "bounds": "Center: (0.00, 1.24, 0.05), Extents: (0.45, 0.41, 0.39)",
+            "expected": "Center: (0.00, 1.26, 0.05), Extents: (0.25, 0.20, 0.14)"
+        },
+        {
+            "look": 5,
+            "view": 2,
+            "pinkPixels": 117137,
+            "verticesOutsideBounds": 0,
+            "bounds": "Center: (0.00, 1.24, 0.05), Extents: (0.45, 0.41, 0.39)",
+            "expected": "Center: (0.00, 1.26, 0.05), Extents: (0.25, 0.20, 0.14)"
+        },
+        {
+            "look": 5,
+            "view": 3,
+            "pinkPixels": 84284,
+            "verticesOutsideBounds": 0,
+            "bounds": "Center: (0.00, 1.24, 0.05), Extents: (0.45, 0.41, 0.39)",
+            "expected": "Center: (0.00, 1.26, 0.05), Extents: (0.25, 0.20, 0.14)"
+        }
+    ]
+}

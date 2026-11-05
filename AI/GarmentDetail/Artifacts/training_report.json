@@ -1,0 +1,191 @@
+{
+  "status": "pilot_trained",
+  "dataset": "pilot",
+  "epochs": 8,
+  "training_samples": 16,
+  "validation_samples": 4,
+  "manifest_sha256": "5d3f7c6d0767f5dbcdd5b04e712cc5147663f6853883b70e71177c17bf1df335",
+  "training_item_ids": [
+    "gcd_b00_default_rand_R2D7JIR0NJ",
+    "gcd_b14_default_rand_IQ7XJAVISB",
+    "gcd_b00_default_rand_K19RYCCI2Q",
+    "gcd_b14_default_rand_K8TR43289W",
+    "gcd_b00_default_rand_7URPB3H9NR",
+    "gcd_b14_default_rand_MK79PEP9FS",
+    "gcd_b00_default_rand_L9N4SLB9PE",
+    "gcd_b14_default_rand_A9ULAVU8KO",
+    "gcd_b00_default_rand_L7MR5GX4DE",
+    "gcd_b14_default_rand_R4BGIQHPNR",
+    "gcd_b00_default_rand_6W3XGQZOE9",
+    "gcd_b14_default_rand_3IA6MAUV4L",
+    "gcd_b00_default_rand_GQ7KTZI1QX",
+    "gcd_b14_default_rand_W4K61630K6",
+    "gcd_b00_default_rand_PEDLTXH3OW",
+    "gcd_b14_default_rand_JOL7Z1FDF6"
+  ],
+  "validation_item_ids": [
+    "gcd_b00_default_rand_485J9YNDZM",
+    "gcd_b14_default_rand_91L1AF0XMD",
+    "gcd_b00_default_rand_86YMBN1O4S",
+    "gcd_b14_default_rand_0NOK1W6U6O"
+  ],
+  "model_config": {
+    "hidden": 32,
+    "message_steps": 2
+  },
+  "seed": 27102026,
+  "torch_version": "2.14.1+cpu",
+  "test_samples_used": 0,
+  "parameters": 15907,
+  "parameter_update_squared_norm": 5.9234529938257765,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.019865013717208058,
+      "optimizer_steps": 16,
+      "loss_terms_last_sample": {
+        "vertex": 0.06812195479869843,
+        "edge": 0.0008268742240034044,
+        "seam": 0.0008274727733805776,
+        "normal": 0.4948103129863739,
+        "attachment": 0.004548169672489166
+      },
+      "validation_loss": 0.020170271396636963
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.017744343902450055,
+      "optimizer_steps": 16,
+      "loss_terms_last_sample": {
+        "vertex": 0.06691709160804749,
+        "edge": 0.0008258966845460236,
+        "seam": 0.0008265748620033264,
+        "normal": 0.5017557144165039,
+        "attachment": 0.004659424535930157
+      },
+      "validation_loss": 0.018174996599555016
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0168318149226252,
+      "optimizer_steps": 16,
+      "loss_terms_last_sample": {
+        "vertex": 0.06613192707300186,
+        "edge": 0.0008248187368735671,
+        "seam": 0.0008252101833932102,
+        "normal": 0.5081532597541809,
+        "attachment": 0.004273146390914917
+      },
+      "validation_loss": 0.01723359478637576
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.015348665416240692,
+      "optimizer_steps": 16,
+      "loss_terms_last_sample": {
+        "vertex": 0.0643090084195137,
+        "edge": 0.0008265308570116758,
+        "seam": 0.0008255989523604512,
+        "normal": 0.521650493144989,
+        "attachment": 0.0035393431317061186
+      },
+      "validation_loss": 0.015273699769750237
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.012071973935235292,
+      "optimizer_steps": 16,
+      "loss_terms_last_sample": {
+        "vertex": 0.05903997644782066,
+        "edge": 0.0008628864889033139,
+        "seam": 0.0008543388685211539,
+        "normal": 0.5566304326057434,
+        "attachment": 0.0021099576260894537
+      },
+      "validation_loss": 0.011852334951981902
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.00894670189882163,
+      "optimizer_steps": 16,
+      "loss_terms_last_sample": {
+        "vertex": 0.053539425134658813,
+        "edge": 0.0009361604461446404,
+        "seam": 0.000912332150619477,
+        "normal": 0.5751375555992126,
+        "attachment": 0.001588554005138576
+      },
+      "validation_loss": 0.011034891940653324
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.008499680858221836,
+      "optimizer_steps": 16,
+      "loss_terms_last_sample": {
+        "vertex": 0.05506328493356705,
+        "edge": 0.0008865136769600213,
+        "seam": 0.0008671169634908438,
+        "normal": 0.5675550699234009,
+        "attachment": 0.001995635684579611
+      },
+      "validation_loss": 0.010590486694127321
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.008183240192010999,
+      "optimizer_steps": 16,
+      "loss_terms_last_sample": {
+        "vertex": 0.05399835854768753,
+        "edge": 0.0008915512007661164,
+        "seam": 0.0008671866380609572,
+        "normal": 0.5684572458267212,
+        "attachment": 0.0020181641448289156
+      },
+      "validation_loss": 0.01043907506391406
+    }
+  ],
+  "elapsed_seconds": 21.27134430001024,
+  "checkpoint_sha256": "a0b057ec2106f8debfc39e09fb6502d2e30bfad2b1adc2bdcfd6b49d74cd0cf4",
+  "feature_names": [
+    "rest_x",
+    "rest_y",
+    "rest_z",
+    "normal_x",
+    "normal_y",
+    "normal_z",
+    "near_waist",
+    "near_hip",
+    "near_upper_reference",
+    "seam",
+    "free_boundary",
+    "collar_annotation",
+    "waist_annotation",
+    "armhole_annotation",
+    "role_torso",
+    "role_leg_or_skirt",
+    "role_sleeve",
+    "role_collar",
+    "role_waistband",
+    "role_cuff",
+    "role_strap",
+    "role_other",
+    "body_height",
+    "waist_ratio",
+    "hips_ratio",
+    "bust_ratio",
+    "log_bending"
+  ],
+  "loss_weights": {
+    "vertex": 1,
+    "edge": 0.5,
+    "seam": 0.3,
+    "normal": 0.001,
+    "attachment": 2
+  },
+  "supports_source_panels": true,
+  "source_uv_reconstruction": true,
+  "contact_loss_enabled": false,
+  "deployment": "research_only",
+  "nonpenetration_certified": false,
+  "warning": "Static pattern-graph baseline. Smoke mode checks the training path only; it is not a quality evaluation or an image-to-3D generator."
+}

@@ -1,0 +1,114 @@
+{
+  "status": "passed",
+  "frozen_weights_unchanged": true,
+  "optimizer_steps": 0,
+  "new_holdout": false,
+  "scope": "Reproduction on the existing held-out test sets; not an independent student-domain evaluation",
+  "region_test": {
+    "unweighted_bce": 0.213095714570145,
+    "macro_f1_supported": 0.21760950768611104,
+    "threshold": 0.5,
+    "labels": {
+      "sewn_vertex": {
+        "f1": 0.19832500619643345,
+        "precision": 0.11577504473974794,
+        "recall": 0.6910768671303241,
+        "positives": 21999,
+        "valid_vertices": 395248,
+        "always_positive_f1": 0.10544833156379795
+      },
+      "collar_panel": {
+        "f1": 0.09163112222385644,
+        "precision": 0.04898954155854368,
+        "recall": 0.7071509648127128,
+        "positives": 881,
+        "valid_vertices": 395248,
+        "always_positive_f1": 0.00444804596482459
+      },
+      "neck_attachment": {
+        "f1": 0.34574689660918106,
+        "precision": 0.2106171335769387,
+        "recall": 0.9646675964667596,
+        "positives": 2151,
+        "valid_vertices": 314660,
+        "always_positive_f1": 0.013579073958921882
+      },
+      "armhole_attachment": {
+        "f1": 0.23473500571497322,
+        "precision": 0.13486796626572653,
+        "recall": 0.904496986555401,
+        "positives": 2157,
+        "valid_vertices": 314660,
+        "always_positive_f1": 0.013616693548641645
+      }
+    }
+  },
+  "region_test_designs": 28,
+  "region_test_designs_with_collar": 1,
+  "pattern_test": {
+    "images": 101,
+    "fresh_source_image_inference": true,
+    "accuracy": 0.8415841584158416,
+    "macro_f1": 0.735544921028792,
+    "confusion_matrix": [
+      [
+        4,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        44,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        2,
+        1,
+        8,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        8,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        18
+      ]
+    ],
+    "per_class_f1": {
+      "checkered pattern": 0.6153846153846154,
+      "dots pattern": 0.5,
+      "floral/plant pattern": 0.946236559139785,
+      "geometric pattern": 0.6666666666666666,
+      "plaid pattern": 0.7619047619047619,
+      "striped pattern": 0.9230769230769231
+    },
+    "largest_absolute_feature_difference_from_training_cache": 0.0
+  },
+  "elapsed_seconds": 18.02800099994056
+}

@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "materials": 90,
+  "pbr_maps": 599,
+  "source_pattern_images": 1245,
+  "eligible_pattern_images": 1003,
+  "actual_pattern_training_pack": 1002,
+  "pattern_splits": {
+    "train": 800,
+    "test": 101,
+    "validation": 101
+  },
+  "region_graphs": 200,
+  "region_splits": {
+    "train": 144,
+    "test": 28,
+    "validation": 28
+  },
+  "source_exact_comparisons": [
+    {
+      "id": "gcd_b00_default_rand_0UHSE020SQ",
+      "split": "train",
+      "exact_uv_faces_and_input_features_match_source": true
+    },
+    {
+      "id": "gcd_b00_default_rand_40B81PVUQ2",
+      "split": "validation",
+      "exact_uv_faces_and_input_features_match_source": true
+    },
+    {
+      "id": "gcd_b00_default_rand_18GU2GADHJ",
+      "split": "test",
+      "exact_uv_faces_and_input_features_match_source": true
+    }
+  ],
+  "positive_3d_vertices": {
+    "sewn_vertex": 158020,
+    "collar_panel": 20625,
+    "neck_attachment": 16706,
+    "armhole_attachment": 17242
+  },
+  "no_split_overlap_for_designs_object_groups_image_hashes_material_families": true,
+  "unknown_attachment_labels_masked": true,
+  "intake_detects_missing_texture_and_preserves_uv_seams": true,
+  "trained_checkpoints": {
+    "DetailRegions": {
+      "checkpoint_sha256": "010ccaf7ad76db2ed4431bbc83d03367d316c6e1839b0bf30917b4c1058772ad",
+      "deployment": "offline research only"
+    },
+    "PatternDetails": {
+      "checkpoint_sha256": "46e02dc081f22ecd4edee4d6ea45fc3551ef1eece58c3f77bfa9c62779c1207e",
+      "deployment": "offline research only"
+    }
+  },
+  "total_cloth_data_bytes": 28857702172,
+  "within_30gb_limit": true,
+  "preview": "Previews\\pattern_detail_review.jpg",
+  "student_render_equivalence_verified": false,
+  "microscopic_embroidery_3d_ground_truth_available": false
+}

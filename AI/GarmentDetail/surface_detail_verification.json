@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "graphs": 24,
+  "categories": {
+    "sewn_dress": 20,
+    "other": 4
+  },
+  "dress_split_counts": {
+    "train": 12,
+    "validation": 4,
+    "test": 4
+  },
+  "source_pattern_edges": 2414,
+  "source_3d_seam_edges": 18142,
+  "source_curve_parameters_and_annotations_preserved": true,
+  "design_split_leakage": 0,
+  "geometry_inputs_contain_detail_label_bits": false,
+  "unknown_target_gradient_zero": true,
+  "optimizer_smoke_train_steps": 2,
+  "optimizer_smoke_losses": [
+    1.3976044654846191,
+    1.4030842781066895
+  ],
+  "test_optimizer_steps": 0,
+  "saved_detail_model_checkpoint": false,
+  "photo_files_verified": 100,
+  "exact_photo_mesh_pairs": 0,
+  "fine_button_zipper_hem_material_labels_available": false,
+  "total_data_bytes": 27785438191
+}

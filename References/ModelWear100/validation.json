@@ -1,0 +1,81 @@
+﻿{
+    "checked_utc":  "2026-10-27T15:51:17.4087002Z",
+    "candidate_count":  130,
+    "selected_count":  100,
+    "unique_original_hashes":  100,
+    "unique_download_hashes":  100,
+    "decoded_image_count":  100,
+    "bytes":  21506125,
+    "full_body_count":  69,
+    "partial_body_count":  31,
+    "category_counts":  [
+                            {
+                                "category":  "dress",
+                                "count":  52
+                            },
+                            {
+                                "category":  "trousers",
+                                "count":  19
+                            },
+                            {
+                                "category":  "top",
+                                "count":  4
+                            },
+                            {
+                                "category":  "outerwear",
+                                "count":  11
+                            },
+                            {
+                                "category":  "skirt",
+                                "count":  7
+                            },
+                            {
+                                "category":  "separates",
+                                "count":  4
+                            },
+                            {
+                                "category":  "jumpsuit",
+                                "count":  3
+                            }
+                        ],
+    "license_counts":  [
+                           {
+                               "license":  "CC BY 2.0",
+                               "count":  61
+                           },
+                           {
+                               "license":  "CC BY-SA 3.0",
+                               "count":  5
+                           },
+                           {
+                               "license":  "CC BY-SA 4.0",
+                               "count":  12
+                           },
+                           {
+                               "license":  "Public domain",
+                               "count":  9
+                           },
+                           {
+                               "license":  "CC BY 4.0",
+                               "count":  1
+                           },
+                           {
+                               "license":  "CC BY-SA 2.0",
+                               "count":  9
+                           },
+                           {
+                               "license":  "CC BY 2.5",
+                               "count":  1
+                           },
+                           {
+                               "license":  "CC0",
+                               "count":  2
+                           }
+                       ],
+    "all_have_creator_field":  true,
+    "unknown_creator_count":  1,
+    "all_have_source":  true,
+    "all_have_license":  true,
+    "ai_training_performed":  false,
+    "runtime_code_changed":  false
+}

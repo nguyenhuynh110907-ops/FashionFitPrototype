@@ -1,0 +1,7 @@
+{
+    "status": "passed",
+    "scope": "All pose handles via actual near-grip acquisition and controller drag, injected input, no HMD",
+    "checks": 68,
+    "joints": 34,
+    "exceptions": 0
+}

@@ -1,0 +1,301 @@
+{
+  "status": "passed",
+  "files": [
+    {
+      "path": "Assets/FashionFit/Editor/ResponseOptimizationVerification.cs",
+      "sha256": "fd28bf2ed666d724314281dc7554f06275511715a697e345b2b59f4f1db9b995"
+    },
+    {
+      "path": "Assets/FashionFit/Editor/ResponseOptimizationVerification.cs.meta",
+      "sha256": "2cd72e0155cc4e91cddfc2fc0cdc44f1565b284b4a3b79bd7a74015cb878f18c"
+    },
+    {
+      "path": "Assets/FashionFit/Editor/ResponseReadoutVerification.cs",
+      "sha256": "a8a27d36d231fc74673bfda766c150c777969535372df1545e005d42f08b698e"
+    },
+    {
+      "path": "Assets/FashionFit/Editor/ResponseReadoutVerification.cs.meta",
+      "sha256": "13341262bc532e48eda1ed0386e819b1fe6f075625b67ebfd75d52d6f8e34356"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/BodyBoundSurface.cs",
+      "sha256": "8dbd0de4dd762f8bde4fcda0e85f2878e7a4d6a0b00c9457d2520c57ec421ddd"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/BodyBoundSurface.cs.meta",
+      "sha256": "015328ff20382bc8c70e85a221cf656ba653e35800d46689eb18f1c31f585e6e"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/ElasticSurface.cs",
+      "sha256": "e40cbbf32e16cc700812ad6ad6ca58782d6db8bf18bc9684fa0ca4ae667e2d48"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/ElasticSurface.cs.meta",
+      "sha256": "62c74f131681f503cbd0055495c8082f0e1e8ae958656b38b3c4c831c666245e"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/FashionFitApp.cs",
+      "sha256": "9fd14233240a8aa823b96f2e54fe42a4339b72985c583f50331f99b2e5767aff"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/FashionFitApp.cs.meta",
+      "sha256": "99e4fc2fe566e3a436fc65ae013ff75613d467b091b7707419472db8b55cc652"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/GarmentPicking.cs",
+      "sha256": "6f1478e5842556d916a7db9267f11392dc2179c60056df1fa5199234af092f96"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/GarmentPicking.cs.meta",
+      "sha256": "50f296eced0b311ae1511f09f9fd7ab6798de98d857a6b3cfab2d3fd087e028f"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/PoseDeformationJob.cs",
+      "sha256": "3dff531c00d866d474f4c6750a85a82b4c50c1b21fd25fe188d4a44b3ac13ebe"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/PoseDeformationJob.cs.meta",
+      "sha256": "e63871037febdb07d67eaefc552977682bc77937f7d3b3a741b15eacfb0e934d"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/PoseWearable.cs",
+      "sha256": "d89a5ca8fcad08c95e6f097db46ca7ef0135558af006239f28bab927ad8270dc"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/PoseWearable.cs.meta",
+      "sha256": "49f386dbcefcd6862559f3606052d735cdc71d6fd6e5a168ceb0cd6ee5519532"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/RunwayVRHands.cs",
+      "sha256": "7fc4f23d359bc30be2d8318e5fc1c4d75ce883551a0a97b4515fcac03ed1de57"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/RunwayVRHands.cs.meta",
+      "sha256": "511639a940e1a0194c6994b5508f20d8d87a44485cc585027601c5bd10e737cc"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/StudioRenderedTrial.cs",
+      "sha256": "ae71a622409386585bca6b6b1a364b9ea74fd7b09a4dfa5e0296f613b4edc574"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/StudioRenderedTrial.cs.meta",
+      "sha256": "4c9bab8ea5dd8dfd272dee7945b90c626b9802e5856682815df22085ab91cabc"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/StudioTelemetry.cs",
+      "sha256": "3b087f6ecfca18111d8dd54baeeaf84e6c16884278d3f4ae9fafb91c437f3bd1"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/StudioTelemetry.cs.meta",
+      "sha256": "90bfe19f14ef91c550d80c7db1ba85a89b59b80ade3b80c8a9b492c31791da72"
+    },
+    {
+      "path": "Docs/HISTORY_README_V089.md",
+      "sha256": "95726dfdac562e6bb79be1c85c8e33565147c17b4b5fdbe37168f5abef69a727"
+    },
+    {
+      "path": "Docs/INDEX.md",
+      "sha256": "2145d6ae14498125bbbaa24d830d804ac41f922a0082f27a48bcbc7076ef9c48"
+    },
+    {
+      "path": "Docs/RESPONSE_OPTIMIZATION_GUIDE.md",
+      "sha256": "43a4500f2e05669c1af71e0f05fd90226b6545b3e0da29951d64da124ab55796"
+    },
+    {
+      "path": "Docs/STUDIO_WORKFLOW.md",
+      "sha256": "447700667bbf4324deb3aeba876253d5834e8de163d74ba6bad264dfdc418072"
+    },
+    {
+      "path": "README.md",
+      "sha256": "fb0370cba121c6f3e08aac9e85281c3c3fc4cf48875adf67628aa7eb29268eab"
+    },
+    {
+      "path": "Tools/Studio/analyze_capture.py",
+      "sha256": "40ac80cec0cd0aea441c75434cd2a3ceda8b393ec1e645790a2e2c4250b63077"
+    },
+    {
+      "path": "Tools/Studio/capture.py",
+      "sha256": "f74c5b60ae666460f0127f69b10d488138aea40865750005f2555cba4815944e"
+    },
+    {
+      "path": "Tools/Studio/contact_check.py",
+      "sha256": "72263cfdf622ec3c120f9afdab8acf030f3a650fa27be78271202d96ba5ba893"
+    },
+    {
+      "path": "Tools/Studio/studio.json",
+      "sha256": "0694b3523667ba9d5994cf026afea456a5011ed222de449bc9d0657018046231"
+    },
+    {
+      "path": "Tools/Studio/studio.local.json",
+      "sha256": "abee06a180af58a4968d97ed5e07fa2cdcc03d794f233f65d3e59fcf55e72f1e"
+    },
+    {
+      "path": "Tools/Studio/test_evidence_gate.py",
+      "sha256": "c83a31c65c3b8640fd157bb4420d81e66dc29c511c4178c8409ed73c4e300ca6"
+    },
+    {
+      "path": "Tools/Studio/verify.py",
+      "sha256": "80d0ae06c624b3d4a84e646747816d94062318f8ef4f080c181f5e250ad8dd57"
+    },
+    {
+      "path": "Verification/ResponseOptimization/REPORT.md",
+      "sha256": "0745983e2d365ebce88a2838111210145e8dda7c22e033147169822cd8b5196d"
+    },
+    {
+      "path": "Verification/ResponseOptimization/actual_checks.json",
+      "sha256": "da156f1d344d218cbd7398fdd47def91cc509f8554bafa5b040766103e127268"
+    },
+    {
+      "path": "Verification/ResponseOptimization/actual_contact.json",
+      "sha256": "f5ea53ceb8c732151c4401ebb536f02950e77571f0b55b8c1408bb525f1e8dad"
+    },
+    {
+      "path": "Verification/ResponseOptimization/actual_surface.json",
+      "sha256": "f72bd36c30df080d9c08410c29d7bebefb7fc8c34a7ce3dee696d376ba102776"
+    },
+    {
+      "path": "Verification/ResponseOptimization/actual_trial/capture_analysis.json",
+      "sha256": "5eb062ef4a7ba46eed5579d63bded7f4704e7f7fbea7ee60967999fe44cc9d38"
+    },
+    {
+      "path": "Verification/ResponseOptimization/actual_trial/frames.csv",
+      "sha256": "d282179a19c1282560d2047d49e0f4b817dee9687109f4365ed1d1745224607d"
+    },
+    {
+      "path": "Verification/ResponseOptimization/actual_trial/performance.json",
+      "sha256": "05f60d19bba5411e96635a46b6703754a62eb87a99ddd4d541955ce897c02072"
+    },
+    {
+      "path": "Verification/ResponseOptimization/actual_trial/trial.json",
+      "sha256": "440b92393e16995583f85f2ded213fdb4ce47527e45aa899abc9e08e5086668c"
+    },
+    {
+      "path": "Verification/ResponseOptimization/baseline_frames.csv",
+      "sha256": "b41993e116920116b7ab4ba2b3fe0700b31ab58391b696b578b3214fd3c8a560"
+    },
+    {
+      "path": "Verification/ResponseOptimization/baseline_performance.json",
+      "sha256": "0cc131318f109dc41950bc948dee6d780b1d01547fc66779a74de4fdd2177077"
+    },
+    {
+      "path": "Verification/ResponseOptimization/baseline_trial.json",
+      "sha256": "95a85e5400dfe5a79f3d9650e54376edc6a17559366715cc60dc4fe731e841dd"
+    },
+    {
+      "path": "Verification/ResponseOptimization/bimanual.json",
+      "sha256": "1a2d49ee287d7f3c4122f525de6deacd424876654f5e87c10f448e7787f7c869"
+    },
+    {
+      "path": "Verification/ResponseOptimization/build.json",
+      "sha256": "b0807c3b73d973aa21bc1fbed66415c5c7a500c9e78a643dfd578e84ffbc3f4e"
+    },
+    {
+      "path": "Verification/ResponseOptimization/build_receipt.json",
+      "sha256": "c6949e4088343279e94b9057bf78db163b42565e57b713cac9bd089f1c4a415d"
+    },
+    {
+      "path": "Verification/ResponseOptimization/capture_analysis.json",
+      "sha256": "6244f47f5cfe66ea6b4fed46c2a1341d75f1d1cdbc6c28de6c46b8a11ef58e1a"
+    },
+    {
+      "path": "Verification/ResponseOptimization/cleanup_plan.json",
+      "sha256": "fc4665ae01369bcf84be79a76c5c2b1ea0adce7f635a396050b0509edbfc70ed"
+    },
+    {
+      "path": "Verification/ResponseOptimization/cleanup_result.json",
+      "sha256": "cfc9a45e3ba33660d2d448f2a312f59851b557ff816dfccb715a5a1207b375f7"
+    },
+    {
+      "path": "Verification/ResponseOptimization/deployment.json",
+      "sha256": "efa6b63512bb44cc5223cd55fd6066158225a22ff192d2ca38a30250cd7d919a"
+    },
+    {
+      "path": "Verification/ResponseOptimization/evidence_gate.txt",
+      "sha256": "d3e8bc55a47bd2624377c785620327b3d87e3145c0157bbd7fb9074cb82ea9e2"
+    },
+    {
+      "path": "Verification/ResponseOptimization/final_audit.json",
+      "sha256": "04bcdf2d388b29660d22fa9382e1652a9cadd304f02604951d1fee12b41cb070"
+    },
+    {
+      "path": "Verification/ResponseOptimization/layers.json",
+      "sha256": "bc223a99c791847c375904cffea082ec4a0166b535a2314abcece3155a9cf520"
+    },
+    {
+      "path": "Verification/ResponseOptimization/layers_contact.json",
+      "sha256": "c4d7856632a2ea9514776756a09fd1ad9a4bd20039c38563071dba5899105aff"
+    },
+    {
+      "path": "Verification/ResponseOptimization/mens.json",
+      "sha256": "5051f08ff68881b17d14a1b594c85952d7ac663e6fcfb14b9541c51c419fa198"
+    },
+    {
+      "path": "Verification/ResponseOptimization/mens_contact.json",
+      "sha256": "d1e4f4addfd67661a17b005917b616c4f5703a710359a63f822737234f5dd4a5"
+    },
+    {
+      "path": "Verification/ResponseOptimization/mesh_equivalence.json",
+      "sha256": "91223cee97de85cf96f10aeca8ddb1259f09db4aea33a125bf9ad601f2941866"
+    },
+    {
+      "path": "Verification/ResponseOptimization/optimized_frames.csv",
+      "sha256": "b7c932d2ac494bd5154e570f588f7bafa1cdd854539618b3fa111a76de9b4507"
+    },
+    {
+      "path": "Verification/ResponseOptimization/optimized_performance.json",
+      "sha256": "6db0c9fd43ce67ef3addb0527252035f356e3f82d5773f26fa710f4d7c6bc0eb"
+    },
+    {
+      "path": "Verification/ResponseOptimization/optimized_trial.json",
+      "sha256": "dd3e93db3fb3818f1fd1a5fe844b9365652aedfd57b2eefcd29fc9bd96282b71"
+    },
+    {
+      "path": "Verification/ResponseOptimization/picking_equivalence.json",
+      "sha256": "a479ca6dd3345ecc4c0d54a5b63f5cfc747858faafd4b953f2f02ad10012d9fc"
+    },
+    {
+      "path": "Verification/ResponseOptimization/player_manifest.json",
+      "sha256": "48f8a2aa9537cdd96bb0d9be6cdf3c2030c76ff8259c6b6d0ec8f4ed3d634f79"
+    },
+    {
+      "path": "Verification/ResponseOptimization/pose_hat.json",
+      "sha256": "b5e269ce0e69add8d50832492f17d39deffabdd3ccc70a71b5c5be90d514ca84"
+    },
+    {
+      "path": "Verification/ResponseOptimization/readout_equivalence.json",
+      "sha256": "2bc495a7dbfa12144fdb8bccdca69443bfafc4ad8852d483b315eaf154cf0a64"
+    },
+    {
+      "path": "Verification/ResponseOptimization/rendered_trial.json",
+      "sha256": "dd3e93db3fb3818f1fd1a5fe844b9365652aedfd57b2eefcd29fc9bd96282b71"
+    },
+    {
+      "path": "Verification/ResponseOptimization/source_manifest.json",
+      "sha256": "7357007752df7a286c66243dd2a102890de121f667a39d832d0a70266c3f2cbf"
+    },
+    {
+      "path": "Verification/ResponseOptimization/summary.json",
+      "sha256": "89bc0a097ddd41c13751113a7ab223f51754eb373ba8d193042e9278246e05a7"
+    },
+    {
+      "path": "Verification/ResponseOptimization/surface.json",
+      "sha256": "9c9e7f5bba27317e58505739f6ef79d17f41aaa19b4d6fa709997c6a8cb211c7"
+    },
+    {
+      "path": "Verification/ResponseOptimization/surface_contact.json",
+      "sha256": "f5ea53ceb8c732151c4401ebb536f02950e77571f0b55b8c1408bb525f1e8dad"
+    },
+    {
+      "path": "Verification/ResponseOptimization/temp_cleanup_plan.json",
+      "sha256": "894b5b8559959c7e0abf4eefef706aa069ec7c4fab7b36e922548844be913b27"
+    },
+    {
+      "path": "Verification/ResponseOptimization/temp_cleanup_result.json",
+      "sha256": "9d31891397fd561bda82772e89790a9d1b5c0aded9c544596118b90daedb7039"
+    },
+    {
+      "path": "Verification/ResponseOptimization/vr_config.json",
+      "sha256": "ddac71ad5b96311514ee9e9975df53abb5371da4b5b163adb14eab62d55ecc5d"
+    }
+  ]
+}

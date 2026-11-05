@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "scope": "All referenced vertices and triangle centroids against full body; convex-hull broad phase with exact signed-distance narrow phase; not continuous triangle CCD",
+  "poses": [
+    {
+      "pose": "Look6_Standing",
+      "samples": 43981,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "exact_signed_queries": 39977,
+      "outside_enclosing_hull": 3404,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.010045082098347195,
+      "deepest_point_m": [
+        0.18078583478927612,
+        1.3078478574752808,
+        -0.02696540206670761
+      ],
+      "source_mesh_sha256": "41862d473adfa2a11666bda0d7281f1fcbf6050a2beb57eb55a2f860732fed6f"
+    },
+    {
+      "pose": "Look6_WalkingA",
+      "samples": 43981,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "exact_signed_queries": 40059,
+      "outside_enclosing_hull": 3332,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.010045082098347195,
+      "deepest_point_m": [
+        0.18078583478927612,
+        1.3035680055618286,
+        -0.02696540206670761
+      ],
+      "source_mesh_sha256": "6e2806fbfe8f376c316e35edd2c22b2d7a78a607c26c45914ead9423073f0af4"
+    },
+    {
+      "pose": "Look6_WalkingB",
+      "samples": 43981,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "exact_signed_queries": 40062,
+      "outside_enclosing_hull": 3332,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.010045082098347195,
+      "deepest_point_m": [
+        0.18078583478927612,
+        1.3032797574996948,
+        -0.02696540206670761
+      ],
+      "source_mesh_sha256": "e3be3c3995fceeced181f05142b489c9e05a3a12b26025a31367744b41aa541e"
+    }
+  ],
+  "samples": 131943,
+  "samples_inside_over_1mm": 0,
+  "max_sampled_penetration_mm": 0.010045082098347195,
+  "masked_body_used": false,
+  "continuous_contact_certified": false,
+  "agrees_with_previous_exact_test": false
+}

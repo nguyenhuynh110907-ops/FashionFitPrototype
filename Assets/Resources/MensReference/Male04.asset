@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aab14be8e727f344b3fdb97c9788bc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  look: 10
+  label: "Hollister \xB7 Rib Henley + Chino \xB7 b\u1EA3n d\u1EF1ng tham chi\u1EBFu"
+  mesh: {fileID: 4300000, guid: 0b661e5f4493f7f4b861f6c1c02fcb79, type: 2}
+  materials:
+  - {fileID: 2100000, guid: 4a6ef7fd37686d347a3bccff0347a9dc, type: 2}
+  - {fileID: 2100000, guid: 4728076d249e3c940a80b2c44e96ef58, type: 2}
+  - {fileID: 2100000, guid: 1340909e1e9ca2a4aaa2a15fa5b229e9, type: 2}
+  - {fileID: 2100000, guid: 7d32beb7b2c180b49abe3f756a2cb89f, type: 2}

@@ -1,0 +1,6 @@
+numpy==2.5.4
+scipy==1.18.1
+trimesh==5.2.0
+rtree==1.4.1
+libigl==2.6.3
+embreex==4.4.0.post1

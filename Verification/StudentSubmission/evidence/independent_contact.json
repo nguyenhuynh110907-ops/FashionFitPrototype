@@ -1,0 +1,152 @@
+{
+  "status": "passed",
+  "method": "Full original body; libigl triangle distance + Embree ray parity; vertices, face centres and edge midpoints; 1 mm tolerance",
+  "continuous_collision_certified": false,
+  "self_collision_certified": false,
+  "cases": [
+    {
+      "file": "fitting-female_Identity.bin",
+      "sha256": "fdec831b5fc31b0a0556501fa52ad4b497172af0cb22bbc6138b42d4569306ff",
+      "body": [
+        {
+          "samples": 86831,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.3231283952746843
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "FittingCentimetres.bin",
+      "sha256": "fdec831b5fc31b0a0556501fa52ad4b497172af0cb22bbc6138b42d4569306ff",
+      "body": [
+        {
+          "samples": 86831,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.3231283952746843
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "FittingMovedSceneRoot.bin",
+      "sha256": "36a1e5e3f00bd27f38c7c8e7a5a7fe48f962c4e20eb021cc75b7725a24c32405",
+      "body": [
+        {
+          "samples": 86831,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.3230928651949174
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "FittingUVSplitAndReorder.bin",
+      "sha256": "fdec831b5fc31b0a0556501fa52ad4b497172af0cb22bbc6138b42d4569306ff",
+      "body": [
+        {
+          "samples": 86831,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.3231283952746843
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Native_fbx.bin",
+      "sha256": "41b77f5293d78c0ff545a82b91ef17e5bd11980615f28f504759bfcb29d9e968",
+      "body": [
+        {
+          "samples": 14,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Native_glb.bin",
+      "sha256": "b60289ce814f82f7f669b5af77d593ee4d362ea4270aa62df82362cc236c91b9",
+      "body": [
+        {
+          "samples": 14,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Native_obj.bin",
+      "sha256": "b60289ce814f82f7f669b5af77d593ee4d362ea4270aa62df82362cc236c91b9",
+      "body": [
+        {
+          "samples": 14,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "pose-female_Identity.bin",
+      "sha256": "122c09b27e466d027ec2ff6971e94bea5fa0d727ad19afc10d77f4fa7a6a2b72",
+      "body": [
+        {
+          "samples": 45788,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "pose-female_UVSplit.bin",
+      "sha256": "122c09b27e466d027ec2ff6971e94bea5fa0d727ad19afc10d77f4fa7a6a2b72",
+      "body": [
+        {
+          "samples": 45788,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "pose-male_Identity.bin",
+      "sha256": "ec78ad4bf44178f64c2e33da7a12e83b4f4dcfc6302948339b47b95426fc5097",
+      "body": [
+        {
+          "samples": 50391,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "pose-male_UVSplit.bin",
+      "sha256": "ec78ad4bf44178f64c2e33da7a12e83b4f4dcfc6302948339b47b95426fc5097",
+      "body": [
+        {
+          "samples": 50391,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "RegisteredBodyTwoPercent.bin",
+      "sha256": "768ef3c1bae4298d5d51b9bdd86af151feafbdf24e3f6ba80ff8344593111dc1",
+      "body": [
+        {
+          "samples": 86827,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.3231264222791939
+        }
+      ],
+      "layer_pairs": []
+    }
+  ]
+}

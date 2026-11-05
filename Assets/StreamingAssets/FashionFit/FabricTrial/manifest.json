@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "samples": [
+    {
+      "id": "Fabric008",
+      "label": "Caro kem",
+      "source": "https://ambientcg.com/a/Fabric008",
+      "license": "CC0-1.0",
+      "license_url": "https://docs.ambientcg.com/license/",
+      "color": "Fabric008_1K-JPG_Color.jpg",
+      "color_sha256": "b0ccb86f1407e477cb3ebc3b3c9e2f79c36da16c85d039a957add9c54d5169e5",
+      "normal": "Fabric008_1K-JPG_NormalGL.jpg",
+      "normal_sha256": "df0d147ae63e1dcd433cf643a08a3c7f6ec65875ce99e66872055308c6bf25ad",
+      "roughness": "Fabric008_1K-JPG_Roughness.jpg",
+      "roughness_sha256": "3127d30c05b89a58185b65a55a56007d00895ccdb7b4b85d98c9d85025cc1c17"
+    },
+    {
+      "id": "Fabric017",
+      "label": "Vải xanh ngọc",
+      "source": "https://ambientcg.com/a/Fabric017",
+      "license": "CC0-1.0",
+      "license_url": "https://docs.ambientcg.com/license/",
+      "color": "Fabric017_1K-JPG_Color.jpg",
+      "color_sha256": "ea237e05bd7994b7e195edd11470f20786411c1be17cf8d0cd6894cee97d0466",
+      "normal": "Fabric017_1K-JPG_NormalGL.jpg",
+      "normal_sha256": "58fa3d47c22078bc6c6dff0bf40fbf38ecdf60d4297804747d38a6dc0a0c0bee",
+      "roughness": "Fabric017_1K-JPG_Roughness.jpg",
+      "roughness_sha256": "3ee199adf75308ef56122e6a95b3040804ce19c0076005ee59ce8353f75b95ed"
+    },
+    {
+      "id": "Fabric048",
+      "label": "Ô vuông trắng",
+      "source": "https://ambientcg.com/a/Fabric048",
+      "license": "CC0-1.0",
+      "license_url": "https://docs.ambientcg.com/license/",
+      "color": "Fabric048_1K-JPG_Color.jpg",
+      "color_sha256": "8d69eed812a4ba416ac24024056c4ee3e7ef5ea09d5c07d0bc7d064d09dcba91",
+      "normal": "Fabric048_1K-JPG_NormalGL.jpg",
+      "normal_sha256": "c5136de5acb31421722c1d52d817482f983b09fb322984f0b7f9b1496ebed2be",
+      "roughness": "Fabric048_1K-JPG_Roughness.jpg",
+      "roughness_sha256": "b630e0d694dcf07c47f4d555b0f689e4cd6d8706cdf2f8c498fa805c8f541907"
+    },
+    {
+      "id": "Fabric061",
+      "label": "Dệt nhỏ xám",
+      "source": "https://ambientcg.com/a/Fabric061",
+      "license": "CC0-1.0",
+      "license_url": "https://docs.ambientcg.com/license/",
+      "color": "Fabric061_1K-JPG_Color.jpg",
+      "color_sha256": "de7321c185f7dfe83e71b84ad1f813364107f85f5ed2e605c820b8f7f4fe498b",
+      "normal": "Fabric061_1K-JPG_NormalGL.jpg",
+      "normal_sha256": "528808da93efcd6a4cf0370c6647af748115c54db7b7ee5f983f2d8a0d0eb2aa",
+      "roughness": "Fabric061_1K-JPG_Roughness.jpg",
+      "roughness_sha256": "dd486d17cea570bf971b3f09b6bcf888b5926894c9ce65e136498690bc098680"
+    },
+    {
+      "id": "Fabric077",
+      "label": "Vải xanh lam",
+      "source": "https://ambientcg.com/a/Fabric077",
+      "license": "CC0-1.0",
+      "license_url": "https://docs.ambientcg.com/license/",
+      "color": "Fabric077_1K-JPG_Color.jpg",
+      "color_sha256": "bbe9060310766516f51fc54ec967787d4091031e7f0046d2578886cfadb56f5d",
+      "normal": "Fabric077_1K-JPG_NormalGL.jpg",
+      "normal_sha256": "db9b6954cbebcc0dda8de5ffb0f283b35565768c647ee67adf15435772386b90",
+      "roughness": "Fabric077_1K-JPG_Roughness.jpg",
+      "roughness_sha256": "a748e634a63274f7daddb8ae68813407f3008162b270facee34a4870d1254cb1"
+    },
+    {
+      "id": "Fabric085",
+      "label": "Vải đỏ gạch",
+      "source": "https://ambientcg.com/a/Fabric085",
+      "license": "CC0-1.0",
+      "license_url": "https://docs.ambientcg.com/license/",
+      "color": "Fabric085_1K-JPG_Color.jpg",
+      "color_sha256": "afbcdb635193549e777ac49ac5f9599db98afd1f4e165a389f69458913f027a5",
+      "normal": "Fabric085_1K-JPG_NormalGL.jpg",
+      "normal_sha256": "5136bdf5d87b755454c9bc716e7b1adf981accb4fa081f4d773790c5ace73703",
+      "roughness": "Fabric085_1K-JPG_Roughness.jpg",
+      "roughness_sha256": "94f58ed52e4e7babd42b59e4c7f5a223b803f58099e40569d0020db1d4cc21b3"
+    }
+  ]
+}

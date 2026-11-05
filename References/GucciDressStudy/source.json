@@ -1,0 +1,28 @@
+{
+  "product": "Gucci Crêpe wool dress with Double G button",
+  "style": "864361 ZACKN 1000",
+  "source_page": "https://www.gucci.com/it/it/pr/women/ready-to-wear-for-women/dresses-jumpsuits-for-women/crepe-wool-dress-with-double-g-button-p-864361ZACKN1000",
+  "reference_image": "black_doubleg.jpg",
+  "image_url": "https://cdna.lystit.com/520/650/n/photos/lordandtaylor/2c3135f6/1200x1800/gucci-BLACK-Crepe-Polo-Dress.jpeg",
+  "observed_features": [
+    "black A-line silhouette",
+    "folded polo collar with rounded points",
+    "short sleeves",
+    "front placket",
+    "four gold-tone Double G buttons",
+    "two front vertical tailoring seams",
+    "closed hem; no centre slit"
+  ],
+  "geometry_is_official_gucci_asset": false,
+  "reconstruction_method": "authored parametric geometry from 2D visual reference, fitted to existing technical mannequin; NOT trained image-to-3D inference",
+  "estimated_features": [
+    "back panel construction",
+    "lining",
+    "seam allowance",
+    "fabric thickness",
+    "absolute millimetre dimensions adapted to technical mannequin"
+  ],
+  "image_added_to_training": false,
+  "image_rightsholder": "Gucci; product photograph linked via retailer listing",
+  "earlier_A00BP6_reference": "not used; official image CDN timed out"
+}

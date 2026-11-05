@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "version": "V090_RESPONSE_OPTIMIZED",
+  "sourceFiles": 63,
+  "playerFiles": 175,
+  "source": "C:\\Users\\HUYNH\\OneDrive\\Desktop\\FashionFitPrototype",
+  "player": "C:\\Users\\HUYNH\\Downloads\\FashionFit_Run\\Versions\\V090_Response\\FashionFittingRoom.exe",
+  "sha256Verified": true,
+  "previousV089Preserved": true,
+  "duplicateFilesRemoved": 1403,
+  "duplicateBytesRemoved": 1154649626,
+  "physicalHeadset": "NOT_ASSESSED"
+}

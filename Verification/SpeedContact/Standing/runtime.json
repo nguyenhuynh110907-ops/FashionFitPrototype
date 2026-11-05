@@ -1,0 +1,92 @@
+{
+    "status": "exported_for_independent_mesh_check",
+    "stage": "Standing",
+    "frameDt": 0.01666666753590107,
+    "fullBody": true,
+    "looks": [
+        {
+            "look": 1,
+            "steps": 240,
+            "proxyViolations": 0,
+            "exports": 2,
+            "requestedSpeed": 0.0,
+            "reachedSpeed": 0.0,
+            "clockTravel": 0.0,
+            "maxStretch": 1.3466099500656129,
+            "meanClothMs": 9.71133416891098,
+            "maxClothMs": 11.989700317382813,
+            "completedCycles": true,
+            "stoppedCleanly": true
+        },
+        {
+            "look": 2,
+            "steps": 240,
+            "proxyViolations": 0,
+            "exports": 2,
+            "requestedSpeed": 0.0,
+            "reachedSpeed": 0.0,
+            "clockTravel": 0.0,
+            "maxStretch": 1.160556435585022,
+            "meanClothMs": 10.552994998296102,
+            "maxClothMs": 12.542699813842774,
+            "completedCycles": true,
+            "stoppedCleanly": true
+        },
+        {
+            "look": 3,
+            "steps": 240,
+            "proxyViolations": 0,
+            "exports": 2,
+            "requestedSpeed": 0.0,
+            "reachedSpeed": 0.0,
+            "clockTravel": 0.0,
+            "maxStretch": 1.3338183164596558,
+            "meanClothMs": 8.062560818592708,
+            "maxClothMs": 10.41569995880127,
+            "completedCycles": true,
+            "stoppedCleanly": true
+        },
+        {
+            "look": 4,
+            "steps": 240,
+            "proxyViolations": 0,
+            "exports": 2,
+            "requestedSpeed": 0.0,
+            "reachedSpeed": 0.0,
+            "clockTravel": 0.0,
+            "maxStretch": 1.3918828964233399,
+            "meanClothMs": 9.820035437742869,
+            "maxClothMs": 11.291099548339844,
+            "completedCycles": true,
+            "stoppedCleanly": true
+        },
+        {
+            "look": 5,
+            "steps": 240,
+            "proxyViolations": 0,
+            "exports": 2,
+            "requestedSpeed": 0.0,
+            "reachedSpeed": 0.0,
+            "clockTravel": 0.0,
+            "maxStretch": 1.2655900716781617,
+            "meanClothMs": 16.559416687488559,
+            "maxClothMs": 21.404800415039064,
+            "completedCycles": true,
+            "stoppedCleanly": true
+        },
+        {
+            "look": 6,
+            "steps": 240,
+            "proxyViolations": 0,
+            "exports": 2,
+            "requestedSpeed": 0.0,
+            "reachedSpeed": 0.0,
+            "clockTravel": 0.0,
+            "maxStretch": 1.359832525253296,
+            "meanClothMs": 12.192541245619456,
+            "maxClothMs": 16.50320053100586,
+            "completedCycles": true,
+            "stoppedCleanly": true
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "check": "compact_ivory_assets",
+    "exit_code": 0
+  },
+  {
+    "check": "layered_editor",
+    "exit_code": 0
+  },
+  {
+    "check": "all_native_outfits",
+    "exit_code": 0
+  },
+  {
+    "check": "layered_contact",
+    "exit_code": 0
+  },
+  {
+    "check": "native_outfit_contact",
+    "exit_code": 0
+  },
+  {
+    "check": "windows_build",
+    "exit_code": 0
+  },
+  {
+    "check": "windows_player",
+    "exit_code": 0
+  },
+  {
+    "check": "windows_contact",
+    "exit_code": 0
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "method": "outward-only rounded front envelope",
+  "horizontal_support_radius_m": 0.3,
+  "vertical_support_radius_m": 0.14,
+  "changed_vertices": 2225,
+  "max_added_ease_mm": 54.85351273294239,
+  "vertices": 7586,
+  "topology_uv_and_weights_changed": false
+}

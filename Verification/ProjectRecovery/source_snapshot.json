@@ -1,0 +1,97 @@
+[
+  {
+    "path": "Assets/FashionFit/Runtime/FashionFitApp.cs",
+    "sha256": "eeee81d37c8ef5c14a061140dd625c01bd1f7802152bc4f7a49d73f857f26e98",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayWardrobe.cs",
+    "sha256": "c9f1c179bfaa4144b89ef773b92e2afc03067af871e4eeb298673366fd3d61f8",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/FittingCloth.cs",
+    "sha256": "5afbdb9789b786b297dd8a64180d7867d31cfefa7a08ce3f8d94fdb8d9c219cc",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/InteractiveShirt.cs",
+    "sha256": "aa5986e7cf9fea62ea153873fc0efedf736ec573dd686c0b441d4347b7379c90",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayPlayer.cs",
+    "sha256": "f1e8c6751f6c3c0f8a39ee6ad8bd21e64335504e43a690313b3575d4dea12abd",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/StandaloneVerification.cs",
+    "sha256": "37a2f827ea40c78cec7838f9f1250f72b33dcf35f5edd4c9a14bfebb63bcc0b8",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Editor/PlaySessionRecovery.cs",
+    "sha256": "88e8992d1d315e150caa0bc63af5941e679d597cdeff923dbdddc653b59a5439",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Editor/RecoveryVerification.cs",
+    "sha256": "e28a9dd440519376f1c5ddc4374f03816da9179548b9fbb582ab68c415680892",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Editor/FashionFitRecoveryBuild.cs",
+    "sha256": "56c5fb81c9880acd0f5721177983e5f77e4b8a165afa54b997b748b5b9a38a8b",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/FashionFitApp.cs.meta",
+    "sha256": "99e4fc2fe566e3a436fc65ae013ff75613d467b091b7707419472db8b55cc652",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayWardrobe.cs.meta",
+    "sha256": "a1cb7b9381717d46105cf4e9318624226c40e60c0cae27d8ec42eb944b6b2424",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/FittingCloth.cs.meta",
+    "sha256": "a16adde98d90d1a8bba488354a3d7ebe83926df8c382749d6c8e4f8fec71c996",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/InteractiveShirt.cs.meta",
+    "sha256": "ff77eac27f12938dddeefb49e5ebf30e08da15e839fa3a90844a0c315f6458e1",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayPlayer.cs.meta",
+    "sha256": "c6512173d1ecb02ac71c66ab6f58b54deb6af7ae0bee91437bd3cb6768a2c12e",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/StandaloneVerification.cs.meta",
+    "sha256": "f2dfc72bc501df8d5826e6a194b765ea439d87867fcb4ebc0d8f707a346f778d",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Editor/PlaySessionRecovery.cs.meta",
+    "sha256": "cdb30eddd84dcfbc1315da8fcff35fe2a2a52d0575ade99911a0bea3d5682ca3",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Editor/RecoveryVerification.cs.meta",
+    "sha256": "36bbdb2c28556db7d10f93a381238fd5a7cb44ff958cefdd3b758715206f4072",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Editor/FashionFitRecoveryBuild.cs.meta",
+    "sha256": "87fe91d01234f1826a0c9c1576705fd9a9f71092c663ce1d3c6989ff0ac9e76d",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "C:\\Users\\HUYNH\\Downloads\\FashionFit_Run\\FashionFittingRoom.exe",
+    "sha256": "0b62e9914456f6315d2d5799314c3cdcd398bd59f15ea24662c41a356a4e8669",
+    "outside_onedrive": true
+  }
+]

@@ -1,0 +1,48 @@
+{
+    "algorithm": "paired-body-affine-residual-v1",
+    "displayName": "3D transfer · bản nghiên cứu có cổ và nút",
+    "targetBodyKey": "5c397e0369fd4bf52af09db1e8941882b76f6951c9666defffb3a51c2c38a226",
+    "sourceDescription": "Original Unity meshes and material references; paired-body affine fit and barycentric residuals; source assets unchanged.",
+    "stationarySamplesPassed": true,
+    "continuousCollisionTested": false,
+    "selfCollisionTested": false,
+    "parts": [
+        {
+            "vertices": 2624,
+            "triangles": 5120,
+            "submeshes": 1,
+            "contactSamples": 7744,
+            "localPenetrationSamples": 0,
+            "collapsedTriangles": 0,
+            "maxSourceDistance": 0.13513056933879853,
+            "maxDisplacement": 0.0,
+            "maxRelativeEdgeChange": 0.0,
+            "maxLocalPenetration": 0.0
+        },
+        {
+            "vertices": 7583,
+            "triangles": 13174,
+            "submeshes": 1,
+            "contactSamples": 20757,
+            "localPenetrationSamples": 0,
+            "collapsedTriangles": 0,
+            "maxSourceDistance": 0.03234391659498215,
+            "maxDisplacement": 0.0,
+            "maxRelativeEdgeChange": 0.0,
+            "maxLocalPenetration": 0.0007982466486282647
+        },
+        {
+            "vertices": 5264,
+            "triangles": 10216,
+            "submeshes": 3,
+            "contactSamples": 15480,
+            "localPenetrationSamples": 0,
+            "collapsedTriangles": 0,
+            "maxSourceDistance": 0.029718901962041856,
+            "maxDisplacement": 0.0,
+            "maxRelativeEdgeChange": 0.0,
+            "maxLocalPenetration": 0.0
+        }
+    ],
+    "contactMethod": "Closed outward body; exact nearest triangle; interior-face normal sign, three-ray parity at edges; vertices and triangle centroids; 1 mm tolerance. Finite samples, not CCD."
+}

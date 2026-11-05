@@ -1,0 +1,50 @@
+{
+  "Assets/Resources/Fitting/female-mesh.bytes": {
+    "sha256": "1483998b04e614cb9541099f5a39964e6f141c70e539de87082dd774fc342b58",
+    "matches_test_project": true
+  },
+  "Assets/Resources/Fitting/female-rig.json": {
+    "sha256": "6eb8668917ebe14d6928a6401b4d10499429bb72670007c39a2a0255658e41f7",
+    "matches_test_project": true
+  },
+  "Assets/Resources/Fitting/polo-contact-fit.json": {
+    "sha256": "a89eeb51b733693303c64639026e0d7ed0d9d258173087ebbb530690a7a34529",
+    "matches_test_project": true
+  },
+  "Assets/Resources/Fitting/WovenDetail/normal.jpg": {
+    "sha256": "528808da93efcd6a4cf0370c6647af748115c54db7b7ee5f983f2d8a0d0eb2aa",
+    "matches_test_project": true
+  },
+  "Assets/Resources/Fitting/WovenDetail/roughness.jpg": {
+    "sha256": "dd486d17cea570bf971b3f09b6bcf888b5926894c9ce65e136498690bc098680",
+    "matches_test_project": true
+  },
+  "Assets/Resources/Runway/DressFabric.shader": {
+    "sha256": "81c7b9ab425d1843b107f88a019a1b866f1ba85f0ab0fb76f97984acf9a6b7a3",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/TechnicalBodyFitData.cs": {
+    "sha256": "4e5518289dfa2907d30a6bf511563738741bb7b56d64943152d02c9a0dd7130f",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/TailoredPoloStudy.cs": {
+    "sha256": "55de1db8350fbfe3dd0ec83e1aae012f892e831f64eab7da63f5ff746d81f90b",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/RunwayWardrobe.cs": {
+    "sha256": "57e2f95c909b470b0a877f46caf9e5dba9f8552d57449557533abc685737cec4",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/WovenFabricDetail.cs": {
+    "sha256": "900108ac6378180af3cda75d147a48d68a0513e7e7c7015ec343f8fb5a464fd7",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/RunwayStage.cs": {
+    "sha256": "7fa2be3059d540b87b11aa24eff42668ef68367d619b2ef807299ce866cce82e",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Editor/WovenDetailImport.cs": {
+    "sha256": "ec381c7df15c4d563c9e74dd276f1ca06760062ce267ca1a03794fb12fc89c25",
+    "matches_test_project": true
+  }
+}

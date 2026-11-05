@@ -1,0 +1,15 @@
+{
+  "status": "applied",
+  "source_files": 22,
+  "player_files_verified": true,
+  "bimanual_checks": 95,
+  "base_collision_checks": 9,
+  "speed_control_checks": 8,
+  "standalone_checks": 37,
+  "mesh_poses": 183,
+  "mesh_samples": 2896008,
+  "samples_inside_over_1mm": 0,
+  "max_sampled_penetration_mm": 0.7982821048417028,
+  "hardware_tested": false,
+  "raw_mesh_dumps_in_downloads": true
+}

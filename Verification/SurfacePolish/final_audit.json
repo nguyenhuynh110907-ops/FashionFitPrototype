@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "version": "V088_SURFACE_READOUT",
+  "source_files": 82,
+  "player_files": 175,
+  "new_checks": 28,
+  "contact_states": 8,
+  "connected_components": 1,
+  "boundary_loops": 4,
+  "shared_hat_seam_vertices": 64,
+  "physical_HMD_verified": false
+}

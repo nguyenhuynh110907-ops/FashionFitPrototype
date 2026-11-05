@@ -1,0 +1,28 @@
+{
+  "scope": "Actual app start, slow gait, settle, stop, coverage and source-body mesh export. Proxy tests are not full triangle CCD or headset certification.",
+  "startsStanding": true,
+  "defaultSpeedCorrect": true,
+  "warmupHoldsPose": true,
+  "fixedPointsContactSafe": true,
+  "stopDuringWarmupWorks": true,
+  "looks": [
+    {
+      "name": "IvoryShirtSet",
+      "hiddenBodyTriangles": 7047,
+      "steps": 540,
+      "proxyViolations": 0,
+      "maxStretch": 1.2063356637954712,
+      "clockTravel": 1.4295001029968262,
+      "meanClothMilliseconds": 49.344276428222656,
+      "maximumClothMilliseconds": 71.58869934082031,
+      "stopped": true,
+      "returnedOriginalBody": true,
+      "vrBodyRestored": true,
+      "clothSleepingAfterStop": false
+    }
+  ],
+  "selected_looks": [
+    5
+  ],
+  "source_log": "Verification/CloseView-Final.log"
+}

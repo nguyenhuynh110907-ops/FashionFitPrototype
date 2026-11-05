@@ -1,0 +1,21 @@
+{
+  "dataset_size": 100,
+  "train_count": 60,
+  "validation_count": 20,
+  "test_count": 20,
+  "best_epoch": 2,
+  "tasks": [
+    {
+      "name": "category",
+      "accuracy": 0.6,
+      "macro_f1": 0.36616716616716616,
+      "test_n": 20
+    },
+    {
+      "name": "appearance",
+      "accuracy": 0.4117647058823529,
+      "macro_f1": 0.37333333333333335,
+      "test_n": 17
+    }
+  ]
+}

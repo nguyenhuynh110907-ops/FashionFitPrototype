@@ -1,0 +1,248 @@
+{
+  "status": "passed",
+  "method": "Full original body; libigl triangle distance + Embree ray parity; vertices, face centres and edge midpoints; 1 mm tolerance",
+  "continuous_collision_certified": false,
+  "self_collision_certified": false,
+  "cases": [
+    {
+      "file": "Look1_Neutral.bin",
+      "sha256": "397d4c80730f0205a81e2bf69277503635cd61794c77cc26638d1c11941b55be",
+      "body": [
+        {
+          "samples": 49713,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look1_Posed.bin",
+      "sha256": "f77d712a19e7048d8fb2b2638d4c066468e204bf5f41fd629381dba9ba000382",
+      "body": [
+        {
+          "samples": 49713,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look1_Pulled.bin",
+      "sha256": "93f3287bab2cb04c4f85cdce6fff342a22d5aee56b99ec8b9f5afff214b1d7da",
+      "body": [
+        {
+          "samples": 49713,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look1_Recovered.bin",
+      "sha256": "2625a2d8fa370c738bf0fee6d6678b6a7d418288ae375d2a5ffdd2ddb5587de9",
+      "body": [
+        {
+          "samples": 49713,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look2_Neutral.bin",
+      "sha256": "ea2e3b722c324690ec25e56eb5d775e0afb9a66eff483a2cb838e0c265a8b70f",
+      "body": [
+        {
+          "samples": 50021,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look2_Posed.bin",
+      "sha256": "dbea27134983ac42d4e9fe0cad15cd042ce5ea9552f7e5213e73053bee6abba8",
+      "body": [
+        {
+          "samples": 50021,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look2_Pulled.bin",
+      "sha256": "562d201f8891b01b1048f76be267b45e38e336c3ec70686af65bbbe818be1c70",
+      "body": [
+        {
+          "samples": 50021,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look2_Recovered.bin",
+      "sha256": "5acfd2868d507dbc225e1d6402557d3c6d1e949fd1d2c8783651ecc2b03bd0da",
+      "body": [
+        {
+          "samples": 50021,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look3_Neutral.bin",
+      "sha256": "9087e2108674d3ceb612a28b33cf02b3b40eae76c45aa6b92a66ac705bc60eea",
+      "body": [
+        {
+          "samples": 28542,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look3_Posed.bin",
+      "sha256": "28f62f223fb32bf0f3a6980b69a05799c72250822cb4036034b2d1515d9baa8e",
+      "body": [
+        {
+          "samples": 28542,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look3_Pulled.bin",
+      "sha256": "90720f77d36ac1ebe56dfef14952d9e0f3b57b3aa82587d6a4d155f65932c8b4",
+      "body": [
+        {
+          "samples": 28542,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look3_Recovered.bin",
+      "sha256": "f420e3f4a3e9bd488683234b20cc3d2d183dbcf9a488221f0114f60ef209c1b9",
+      "body": [
+        {
+          "samples": 28542,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look4_Neutral.bin",
+      "sha256": "f1d9ee8debcf4d132bfee448e68f3deb2047a8e58aab0a23be8656cd5eee1098",
+      "body": [
+        {
+          "samples": 28520,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look4_Posed.bin",
+      "sha256": "1b3a0cc38a0ac6b23a0f779df579b4b7a2565559ceb61fefdb4d93ba6b449137",
+      "body": [
+        {
+          "samples": 28520,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look4_Pulled.bin",
+      "sha256": "72cdb141d957e687c7deb5f5e255c6d129925de64fa64293db4b0305232c865e",
+      "body": [
+        {
+          "samples": 28520,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look4_Recovered.bin",
+      "sha256": "6bc7dc9e7a9f053c720fb06dd0fab9c60e70d11a06ee11eaed1bff478de6c124",
+      "body": [
+        {
+          "samples": 28520,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look5_Neutral.bin",
+      "sha256": "dee32030965b6255dda44a89e18509d42562d6a0ef6d2830003846acd80047a3",
+      "body": [
+        {
+          "samples": 28234,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look5_Posed.bin",
+      "sha256": "f834166897bffd63c4bb3efa9acbbd56233f70a97830645eacfcb40a9689eaed",
+      "body": [
+        {
+          "samples": 28234,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look5_Pulled.bin",
+      "sha256": "b22397f434ed75990829d638e8244b8a934b5274b1616de37ba111e9983b2ef5",
+      "body": [
+        {
+          "samples": 28234,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look5_Recovered.bin",
+      "sha256": "63efdfc102e9365f987ab524248ed65d11c98bc70cdb8213d54829bfdb55785d",
+      "body": [
+        {
+          "samples": 28234,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    }
+  ]
+}

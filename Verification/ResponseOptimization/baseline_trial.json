@@ -1,0 +1,17 @@
+{
+    "status": "passed",
+    "scope": "Ivory female + red top hat; actual rendered frames/automatic physics, injected near-grip input; no physical HMD",
+    "checks": 17,
+    "exceptions": 0,
+    "shirtTravelM": 0.04998292028903961,
+    "shirtRecoveredM": 0.0019329232163727284,
+    "jointTravelM": 0.1199999451637268,
+    "hatExtensionM": 0.04999604821205139,
+    "hatCompressionM": 0.049992531538009647,
+    "hatDropM": 1.7649980783462525,
+    "twoHands": true,
+    "balancedForces": true,
+    "firstReleaseRetainsSecond": true,
+    "headDetach": true,
+    "gravity": true
+}

@@ -1,0 +1,33 @@
+{
+    "status": "passed",
+    "slowSteps": 3240,
+    "materialStressSteps": 3240,
+    "proxyViolations": 0,
+    "maxStretch": 1.3546568155288697,
+    "secondaryMaxM": 0.005483798682689667,
+    "averageClothMs": 19.49565545435821,
+    "maxClothMs": 29.966999053955079,
+    "bench": [
+        {
+            "material": "Lua nhe",
+            "massKg": 0.0735168308019638,
+            "windDeflectionM": 0.017353268340229989,
+            "maxStretch": 1.0711714029312134,
+            "finalSpeed": 0.010864601470530033
+        },
+        {
+            "material": "Cotton",
+            "massKg": 0.10939262807369232,
+            "windDeflectionM": 0.015469999052584172,
+            "maxStretch": 1.068394660949707,
+            "finalSpeed": 0.0034490916877985
+        },
+        {
+            "material": "Len co cau truc",
+            "massKg": 0.42218729853630068,
+            "windDeflectionM": 0.012899958528578282,
+            "maxStretch": 1.0629550218582154,
+            "finalSpeed": 0.0002000570675591007
+        }
+    ]
+}

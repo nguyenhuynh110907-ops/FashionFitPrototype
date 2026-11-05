@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "samples": 12,
+  "runtime_samples": 6,
+  "local_map_checks": 36,
+  "scope": "Data references and HTML construction; browser interaction checked separately"
+}

@@ -1,0 +1,92 @@
+{
+    "status": "passed",
+    "checks": 150,
+    "parts": 3,
+    "vertices": 15471,
+    "triangles": 28510,
+    "materialSlots": 5,
+    "identityMaxError": 0.0,
+    "changedShapeMaxError": 2.4028122425079348e-7,
+    "sourceUnchanged": true,
+    "changedShapeSampleGate": true,
+    "bodyMaskUsed": false,
+    "motionEnabled": false,
+    "trainedNetwork": false,
+    "transferSeconds": 0.8719846,
+    "identity": [
+        {
+            "vertices": 2624,
+            "triangles": 5120,
+            "submeshes": 1,
+            "contactSamples": 7744,
+            "localPenetrationSamples": 0,
+            "collapsedTriangles": 0,
+            "maxSourceDistance": 0.13513056933879853,
+            "maxDisplacement": 0.0,
+            "maxRelativeEdgeChange": 0.0,
+            "maxLocalPenetration": 0.0
+        },
+        {
+            "vertices": 7583,
+            "triangles": 13174,
+            "submeshes": 1,
+            "contactSamples": 20757,
+            "localPenetrationSamples": 0,
+            "collapsedTriangles": 0,
+            "maxSourceDistance": 0.03234391659498215,
+            "maxDisplacement": 0.0,
+            "maxRelativeEdgeChange": 0.0,
+            "maxLocalPenetration": 0.0007982466486282647
+        },
+        {
+            "vertices": 5264,
+            "triangles": 10216,
+            "submeshes": 3,
+            "contactSamples": 15480,
+            "localPenetrationSamples": 0,
+            "collapsedTriangles": 0,
+            "maxSourceDistance": 0.029718901962041856,
+            "maxDisplacement": 0.0,
+            "maxRelativeEdgeChange": 0.0,
+            "maxLocalPenetration": 0.0
+        }
+    ],
+    "changedShape": [
+        {
+            "vertices": 2624,
+            "triangles": 5120,
+            "submeshes": 1,
+            "contactSamples": 7744,
+            "localPenetrationSamples": 0,
+            "collapsedTriangles": 0,
+            "maxSourceDistance": 0.13246974349021913,
+            "maxDisplacement": 0.005160854663699865,
+            "maxRelativeEdgeChange": 0.020410139113664628,
+            "maxLocalPenetration": 0.0
+        },
+        {
+            "vertices": 7583,
+            "triangles": 13174,
+            "submeshes": 1,
+            "contactSamples": 20757,
+            "localPenetrationSamples": 0,
+            "collapsedTriangles": 0,
+            "maxSourceDistance": 0.03169889375567436,
+            "maxDisplacement": 0.005016612354665995,
+            "maxRelativeEdgeChange": 0.025137396529316903,
+            "maxLocalPenetration": 0.0007982320967130363
+        },
+        {
+            "vertices": 5264,
+            "triangles": 10216,
+            "submeshes": 3,
+            "contactSamples": 15480,
+            "localPenetrationSamples": 0,
+            "collapsedTriangles": 0,
+            "maxSourceDistance": 0.029473301023244859,
+            "maxDisplacement": 0.004045124165713787,
+            "maxRelativeEdgeChange": 0.02049514837563038,
+            "maxLocalPenetration": 0.0
+        }
+    ]
+}

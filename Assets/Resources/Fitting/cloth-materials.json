@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "measured_fields": [
+    "arealMass"
+  ],
+  "relative_reference_fields": [
+    "bendCompliance"
+  ],
+  "authored_fields": [
+    "stretchWarp",
+    "stretchWeft",
+    "shear",
+    "damping",
+    "friction",
+    "airDrag",
+    "roughness"
+  ],
+  "note": "Prototype calibration, not a garment-specific material identification or trained model.",
+  "profiles": [
+    {
+      "label": "Lua nhe",
+      "mit_fabric_id": 3,
+      "arealMass": 0.0669681276748178,
+      "bendCompliance": 8.0,
+      "damping": 0.8,
+      "friction": 0.18,
+      "roughness": 0.32,
+      "stretchWarp": 2e-05,
+      "stretchWeft": 3e-05,
+      "shear": 0.0004,
+      "airDrag": 1.2
+    },
+    {
+      "label": "Cotton",
+      "mit_fabric_id": 5,
+      "arealMass": 0.099648116935385,
+      "bendCompliance": 6.0,
+      "damping": 1.4,
+      "friction": 0.32,
+      "roughness": 0.72,
+      "stretchWarp": 2e-05,
+      "stretchWeft": 3e-05,
+      "shear": 0.0004,
+      "airDrag": 1.2
+    },
+    {
+      "label": "Len co cau truc",
+      "mit_fabric_id": 6,
+      "arealMass": 0.3845797726500147,
+      "bendCompliance": 1.5999999999999999,
+      "damping": 2.0,
+      "friction": 0.45,
+      "roughness": 0.86,
+      "stretchWarp": 2e-05,
+      "stretchWeft": 3e-05,
+      "shear": 0.0004,
+      "airDrag": 1.2
+    }
+  ]
+}

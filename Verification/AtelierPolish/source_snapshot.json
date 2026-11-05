@@ -1,0 +1,112 @@
+﻿[
+    {
+        "path":  "Assets/FashionFit/Runtime/RunwayShowroom.cs",
+        "sha256":  "20F588283EFF180EE65695A048781AD1A40097CD5EB1F013EDE381373A75EA09",
+        "isolatedCopyMatches":  true
+    },
+    {
+        "path":  "Assets/FashionFit/Runtime/RunwayVRPanel.cs",
+        "sha256":  "D2E0CBF27891008BA665E15BDE56B584D7E70C128FCC3D2AEA28A22D9F764D8F",
+        "isolatedCopyMatches":  true
+    },
+    {
+        "path":  "Assets/FashionFit/Runtime/RunwayVRButton.cs",
+        "sha256":  "A8324A75A141FA30DE5E81FE3EC66B20EC85FCD002373CE980999EFB266271E7",
+        "isolatedCopyMatches":  true
+    },
+    {
+        "path":  "Assets/FashionFit/Runtime/RunwayPlayer.cs",
+        "sha256":  "409EBDAE29E637767D9740E6A3D60B4D191C40071EBB473FFED9BBB52341794F",
+        "isolatedCopyMatches":  true
+    },
+    {
+        "path":  "Assets/FashionFit/Runtime/RunwayUI.cs",
+        "sha256":  "C78329B3C01A516AC9EE8895D930DF785C79D9D81DF3ADD636C6DEC61F2AD345",
+        "isolatedCopyMatches":  true
+    },
+    {
+        "path":  "Assets/FashionFit/Runtime/RunwayPickup.cs",
+        "sha256":  "70EDA7E21789ADE4819D9AEF117D39ECC68D8EFC9C62D0CDA8FF233A23E74B47",
+        "isolatedCopyMatches":  true
+    },
+    {
+        "path":  "Assets/FashionFit/Runtime/RunwayVRGrabTarget.cs",
+        "sha256":  "328FADF3C62A9A1D6EC287524C56B3035375B2161A7F56F367CCA2BB115A93E7",
+        "isolatedCopyMatches":  true
+    },
+    {
+        "path":  "Assets/FashionFit/Runtime/FashionFitApp.cs",
+        "sha256":  "65296CD10998F317CFF8A58656A2D2DCA6B9D6D2406B982228C4A9ABEF489630",
+        "isolatedCopyMatches":  true
+    },
+    {
+        "path":  "Assets/FashionFit/Runtime/ShowroomPreviewCatalog.cs",
+        "sha256":  "B5D90115C973AF9FA8A05B33414E56EA250D705CE8A5DA3CD2FA26BCCE70577F",
+        "isolatedCopyMatches":  true
+    },
+    {
+        "path":  "Assets/FashionFit/Editor/WardrobePreviewBaker.cs",
+        "sha256":  "3E9377FC704AE5851021E923F6A58016E08E68127DC238A862380140DDD9F2BE",
+        "isolatedCopyMatches":  true
+    },
+    {
+        "path":  "Assets/FashionFit/Editor/AtelierPolishVerification.cs",
+        "sha256":  "6E33493E8E36FE28E4CE15EDF76D8CF7869366977AA03CE890ACAEE0FDDFDBC1",
+        "isolatedCopyMatches":  true
+    },
+    {
+        "path":  "Assets/FashionFit/Editor/VRLocomotionVerification.cs",
+        "sha256":  "BB9AD0982584DC2C55390A0965DEC8CA48F7AB9D606D658F0437C4139FF4F3A2",
+        "isolatedCopyMatches":  true
+    },
+    {
+        "path":  "Assets/FashionFit/Editor/ShowroomVerification.cs",
+        "sha256":  "1D8AD1A1F9ECAB4323FD062893505BC29FC18A109D7C7F0923C6F7D756586F4D",
+        "isolatedCopyMatches":  true
+    },
+    {
+        "path":  "Assets/Resources/Runway/VRPanel.shader",
+        "sha256":  "235EF65FDF044FB910F2AAE68AEF24DDD5A9DF08DB38701B7C16A4B5E9F3F180",
+        "isolatedCopyMatches":  true
+    },
+    {
+        "path":  "Assets/Resources/Runway/WorldText.shader",
+        "sha256":  "81D0F37D4DD0AEEE2F6BD7A36C8BCE133C6BBF9D0CDBAEC5B3BF351BC91470C1",
+        "isolatedCopyMatches":  true
+    },
+    {
+        "path":  "Assets/Resources/Showroom/preview-catalog.json",
+        "sha256":  "C27A673833D4FCD6AB3B4742752F0F583A19CD0DAD1A8C7FFD3125BF81372205",
+        "isolatedCopyMatches":  true
+    },
+    {
+        "path":  "Assets/Resources/Showroom/Look01.asset",
+        "sha256":  "AF58486F7ECC99B40E0A61A123B3D41E33996E86454F9A2044091A85DCFB8090",
+        "isolatedCopyMatches":  true
+    },
+    {
+        "path":  "Assets/Resources/Showroom/Look02.asset",
+        "sha256":  "D0AE53FB2856685C423F9B0F3BC68D8A0E65C38C0E98A20C8167DFFBD69C3F70",
+        "isolatedCopyMatches":  true
+    },
+    {
+        "path":  "Assets/Resources/Showroom/Look03.asset",
+        "sha256":  "D7010E49B8FE2D40AC9A99BA6C363C81CC007CBBE67FC9815C9C8FC56934ECFB",
+        "isolatedCopyMatches":  true
+    },
+    {
+        "path":  "Assets/Resources/Showroom/Look04.asset",
+        "sha256":  "024D6DB26258E1989CF053F6E9F70EA6B70F7AA39AC782F8B8B5F03B4A9D8C4C",
+        "isolatedCopyMatches":  true
+    },
+    {
+        "path":  "Assets/Resources/Showroom/Look05.asset",
+        "sha256":  "570644BE91E17D234EBC9A3B5E87B4097E8F2A87804ECFE3DECF910598861D90",
+        "isolatedCopyMatches":  true
+    },
+    {
+        "path":  "Assets/Resources/Showroom/Look06.asset",
+        "sha256":  "992E07C1C332C80D97369CFC6C555E2D886A5282E5F5F6CB94A98612C334E12C",
+        "isolatedCopyMatches":  true
+    }
+]

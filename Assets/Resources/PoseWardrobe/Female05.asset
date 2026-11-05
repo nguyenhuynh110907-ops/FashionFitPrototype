@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aab14be8e727f344b3fdb97c9788bc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  look: 5
+  label: "Ivory Set / pose n\u1EEF"
+  mesh: {fileID: 4300000, guid: caf87c9be9f0ca54ea0b1d34796d8205, type: 2}
+  materials:
+  - {fileID: 2100000, guid: 1d85a97aecf7827439a5f692fdc6c8d3, type: 2}
+  - {fileID: 2100000, guid: 8c7b12ce67a75c3429e386746fe7535e, type: 2}

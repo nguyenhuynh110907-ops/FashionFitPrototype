@@ -1,0 +1,602 @@
+[
+  {
+    "id": "MW001",
+    "candidate_id": "001",
+    "group": "G001",
+    "split": "train"
+  },
+  {
+    "id": "MW002",
+    "candidate_id": "002",
+    "group": "G002",
+    "split": "validation"
+  },
+  {
+    "id": "MW003",
+    "candidate_id": "003",
+    "group": "G003",
+    "split": "train"
+  },
+  {
+    "id": "MW004",
+    "candidate_id": "004",
+    "group": "G004",
+    "split": "train"
+  },
+  {
+    "id": "MW005",
+    "candidate_id": "005",
+    "group": "G005",
+    "split": "train"
+  },
+  {
+    "id": "MW006",
+    "candidate_id": "006",
+    "group": "G005",
+    "split": "train"
+  },
+  {
+    "id": "MW007",
+    "candidate_id": "007",
+    "group": "G005",
+    "split": "train"
+  },
+  {
+    "id": "MW008",
+    "candidate_id": "009",
+    "group": "G006",
+    "split": "validation"
+  },
+  {
+    "id": "MW009",
+    "candidate_id": "010",
+    "group": "G007",
+    "split": "train"
+  },
+  {
+    "id": "MW010",
+    "candidate_id": "011",
+    "group": "G008",
+    "split": "train"
+  },
+  {
+    "id": "MW011",
+    "candidate_id": "012",
+    "group": "G009",
+    "split": "validation"
+  },
+  {
+    "id": "MW012",
+    "candidate_id": "013",
+    "group": "G010",
+    "split": "train"
+  },
+  {
+    "id": "MW013",
+    "candidate_id": "014",
+    "group": "G011",
+    "split": "test"
+  },
+  {
+    "id": "MW014",
+    "candidate_id": "016",
+    "group": "G012",
+    "split": "train"
+  },
+  {
+    "id": "MW015",
+    "candidate_id": "017",
+    "group": "G013",
+    "split": "train"
+  },
+  {
+    "id": "MW016",
+    "candidate_id": "018",
+    "group": "G014",
+    "split": "test"
+  },
+  {
+    "id": "MW017",
+    "candidate_id": "019",
+    "group": "G015",
+    "split": "train"
+  },
+  {
+    "id": "MW018",
+    "candidate_id": "021",
+    "group": "G016",
+    "split": "validation"
+  },
+  {
+    "id": "MW019",
+    "candidate_id": "022",
+    "group": "G017",
+    "split": "train"
+  },
+  {
+    "id": "MW020",
+    "candidate_id": "023",
+    "group": "G018",
+    "split": "train"
+  },
+  {
+    "id": "MW021",
+    "candidate_id": "024",
+    "group": "G019",
+    "split": "validation"
+  },
+  {
+    "id": "MW022",
+    "candidate_id": "025",
+    "group": "G020",
+    "split": "validation"
+  },
+  {
+    "id": "MW023",
+    "candidate_id": "026",
+    "group": "G021",
+    "split": "train"
+  },
+  {
+    "id": "MW024",
+    "candidate_id": "027",
+    "group": "G022",
+    "split": "test"
+  },
+  {
+    "id": "MW025",
+    "candidate_id": "028",
+    "group": "G023",
+    "split": "train"
+  },
+  {
+    "id": "MW026",
+    "candidate_id": "029",
+    "group": "G024",
+    "split": "train"
+  },
+  {
+    "id": "MW027",
+    "candidate_id": "031",
+    "group": "G025",
+    "split": "train"
+  },
+  {
+    "id": "MW028",
+    "candidate_id": "032",
+    "group": "G026",
+    "split": "train"
+  },
+  {
+    "id": "MW029",
+    "candidate_id": "034",
+    "group": "G027",
+    "split": "train"
+  },
+  {
+    "id": "MW030",
+    "candidate_id": "035",
+    "group": "G028",
+    "split": "train"
+  },
+  {
+    "id": "MW031",
+    "candidate_id": "036",
+    "group": "G019",
+    "split": "validation"
+  },
+  {
+    "id": "MW032",
+    "candidate_id": "037",
+    "group": "G014",
+    "split": "test"
+  },
+  {
+    "id": "MW033",
+    "candidate_id": "038",
+    "group": "G029",
+    "split": "train"
+  },
+  {
+    "id": "MW034",
+    "candidate_id": "039",
+    "group": "G030",
+    "split": "train"
+  },
+  {
+    "id": "MW035",
+    "candidate_id": "040",
+    "group": "G031",
+    "split": "test"
+  },
+  {
+    "id": "MW036",
+    "candidate_id": "041",
+    "group": "G022",
+    "split": "test"
+  },
+  {
+    "id": "MW037",
+    "candidate_id": "042",
+    "group": "G029",
+    "split": "train"
+  },
+  {
+    "id": "MW038",
+    "candidate_id": "043",
+    "group": "G032",
+    "split": "train"
+  },
+  {
+    "id": "MW039",
+    "candidate_id": "044",
+    "group": "G033",
+    "split": "test"
+  },
+  {
+    "id": "MW040",
+    "candidate_id": "045",
+    "group": "G013",
+    "split": "train"
+  },
+  {
+    "id": "MW041",
+    "candidate_id": "047",
+    "group": "G034",
+    "split": "train"
+  },
+  {
+    "id": "MW042",
+    "candidate_id": "048",
+    "group": "G035",
+    "split": "validation"
+  },
+  {
+    "id": "MW043",
+    "candidate_id": "049",
+    "group": "G036",
+    "split": "validation"
+  },
+  {
+    "id": "MW044",
+    "candidate_id": "050",
+    "group": "G037",
+    "split": "train"
+  },
+  {
+    "id": "MW045",
+    "candidate_id": "054",
+    "group": "G038",
+    "split": "train"
+  },
+  {
+    "id": "MW046",
+    "candidate_id": "056",
+    "group": "G039",
+    "split": "test"
+  },
+  {
+    "id": "MW047",
+    "candidate_id": "059",
+    "group": "G040",
+    "split": "train"
+  },
+  {
+    "id": "MW048",
+    "candidate_id": "061",
+    "group": "G041",
+    "split": "validation"
+  },
+  {
+    "id": "MW049",
+    "candidate_id": "062",
+    "group": "G042",
+    "split": "train"
+  },
+  {
+    "id": "MW050",
+    "candidate_id": "063",
+    "group": "G043",
+    "split": "train"
+  },
+  {
+    "id": "MW051",
+    "candidate_id": "064",
+    "group": "G044",
+    "split": "train"
+  },
+  {
+    "id": "MW052",
+    "candidate_id": "067",
+    "group": "G045",
+    "split": "test"
+  },
+  {
+    "id": "MW053",
+    "candidate_id": "068",
+    "group": "G046",
+    "split": "test"
+  },
+  {
+    "id": "MW054",
+    "candidate_id": "070",
+    "group": "G047",
+    "split": "test"
+  },
+  {
+    "id": "MW055",
+    "candidate_id": "071",
+    "group": "G048",
+    "split": "test"
+  },
+  {
+    "id": "MW056",
+    "candidate_id": "072",
+    "group": "G049",
+    "split": "train"
+  },
+  {
+    "id": "MW057",
+    "candidate_id": "075",
+    "group": "G050",
+    "split": "train"
+  },
+  {
+    "id": "MW058",
+    "candidate_id": "076",
+    "group": "G046",
+    "split": "test"
+  },
+  {
+    "id": "MW059",
+    "candidate_id": "077",
+    "group": "G051",
+    "split": "train"
+  },
+  {
+    "id": "MW060",
+    "candidate_id": "078",
+    "group": "G052",
+    "split": "train"
+  },
+  {
+    "id": "MW061",
+    "candidate_id": "079",
+    "group": "G053",
+    "split": "train"
+  },
+  {
+    "id": "MW062",
+    "candidate_id": "081",
+    "group": "G052",
+    "split": "train"
+  },
+  {
+    "id": "MW063",
+    "candidate_id": "082",
+    "group": "G054",
+    "split": "train"
+  },
+  {
+    "id": "MW064",
+    "candidate_id": "086",
+    "group": "G053",
+    "split": "train"
+  },
+  {
+    "id": "MW065",
+    "candidate_id": "087",
+    "group": "G055",
+    "split": "train"
+  },
+  {
+    "id": "MW066",
+    "candidate_id": "091",
+    "group": "G056",
+    "split": "validation"
+  },
+  {
+    "id": "MW067",
+    "candidate_id": "094",
+    "group": "G044",
+    "split": "train"
+  },
+  {
+    "id": "MW068",
+    "candidate_id": "096",
+    "group": "G057",
+    "split": "validation"
+  },
+  {
+    "id": "MW069",
+    "candidate_id": "097",
+    "group": "G058",
+    "split": "test"
+  },
+  {
+    "id": "MW070",
+    "candidate_id": "098",
+    "group": "G044",
+    "split": "train"
+  },
+  {
+    "id": "MW071",
+    "candidate_id": "099",
+    "group": "G059",
+    "split": "test"
+  },
+  {
+    "id": "MW072",
+    "candidate_id": "100",
+    "group": "G060",
+    "split": "train"
+  },
+  {
+    "id": "MW073",
+    "candidate_id": "101",
+    "group": "G061",
+    "split": "test"
+  },
+  {
+    "id": "MW074",
+    "candidate_id": "102",
+    "group": "G062",
+    "split": "test"
+  },
+  {
+    "id": "MW075",
+    "candidate_id": "105",
+    "group": "G063",
+    "split": "test"
+  },
+  {
+    "id": "MW076",
+    "candidate_id": "106",
+    "group": "G064",
+    "split": "train"
+  },
+  {
+    "id": "MW077",
+    "candidate_id": "108",
+    "group": "G065",
+    "split": "train"
+  },
+  {
+    "id": "MW078",
+    "candidate_id": "110",
+    "group": "G066",
+    "split": "test"
+  },
+  {
+    "id": "MW079",
+    "candidate_id": "111",
+    "group": "G067",
+    "split": "train"
+  },
+  {
+    "id": "MW080",
+    "candidate_id": "112",
+    "group": "G068",
+    "split": "train"
+  },
+  {
+    "id": "MW081",
+    "candidate_id": "116",
+    "group": "G069",
+    "split": "train"
+  },
+  {
+    "id": "MW082",
+    "candidate_id": "117",
+    "group": "G070",
+    "split": "test"
+  },
+  {
+    "id": "MW083",
+    "candidate_id": "120",
+    "group": "G071",
+    "split": "train"
+  },
+  {
+    "id": "MW084",
+    "candidate_id": "123",
+    "group": "G072",
+    "split": "validation"
+  },
+  {
+    "id": "MW085",
+    "candidate_id": "124",
+    "group": "G073",
+    "split": "validation"
+  },
+  {
+    "id": "MW086",
+    "candidate_id": "131",
+    "group": "G074",
+    "split": "train"
+  },
+  {
+    "id": "MW087",
+    "candidate_id": "136",
+    "group": "G075",
+    "split": "train"
+  },
+  {
+    "id": "MW088",
+    "candidate_id": "137",
+    "group": "G076",
+    "split": "train"
+  },
+  {
+    "id": "MW089",
+    "candidate_id": "139",
+    "group": "G077",
+    "split": "validation"
+  },
+  {
+    "id": "MW090",
+    "candidate_id": "140",
+    "group": "G078",
+    "split": "train"
+  },
+  {
+    "id": "MW091",
+    "candidate_id": "141",
+    "group": "G079",
+    "split": "train"
+  },
+  {
+    "id": "MW092",
+    "candidate_id": "144",
+    "group": "G080",
+    "split": "train"
+  },
+  {
+    "id": "MW093",
+    "candidate_id": "146",
+    "group": "G081",
+    "split": "validation"
+  },
+  {
+    "id": "MW094",
+    "candidate_id": "147",
+    "group": "G082",
+    "split": "train"
+  },
+  {
+    "id": "MW095",
+    "candidate_id": "148",
+    "group": "G083",
+    "split": "train"
+  },
+  {
+    "id": "MW096",
+    "candidate_id": "153",
+    "group": "G084",
+    "split": "validation"
+  },
+  {
+    "id": "MW097",
+    "candidate_id": "166",
+    "group": "G085",
+    "split": "validation"
+  },
+  {
+    "id": "MW098",
+    "candidate_id": "171",
+    "group": "G086",
+    "split": "train"
+  },
+  {
+    "id": "MW099",
+    "candidate_id": "178",
+    "group": "G087",
+    "split": "validation"
+  },
+  {
+    "id": "MW100",
+    "candidate_id": "193",
+    "group": "G085",
+    "split": "validation"
+  }
+]

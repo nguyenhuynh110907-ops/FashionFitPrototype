@@ -1,0 +1,165 @@
+{
+  "status": "passed",
+  "method": "libigl exact triangle distance with Embree global ray-parity inside classification; closest-face normal sign is not used; vertices, face centroids and three samples per unique edge",
+  "threshold_mm": 1,
+  "body_mask_used": false,
+  "stationary_only": false,
+  "continuous_contact_certified": false,
+  "garment_self_collision_checked": false,
+  "cases": [
+    {
+      "file": "Closed.bin",
+      "sha256": "cd4c62f6de2905949f2bff28698e8ebe22c70259c5fecacef23805b5a9041204",
+      "unique_surface_samples": 7343,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "deepest_point_m": [
+        -0.2625422775745392,
+        1.2502435445785522,
+        0.03321833536028862
+      ],
+      "positive_inside_control_mm": 25.415794685254024,
+      "full_body_watertight": true
+    },
+    {
+      "file": "Floor.bin",
+      "sha256": "2da2ae0f2a30f876f7466cc8eb6f8e96b68bea756f34bac72aecfcea4989f18a",
+      "unique_surface_samples": 7343,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "deepest_point_m": [
+        -0.20055660605430603,
+        0.00800000037997961,
+        0.5694254040718079
+      ],
+      "positive_inside_control_mm": 25.415794685254024,
+      "full_body_watertight": true
+    },
+    {
+      "file": "Held.bin",
+      "sha256": "c376f6f8af60cbf41d9dad6c5fa674309d3d44e7b3a9b438d4a69c5289c752bc",
+      "unique_surface_samples": 7343,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "deepest_point_m": [
+        -0.2499525547027588,
+        0.47849395871162415,
+        0.5727782249450684
+      ],
+      "positive_inside_control_mm": 25.415794685254024,
+      "full_body_watertight": true
+    },
+    {
+      "file": "Pull_000.bin",
+      "sha256": "4858580a5710c46cc81fc645a6418d8b9893a0aa4ad579691e0242b9cb0d40df",
+      "unique_surface_samples": 7343,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "deepest_point_m": [
+        -0.2624874413013458,
+        1.2502158880233765,
+        0.033257294446229935
+      ],
+      "positive_inside_control_mm": 25.415794685254024,
+      "full_body_watertight": true
+    },
+    {
+      "file": "Pull_090.bin",
+      "sha256": "29fb7bc03d3b72bbc513eec592187c505905879d0fcf384f8071509bbb7c8b3d",
+      "unique_surface_samples": 7343,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "deepest_point_m": [
+        -0.26786547899246216,
+        1.2159817218780518,
+        0.01946738176047802
+      ],
+      "positive_inside_control_mm": 25.415794685254024,
+      "full_body_watertight": true
+    },
+    {
+      "file": "Pull_180.bin",
+      "sha256": "7c977f269dbfd313a1f7518d420ebcf05032068a635f92f89a2d35078b05ee9a",
+      "unique_surface_samples": 7343,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "deepest_point_m": [
+        -0.2726343274116516,
+        1.2970589399337769,
+        -0.014304916374385357
+      ],
+      "positive_inside_control_mm": 25.415794685254024,
+      "full_body_watertight": true
+    },
+    {
+      "file": "Pull_270.bin",
+      "sha256": "893a3328405418eb1f225ac24279253cdf56c445bf4a9e7257201b304cdaeb8d",
+      "unique_surface_samples": 7343,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "deepest_point_m": [
+        -0.26680031418800354,
+        0.6696259379386902,
+        0.23848919570446014
+      ],
+      "positive_inside_control_mm": 25.415794685254024,
+      "full_body_watertight": true
+    },
+    {
+      "file": "Pull_360.bin",
+      "sha256": "80b4a08fb28717a4c8be2f23a770fc441a9186317b934058c888e6c77407f06c",
+      "unique_surface_samples": 7343,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "deepest_point_m": [
+        -0.26403430104255676,
+        0.4597629904747009,
+        0.2639409005641937
+      ],
+      "positive_inside_control_mm": 25.415794685254024,
+      "full_body_watertight": true
+    },
+    {
+      "file": "Pull_450.bin",
+      "sha256": "f56fd1b933e784926e48befc005fab64348e54a548456b839e6dd2f05b46d5cf",
+      "unique_surface_samples": 7343,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "deepest_point_m": [
+        -0.2493843138217926,
+        0.45028209686279297,
+        0.3378027081489563
+      ],
+      "positive_inside_control_mm": 25.415794685254024,
+      "full_body_watertight": true
+    },
+    {
+      "file": "Pull_540.bin",
+      "sha256": "b025158c49562aaafd822507d8152cfcd8df2cdf7af94206d3b526d890d0f96f",
+      "unique_surface_samples": 7343,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "deepest_point_m": [
+        -0.2507551312446594,
+        0.44521743059158325,
+        0.4742191731929779
+      ],
+      "positive_inside_control_mm": 25.415794685254024,
+      "full_body_watertight": true
+    },
+    {
+      "file": "Pull_630.bin",
+      "sha256": "86be95027106b029fa40d0d753af18b101fc9b889f00f1d8cef92242fe208b68",
+      "unique_surface_samples": 7343,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "deepest_point_m": [
+        -0.2504713237285614,
+        0.4561552405357361,
+        0.5505853295326233
+      ],
+      "positive_inside_control_mm": 25.415794685254024,
+      "full_body_watertight": true
+    }
+  ]
+}

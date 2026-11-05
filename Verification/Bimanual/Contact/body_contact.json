@@ -1,0 +1,350 @@
+{
+  "status": "passed",
+  "scope": "Referenced render vertices and triangle centroids versus unmasked posed body; libigl exact triangle distance with trimesh closest-face sign and Embree ray fallback; not continuous CCD",
+  "threshold_mm": 1,
+  "masked_body_used": false,
+  "continuous_contact_certified": false,
+  "reference_threshold_agrees": false,
+  "reference_max_depth_difference_mm": null,
+  "poses": [
+    {
+      "pose": "Look1_OneHand",
+      "samples": 7744,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "0d246c7225cf733b83f1cfbaf2e2a0dc7fb0edd36771de82478e4691af5bf923"
+    },
+    {
+      "pose": "Look1_Settled",
+      "samples": 7744,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "9bb0946fb6ed728be79942d6563317f07a94f4c3e9974454d24c3837acca9714"
+    },
+    {
+      "pose": "Look1_TwoHands",
+      "samples": 7744,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "a06b15c48aed459072d3bfb14cb3839df9461967922bb2a6ed107cc46f5780f5"
+    },
+    {
+      "pose": "Look2_OneHand",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "e2b2de06912a69cbbfb053413f6bd39aaed30d0c42a798d112dde464bafeb748"
+    },
+    {
+      "pose": "Look2_Settled",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "a0d1e6d73831bb060c4625ef495caccd4da16a77054fd9b6535d6445855d16a7"
+    },
+    {
+      "pose": "Look2_TwoHands",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "02f1d98691c168587aa27bca32f2c7993f8dc1a393539de0d70ab14be04751e9"
+    },
+    {
+      "pose": "Look3_OneHand",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "e8f10c85aed3a55e311dceba1fb51feba68f509aae767449f9031f888bdd665a"
+    },
+    {
+      "pose": "Look3_Settled",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "91cd582a698a82a0bd710d97b51ec78b296e1df52329c2e4d5b83f2f0a6e9f49"
+    },
+    {
+      "pose": "Look3_TwoHands",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "065a70fb574c49c096449237d81b58284a9f63271665757e9df1cac34de09ffc"
+    },
+    {
+      "pose": "Look4_OneHand",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "a1818a6e07486dc846e127a43e46257f4dfed0d2ecb8604644ae08a8cc70a292"
+    },
+    {
+      "pose": "Look4_Settled",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "8ed7c0d400c1f771fd7225f7769acb96178ff01c3b5b3a8482fda53f57b0c2a7"
+    },
+    {
+      "pose": "Look4_TwoHands",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "232bf024137fa91622480283a48f313908b57fde26b72bdc26924c7c89e2c40b"
+    },
+    {
+      "pose": "Look5_OneHand",
+      "samples": 11586,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "d1260359ec15e96485f1267277b78810faf55d231f9ce25b2ec4a33c88add563"
+    },
+    {
+      "pose": "Look5_Settled",
+      "samples": 11586,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "45fc032ad4df27df41ce5a8522842561801444e6f836a5d1d554bcadce66e50a"
+    },
+    {
+      "pose": "Look5_TwoHands",
+      "samples": 11586,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "a6802bf791b10d77d546655aebe87b92407e47ce8a285237e860e504deb7d7ec"
+    },
+    {
+      "pose": "Look6_OneHand",
+      "samples": 43981,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.7982481009924726,
+      "interior_unique_samples": 42,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        -0.18242014944553375,
+        1.3156163692474365,
+        0.07256610691547394
+      ],
+      "source_mesh_sha256": "5a946bd4c937e9f63a42f6a9ec7fe345c578b209dc4ef65c16376cd8f69b4cb7"
+    },
+    {
+      "pose": "Look6_Settled",
+      "samples": 43981,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.7982481009924726,
+      "interior_unique_samples": 42,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        -0.18242014944553375,
+        1.3156163692474365,
+        0.07256610691547394
+      ],
+      "source_mesh_sha256": "ad000fa6d1c840d5bcfda987eed39c32662f4adf325e7514b2fcd4fb78c365ff"
+    },
+    {
+      "pose": "Look6_TwoHands",
+      "samples": 43981,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.7982481009924726,
+      "interior_unique_samples": 42,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        -0.18242014944553375,
+        1.3156163692474365,
+        0.07256610691547394
+      ],
+      "source_mesh_sha256": "1f99c70f40c449840cec973d280777454600f077fa13d2e32354d147d5787455"
+    },
+    {
+      "pose": "Look7_OneHand",
+      "samples": 11586,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "bcd43675b40cf98c4896811b91dccf86a780b1e4d4a84bb93afcea9588de71c9"
+    },
+    {
+      "pose": "Look7_Settled",
+      "samples": 11586,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "08594f565b7d66ee4390cafca234834f101cfeb7f77563d3d2278c91cdd1eddf"
+    },
+    {
+      "pose": "Look7_TwoHands",
+      "samples": 11586,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "6442e6d502cbf485bc55925ef2b28b907f266a4ab3d330647a3939b2a2512923"
+    }
+  ],
+  "samples": 320883,
+  "samples_inside_over_1mm": 0,
+  "max_sampled_penetration_mm": 0.7982481009924726
+}

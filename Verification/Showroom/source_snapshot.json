@@ -1,0 +1,46 @@
+{
+  "Assets/FashionFit/Runtime/FashionFitApp.cs": {
+    "sha256": "6f7fbd7e4d7b0a7ad90dd591ea0ad66ab99b92fdfc71bb14e83d81b6fc997ad0",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/RunwayPlayer.cs": {
+    "sha256": "14a03cdef16a13d37e88375a6ce6f78ef25c2ce5a61fefb1a2e20ab8dab62d2b",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/RunwayUI.cs": {
+    "sha256": "c110ca9c78ced08b4867837a25c30dcedd6fe62ca97a0dc7717e48feb3a34e9d",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/RunwayVRGrabTarget.cs": {
+    "sha256": "1c345e348118cf5c365f266340c9f7d141190de83c6d26e10cb7ff60040b28e2",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/RunwayPickup.cs": {
+    "sha256": "1c5a1e42d30e25a54f6683ac06f8ca8e31cac0b353a735be8c64dd18b3ec7e56",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/RunwayShowroom.cs": {
+    "sha256": "c1293d6191eac9f809bdd562a177b8a71c29215674e34bc849d164960f5316d4",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Editor/ShowroomVerification.cs": {
+    "sha256": "857c6b606baa878824ef0d71c773d17ec15ff94e1e24f325bb2ad1db7c1c7c5a",
+    "matches_test_project": true
+  },
+  "Assets/Resources/Fitting/female-mesh.bytes": {
+    "sha256": "1483998b04e614cb9541099f5a39964e6f141c70e539de87082dd774fc342b58",
+    "matches_test_project": true
+  },
+  "Assets/Resources/Fitting/polo-contact-fit.json": {
+    "sha256": "fabf5e633aeff0ba0f379818c02ce3c2920ce3eb49e984eed9fbdfda13f1a41d",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/FittingClothSolver.cs": {
+    "sha256": "42d3c3c2113ce5bc54342db853387403c42bbea354acc67f41f09ae9fe197344",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/TailoredSurfaceDynamics.cs": {
+    "sha256": "3d708fff1419da73b06f8afcb3063792cde825dd4d70a95dbb0d7c09179ef00b",
+    "matches_test_project": true
+  }
+}

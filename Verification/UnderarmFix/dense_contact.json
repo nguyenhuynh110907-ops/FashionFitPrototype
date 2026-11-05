@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "scope": "Changed armpit triangles: barycentric quarter-step grid plus centroid; three posed full-body meshes; not continuous CCD",
+  "poses": [
+    {
+      "pose": "Look6_Standing",
+      "body_vertices": 53514,
+      "masked_body_used": false,
+      "faces": 1015,
+      "samples": 9475,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.6180749877567009,
+      "sha256": "bef021eaf4141babe95e05e3feebb51c7af19634c7611b85dff2238627bbcc65"
+    },
+    {
+      "pose": "Look6_WalkingA",
+      "body_vertices": 53514,
+      "masked_body_used": false,
+      "faces": 1015,
+      "samples": 9468,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.6180744049477934,
+      "sha256": "60e0620a74f5fa9d114395744bdbe4b1bf566ec88d6e17d1c5f7e3b819f4f905"
+    },
+    {
+      "pose": "Look6_WalkingB",
+      "body_vertices": 53514,
+      "masked_body_used": false,
+      "faces": 1015,
+      "samples": 9475,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.6180749874607988,
+      "sha256": "9504e8806898a8ceb666411983dfd6a925eeb52719304050145d9f94390a7f3c"
+    }
+  ],
+  "samples": 28418,
+  "samples_inside_over_1mm": 0,
+  "max_sampled_penetration_mm": 0.6180749877567009,
+  "topology_uv_weights_unchanged": true,
+  "body_unchanged": true
+}

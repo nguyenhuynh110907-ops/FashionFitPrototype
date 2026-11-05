@@ -1,0 +1,32 @@
+{
+    "schema_version": 1,
+    "request_id": "0cc45b2524ca4892bf3aac514f87b344",
+    "image_sha256": "b0ccb86f1407e477cb3ebc3b3c9e2f79c36da16c85d039a957add9c54d5169e5",
+    "predicted_pattern": "geometric pattern",
+    "scores": [
+        {
+            "pattern": "geometric pattern",
+            "softmax_score": 0.46900105476379397
+        },
+        {
+            "pattern": "checkered pattern",
+            "softmax_score": 0.1916230320930481
+        },
+        {
+            "pattern": "dots pattern",
+            "softmax_score": 0.12173142284154892
+        },
+        {
+            "pattern": "floral/plant pattern",
+            "softmax_score": 0.08143513649702072
+        },
+        {
+            "pattern": "striped pattern",
+            "softmax_score": 0.0697394385933876
+        },
+        {
+            "pattern": "plaid pattern",
+            "softmax_score": 0.0664699375629425
+        }
+    ]
+}

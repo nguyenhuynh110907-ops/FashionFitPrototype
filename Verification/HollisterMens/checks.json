@@ -1,0 +1,50 @@
+[
+  {
+    "check": "MensReferenceBaker_RunBatch",
+    "exit_code": 0
+  },
+  {
+    "check": "MensCollectionVerification_RunBatch",
+    "exit_code": 0
+  },
+  {
+    "check": "PoseBalanceVerification_RunBatch",
+    "exit_code": 0
+  },
+  {
+    "check": "VRReadyVerification_RunBatch",
+    "exit_code": 0
+  },
+  {
+    "check": "BimanualVerification_RunBatch",
+    "exit_code": 0
+  },
+  {
+    "check": "mens_contact",
+    "exit_code": 0
+  },
+  {
+    "check": "build",
+    "exit_code": 0
+  },
+  {
+    "check": "mens_player",
+    "exit_code": 0
+  },
+  {
+    "check": "mens_player_contact",
+    "exit_code": 0
+  },
+  {
+    "check": "pose_balance_player",
+    "exit_code": 0
+  },
+  {
+    "check": "automatic_layer_player",
+    "exit_code": 0
+  },
+  {
+    "check": "automatic_layer_contact",
+    "exit_code": 0
+  }
+]

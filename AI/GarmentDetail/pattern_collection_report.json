@@ -1,0 +1,23 @@
+{
+  "images": 1245,
+  "eligible_images": 1003,
+  "held_images": 242,
+  "eligible_categories": {
+    "striped pattern": 179,
+    "dots pattern": 58,
+    "checkered pattern": 52,
+    "plaid pattern": 113,
+    "floral/plant pattern": 472,
+    "geometric pattern": 129
+  },
+  "rights_counts": {
+    "unknown": 233,
+    "http://creativecommons.org/licenses/by/4.0/": 199,
+    "http://creativecommons.org/publicdomain/mark/1.0/": 44,
+    "http://creativecommons.org/publicdomain/zero/1.0/": 767,
+    "http://creativecommons.org/licenses/by-nc-nd/4.0/": 2
+  },
+  "compressed_image_archive_bytes": 30569733,
+  "source_record": "https://zenodo.org/records/11409357",
+  "geometry_pairs": 0
+}

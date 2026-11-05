@@ -1,0 +1,10 @@
+Fabric maps: ambientCG / Lennart Demes. CC0 1.0.
+https://docs.ambientcg.com/license/
+Original Color, OpenGL normal and Roughness map bytes are unchanged.
+
+Fabric008 https://ambientcg.com/a/Fabric008
+Fabric017 https://ambientcg.com/a/Fabric017
+Fabric048 https://ambientcg.com/a/Fabric048
+Fabric061 https://ambientcg.com/a/Fabric061
+Fabric077 https://ambientcg.com/a/Fabric077
+Fabric085 https://ambientcg.com/a/Fabric085

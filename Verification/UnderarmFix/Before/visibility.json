@@ -1,0 +1,34 @@
+{
+    "status": "failed",
+    "scope": "Six 512px orthographic views of covered armpit band; full unmasked body; not all viewing angles/continuous contact",
+    "views": [
+        {
+            "view": "LeftFront",
+            "exposedPixels": 0
+        },
+        {
+            "view": "LeftSide",
+            "exposedPixels": 0
+        },
+        {
+            "view": "LeftBack",
+            "exposedPixels": 43
+        },
+        {
+            "view": "RightFront",
+            "exposedPixels": 0
+        },
+        {
+            "view": "RightSide",
+            "exposedPixels": 0
+        },
+        {
+            "view": "RightBack",
+            "exposedPixels": 54
+        }
+    ],
+    "exposedPixels": 97,
+    "bodyOnlyControlPixels": 189108,
+    "fittedCache": true,
+    "cacheRefreshPreservedScene": true
+}

@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "checked_pilot_graphs": 24,
+  "full_candidate_count": 6304,
+  "full_graph_validation_completed": false,
+  "design_split_leakage": 0,
+  "source_reconstruction_split_examples": [
+    "train",
+    "validation",
+    "test"
+  ],
+  "max_source_reconstruction_error_m": 1.0662674898576086e-07,
+  "source_pattern_curves_stitch_flags_and_uv_preserved": true,
+  "body_frame_roundtrip_and_rigid_equivariance": true,
+  "checkpoint_reload_and_finite_inference": true,
+  "validation_samples": 4,
+  "validation_metrics": [
+    {
+      "id": "gcd_b00_default_rand_485J9YNDZM",
+      "vertex_rmse_mm": 250.4444883674383,
+      "rest_baseline_rmse_mm": 258.1958559796214
+    },
+    {
+      "id": "gcd_b14_default_rand_91L1AF0XMD",
+      "vertex_rmse_mm": 121.47226820513606,
+      "rest_baseline_rmse_mm": 189.77678878605366
+    },
+    {
+      "id": "gcd_b00_default_rand_86YMBN1O4S",
+      "vertex_rmse_mm": 369.6490565612912,
+      "rest_baseline_rmse_mm": 410.23200264126064
+    },
+    {
+      "id": "gcd_b14_default_rand_0NOK1W6U6O",
+      "vertex_rmse_mm": 126.54190727323295,
+      "rest_baseline_rmse_mm": 226.04081884324552
+    }
+  ],
+  "mean_validation_vertex_rmse_mm": 217.02693010177464,
+  "mean_validation_rest_baseline_rmse_mm": 271.0613665625453,
+  "test_model_evaluations": 0,
+  "contact_loss_enabled": false,
+  "nonpenetration_certified": false,
+  "total_data_bytes": 27768649073,
+  "within_30gb_limit": true,
+  "note": "Passing preparation QA does not mean passing garment quality or collision QA. Validation is a tiny pilot, not an independent test."
+}

@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "version": "V089_STUDIO_TRIAL",
+  "fullSuiteStages": 13,
+  "evidenceGateTests": 6,
+  "automatedAssertions": 275,
+  "sampledContactStates": 33,
+  "actualSurfaceChecks": 28,
+  "actualContactStates": 8,
+  "actualRenderedChecks": 17,
+  "sourceFilesInitiallyInstalled": 58,
+  "playerFiles": 175,
+  "sourceAndPlayerSHA256Verified": true,
+  "roles": 6,
+  "workflows": 3,
+  "actualRenderedFrames": 864,
+  "actualWallP95Ms": 44.433400000000844,
+  "physicalHeadset": "NOT_ASSESSED",
+  "timestampUtc": "2026-11-02T20:54:39.218292+00:00"
+}

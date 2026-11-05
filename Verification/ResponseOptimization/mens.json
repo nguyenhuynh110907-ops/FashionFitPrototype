@@ -1,0 +1,14 @@
+{
+    "status": "passed",
+    "scope": "Real menu/near-hand routes with injected Touch and manually stepped solver; no physical HMD",
+    "checks": 55,
+    "outfits": 5,
+    "contacts": 20,
+    "exceptions": 0,
+    "menuRoute": true,
+    "rackPickup": true,
+    "pose": true,
+    "bimanual": true,
+    "release": true,
+    "maxPullM": 0.053280994296073917
+}

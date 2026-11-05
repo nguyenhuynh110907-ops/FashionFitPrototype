@@ -1,0 +1,54 @@
+{
+  "Assets/FashionFit/Runtime/ReferenceHatCatalog.cs": {
+    "sha256": "aacb5cac09a758a0b164c5b5fc2ba66a6389868aae891b04e83ac3f9f96aed26",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/RunwayShowroom.cs": {
+    "sha256": "85351dd3f28854ad2813e4952028b3a1afe0006b0b3305722c0e94bac6aa7e49",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/RunwayPickup.cs": {
+    "sha256": "28d09404d77833174607caae2e29fa0cf24d6ff5756f49fb1edbc7aed987f6e0",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/RunwayPlayer.cs": {
+    "sha256": "014c0686d968405eb753bd8aafe34a5b2ccd4a4822885a5800d54690f0e999a2",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/RunwayUI.cs": {
+    "sha256": "44bee7156080f0d77345225f29a3fa2c1953b88681a76d3a4bc8567233d01f07",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/RunwayStage.cs": {
+    "sha256": "a33ae49942a862fe9bd56f388e13226521c34f7d438bfbb6b0e41330f2537804",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/FashionFitApp.cs": {
+    "sha256": "6f7fbd7e4d7b0a7ad90dd591ea0ad66ab99b92fdfc71bb14e83d81b6fc997ad0",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/RunwayVRGrabTarget.cs": {
+    "sha256": "1c345e348118cf5c365f266340c9f7d141190de83c6d26e10cb7ff60040b28e2",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Editor/ShowroomVerification.cs": {
+    "sha256": "4ada0557bae136dee917550f5db39c69d5ddfb96fbf20cfa2fb3f92af758cf63",
+    "matches_test_project": true
+  },
+  "Assets/Resources/Runway/HatFabric.shader": {
+    "sha256": "7dde4a6c1d152022461589a62e2737e17f99f182142a4ad25cf4aa29ffc4dc75",
+    "matches_test_project": true
+  },
+  "Assets/Resources/Runway/WorldText.shader": {
+    "sha256": "3e5e6eb4ead45af5fbc78efe81a54d76d023e5fd0ff9e2e77c0545080efc06f6",
+    "matches_test_project": true
+  },
+  "Assets/Resources/Fitting/female-mesh.bytes": {
+    "sha256": "1483998b04e614cb9541099f5a39964e6f141c70e539de87082dd774fc342b58",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/FittingClothSolver.cs": {
+    "sha256": "42d3c3c2113ce5bc54342db853387403c42bbea354acc67f41f09ae9fe197344",
+    "matches_test_project": true
+  }
+}

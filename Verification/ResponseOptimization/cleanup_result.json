@@ -1,0 +1,66 @@
+{
+  "items": [
+    {
+      "bytes": 154996899,
+      "files": 176,
+      "canonical": "C:\\Users\\HUYNH\\Downloads\\FashionFit_Run",
+      "path": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\_Luu_tru\\Phat_trien_2026-11-01\\LayeredGarment\\Player",
+      "status": "removed"
+    },
+    {
+      "bytes": 158147370,
+      "files": 176,
+      "canonical": "C:\\Users\\HUYNH\\Downloads\\FashionFit_Run\\Versions\\V087_Mens",
+      "path": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\_Luu_tru\\Phat_trien_2026-11-01\\HollisterMens\\Player",
+      "status": "removed"
+    },
+    {
+      "bytes": 161859598,
+      "files": 176,
+      "canonical": "C:\\Users\\HUYNH\\Downloads\\FashionFit_Run\\Versions\\V088_Surface",
+      "path": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\_Luu_tru\\Phat_trien_2026-11-02\\SurfacePolish\\Player",
+      "status": "removed"
+    },
+    {
+      "bytes": 161714062,
+      "files": 175,
+      "canonical": "C:\\Users\\HUYNH\\Downloads\\FashionFit_Run\\Versions\\V089_Studio",
+      "path": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\_Luu_tru\\Phat_trien_2026-11-02\\StudioIntegration\\ReleaseRuns\\20261102T204838990048Z\\Player",
+      "status": "removed"
+    },
+    {
+      "bytes": 115445304,
+      "files": 175,
+      "canonical": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\VRHands_Work\\Player",
+      "path": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\Bimanual_Work\\BeforePlayer",
+      "status": "removed"
+    },
+    {
+      "bytes": 115457768,
+      "files": 175,
+      "canonical": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\Bimanual_Work\\Player",
+      "path": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\GarmentDoffing_Work\\BeforePlayer",
+      "status": "removed"
+    },
+    {
+      "bytes": 132238879,
+      "files": 175,
+      "canonical": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\GarmentDoffing_Work\\Player",
+      "path": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\_Luu_tru\\Phat_trien_2026-11-01\\PoseMaterial\\BeforePlayer",
+      "status": "removed"
+    },
+    {
+      "bytes": 154789746,
+      "files": 175,
+      "canonical": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\_Luu_tru\\Phat_trien_2026-11-01\\PoseMaterial\\Player",
+      "path": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\_Luu_tru\\Phat_trien_2026-11-01\\LayeredGarment\\BeforePlayer",
+      "status": "removed"
+    }
+  ],
+  "status": "passed",
+  "protectedTrainingData": true,
+  "filesRemoved": 1403,
+  "protectedMainProject": true,
+  "method": "Pre-delete SHA256 comparison of every runtime file against a kept player; generated work copies only",
+  "bytesRemoved": 1154649626
+}

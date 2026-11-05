@@ -1,0 +1,878 @@
+{
+  "status": "passed",
+  "scope": "Referenced render vertices and triangle centroids versus unmasked posed body; libigl exact triangle distance with trimesh closest-face sign and Embree ray fallback; not continuous CCD",
+  "threshold_mm": 1,
+  "masked_body_used": false,
+  "continuous_contact_certified": false,
+  "reference_threshold_agrees": false,
+  "reference_max_depth_difference_mm": null,
+  "poses": [
+    {
+      "pose": "Look1_AfterStop",
+      "samples": 7744,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "667574480ec0f7bec0fd88907c6d129b56114d129318cea54e626dc1a0b00517"
+    },
+    {
+      "pose": "Look1_Moving00",
+      "samples": 7744,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1143062114715576,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "70a7c432e3c04fdcc3cbcb8a852d5e498cf8564ac644466b682a36986119c949"
+    },
+    {
+      "pose": "Look1_Moving01",
+      "samples": 7744,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1150217056274414,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "525cc53729b12f80ecf9ac35d1fb78760a11928c3c9317a6639dcb5cd76baf43"
+    },
+    {
+      "pose": "Look1_Moving02",
+      "samples": 7744,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1144782304763794,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "006f480915373449ffbd34ef48e86e7804de55ed1ebf46998e2ee77fa5597869"
+    },
+    {
+      "pose": "Look1_Moving03",
+      "samples": 7744,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1150217056274414,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "5cf25ca1425bc9e7af42694fa408411273c7deee2e166b3c61151ea176f558c5"
+    },
+    {
+      "pose": "Look1_Moving04",
+      "samples": 7744,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1144782304763794,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "fc865afda3a739c4ab324e31ad10502b1afb8f3198469423345f2cf390f02e6a"
+    },
+    {
+      "pose": "Look1_Moving05",
+      "samples": 7744,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1151937246322632,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "eae73ad884884d577a8d56c6961cef2f25f175dcf7f70a3916d81a6236c8849f"
+    },
+    {
+      "pose": "Look1_Moving06",
+      "samples": 7744,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1144782304763794,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "cbf7ecb0cf160c591003e03ecd6f57a14f551dbbfd84e52f1aad9489d6618885"
+    },
+    {
+      "pose": "Look1_Moving07",
+      "samples": 7744,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1150217056274414,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "07cde0704a19eaee4fe8566f1ea59224380152520510e36d80dafd10e22f4a5d"
+    },
+    {
+      "pose": "Look2_AfterStop",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "f9dc540467b38f972dacb7b7183825691e7a70a86a3fe99ff1e934466627bffa"
+    },
+    {
+      "pose": "Look2_Moving00",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1143062114715576,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "df6284849af9f4f703f7055fb937afe08e2b2dfffc15e23eedd8833a3c0d6e48"
+    },
+    {
+      "pose": "Look2_Moving01",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1150217056274414,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "9353e80ecd91a4d6fed18a6d7aa45deea103cb8aed891007d144eca25cdd6e06"
+    },
+    {
+      "pose": "Look2_Moving02",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1144782304763794,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "2ff8124f2e804c0e13c521cf1451b6ae5dae6878d73528834a46dc45632e7e82"
+    },
+    {
+      "pose": "Look2_Moving03",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1150217056274414,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "4a06d19a109fb19e15e68cfa282cc1d695610ffa67c4121ea220a0cac5f622d0"
+    },
+    {
+      "pose": "Look2_Moving04",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1144782304763794,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "6d412f3ffdf3cedb50df2c9467f32bc9cd98c11279790abff010c1a0d636b9a4"
+    },
+    {
+      "pose": "Look2_Moving05",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1151937246322632,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "db9833cc154653a567b25b0c5cbfe2ff2b9f33e8d479b4accdbcaa3580b29f04"
+    },
+    {
+      "pose": "Look2_Moving06",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1144782304763794,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "eb87bf8b512fb8013d2a9dfb9b643f65cfa53ba9d96af28c7af2cff3a2d426cf"
+    },
+    {
+      "pose": "Look2_Moving07",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1150217056274414,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "9a5f2eeddf141fcc190eb857cfdb60d0aaf230ecde8a188087effc361c360ccb"
+    },
+    {
+      "pose": "Look3_AfterStop",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "10d9fd07a99e026719de1a0f3eed95cbda4db729cc3f0153043e75ef0d8e7d4e"
+    },
+    {
+      "pose": "Look3_Moving00",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1143062114715576,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "7358656755f1d6c6703f6c4c2ddd22d4611c83b577b04bcfa519d90cda796096"
+    },
+    {
+      "pose": "Look3_Moving01",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1150217056274414,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "aa58418afe3530a8182ffffb73670b37d8f8f823f1aeae6b4aabda69f2f5dc8e"
+    },
+    {
+      "pose": "Look3_Moving02",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1144782304763794,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "09f8530f618ef9823e725f36bf118ef4d22f65c6485a043ebe099301c9ddd8c7"
+    },
+    {
+      "pose": "Look3_Moving03",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1150217056274414,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "7b0975432f740f740f54e8352bed9ea66ed99750f3fb19ed0c809feaca615e9c"
+    },
+    {
+      "pose": "Look3_Moving04",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1144782304763794,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "b3a9df424f39da9de40b51994d4bac0ce4d8fb72b7f259feb0035b2e497bf949"
+    },
+    {
+      "pose": "Look3_Moving05",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1151937246322632,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "b7a2f17b9f49f1ed4faf86f18027ee66e564713b455ad0e9e116fac21b268f08"
+    },
+    {
+      "pose": "Look3_Moving06",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1144782304763794,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "c4d13ab10aa950a25618e2f74a7ede9e23b9b33bb3eae78128a9305f3a8edd05"
+    },
+    {
+      "pose": "Look3_Moving07",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1150217056274414,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "02e2259634cf522d61842e0dd7e03a59bd190dd54b855fc0e2cc2f676a8862ef"
+    },
+    {
+      "pose": "Look4_AfterStop",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "bf2168669a3d612601b9f77cac607d640e84422c45e5530172afb8a940c88527"
+    },
+    {
+      "pose": "Look4_Moving00",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1143062114715576,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "ff9c892833c94b30106574225161afaa7fccdcb8fbb8d7891aa61cc3b38a584c"
+    },
+    {
+      "pose": "Look4_Moving01",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1150217056274414,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "c701d8c7d9ed8bac05846f51ecc745494e585b02bfb38ee055c693821030678d"
+    },
+    {
+      "pose": "Look4_Moving02",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1144782304763794,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "587d9523e3e12420fed407c9687c7307692e6a0a8581603e9c1c29a6b8ae554a"
+    },
+    {
+      "pose": "Look4_Moving03",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1150217056274414,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "25a5307b8e6faee1a41922e92fa3e4d04ffaa12a6e273d107a4decbf85da2cc7"
+    },
+    {
+      "pose": "Look4_Moving04",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1144782304763794,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "89332714b7fdc0a2f3909fd3328543251a029a3dc9b6c6a6ca8a718c0bff5eb5"
+    },
+    {
+      "pose": "Look4_Moving05",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1151937246322632,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "7d2ea90cebf1aef83c97ce584ce3960f2d69d511f42c25b640d66c50dc666e7b"
+    },
+    {
+      "pose": "Look4_Moving06",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1144782304763794,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "4783d3c2a9f37a0d3ef447c44aa3fc8a8265166ab86647de258b7cd3c166cc5e"
+    },
+    {
+      "pose": "Look4_Moving07",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1150217056274414,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "26814fca27f4bd7f0e447b39c2addbc05d5ca1da7ef789f1668743508c8a4320"
+    },
+    {
+      "pose": "Look5_AfterStop",
+      "samples": 11586,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "ce2d67787eafb7721b9a04beb9c7caf99fa6db0e5b44365e1931f44e8532d0b1"
+    },
+    {
+      "pose": "Look5_Moving00",
+      "samples": 11586,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1143062114715576,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "dadfd623e0e6356b6237ebc61277d959dba54d850f83bcc84c6f2b8cc352fde2"
+    },
+    {
+      "pose": "Look5_Moving01",
+      "samples": 11586,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1150217056274414,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "23810958900f767a26df4843417fe795c6ae76df05830308ca426fd700058278"
+    },
+    {
+      "pose": "Look5_Moving02",
+      "samples": 11586,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1144782304763794,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "890f7ab79e10783025a8750843afe8cb099514c2aa528a3fa02ce93e70fbadd0"
+    },
+    {
+      "pose": "Look5_Moving03",
+      "samples": 11586,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1150217056274414,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "34e127a77050865e8811bafb948d39a0c795b4c97a643e4f366e06fdaca75a36"
+    },
+    {
+      "pose": "Look5_Moving04",
+      "samples": 11586,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1144782304763794,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "ea234ff5c2461a16a282f6547b7e2be4c52914632a55dc75ddce844f6b8637f0"
+    },
+    {
+      "pose": "Look5_Moving05",
+      "samples": 11586,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1151937246322632,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "54d1b1521dad3182e1ae8b781db65b68bb49d82d67cd9feb55d7b70ec6cf23bc"
+    },
+    {
+      "pose": "Look5_Moving06",
+      "samples": 11586,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1144782304763794,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "f414574db4ac6dff181c96e4f5bf2e02dbea74238aafa2781c346eb83368c8aa"
+    },
+    {
+      "pose": "Look5_Moving07",
+      "samples": 11586,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "interior_unique_samples": 0,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1150217056274414,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "4fa1d7d4cd4b775a2ab12aa588a0ed78af17152003d1be4e1a3a7f7226604ec5"
+    },
+    {
+      "pose": "Look6_AfterStop",
+      "samples": 43981,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.7982481009924726,
+      "interior_unique_samples": 42,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        -0.18242014944553375,
+        1.3156163692474365,
+        0.07256610691547394
+      ],
+      "source_mesh_sha256": "7ff98ad0f350d93bc1de609dd7d12b6c8cd07afae820660d7ab2494a66c4a0ef"
+    },
+    {
+      "pose": "Look6_Moving00",
+      "samples": 43981,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.798280977477391,
+      "interior_unique_samples": 41,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        -0.18242014944553375,
+        1.3099225759506226,
+        0.07256610691547394
+      ],
+      "source_mesh_sha256": "3a71b2ea0cda6a4e2fbf48ba59834fa31acdc6bd12b0f700f81bef8e5a1b7344"
+    },
+    {
+      "pose": "Look6_Moving01",
+      "samples": 43981,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.7982788045671789,
+      "interior_unique_samples": 41,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        -0.18242014944553375,
+        1.3106380701065063,
+        0.07256610691547394
+      ],
+      "source_mesh_sha256": "3a96b3d693de34c5bf9cd4907c3302c134ed4d16a65f82ada3e1c30f5b1cdf83"
+    },
+    {
+      "pose": "Look6_Moving02",
+      "samples": 43981,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.7982591977403121,
+      "interior_unique_samples": 41,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        -0.18242014944553375,
+        1.3100945949554443,
+        0.07256610691547394
+      ],
+      "source_mesh_sha256": "f2984152730b7fcd9b349ad3591914e0212a80d39ece3b1c28f056e50441cca4"
+    },
+    {
+      "pose": "Look6_Moving03",
+      "samples": 43981,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.7982633408691175,
+      "interior_unique_samples": 42,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.18242014944553375,
+        1.3106380701065063,
+        0.07256610691547394
+      ],
+      "source_mesh_sha256": "e93262b67374b066fc96bbfd1840ad3070101d91549de5a578c07b7e24e5f23e"
+    },
+    {
+      "pose": "Look6_Moving04",
+      "samples": 43981,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.798280564076253,
+      "interior_unique_samples": 42,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.18242014944553375,
+        1.3100945949554443,
+        0.07256610691547394
+      ],
+      "source_mesh_sha256": "5904ef135889e56e90ad984f2a6757e942814270dd305a9c976f7f7a26156584"
+    },
+    {
+      "pose": "Look6_Moving05",
+      "samples": 43981,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.7982781667510725,
+      "interior_unique_samples": 42,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.18242014944553375,
+        1.3108100891113281,
+        0.07256610691547394
+      ],
+      "source_mesh_sha256": "8a5a146122d8da381af25e66450882d001e6c39c83fc08f24ee6b3a755cae9aa"
+    },
+    {
+      "pose": "Look6_Moving06",
+      "samples": 43981,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.7982591977403121,
+      "interior_unique_samples": 42,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        0.18242014944553375,
+        1.3100945949554443,
+        0.07256610691547394
+      ],
+      "source_mesh_sha256": "690f98cdffbb7f31a7adf934eab3b0a9a294127cd251781b5891c2535e690948"
+    },
+    {
+      "pose": "Look6_Moving07",
+      "samples": 43981,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.7982633408691175,
+      "interior_unique_samples": 41,
+      "reference_worst_point_depth_mm": null,
+      "deepest_point_m": [
+        -0.18242014944553375,
+        1.3106380701065063,
+        0.07256610691547394
+      ],
+      "source_mesh_sha256": "9dd38a334e2c6ebf6e0d5e17d0ef06a130cf120c1de91bfd149a36202fab9dbb"
+    }
+  ],
+  "samples": 858375,
+  "samples_inside_over_1mm": 0,
+  "max_sampled_penetration_mm": 0.798280977477391
+}

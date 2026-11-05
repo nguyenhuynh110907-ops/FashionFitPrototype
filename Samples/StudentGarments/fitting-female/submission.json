@@ -1,0 +1,21 @@
+{
+    "schema": 1,
+    "displayName": "Student garment fitting-female",
+    "targetBodyId": "fitting-female",
+    "referenceBodyKey": "5c397e0369fd4bf52af09db1e8941882b76f6951c9666defffb3a51c2c38a226",
+    "sourceMode": "canonical",
+    "sourceBodyPath": "SourceBody",
+    "garmentPath": "Garment",
+    "restPose": "reference-neutral",
+    "unitMeters": 1.0,
+    "rotationEuler": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "offsetMeters": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    }
+}

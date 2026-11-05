@@ -1,0 +1,8 @@
+{
+    "status": "passed",
+    "scope": "Conservative picking broadphase versus pre-optimization exhaustive triangle search; actual fitted garment plus transformed/synthetic cases",
+    "checks": 660,
+    "queries": 660,
+    "referenceMs": 1117.9775999999993,
+    "optimizedMs": 63.88819999999999
+}

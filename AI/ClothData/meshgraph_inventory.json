@@ -1,0 +1,248 @@
+[
+  {
+    "domain": "sphere_simple",
+    "file": "meta.json",
+    "url": "https://storage.googleapis.com/dm-meshgraphnets/sphere_simple/meta.json",
+    "size": 744,
+    "checksum": "crc32c=MCE8tQ==",
+    "etag": "\"b584652afcea8253e222d87bb3ed5a5c\"",
+    "metadata": {
+      "simulator": "arcsim",
+      "dt": 0.01,
+      "collision_radius": 0.05,
+      "features": {
+        "cells": {
+          "type": "static",
+          "shape": [
+            1,
+            3328,
+            3
+          ],
+          "dtype": "int32"
+        },
+        "mesh_pos": {
+          "type": "static",
+          "shape": [
+            1,
+            1731,
+            2
+          ],
+          "dtype": "float32"
+        },
+        "node_type": {
+          "type": "dynamic",
+          "shape": [
+            501,
+            1731,
+            1
+          ],
+          "dtype": "int32"
+        },
+        "world_pos": {
+          "type": "dynamic",
+          "shape": [
+            501,
+            1731,
+            3
+          ],
+          "dtype": "float32"
+        }
+      },
+      "field_names": [
+        "cells",
+        "mesh_pos",
+        "node_type",
+        "world_pos"
+      ],
+      "trajectory_length": 501
+    }
+  },
+  {
+    "domain": "sphere_simple",
+    "file": "train.tfrecord",
+    "url": "https://storage.googleapis.com/dm-meshgraphnets/sphere_simple/train.tfrecord",
+    "size": 13929608000,
+    "checksum": "crc32c=oM3gqg==",
+    "etag": "\"cba81b426cc3866935d2c810f018c815\""
+  },
+  {
+    "domain": "sphere_simple",
+    "file": "valid.tfrecord",
+    "url": "https://storage.googleapis.com/dm-meshgraphnets/sphere_simple/valid.tfrecord",
+    "size": 1392960800,
+    "checksum": "crc32c=UQpyxA==",
+    "etag": "\"0260dae6303a28503e39b3c4cfee959f\""
+  },
+  {
+    "domain": "sphere_simple",
+    "file": "test.tfrecord",
+    "url": "https://storage.googleapis.com/dm-meshgraphnets/sphere_simple/test.tfrecord",
+    "size": 1392960800,
+    "checksum": "crc32c=gdZ0sw==",
+    "etag": "\"16596db94e8349c756131b4e0f88566e\""
+  },
+  {
+    "domain": "sphere_dynamic",
+    "file": "meta.json",
+    "url": "https://storage.googleapis.com/dm-meshgraphnets/sphere_dynamic/meta.json",
+    "size": 809,
+    "checksum": "crc32c=az/Z/w==",
+    "etag": "\"7b1a40450282f9bf124c05ee4dd5793c\"",
+    "metadata": {
+      "simulator": "arcsim",
+      "dt": 0.01,
+      "collision_radius": 0.05,
+      "features": {
+        "node_type": {
+          "type": "dynamic_varlen",
+          "shape": [
+            -1,
+            1
+          ],
+          "dtype": "int32"
+        },
+        "world_pos": {
+          "type": "dynamic_varlen",
+          "shape": [
+            -1,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "cells": {
+          "type": "dynamic_varlen",
+          "shape": [
+            -1,
+            3
+          ],
+          "dtype": "int32"
+        },
+        "mesh_pos": {
+          "type": "dynamic_varlen",
+          "shape": [
+            -1,
+            2
+          ],
+          "dtype": "float32"
+        }
+      },
+      "field_names": [
+        "node_type",
+        "length_node_type",
+        "world_pos",
+        "length_world_pos",
+        "cells",
+        "length_cells",
+        "mesh_pos",
+        "length_mesh_pos"
+      ],
+      "trajectory_length": 497
+    }
+  },
+  {
+    "domain": "sphere_dynamic",
+    "file": "train.tfrecord",
+    "url": "https://storage.googleapis.com/dm-meshgraphnets/sphere_dynamic/train.tfrecord",
+    "size": 32284367156,
+    "checksum": "crc32c=NvDHRg==",
+    "etag": "\"c5b32728f0f89b78c13409dc6965e1ac\""
+  },
+  {
+    "domain": "sphere_dynamic",
+    "file": "valid.tfrecord",
+    "url": "https://storage.googleapis.com/dm-meshgraphnets/sphere_dynamic/valid.tfrecord",
+    "size": 3194767088,
+    "checksum": "crc32c=u6gbhA==",
+    "etag": "\"6804137166cb5fbd94509acafae3a669\""
+  },
+  {
+    "domain": "sphere_dynamic",
+    "file": "test.tfrecord",
+    "url": "https://storage.googleapis.com/dm-meshgraphnets/sphere_dynamic/test.tfrecord",
+    "size": 3189632348,
+    "checksum": "crc32c=MoCPGQ==",
+    "etag": "\"ea1231d8301ee6d257c9f38244d5c5e8\""
+  },
+  {
+    "domain": "flag_simple",
+    "file": "meta.json",
+    "url": "https://storage.googleapis.com/dm-meshgraphnets/flag_simple/meta.json",
+    "size": 744,
+    "checksum": "crc32c=wwPKJg==",
+    "etag": "\"7dc0133eb15ca415e946d526671d182c\"",
+    "metadata": {
+      "simulator": "arcsim",
+      "dt": 0.02,
+      "collision_radius": null,
+      "features": {
+        "cells": {
+          "type": "static",
+          "shape": [
+            1,
+            3028,
+            3
+          ],
+          "dtype": "int32"
+        },
+        "mesh_pos": {
+          "type": "static",
+          "shape": [
+            1,
+            1579,
+            2
+          ],
+          "dtype": "float32"
+        },
+        "node_type": {
+          "type": "dynamic",
+          "shape": [
+            401,
+            1579,
+            1
+          ],
+          "dtype": "int32"
+        },
+        "world_pos": {
+          "type": "dynamic",
+          "shape": [
+            401,
+            1579,
+            3
+          ],
+          "dtype": "float32"
+        }
+      },
+      "field_names": [
+        "cells",
+        "mesh_pos",
+        "node_type",
+        "world_pos"
+      ],
+      "trajectory_length": 401
+    }
+  },
+  {
+    "domain": "flag_simple",
+    "file": "train.tfrecord",
+    "url": "https://storage.googleapis.com/dm-meshgraphnets/flag_simple/train.tfrecord",
+    "size": 10179960000,
+    "checksum": "crc32c=TR91bA==",
+    "etag": "\"828e70d71aca26916c80af9d8a2fcc2c\""
+  },
+  {
+    "domain": "flag_simple",
+    "file": "valid.tfrecord",
+    "url": "https://storage.googleapis.com/dm-meshgraphnets/flag_simple/valid.tfrecord",
+    "size": 1017996000,
+    "checksum": "crc32c=V0kEsg==",
+    "etag": "\"00ad4cf07ed0daaf78b7faaea1c5df37\""
+  },
+  {
+    "domain": "flag_simple",
+    "file": "test.tfrecord",
+    "url": "https://storage.googleapis.com/dm-meshgraphnets/flag_simple/test.tfrecord",
+    "size": 1017996000,
+    "checksum": "crc32c=7rOGew==",
+    "etag": "\"d0b99fcb01e030249ef8115402cd0e02\""
+  }
+]

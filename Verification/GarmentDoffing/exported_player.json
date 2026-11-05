@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "scope": "Exported Windows player, real render-time cloth updates; no physical headset test",
+  "checks": 18,
+  "exceptions": 0,
+  "nearOnly": true,
+  "opened": true,
+  "reclosed": true,
+  "twoHands": true,
+  "free": true,
+  "independentRelease": true,
+  "gravity": true,
+  "persistent": true,
+  "reset": true,
+  "dropM": 0.6236662268638611,
+  "maxStretch": 1.8638277053833008,
+  "meanFrameMs": 1.2854158878326416,
+  "p95FrameMs": 11.37969970703125,
+  "baselineFrameMs": 0.32339245080947876,
+  "settledFrameMs": 0.12770392000675201,
+  "lowQualityPreset": true
+}

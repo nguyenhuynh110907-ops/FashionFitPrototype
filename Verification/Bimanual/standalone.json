@@ -1,0 +1,35 @@
+{
+    "status": "passed",
+    "checks": 37,
+    "exceptions": 0,
+    "looks": 6,
+    "poseModels": 2,
+    "transferPackages": 1,
+    "started": true,
+    "standing": true,
+    "canPresent": true,
+    "transferMotionBlocked": true,
+    "rendered": true,
+    "screenshotSaved": true,
+    "baseMovedM": 0.461093008518219,
+    "basePhysicsTime": 1.0199998617172242,
+    "pickupDroppedM": 1.8009999990463257,
+    "baseDropTime": 1.0,
+    "baseFinalY": 0.030000008642673494,
+    "autoPhysics": true,
+    "baseDroppedToFloor": true,
+    "baseHeldAtCheck": true,
+    "baseReadyAtCheck": true,
+    "baseKinematicAtCheck": true,
+    "baseOwnerCount": 1,
+    "baseFrom": {
+        "x": 1.5499999523162842,
+        "y": 0.02500000037252903,
+        "z": -1.899999976158142
+    },
+    "baseTo": {
+        "x": 1.1624267101287842,
+        "y": 0.2250000238418579,
+        "z": -1.7503546476364136
+    }
+}

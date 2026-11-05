@@ -1,0 +1,29 @@
+{
+  "graphs": 200,
+  "split_counts": {
+    "train": 144,
+    "test": 28,
+    "validation": 28
+  },
+  "vertices": 2978444,
+  "distinct_designs": 200,
+  "positive_graph_counts": {
+    "sewn_vertex": 200,
+    "collar_panel": 33,
+    "neck_attachment": 178,
+    "armhole_attachment": 178
+  },
+  "positive_vertex_counts": {
+    "sewn_vertex": 158020,
+    "collar_panel": 20625,
+    "neck_attachment": 16706,
+    "armhole_attachment": 17242
+  },
+  "total_cloth_data_bytes": 28855107834,
+  "within_30gb_limit": true,
+  "manifest_sha256": "b2720e86b15996c7172af1f79c5ef6c792b29bda53239d9206b8df8334b65761",
+  "rejected": [],
+  "source_geometry_license": "CC-BY-4.0",
+  "new_3d_downloads": 0,
+  "uses_existing_verified_3d_archives": true
+}

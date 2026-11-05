@@ -1,0 +1,42 @@
+[
+  {
+    "check": "surface_editor",
+    "exit_code": 0
+  },
+  {
+    "check": "surface_editor_contact",
+    "exit_code": 0
+  },
+  {
+    "check": "build",
+    "exit_code": 0
+  },
+  {
+    "check": "surface_player",
+    "exit_code": 0
+  },
+  {
+    "check": "surface_player_contact",
+    "exit_code": 0
+  },
+  {
+    "check": "mens_player",
+    "exit_code": 0
+  },
+  {
+    "check": "mens_player_contact",
+    "exit_code": 0
+  },
+  {
+    "check": "pose_player",
+    "exit_code": 0
+  },
+  {
+    "check": "automatic_player",
+    "exit_code": 0
+  },
+  {
+    "check": "automatic_contact",
+    "exit_code": 0
+  }
+]

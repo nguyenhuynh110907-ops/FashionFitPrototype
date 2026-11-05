@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "checks": 8,
+  "startsStanding": true,
+  "slow": 0.18,
+  "default": 0.5,
+  "faster": 0.75,
+  "maximum": 1.0,
+  "hardwareTested": false
+}

@@ -1,0 +1,16 @@
+FASHION UNITY — VR QUICK START
+
+1. Cài và mở Meta Horizon Link trên Windows.
+2. Settings > General > đặt Meta Horizon Link làm OpenXR Runtime.
+3. Cắm Quest > trong kính bật và Launch Quest Link.
+4. Nếu vừa đổi runtime: đóng rồi mở lại Unity.
+5. Unity > Stop Play > chờ compile > Play.
+6. Trong game: VR / CAMERA > Kiểm tra cấu hình OpenXR > Vào VR.
+
+CONTROLLER
+Cần trái: đi
+Cần phải: quay
+Trigger phải: bấm nút
+Grip phải: kéo mannequin/váy/áo
+
+Nếu lỗi: đọc VR_EXPERIMENT_SETUP.md

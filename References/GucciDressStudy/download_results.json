@@ -1,0 +1,21 @@
+[
+  {
+    "name": "gucci_wool_polo",
+    "url": "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1734990380/813816_XKEHH_9034_001_100_0000_Light--Fine-wool-polo-dress.jpg",
+    "ok": false,
+    "error": "The read operation timed out"
+  },
+  {
+    "name": "black_doubleg",
+    "url": "https://cdna.lystit.com/520/650/n/photos/lordandtaylor/2c3135f6/1200x1800/gucci-BLACK-Crepe-Polo-Dress.jpeg",
+    "bytes": 11802,
+    "sha256": "0351360af6ebf4c89e74530b88e35507b01e1c44636ac4c03e1bd14b66b444ef",
+    "ok": true
+  },
+  {
+    "name": "black_polo",
+    "url": "https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1789748167/A00BP6_ZACKN_1000_004_100_0000_Light-crepe-wool-polo-dress-with-horsebit.jpg",
+    "ok": false,
+    "error": "The read operation timed out"
+  }
+]

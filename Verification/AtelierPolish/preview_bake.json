@@ -1,0 +1,20 @@
+{
+    "status": "passed",
+    "vertices": [
+        2624,
+        3648,
+        3648,
+        3648,
+        3970,
+        12066
+    ],
+    "triangles": [
+        5120,
+        7040,
+        7040,
+        7040,
+        7616,
+        23646
+    ],
+    "method": "Static meshes baked from the six fitted runtime garments; 0.66 scale; vertex clustering only on large surfaces"
+}

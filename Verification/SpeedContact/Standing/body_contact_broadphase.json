@@ -1,0 +1,204 @@
+{
+  "status": "passed",
+  "scope": "All referenced vertices and triangle centroids against full body; convex-hull broad phase with exact signed-distance narrow phase; not continuous triangle CCD",
+  "poses": [
+    {
+      "pose": "Look1_Initial",
+      "samples": 7744,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "exact_signed_queries": 4863,
+      "outside_enclosing_hull": 2881,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "097c3ee5ba206020bb032790e81f1182cb1f8c9192008d9233488bc66b2420fb"
+    },
+    {
+      "pose": "Look1_Settled",
+      "samples": 7744,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "exact_signed_queries": 4863,
+      "outside_enclosing_hull": 2881,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "b7b069f617147a511c714a4a01f9fc18f4a31cc3d78a625d69c1357b29e2f298"
+    },
+    {
+      "pose": "Look2_Initial",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "exact_signed_queries": 7616,
+      "outside_enclosing_hull": 3072,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "6897bf65caf3905b94b7f11db2d87fd251a4f18bbf01e602b3fe886986c6b4dc"
+    },
+    {
+      "pose": "Look2_Settled",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "exact_signed_queries": 7624,
+      "outside_enclosing_hull": 3064,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "ce5e26a2259537b4f3b6ac527dfeb097408c605b6fcd7092e360c94b88651f96"
+    },
+    {
+      "pose": "Look3_Initial",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "exact_signed_queries": 6476,
+      "outside_enclosing_hull": 4212,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "e34b8982a20d3892015841cb61778435e3a25e3c8ae242d9309bb68537e3d5e4"
+    },
+    {
+      "pose": "Look3_Settled",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "exact_signed_queries": 6715,
+      "outside_enclosing_hull": 3973,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "d0099d34b4c39d9ecb76a4c4d7667a4f6fc517c91d55da49e7c49ce30bb11f4b"
+    },
+    {
+      "pose": "Look4_Initial",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "exact_signed_queries": 7696,
+      "outside_enclosing_hull": 2992,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "c3d946e46e77df66778331d22479ac117e3d33a4947466a3f1e4385fd5dcf3eb"
+    },
+    {
+      "pose": "Look4_Settled",
+      "samples": 10688,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "exact_signed_queries": 7880,
+      "outside_enclosing_hull": 2808,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "deepest_point_m": [
+        0.1410846710205078,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "50b76b6322d8f3d53ad3d571dd1b2d7147bb941244a9427dfebff4ead492c044"
+    },
+    {
+      "pose": "Look5_Initial",
+      "samples": 11586,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "exact_signed_queries": 8533,
+      "outside_enclosing_hull": 3053,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "11351a826ca01253d02cc0868493c8604e2c3d2f1a541fbfd5cd823579626971"
+    },
+    {
+      "pose": "Look5_Settled",
+      "samples": 11586,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "exact_signed_queries": 8546,
+      "outside_enclosing_hull": 3040,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "source_mesh_sha256": "a02e53e991271d4a5c79b238dd51dd49b2276beca419451d4204b18e10ec4d54"
+    },
+    {
+      "pose": "Look6_Initial",
+      "samples": 43981,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "exact_signed_queries": 40060,
+      "outside_enclosing_hull": 3321,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.6180947445914636,
+      "deepest_point_m": [
+        0.17286081612110138,
+        1.3023724555969238,
+        -0.02481422945857048
+      ],
+      "source_mesh_sha256": "5eed2eaa0a1aa9908fe821b12ca89fd8eba3f10a3f18dddc91e100c8b3e90794"
+    },
+    {
+      "pose": "Look6_Settled",
+      "samples": 43981,
+      "body_watertight": true,
+      "masked_body_used": false,
+      "exact_signed_queries": 39981,
+      "outside_enclosing_hull": 3400,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.6180947445914636,
+      "deepest_point_m": [
+        0.17286081612110138,
+        1.3023724555969238,
+        -0.02481422945857048
+      ],
+      "source_mesh_sha256": "69151cd57f03a6029360c6f0fcf17ebb6832195342eeeedc5d1394db76971231"
+    }
+  ],
+  "samples": 190750,
+  "samples_inside_over_1mm": 0,
+  "max_sampled_penetration_mm": 0.6180947445914636,
+  "masked_body_used": false,
+  "continuous_contact_certified": false,
+  "agrees_with_previous_exact_test": false
+}

@@ -1,0 +1,11 @@
+{
+  "method": "Local underarm recovery, continuous waist overlap, seated collar, finer topstitch; offline authored fit",
+  "vertices": 7583,
+  "vertices_before": 7582,
+  "faces": 13174,
+  "underarm_vertices": 2614,
+  "max_delta_mm": 31.043822368019324,
+  "body_topology_and_rig_unchanged": true,
+  "garment_triangle_count_unchanged": true,
+  "simulation_particles_added": 0
+}

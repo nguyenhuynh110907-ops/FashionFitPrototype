@@ -1,0 +1,80 @@
+{
+    "scope": "Actual app start, slow gait, settle, stop, coverage and source-body mesh export. Proxy tests are not full triangle CCD or headset certification.",
+    "startsStanding": true,
+    "defaultSpeedCorrect": true,
+    "warmupHoldsPose": true,
+    "fixedPointsContactSafe": true,
+    "stopDuringWarmupWorks": true,
+    "looks": [
+        {
+            "name": "AtelierMidi",
+            "hiddenBodyTriangles": 5759,
+            "steps": 540,
+            "proxyViolations": 0,
+            "maxStretch": 1.2389593124389649,
+            "clockTravel": 1.4295001029968262,
+            "meanClothMilliseconds": 26.014001846313478,
+            "maximumClothMilliseconds": 46.0724983215332,
+            "stopped": true,
+            "returnedOriginalBody": true,
+            "vrBodyRestored": true,
+            "clothSleepingAfterStop": true
+        },
+        {
+            "name": "EmeraldColumn",
+            "hiddenBodyTriangles": 8978,
+            "steps": 540,
+            "proxyViolations": 0,
+            "maxStretch": 1.1261706352233887,
+            "clockTravel": 1.4295001029968262,
+            "meanClothMilliseconds": 26.736392974853517,
+            "maximumClothMilliseconds": 53.0452995300293,
+            "stopped": true,
+            "returnedOriginalBody": true,
+            "vrBodyRestored": true,
+            "clothSleepingAfterStop": true
+        },
+        {
+            "name": "RoseCouture",
+            "hiddenBodyTriangles": 12744,
+            "steps": 540,
+            "proxyViolations": 0,
+            "maxStretch": 1.1808357238769532,
+            "clockTravel": 1.4295001029968262,
+            "meanClothMilliseconds": 23.587472915649415,
+            "maximumClothMilliseconds": 37.12459945678711,
+            "stopped": true,
+            "returnedOriginalBody": true,
+            "vrBodyRestored": true,
+            "clothSleepingAfterStop": true
+        },
+        {
+            "name": "SapphireCocktail",
+            "hiddenBodyTriangles": 8365,
+            "steps": 540,
+            "proxyViolations": 0,
+            "maxStretch": 1.2107994556427003,
+            "clockTravel": 1.4295001029968262,
+            "meanClothMilliseconds": 22.37473487854004,
+            "maximumClothMilliseconds": 50.38169860839844,
+            "stopped": true,
+            "returnedOriginalBody": true,
+            "vrBodyRestored": true,
+            "clothSleepingAfterStop": false
+        },
+        {
+            "name": "IvoryShirtSet",
+            "hiddenBodyTriangles": 7047,
+            "steps": 540,
+            "proxyViolations": 0,
+            "maxStretch": 1.2120158672332764,
+            "clockTravel": 1.4295001029968262,
+            "meanClothMilliseconds": 42.170738220214847,
+            "maximumClothMilliseconds": 74.9573974609375,
+            "stopped": true,
+            "returnedOriginalBody": true,
+            "vrBodyRestored": true,
+            "clothSleepingAfterStop": false
+        }
+    ]
+}

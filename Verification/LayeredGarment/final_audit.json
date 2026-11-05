@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "version": "V085_LAYERED_GRIP",
+  "verified_source_delivery_files": 80,
+  "verified_player_files": 175,
+  "actual_player_checks": 18,
+  "actual_contact_states": 5,
+  "physical_headset_verified": false
+}

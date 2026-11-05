@@ -1,0 +1,582 @@
+{
+  "seed": 27102026,
+  "encoder_frozen": true,
+  "trained_encoder_parameters": 0,
+  "trainable_head_parameters": 4620,
+  "initial_train_loss": 1.7776738405227661,
+  "best_epoch": 2,
+  "epochs_run": 52,
+  "unique_outfit_groups": 87,
+  "group_overlap_between_splits": 0,
+  "split_counts": {
+    "train": 60,
+    "validation": 20,
+    "test": 20
+  },
+  "appearance_unlabeled_ids": [
+    "MW024",
+    "MW036",
+    "MW069"
+  ],
+  "near_duplicate_pairs": [],
+  "heads": {
+    "category": {
+      "classes": [
+        "dress",
+        "jumpsuit",
+        "outerwear",
+        "separates",
+        "skirt",
+        "top",
+        "trousers"
+      ],
+      "splits": {
+        "train": {
+          "n": 60,
+          "accuracy": 0.8,
+          "balanced_accuracy": 0.9523809523809523,
+          "macro_f1": 0.7601731601731602,
+          "confusion_matrix": [
+            [
+              24,
+              3,
+              0,
+              0,
+              5,
+              2,
+              2
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              7,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              10
+            ]
+          ]
+        },
+        "validation": {
+          "n": 20,
+          "accuracy": 0.5,
+          "balanced_accuracy": 0.3154761904761904,
+          "macro_f1": 0.3020408163265306,
+          "confusion_matrix": [
+            [
+              5,
+              0,
+              2,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              3
+            ]
+          ]
+        },
+        "test": {
+          "n": 20,
+          "accuracy": 0.6,
+          "balanced_accuracy": 0.48928571428571427,
+          "macro_f1": 0.36616716616716616,
+          "confusion_matrix": [
+            [
+              5,
+              0,
+              0,
+              0,
+              2,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              4
+            ]
+          ]
+        }
+      },
+      "class_counts": {
+        "train": {
+          "dress": 36,
+          "jumpsuit": 1,
+          "outerwear": 7,
+          "separates": 1,
+          "skirt": 3,
+          "top": 2,
+          "trousers": 10
+        },
+        "validation": {
+          "dress": 8,
+          "jumpsuit": 1,
+          "outerwear": 2,
+          "separates": 1,
+          "skirt": 3,
+          "top": 1,
+          "trousers": 4
+        },
+        "test": {
+          "dress": 8,
+          "jumpsuit": 1,
+          "outerwear": 2,
+          "separates": 2,
+          "skirt": 1,
+          "top": 1,
+          "trousers": 5
+        }
+      },
+      "majority_baseline_test": {
+        "n": 20,
+        "accuracy": 0.4,
+        "balanced_accuracy": 0.14285714285714285,
+        "macro_f1": 0.08163265306122448,
+        "confusion_matrix": [
+          [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "test_accuracy_group_bootstrap_95pct": [
+        0.3684210526315789,
+        0.8181818181818182
+      ]
+    },
+    "appearance": {
+      "classes": [
+        "close",
+        "draped_layered",
+        "straight_relaxed",
+        "tailored",
+        "volume"
+      ],
+      "splits": {
+        "train": {
+          "n": 60,
+          "accuracy": 0.8666666666666667,
+          "balanced_accuracy": 0.8888443256090314,
+          "macro_f1": 0.8693722943722945,
+          "confusion_matrix": [
+            [
+              15,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              7,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              14,
+              2,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              6,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              10
+            ]
+          ]
+        },
+        "validation": {
+          "n": 20,
+          "accuracy": 0.45,
+          "balanced_accuracy": 0.4523809523809524,
+          "macro_f1": 0.38909090909090904,
+          "confusion_matrix": [
+            [
+              3,
+              1,
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              3,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              0
+            ],
+            [
+              1,
+              0,
+              1,
+              0,
+              1
+            ]
+          ]
+        },
+        "test": {
+          "n": 17,
+          "accuracy": 0.4117647058823529,
+          "balanced_accuracy": 0.4333333333333333,
+          "macro_f1": 0.37333333333333335,
+          "confusion_matrix": [
+            [
+              2,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              2,
+              0,
+              2
+            ]
+          ]
+        }
+      },
+      "class_counts": {
+        "train": {
+          "close": 17,
+          "draped_layered": 8,
+          "straight_relaxed": 18,
+          "tailored": 6,
+          "volume": 11
+        },
+        "validation": {
+          "close": 6,
+          "draped_layered": 2,
+          "straight_relaxed": 7,
+          "tailored": 2,
+          "volume": 3
+        },
+        "test": {
+          "close": 3,
+          "draped_layered": 4,
+          "straight_relaxed": 3,
+          "tailored": 3,
+          "volume": 4
+        }
+      },
+      "majority_baseline_test": {
+        "n": 17,
+        "accuracy": 0.17647058823529413,
+        "balanced_accuracy": 0.2,
+        "macro_f1": 0.06,
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            0,
+            0
+          ]
+        ]
+      },
+      "test_accuracy_group_bootstrap_95pct": [
+        0.15789473684210525,
+        0.6666666666666666
+      ]
+    }
+  },
+  "deployment_status": "research_only",
+  "limitations": [
+    "100 images; small holdout",
+    "Garment/outfit grouping is conservative, not a verified person-identity split",
+    "Photographer/show backgrounds may confound predictions",
+    "No segmentation/crop annotations",
+    "Appearance families combine existing visual tags, not measured tightness",
+    "No pattern, 3D, motion or collision training"
+  ],
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "torch": "2.14.1+cpu",
+    "cpu_threads": 4,
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "checkpoint_sha256": "195f9f5b7e5ebaf8f30451037b44e6ef2a97262c0d81a18e4415e6b41fa630c1",
+  "dataset_manifest_sha256": "32c9a9b8aa7e3d24e5005942a078c9b3c8a2bd17636dd0df91a7cc44539260a0",
+  "elapsed_seconds": 14.723260400001891
+}

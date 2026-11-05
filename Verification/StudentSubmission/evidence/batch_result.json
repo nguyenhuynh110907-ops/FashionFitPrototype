@@ -1,0 +1,46 @@
+{
+    "status": "STATIC_PREVIEW_READY",
+    "bodyId": "fitting-female",
+    "referenceBodyKey": "5c397e0369fd4bf52af09db1e8941882b76f6951c9666defffb3a51c2c38a226",
+    "sourceMode": "canonical",
+    "reviewReasons": [],
+    "bodyMatch": {
+        "sourceVertices": 53514,
+        "referenceVertices": 53514,
+        "triangles": 107024,
+        "reorderedOrSplit": false,
+        "maxErrorMeters": 0.0
+    },
+    "parts": [
+        {
+            "name": "DetailFixture",
+            "sourceGeometryKey": "78d59001a66c7aca35312688aabd0d08fb0c873fa9c8adca0ff1f129d7153a0f",
+            "resultGeometryKey": "9a07267cb2ffff2e7a929f95b66e302eab81b49ebe368f70ed14c88d8fa9a8db",
+            "vertices": 6,
+            "triangles": 2,
+            "materialSlots": 2,
+            "textureSlots": 1,
+            "identityAssessed": true,
+            "identityErrorMeters": 0.0,
+            "geometry": {
+                "vertices": 6,
+                "triangles": 2,
+                "submeshes": 2,
+                "contactSamples": 14,
+                "localPenetrationSamples": 0,
+                "collapsedTriangles": 0,
+                "maxSourceDistance": 0.16372978687286378,
+                "maxDisplacement": 0.0,
+                "maxRelativeEdgeChange": 0.0,
+                "maxLocalPenetration": 0.0
+            }
+        }
+    ],
+    "edgeChangeLimit": 0.05000000074505806,
+    "penetrationToleranceMeters": 0.0010000000474974514,
+    "detailsPreserved": true,
+    "stationarySamplesPassed": true,
+    "motionAssessed": false,
+    "selfCollisionAssessed": false,
+    "physicalMaterialCalibrated": false
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "interactive_play_confirmed": true,
+  "controls_clicked": [
+    "select sample",
+    "apply maps",
+    "analyze pattern",
+    "change outfit",
+    "return to fabric panel"
+  ],
+  "selected_sample": "Fabric008",
+  "selected_outfit": "EmeraldColumn",
+  "prediction_displayed": "geometric pattern",
+  "geometry_autofitting_enabled": false,
+  "unity_left_open_for_user": true
+}

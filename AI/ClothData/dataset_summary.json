@@ -1,0 +1,42 @@
+{
+  "eligible_splits": {
+    "train": 8225,
+    "validation": 525,
+    "test": 506
+  },
+  "eligible_body_variants": {
+    "default": 6304,
+    "random": 2952
+  },
+  "semantic_mapping": {
+    "consecutive_uv_duplicate_map": 10594
+  },
+  "semantic_training_eligible": 9256,
+  "material_counts": {
+    "1": 6757,
+    "500": 3837
+  },
+  "degenerate_cases": [
+    {
+      "id": "gcd_b00_random_rand_EUQVO5PTST",
+      "box_faces": 1,
+      "sim_faces": 0
+    }
+  ],
+  "upper_programs": {
+    "FittedShirt": 4030,
+    "Shirt": 3337,
+    "None": 3227
+  },
+  "bottom_programs": {
+    "SkirtCircle": 882,
+    "SkirtLevels": 600,
+    "Pants": 1466,
+    "AsymmSkirtCircle": 929,
+    "SkirtManyPanels": 757,
+    "GodetSkirt": 847,
+    "None": 2732,
+    "PencilSkirt": 1547,
+    "Skirt2": 834
+  }
+}

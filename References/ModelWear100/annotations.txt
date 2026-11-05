@@ -1,0 +1,101 @@
+# candidate_id|category|silhouette|view|coverage|visual_observation
+001|dress|flared|front|full|Thân trên vừa người; tùng mở trên gối; tay nâng làm thay đổi nếp gần nách.
+002|trousers|loose|side|full|Ống quần rộng tách thành hai nhánh; áo phủ ngoài cạp; chân bước tạo nếp dọc.
+003|dress|loose|front|partial|Cổ yếm giữ thân trước; vải rủ dọc; ảnh không đủ để đánh giá gấu.
+004|top|oversized|front|partial|Vai áo trễ và thân rộng; lớp áo trắng bên trong lộ ở gấu.
+005|dress|flared|front|partial|Eo giữ tùng; tay người mẫu nâng hai bên váy làm gấu mở ngang.
+006|dress|flared|front|full|Cùng váy xanh: tùng mở từ eo; nếp dọc thu lại khi tay không kéo rộng.
+007|dress|flared|back|full|Góc sau của váy xanh cho thấy độ mở và bất đối xứng gấu khi xoay.
+009|dress|fitted|front|full|Mảng đỏ làm rõ eo trên nền đen; đường gấu ngắn quanh đùi.
+010|dress|fitted|front|full|Thân váy ngắn ôm vùng eo và hông; khoảng mở ở gấu nhỏ.
+011|outerwear|layered|front|partial|Áo khoác mở phủ ngoài áo và quần; cần khoảng hở riêng giữa các lớp.
+012|outerwear|straight|front|partial|Áo khoác hai hàng khuy giữ đường thân tương đối thẳng; cổ và vai định hình phía trên.
+013|outerwear|layered|front|full|Áo khoác hoa dài phủ ngoài lớp tối màu; hai vạt rời khỏi chân khi bước.
+014|outerwear|tailored|front|partial|Vai và ve blazer tạo cấu trúc; ảnh chỉ hỗ trợ đánh giá phần thân trên.
+016|dress|fitted|front-three-quarter|partial|Đường trễ vai và thân ôm; không suy ra hình dạng gấu bị cắt ngoài ảnh.
+017|trousers|fitted|front|full|Áo hồng rộng phủ cạp quần jean ôm; độ dư áo và quần khác nhau rõ.
+018|trousers|tailored|front|full|Bộ suit có cạp quần giữ ở eo; ống tương đối thẳng dưới áo blazer.
+019|outerwear|loose|front|full|Áo khoác in họa tiết có tay rộng; chuyển tư thế làm vạt và tay lệch nhau.
+021|dress|fitted|front|full|Đầm đen dài vừa bắp chân; eo-hông sát hơn phần gấu.
+022|dress|flared|front|partial|Phần thân có khoảng khoét; tùng mở dưới eo; gấu không hiện toàn bộ.
+023|dress|fitted|front|partial|Tay chống hông tạo nếp vùng eo; thân ôm không đồng nghĩa phải dính mọi điểm cơ thể.
+024|skirt|fitted|front|full|Chân váy bút chì trắng giữ ở cạp; áo buộc phía trên để lộ ranh giới hai món.
+025|top|loose|front|full|Áo dài tay rộng đi cùng quần short; gấu áo phủ một phần cạp.
+026|dress|fitted|front|full|Đầm không tay ôm eo-hông; đường gấu quanh gối cần khoảng cho bước chân.
+027|separates|mixed|front|partial|Áo cổ yếm sáng màu và phần dưới tối; ảnh chưa phân biệt chắc váy ngắn hay quần short.
+028|dress|fitted|front|partial|Đầm xanh tay lửng ôm thân; tay áo cần chuyển động theo khuỷu độc lập với eo.
+029|dress|straight|front|full|Đầm trắng trễ vai có bèo; gấu bất đối xứng và thân tương đối thẳng.
+031|top|loose|front|full|Áo đỏ và quần short tách món; độ dư thân áo khác độ mở ống quần.
+032|trousers|wide|front|full|Quần cam cạp cao có ống rộng; thể tích phải tách từng chân dưới đáy quần.
+034|outerwear|layered|front|partial|Áo ghi-lê sáng dài mở trước phủ quần tối; hai vạt có đường rủ riêng.
+035|dress|fitted|front|partial|Đầm đen hở vai có vùng eo vừa người; chỉ đánh giá phần thân nhìn thấy.
+036|skirt|fitted|three-quarter|full|Góc khác của chân váy trắng cho thấy độ ôm hông và khoảng gấu khi bước.
+037|trousers|tailored|front|partial|Quần và blazer nâu; thân quần rơi từ cạp chứ không từ mép áo khoác.
+038|dress|loose|front|full|Đầm hoa maxi rủ dài; eo và tùng mềm, nhiều nếp dọc dưới vùng giữ.
+039|jumpsuit|wide|front|full|Jumpsuit cam ống rộng; dải thắt eo có chuyển động riêng và cần va chạm với thân.
+040|dress|flared|front|partial|Đầm họa tiết ôm thân trên rồi tăng độ rộng phía dưới; ảnh không đủ để đo điểm bắt đầu xòe.
+041|separates|mixed|back|full|Góc sau bộ cổ yếm: điểm giữ gần cổ/lưng và eo; loại món dưới vẫn chưa chắc chắn.
+042|dress|loose|side|full|Góc nghiêng đầm hoa khi bước cho thấy tùng rời đùi và lệch gấu.
+043|skirt|wrap|front|partial|Chân váy tối có đường chéo quấn ở eo; áo cổ yếm rủ phía trên cạp.
+044|outerwear|layered|front-group|full|Nhóm runway: tập trung áo khoác in họa tiết mở trước và khoảng hở với lớp trong.
+045|trousers|fitted|front|full|Góc bước khác của quần jean và áo hồng; nếp gối thay đổi theo chân chịu lực.
+047|outerwear|layered|front|partial|Áo khoác đen phủ áo thun sáng và quần jean; cổ-vạt và gấu cần phân lớp.
+048|trousers|fitted|front|partial|Quần jean ôm với áo ngắn và khoác hoa; cạp vẫn là điểm giữ phần quần.
+049|trousers|straight|front-group|full|Hai người mẫu mặc quần jean; cạp giữ hông, mỗi ống rủ và gập riêng theo bước.
+050|trousers|fitted|front|full|Quần jean lửng ôm với áo vàng; gấu quần tách cổ chân thay vì kéo dài xuống sàn.
+054|trousers|straight|three-quarter|full|Quần đen và áo họa tiết xanh; quan sát hướng nếp quanh gối ở chân bước.
+056|trousers|straight|front|partial|Quần cam dưới áo khoác đen; điểm cạp và độ rộng đùi phải tách khỏi độ rộng áo.
+059|dress|loose|front|full|Đầm đỏ sẫm dài rủ từ thân trên; nếp dọc và gấu có độ mở tự do.
+061|dress|loose|front|full|Đầm xanh cổ yếm dài; điểm treo cao tạo nếp rủ dọc xuống tùng.
+062|dress|flared|front|full|Đầm đỏ cổ V ôm thân trên; phần dài phía dưới mở để chân bước.
+063|dress|column|front|full|Đầm dây đỏ dáng cột; eo-hông vừa người và gấu dài cần độ dư khi bước.
+064|dress|straight|side|full|Đầm đen tay ngắn góc nghiêng khi đi; vải phía sau khác phía chân đang bước.
+067|dress|flared|front|full|Đầm đỏ vai mở có tùng dài; kiểm tra khoảng chân và độ mở quanh gấu.
+068|dress|draped|three-quarter|partial|Nếp chéo tụ quanh eo đầm đỏ; không thể thay bằng các vòng nhăn đều khắp thân.
+070|dress|fitted|front|partial|Bề mặt đỏ phản sáng làm rõ nếp eo-hông; không suy ra chính xác loại vải từ ảnh.
+071|dress|loose|three-quarter|full|Đầm đen dài có xẻ khi bước; chân lộ ở khe xẻ, phần gấu phía sau trễ hơn.
+072|dress|column|front|full|Đầm đỏ lệch vai giữ không đối xứng phía trên; tùng dài mở nhẹ phía dưới.
+075|dress|fitted|side|full|Đầm đen thắt eo xanh; bước chân làm thân váy nghiêng và gấu dịch tương đối với chân.
+076|dress|draped|front|full|Toàn thân của mẫu đầm đỏ xếp rủ: nếp tụ eo và hướng gấu quan sát được cùng lúc.
+077|dress|layered|front|full|Đầm đen có lớp ngoài mỏng phủ lớp lót; mỗi lớp cần khoảng hở và chiều dài riêng.
+078|dress|fitted|front|full|Đầm ống đỏ ngắn trong tư thế đứng; điểm giữ thân trên khác đầm có dây vai.
+079|dress|straight|front|full|Đầm đỏ có mảng dọc sáng/tối; đường thân tương đối thẳng, không ôm từng mặt cơ thể.
+081|dress|fitted|front|full|Đầm ngắn đỏ trên runway; dùng đối chiếu tư thế bước với ảnh đứng 078.
+082|dress|draped|front|full|Đầm đỏ gấu chéo; nếp rủ chéo từ vùng eo và chiều dài trái/phải khác nhau.
+086|dress|straight|front|full|Góc bước khác đầm đỏ mảng dọc; kiểm tra đường gấu và chân chịu lực.
+087|dress|fitted|front|partial|Đầm đen dạng băng có khoảng khoét chủ ý; cần phân biệt khoảng hở thiết kế với lỗi xuyên.
+091|separates|loose|three-quarter|full|Bộ xanh có đai cam giữ eo và phần dưới rộng; ảnh chưa đủ phân biệt chắc váy với quần rộng.
+094|dress|straight|back|full|Góc sau đầm đen tay ngắn cho thấy đường thân sau và nếp khi bước.
+096|dress|fitted|front|full|Đầm dây đen dài trên runway; thân trên sát hơn tùng và cần khoảng chân phía dưới.
+097|dress|slit|three-quarter|full|Đầm đen dài thắt eo, xẻ chân; vùng xẻ phải mở theo tư thế thay vì kéo giãn cả tùng.
+098|dress|straight|front|full|Đầm đen tay ngắn quanh gối; cần độ dư quanh hông và gấu khi đi.
+099|dress|flared|front|full|Đầm hồng dài ôm phần trên rồi mở gấu; họa tiết bề mặt không thay thế hình học phom.
+100|outerwear|voluminous|front|full|Áo choàng đỏ thể tích lớn che lớp trong; chỉ suy ra đường bao ngoài, không đo được độ ôm lớp dưới.
+101|jumpsuit|fitted|front|full|Bộ liền quần ngắn đen; thân và hai ống nối qua đáy quần, không dùng hình học tùng váy.
+102|skirt|wrap|three-quarter|full|Chân váy nâu ngắn bất đối xứng cùng áo và quần tất; tư thế nghiêng tạo kéo chéo vùng eo.
+105|trousers|fitted|front-group|full|Quần kẻ và áo ngắn, tay nâng; vùng eo và đáy quần biến dạng khác phần áo.
+106|dress|flared|front-group|full|Ba trang phục vintage có tùng xòe; so sánh tỷ lệ eo-gấu, không suy ra kích thước thật.
+108|skirt|flared|front|full|Váy hoa maxi và áo ngắn trắng; cạp giữ eo, tùng treo độc lập với thân áo.
+110|top|voluminous|front|partial|Áo couture bèo xanh/đen tạo thể tích cục bộ; cần hình học lớp và điểm giữ riêng.
+111|dress|straight|front|full|Đầm vintage ngắn dáng suông; thân không thu sát eo như bodycon.
+112|trousers|tailored|seated|full|Suit sáng khi ngồi: hông và gối gập sinh nếp, ống cần đủ chiều dài và độ dư.
+116|dress|wrap|front|partial|Cổ V và đai eo đầm quấn; hướng nếp quy về vùng thắt, không đủ ảnh để đánh giá gấu.
+117|trousers|loose|front|partial|Quần đỏ rộng dưới blazer trắng họa tiết; phần trên ống quần có nếp rủ từ cạp.
+120|outerwear|tailored|front|partial|Áo khoác đen có đai và hàng khuy; vai-cổ-cạp đai tạo vùng giữ khác nhau.
+123|trousers|tailored|front|partial|Quần suit xám và các lớp áo; cạp, đáy và ly quần cần cấu trúc riêng.
+124|skirt|pleated|front|full|Váy ngắn xếp ly dưới áo rộng; độ mở ly bắt đầu từ cạp và bị che một phần bởi gấu áo.
+131|dress|straight|front|full|Đầm tua rua dáng suông trên sân khấu; tua là lớp phụ có chuyển động riêng với nền váy.
+136|trousers|fitted|seated|partial|Quần jean khi ngồi nâng một chân; nếp tập trung ở hông và đầu gối gập.
+137|dress|pleated|front|partial|Đầm đen cổ yếm khi nâng tay; thân trên rủ và phần dưới xếp nếp, gấu nằm ngoài ảnh.
+139|jumpsuit|straight|front|full|Bộ liền quần vintage ống lửng trên runway; thân trên và hai ống có độ dư riêng.
+140|trousers|tailored|front|full|Suit xanh tối khi bước: blazer giữ vai, quần giữ cạp; nếp ống phản ánh chân chịu lực.
+141|trousers|tailored|front|partial|Suit tối trên runway có áo ghi-lê và sơ mi; mỗi lớp có mép và khoảng hở riêng.
+144|trousers|tailored|front|partial|Suit đen với tay đặt túi; nếp quanh túi-hông chịu ảnh hưởng trực tiếp của tư thế tay.
+146|outerwear|tailored|front|full|Áo khoác sáng ngắn trên phần dưới đen dài; đường eo và chiều dài vạt không trùng gấu món dưới.
+147|skirt|flared|front|full|Bộ xanh có áo ngắn và tùng xòe, viền gấu sáng; eo giữ thể tích, lớp phụ rủ riêng.
+148|separates|tailored|front|full|Bộ xanh có áo khoác và phần dưới ngắn; ảnh tối chưa đủ phân biệt chắc kiểu món dưới.
+153|dress|voluminous|side|full|Couture xanh-vàng có cấu trúc xòe cao phía sau và tùng nhiều màu; không mô phỏng bằng một ống vải đều.
+166|dress|draped|front|full|Đầm đỏ có đai eo và lớp rủ bất đối xứng phía trước; phần lớp phủ khác thân nền.
+171|dress|column|front|full|Đầm đỏ dài tay ôm thân với gấu kéo phía sau; vai, eo và đuôi có chức năng khác nhau.
+178|dress|flared|front|full|Đầm đỏ ngắn không tay thu ở eo và mở gấu; chân đang đổi hướng cần khoảng hở dưới tùng.
+193|dress|draped|front|full|Cùng đầm 166 ở nhịp bước khác; lớp rủ trước lệch chân và gấu thay đổi đường bao.

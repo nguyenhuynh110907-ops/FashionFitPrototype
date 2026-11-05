@@ -1,0 +1,57 @@
+[
+  {
+    "y": 1.159999966621399,
+    "circumference_before": 0.7265557646751404,
+    "circumference_after": 0.7266734838485718
+  },
+  {
+    "y": 1.1800000667572021,
+    "circumference_before": 0.7363594174385071,
+    "circumference_after": 0.7361369132995605
+  },
+  {
+    "y": 1.2000000476837158,
+    "circumference_before": 0.7493623495101929,
+    "circumference_after": 0.7471082806587219
+  },
+  {
+    "y": 1.2200000286102295,
+    "circumference_before": 0.8024177551269531,
+    "circumference_after": 0.7964426279067993
+  },
+  {
+    "y": 1.2400000095367432,
+    "circumference_before": 0.8701645731925964,
+    "circumference_after": 0.8627070188522339
+  },
+  {
+    "y": 1.2599999904632568,
+    "circumference_before": 0.9088687300682068,
+    "circumference_after": 0.9001538157463074
+  },
+  {
+    "y": 1.2799999713897705,
+    "circumference_before": 0.9055444002151489,
+    "circumference_after": 0.9008684754371643
+  },
+  {
+    "y": 1.3000000715255737,
+    "circumference_before": 0.9760594367980957,
+    "circumference_after": 0.9737048149108887
+  },
+  {
+    "y": 1.3200000524520874,
+    "circumference_before": 0.9949914216995239,
+    "circumference_after": 0.9944455027580261
+  },
+  {
+    "y": 1.340000033378601,
+    "circumference_before": 0.9832910895347595,
+    "circumference_after": 0.983267605304718
+  },
+  {
+    "y": 1.3600000143051147,
+    "circumference_before": 0.9775592684745789,
+    "circumference_after": 0.9775628447532654
+  }
+]

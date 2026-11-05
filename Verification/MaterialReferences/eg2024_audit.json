@@ -1,0 +1,22 @@
+{
+  "source": "https://henardoel.github.io/henardoel/index_eg2024.html",
+  "official_train_rows": 1275,
+  "official_test_rows": 194,
+  "paper_described_fabrics": 1565,
+  "archive_csv_rows": 1469,
+  "image_references_verified": 2938,
+  "missing_images": [],
+  "reference_GT_scenes": 195,
+  "train_rows_with_GT": 0,
+  "test_rows_with_GT": 194,
+  "GT_not_in_CSV": [
+    "SED-0334"
+  ],
+  "cross_split_identical_images": [],
+  "findings": [
+    "MechMet/MechIm columns are predictions; NMAE columns are errors, not material measurements.",
+    "GT simulation references belong to the official held-out set; do not train on them.",
+    "Raw thickness/density conventions need verification before SI conversion or solver calibration.",
+    "No paired breaking/tear/abrasion labels found; texture assets are not matched to these mechanics."
+  ]
+}

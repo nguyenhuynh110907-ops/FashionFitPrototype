@@ -1,0 +1,16 @@
+mtllib DetailFixture.mtl
+o TwoMaterialDetail
+v -0.12 1.1 0.3
+v -0.02 1.1 0.3
+v -0.12 1.2 0.3
+v 0.02 1.1 0.3
+v 0.12 1.1 0.3
+v 0.12 1.2 0.3
+vt 0 0
+vt 1 0
+vt 0 1
+vn 0 0 1
+usemtl PatternedFabric
+f 1/1/1 2/2/1 3/3/1
+usemtl GoldTrim
+f 4/1/1 5/2/1 6/3/1

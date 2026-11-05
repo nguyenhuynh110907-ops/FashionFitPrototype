@@ -1,0 +1,248 @@
+{
+  "status": "passed",
+  "method": "Full original body; libigl triangle distance + Embree ray parity; vertices, face centres and edge midpoints; 1 mm tolerance",
+  "continuous_collision_certified": false,
+  "self_collision_certified": false,
+  "cases": [
+    {
+      "file": "Look1_Neutral.bin",
+      "sha256": "786c84e27133640bd2ddda4f5211ceff08f3820436d4a1af564ac8e9665a9b29",
+      "body": [
+        {
+          "samples": 49623,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look1_Posed.bin",
+      "sha256": "e68c8f5cd399ccfa5638e52ff6a34cef5abe0e4dd058a94f2dd5201ebd40c658",
+      "body": [
+        {
+          "samples": 49623,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look1_Pulled.bin",
+      "sha256": "a25a55313010758014cdd309ad798e545bddcee1ed21cf963b49749abe8a5575",
+      "body": [
+        {
+          "samples": 49623,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look1_Recovered.bin",
+      "sha256": "6119a6829b2eab6aadefb97beb933be2434b4a67768b981a7f0685658ad76b68",
+      "body": [
+        {
+          "samples": 49623,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look2_Neutral.bin",
+      "sha256": "f16928796005f4f292e9226df6760bee30844cdc62a474fc445ea26d772ec988",
+      "body": [
+        {
+          "samples": 50391,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look2_Posed.bin",
+      "sha256": "46e8f2a7f876e9df73e9513212fae28b3e120f935a66fdb2d1aa292128a7ad7f",
+      "body": [
+        {
+          "samples": 50391,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look2_Pulled.bin",
+      "sha256": "70eb0f307a2ba7dfbb23d0042b84a2588d3c2ab6dd790970073a11cd9e58e7e9",
+      "body": [
+        {
+          "samples": 50391,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look2_Recovered.bin",
+      "sha256": "6130fd69237db7aee06d3da8cb54725fbd3f1f7c35c32be20ec6a2ccd816217a",
+      "body": [
+        {
+          "samples": 50391,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look3_Neutral.bin",
+      "sha256": "4c51177b00c6a48e1c8503237392284e897c7b0ed6e1cf1aeaac7985b241c937",
+      "body": [
+        {
+          "samples": 64504,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look3_Posed.bin",
+      "sha256": "ae65cb01d3c8fd0af171b39f95396f3b6bab721c7404ec1676de4c50396a02ab",
+      "body": [
+        {
+          "samples": 64504,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look3_Pulled.bin",
+      "sha256": "e328bb385b01c02537faf1b8f6afc35af2f2fe65c444c3db9c31553b6a1ed531",
+      "body": [
+        {
+          "samples": 64504,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look3_Recovered.bin",
+      "sha256": "4000a4e148ec1dffd92e9bc30aa2a14fd586fb276fa793eb673691098cf521eb",
+      "body": [
+        {
+          "samples": 64504,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look4_Neutral.bin",
+      "sha256": "2910ad33563ac7cb5ac13aafbbfa045fbd79aa5da02c1d365e4963f2a6f7f4a6",
+      "body": [
+        {
+          "samples": 64022,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look4_Posed.bin",
+      "sha256": "82117720466989ebd120340a12d668fefb6e43530ff197a66111b3a2ca866e83",
+      "body": [
+        {
+          "samples": 64022,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look4_Pulled.bin",
+      "sha256": "b6e1b78250cee291204a23af656996bd46130215d6cbd291c27893d554415b4c",
+      "body": [
+        {
+          "samples": 64022,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look4_Recovered.bin",
+      "sha256": "af50c3257c4a9c6353e6a8d6dd69e006b8042d4bc533747ec327660c3235b624",
+      "body": [
+        {
+          "samples": 64022,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look5_Neutral.bin",
+      "sha256": "2f2b135fb54dc55537bb820f393043e97ddbd18aaf060eecc5fd6f0fdf79d155",
+      "body": [
+        {
+          "samples": 63736,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look5_Posed.bin",
+      "sha256": "1eab9f64a6d621c9ebf652cecfce4b5b4d56a9280379b309ab40a3b08e0af860",
+      "body": [
+        {
+          "samples": 63736,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look5_Pulled.bin",
+      "sha256": "589be1ab5c71ca967022c87b21a575706b88653c4f1977006135fd4195200f15",
+      "body": [
+        {
+          "samples": 63736,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "Look5_Recovered.bin",
+      "sha256": "23e105a8e89d2f63555e2fd143d97f61aee0d1fb40257644656a7ab468f2b3d5",
+      "body": [
+        {
+          "samples": 63736,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    }
+  ]
+}

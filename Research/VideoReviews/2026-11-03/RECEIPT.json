@@ -1,0 +1,36 @@
+[
+  {
+    "id": "1140657575086031",
+    "duration": 176.61,
+    "uploader": "Kỹ sư 4.0",
+    "webpage_url": "https://m.facebook.com/watch/?v=1140657575086031&_rdr",
+    "file": "reel1.mp4",
+    "sha256": "a005de16e652a738faccd04f3a2e81001d2e09205d4e18b4e4545494a70e5aa3",
+    "sampled_seconds": [
+      2,
+      25,
+      50,
+      75,
+      100,
+      125,
+      150,
+      172
+    ]
+  },
+  {
+    "id": "1389200312767580",
+    "duration": 46.0,
+    "uploader": "Mint Tech",
+    "webpage_url": "https://m.facebook.com/watch/?v=1389200312767580&_rdr",
+    "file": "reel2.mp4",
+    "sha256": "c054c20cd78e1d0904e8edebfbfa355582f33beb9bf2c7c2cc5efad99cde9de1",
+    "sampled_seconds": [
+      2,
+      10,
+      18,
+      26,
+      34,
+      43
+    ]
+  }
+]

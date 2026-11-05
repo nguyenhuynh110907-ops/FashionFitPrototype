@@ -1,0 +1,21 @@
+{
+  "source": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\ModelGrip_Work\\UnityProject\\Verification\\GarmentDoffing\\Trial\\Contact\\Closed.bin",
+  "source_sha256": "89e5ff372dfcc87657ba8391c8ef893fa02a3edf062d0b87aec9b48d42551095",
+  "posed_body_key": "f98c9fb93130395c4296362e1ce07b9d7003c87b89e3da496212061beb25ca0e",
+  "dimensions": [
+    141,
+    312,
+    95
+  ],
+  "step_m": 0.006,
+  "origin_m": [
+    -0.42,
+    -0.07200000000000001,
+    -0.17400000000000002
+  ],
+  "samples": 4179240,
+  "bytes": 16717057,
+  "sha256": "cef38a20ef739b3bc2c1b94900e77bf90deccff6dad3d3b05566ac642a93f2f7",
+  "purpose": "Measured posed mannequin signed-distance cache; no AI training, not a cloth material dataset",
+  "valid_for": "stationary fitting pose plus root translation/yaw only"
+}

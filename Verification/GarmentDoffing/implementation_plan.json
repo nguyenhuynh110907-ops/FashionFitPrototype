@@ -1,0 +1,122 @@
+{
+  "status": "proposal_only_not_implemented",
+  "first_pilot": "One original front-opening blouse on the fitted mannequin, before transferring to Ao Dai and other avatars",
+  "interaction": {
+    "cloth_hold": "near Grip on either hand, two independent cloth patches",
+    "fastener_toggle": "near Trigger edge on a specific closure; separate from distant menu buttons",
+    "proposed_fastener_activation_distance_m": 0.03,
+    "range_status": "starting UX proposal, needs Touch-controller calibration",
+    "guards": [
+      "surface proximity, occlusion and facing check",
+      "one trigger press causes at most one transition",
+      "no simultaneous UI activation",
+      "same closure has one operation owner",
+      "tracking loss cancels pending button action",
+      "closing requires edge alignment; cannot teleport cloth across torso"
+    ],
+    "feedback": [
+      "local highlight",
+      "short haptic event",
+      "missing-closure or trapped-cuff hint"
+    ],
+    "controller_force_measurement": false
+  },
+  "state_axes": {
+    "closure": [
+      "closed",
+      "opening",
+      "open",
+      "closing"
+    ],
+    "garment": [
+      "worn",
+      "doffing",
+      "free"
+    ],
+    "location": [
+      "body",
+      "hand_left",
+      "hand_right",
+      "both_hands",
+      "floor",
+      "rack"
+    ],
+    "note": "Closure state and garment lifecycle are separate; open buttons do not automatically mean removed garment."
+  },
+  "garment_required_fields": [
+    "garment_instance_id",
+    "avatar_binding",
+    "material_and_uv_refs",
+    "simulation_to_render_mapping",
+    "permanent_seams",
+    "free_boundaries",
+    "releasable_closure_pairs",
+    "fastener_type_and_ids",
+    "buttonhole_landmarks",
+    "per_region_attachment_weights",
+    "donning_doffing_path",
+    "cuff_neck_clearance",
+    "collision_layers",
+    "layer_order"
+  ],
+  "fastener_required_fields": [
+    "id",
+    "type",
+    "edge_bank_a",
+    "edge_bank_b",
+    "surface_triangle_or_particle_attachment",
+    "rest_gap_m",
+    "state",
+    "operation_owner",
+    "reclose_distance_m",
+    "alignment_rule"
+  ],
+  "simulation_changes": [
+    "Authored split edge banks and render faces; do not leave triangles or hidden bend/stretch links bridging an opening",
+    "Permanent stitches stay; only matching fastener constraints are disabled. Hardware remains attached to its fabric side.",
+    "Gradually release body supports by region after physical clearance, not merely after the last button opens",
+    "World-space garment simulation persists when unparented; preserve positions and velocity on hand/body handover",
+    "Release old skin/animation tethers and stop applying old bind transform once cloth is free",
+    "Single authoritative deformation solver; do not drive same vertices with both body skinning and an independent rigidbody",
+    "World gravity, body/cloth/self/interlayer/room contacts remain active throughout doffing",
+    "Independent active/sleep scheduler for garments away from the mannequin",
+    "Keep shared materials and meshes alive until garment instance is explicitly deleted",
+    "Restore body visibility before opening; do not hide the body to pass collision QA"
+  ],
+  "constraints": [
+    "Polo half-placket does not create a full front opening; over-head removal requires adequate neck/cuff clearance",
+    "A visually apparent button in a texture is insufficient to infer a functional closure",
+    "No inferred Newton forces or material breaking strength from Touch grip pressure",
+    "Do not enable arbitrary imported garment removal without topology, closure and collision metadata"
+  ],
+  "planned_acceptance_scenarios": [
+    "Open and reclose every fastener, keeping each hardware mesh attached to its correct panel",
+    "Hold one placket with one hand and toggle a button with the other; swap sides",
+    "Grab same garment with both hands, then release one; no jump or ownership loss",
+    "Reach through from back, through walls or from beyond activation distance; no action",
+    "Try removal while required fastener remains closed or cuff is too tight; block with local hint",
+    "Doff in stationary assisted pose, then remove left and right sleeves without crossing the body",
+    "Lose tracking while holding; no explosive impulse or accidental reclosure",
+    "Release last hand; garment falls, contacts floor/table, settles and can be picked up again",
+    "Move/pose mannequin after removal; free garment does not follow it",
+    "Change current outfit; previously removed garment remains with valid texture/material",
+    "Restore onto mannequin using explicit donning action, not release-near-body auto equip",
+    "Inspect front, back, armpits and opened regions for body visibility holes",
+    "Measure triangle-body, edge-edge and interlayer contacts during motion and compute frame-time percentiles on PCVR"
+  ],
+  "penetration_gate": {
+    "status": "proposed_acceptance_target_not_measured",
+    "maximum_reportable_depth_m": 0.001,
+    "fail_if_any_sample_exceeds": true,
+    "note": "Sampled or swept QA cannot certify all possible interactions; do not claim mathematically zero penetration"
+  },
+  "performance_gate": "Match measured P95/P99 frame times to actual HMD refresh budget; no FPS promise before runtime test",
+  "rollout": [
+    "Author/validate one blouse and closure metadata",
+    "Static/two-hand unbutton tests",
+    "Full doff, drop, pick up, rewear",
+    "Adapt Ao Dai closure/raglan layers and repeat contact QA",
+    "Add per-avatar wardrobe to male/female pose mannequins",
+    "Increase animation speed only after contact and performance validation"
+  ]
+}

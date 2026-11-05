@@ -1,0 +1,8 @@
+{
+  "Assets/FashionFit/Runtime/FabricDetailTrial.cs": "341acbaa18a5b8455a08ac3641d378223c7039410f19c46d99743da8b280fd21",
+  "Assets/FashionFit/Runtime/RunwayWardrobe.cs": "abc7d613a52d65baf78c8e8f9d68f9d097171cd055a4c452591bd4bfe99148ab",
+  "Assets/FashionFit/Runtime/FashionFitApp.cs": "4e750bc79eb9585e0cd731df18e5b7120c2dde3e2ebd4ee1c81125fa0108394d",
+  "Assets/FashionFit/Runtime/RunwayUI.cs": "ea5aa6ef43336f17717f06422cd1a9dc268785765359db6d4d8519de6d543a51",
+  "Assets/Resources/Runway/DressFabric.shader": "ad5a3ae9fa3f3891a6ba1d92931c89ec4f0503392cab9edcb82b714c0f0d21fd",
+  "AI/GarmentDetail/predict_pattern_details.py": "866c21ed7cdd9e406249d9ad452962dfa70ac1b130edaffa4305090502469390"
+}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aab14be8e727f344b3fdb97c9788bc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  look: 2
+  label: "Emerald / pose n\u1EEF"
+  mesh: {fileID: 4300000, guid: c9b9628cb2aab5b4b955d5204d26ca76, type: 2}
+  materials:
+  - {fileID: 2100000, guid: f79da327a4674ed49adfdc49c9b205c1, type: 2}
+  - {fileID: 2100000, guid: 7b8d26afc21f3d94cb6bfc6ffe2f05fb, type: 2}

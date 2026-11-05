@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-10-31T02:07:05Z",
+  "new_reference_photos": 6,
+  "photo_bytes": 46514771,
+  "reference_pdfs": 4,
+  "pdf_pages": 80,
+  "pdf_bytes": 57019181,
+  "existing_generic_pattern_examples": 6,
+  "generic_panels": 80,
+  "generic_seam_pairs": 240,
+  "downloaded_aodai_3d_meshes": 0,
+  "downloaded_aodai_machine_readable_patterns": 0,
+  "new_ai_training_runs": 0,
+  "new_aodai_motion_tests": 0,
+  "runtime_changed": false,
+  "raw_data_folder": "C:\\Users\\HUYNH\\OneDrive\\Desktop\\FashionFitPrototype\\AI\\ClothData\\Data\\AoDaiResearch",
+  "data_cap_bytes": 30000000000
+}

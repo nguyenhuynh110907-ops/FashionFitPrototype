@@ -1,0 +1,55 @@
+{
+    "scope": "Rest-pose garment proportions and mesh normals in Unity; waist ease is measured against the baked convex body section.",
+    "looks": [
+        {
+            "name": "AtelierMidi",
+            "waistY": 1.1200000047683716,
+            "meanWaistRadialEase": 0.012000000104308129,
+            "waistCircumference": 0.776820182800293,
+            "hemWidth": 0.5997574925422669,
+            "bodiceSeamOverlap": 0.0,
+            "outwardBodiceNormalFraction": 0.0,
+            "hasBodice": false
+        },
+        {
+            "name": "EmeraldColumn",
+            "waistY": 1.1200000047683716,
+            "meanWaistRadialEase": 0.012000000104308129,
+            "waistCircumference": 0.776820182800293,
+            "hemWidth": 0.5011919736862183,
+            "bodiceSeamOverlap": 0.008000016212463379,
+            "outwardBodiceNormalFraction": 1.0,
+            "hasBodice": true
+        },
+        {
+            "name": "RoseCouture",
+            "waistY": 1.1200000047683716,
+            "meanWaistRadialEase": 0.012000000104308129,
+            "waistCircumference": 0.776820182800293,
+            "hemWidth": 0.8410240411758423,
+            "bodiceSeamOverlap": 0.008000016212463379,
+            "outwardBodiceNormalFraction": 1.0,
+            "hasBodice": true
+        },
+        {
+            "name": "SapphireCocktail",
+            "waistY": 1.1200000047683716,
+            "meanWaistRadialEase": 0.012000000104308129,
+            "waistCircumference": 0.776820182800293,
+            "hemWidth": 0.644331693649292,
+            "bodiceSeamOverlap": 0.008000016212463379,
+            "outwardBodiceNormalFraction": 1.0,
+            "hasBodice": true
+        },
+        {
+            "name": "IvoryShirtSet",
+            "waistY": 1.1200000047683716,
+            "meanWaistRadialEase": 0.012000000104308129,
+            "waistCircumference": 0.776820182800293,
+            "hemWidth": 0.5054574012756348,
+            "bodiceSeamOverlap": 0.0,
+            "outwardBodiceNormalFraction": 0.0,
+            "hasBodice": false
+        }
+    ]
+}

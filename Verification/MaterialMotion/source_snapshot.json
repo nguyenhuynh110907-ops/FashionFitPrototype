@@ -1,0 +1,82 @@
+{
+  "Assets/Resources/Fitting/female-mesh.bytes": {
+    "sha256": "1483998b04e614cb9541099f5a39964e6f141c70e539de87082dd774fc342b58",
+    "matches_test_project": true
+  },
+  "Assets/Resources/Fitting/female-rig.json": {
+    "sha256": "6eb8668917ebe14d6928a6401b4d10499429bb72670007c39a2a0255658e41f7",
+    "matches_test_project": true
+  },
+  "Assets/Resources/Fitting/polo-contact-fit.json": {
+    "sha256": "fabf5e633aeff0ba0f379818c02ce3c2920ce3eb49e984eed9fbdfda13f1a41d",
+    "matches_test_project": true
+  },
+  "Assets/Resources/Fitting/cloth-materials.json": {
+    "sha256": "b59e9d6e8ebd0801362a194fe70988315880157a8d64a91afd4e9e2406d958a4",
+    "matches_test_project": true
+  },
+  "Assets/Resources/Runway/DressFabric.shader": {
+    "sha256": "0310abb6654f8e9289a60e7df4cbf095ec0fe4c13fd783b2ddb14c90a2a2e3c3",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/ClothMaterialProfile.cs": {
+    "sha256": "1164d518c7b172b3d4ffe34ae947e3bae878c63a3a48db3a4d864edf1ba1420e",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/FittingClothSolver.cs": {
+    "sha256": "42d3c3c2113ce5bc54342db853387403c42bbea354acc67f41f09ae9fe197344",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/FittingCloth.cs": {
+    "sha256": "355d89ce34b8497e1e1431a08ce7b4362f66b9d2f94ca6b2211b0ac41908fe2d",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/InteractiveShirt.cs": {
+    "sha256": "6924ef4af9ae0be64e8d0bd0fb81cf2680f806bff235b80a76504743c28e8265",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/TailoredSurfaceDynamics.cs": {
+    "sha256": "3d708fff1419da73b06f8afcb3063792cde825dd4d70a95dbb0d7c09179ef00b",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/TailoredPoloStudy.cs": {
+    "sha256": "6aa510f7f1423e2a0e468a51493b852aebc8c66a513a940d28399da45afb7c6a",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/RunwayWardrobe.cs": {
+    "sha256": "61547527c0406821d2daa9356531dd6208ea2a3431ca36eaae5a7e8c232ad0e9",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/FashionFitApp.cs": {
+    "sha256": "6465aa13de0d84429f59a860ca2c96047c231749b385231901c948ff3cc88d4d",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/RunwayUI.cs": {
+    "sha256": "28f7f02c3203810d8a7420c57037913422bc2e282d85bafeede8ebcb417f019a",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/RunwayAvatar.cs": {
+    "sha256": "a4306b51be3f5b5f463391d6ce876453e9d8a039b4ac00338e4d4566c02b2a9a",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/TechnicalBodyFitData.cs": {
+    "sha256": "4e5518289dfa2907d30a6bf511563738741bb7b56d64943152d02c9a0dd7130f",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/WovenFabricDetail.cs": {
+    "sha256": "900108ac6378180af3cda75d147a48d68a0513e7e7c7015ec343f8fb5a464fd7",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Editor/PoloFitCacheRefresh.cs": {
+    "sha256": "4464e778328bf7e17d43ec05bd9078652537e25e8a33e4a9369e1baf5bd288a9",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Editor/MaterialMotionVerification.cs": {
+    "sha256": "d9f01fabd56e295ca5e6d744fa15813c9e906b9c1231a1a71e30fb0a6ad0e6f9",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Editor/UnderarmVerification.cs": {
+    "sha256": "bb9ba7a96caa9e00631879dee6722b8b4e2dcfd3d1750c4c7eb3ab547618acd9",
+    "matches_test_project": true
+  }
+}

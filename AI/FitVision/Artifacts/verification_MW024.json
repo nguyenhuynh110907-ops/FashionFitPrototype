@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "image": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\FashionFitPrototype\\References\\ModelWear100\\Images\\MW024.jpg",
+  "deployment_status": "research_only",
+  "requires_review": true,
+  "checkpoint_sha256": "195f9f5b7e5ebaf8f30451037b44e6ef2a97262c0d81a18e4415e6b41fa630c1",
+  "predictions": [
+    {
+      "task": "category",
+      "label": "skirt",
+      "probability": 0.5285354256629944,
+      "top3": [
+        {
+          "label": "skirt",
+          "probability": 0.5285354256629944
+        },
+        {
+          "label": "jumpsuit",
+          "probability": 0.12166319042444229
+        },
+        {
+          "label": "top",
+          "probability": 0.09159476310014725
+        }
+      ]
+    },
+    {
+      "task": "appearance",
+      "label": "volume",
+      "probability": 0.35336142778396606,
+      "top3": [
+        {
+          "label": "volume",
+          "probability": 0.35336142778396606
+        },
+        {
+          "label": "draped_layered",
+          "probability": 0.2523600459098816
+        },
+        {
+          "label": "close",
+          "probability": 0.23116979002952576
+        }
+      ]
+    }
+  ],
+  "guidance": "Dung the tich tung/panel va diem giu eo; de gau co do tu do.",
+  "warning": "Research classifier trained on 100 photos. Verify manually; no 3D, cloth physics, or nonpenetration guarantee."
+}

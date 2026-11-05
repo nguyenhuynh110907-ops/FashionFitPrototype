@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "id": "aodai_raglan_trial_01",
+  "status": "research_proposal_not_runtime_asset",
+  "intended_body": "adult female mannequin; requires actual body measurements",
+  "visual_proposal": {
+    "outer_color": "deep teal",
+    "pants_color": "ivory",
+    "surface": "plain woven silk-like appearance; mechanics unmeasured"
+  },
+  "construction_basis": "Semantic proposal informed by public construction references; not traced pattern coordinates",
+  "source_refs": [
+    "hcem_md31_ao_dai",
+    "folkwear_139_yardage",
+    "commons_02"
+  ],
+  "parts": [
+    {
+      "id": "outer_front",
+      "count": 1,
+      "layer": "outer",
+      "role": "body_and_front_tail",
+      "note": "continuous body to hem; no artificial waist join",
+      "pattern_coordinates": null,
+      "seam_edge_ids": null
+    },
+    {
+      "id": "outer_back",
+      "count": 1,
+      "layer": "outer",
+      "role": "body_and_back_tail",
+      "note": "continuous body to hem; center-back split depends on final pattern",
+      "pattern_coordinates": null,
+      "seam_edge_ids": null
+    },
+    {
+      "id": "sleeve",
+      "count": 2,
+      "layer": "outer",
+      "role": "left_right_raglan",
+      "note": "proposed long raglan sleeves",
+      "pattern_coordinates": null,
+      "seam_edge_ids": null
+    },
+    {
+      "id": "collar_outer",
+      "count": 1,
+      "layer": "collar",
+      "role": "outer_leaf",
+      "note": "standing collar proposal",
+      "pattern_coordinates": null,
+      "seam_edge_ids": null
+    },
+    {
+      "id": "collar_inner",
+      "count": 1,
+      "layer": "collar",
+      "role": "inner_leaf",
+      "note": "local inner leaf, not whole torso lining",
+      "pattern_coordinates": null,
+      "seam_edge_ids": null
+    },
+    {
+      "id": "collar_interfacing",
+      "count": 1,
+      "layer": "collar",
+      "role": "bonded_local_layer",
+      "note": "bonded to collar; composite bending rather than free floating sheet",
+      "pattern_coordinates": null,
+      "seam_edge_ids": null
+    },
+    {
+      "id": "closure_facing",
+      "count": 1,
+      "layer": "closure",
+      "role": "local_support",
+      "note": "shape and attachment await authored pattern",
+      "pattern_coordinates": null,
+      "seam_edge_ids": null
+    },
+    {
+      "id": "underlap",
+      "count": 1,
+      "layer": "closure",
+      "role": "local_inner_overlap",
+      "note": "local closure overlap; not a third full-length tail",
+      "pattern_coordinates": null,
+      "seam_edge_ids": null
+    },
+    {
+      "id": "tail_edge_finish",
+      "count": null,
+      "layer": "outer",
+      "role": "hem_or_facing",
+      "note": "author choice: hem mesh/shading or separate facing strips",
+      "pattern_coordinates": null,
+      "seam_edge_ids": null
+    },
+    {
+      "id": "trouser_front",
+      "count": 2,
+      "layer": "trousers",
+      "role": "left_right_front",
+      "note": "separate leg topology",
+      "pattern_coordinates": null,
+      "seam_edge_ids": null
+    },
+    {
+      "id": "trouser_back",
+      "count": 2,
+      "layer": "trousers",
+      "role": "left_right_back",
+      "note": "inseam, side seam and crotch curve",
+      "pattern_coordinates": null,
+      "seam_edge_ids": null
+    },
+    {
+      "id": "trouser_waist_facing",
+      "count": null,
+      "layer": "trousers",
+      "role": "waist_finish",
+      "note": "piece count depends on selected pattern",
+      "pattern_coordinates": null,
+      "seam_edge_ids": null
+    },
+    {
+      "id": "optional_torso_lining",
+      "count": null,
+      "layer": "lining",
+      "role": "upper_body_only",
+      "note": "disabled for first proposal; do not add a full free floating duplicate by default",
+      "pattern_coordinates": null,
+      "seam_edge_ids": null
+    }
+  ],
+  "seam_plan": [
+    {
+      "id": "torso_shaping",
+      "operation": "close darts before final drape; dart placement fitted to body, not radial breast spikes",
+      "geometric_edge_ids": null
+    },
+    {
+      "id": "raglan_attach",
+      "operation": "connect each sleeve to front and back along authored matching seam curves",
+      "geometric_edge_ids": null
+    },
+    {
+      "id": "sleeve_underarm",
+      "operation": "close sleeve underarm edge",
+      "geometric_edge_ids": null
+    },
+    {
+      "id": "upper_sides",
+      "operation": "join torso side seams only above selected side-opening landmarks",
+      "geometric_edge_ids": null
+    },
+    {
+      "id": "free_tails",
+      "operation": "below side openings, front and back tail sides remain free; no center-front slit",
+      "geometric_edge_ids": null
+    },
+    {
+      "id": "collar",
+      "operation": "attach inner/outer collar leaves around neckline; bond interfacing",
+      "geometric_edge_ids": null
+    },
+    {
+      "id": "closure",
+      "operation": "closure facing and underlap get local constraints at verified seam and fastener locations",
+      "geometric_edge_ids": null
+    },
+    {
+      "id": "pants",
+      "operation": "sew front/back leg pairs, inseams, outseams, crotch and waist finish",
+      "geometric_edge_ids": null
+    }
+  ],
+  "contact_plan": [
+    {
+      "pair": [
+        "body",
+        "trousers"
+      ],
+      "mode": "two-sided garment/body separation"
+    },
+    {
+      "pair": [
+        "body",
+        "outer_bodice_and_sleeves"
+      ],
+      "mode": "body collision including armpit/shoulder/elbow; no body hiding substitute"
+    },
+    {
+      "pair": [
+        "trousers",
+        "front_and_back_tails"
+      ],
+      "mode": "inter-garment contact; no global front/back ordering"
+    },
+    {
+      "pair": [
+        "front_tail",
+        "back_tail"
+      ],
+      "mode": "nonadjacent cloth contact while free edges may separate"
+    },
+    {
+      "pair": [
+        "outer",
+        "closure_underlap_or_optional_lining"
+      ],
+      "mode": "local overlap ordering and cloth thickness; skip sewn immediate neighbors"
+    },
+    {
+      "pair": [
+        "free_cloth",
+        "floor_and_props"
+      ],
+      "mode": "gravity and obstacle contact"
+    }
+  ],
+  "physical_measurements": {
+    "areal_density_kg_m2": null,
+    "thickness_m": null,
+    "warp_stretch_curve": null,
+    "weft_stretch_curve": null,
+    "shear_curve": null,
+    "bending_warp": null,
+    "bending_weft": null,
+    "static_friction": null,
+    "dynamic_friction": null,
+    "breaking_strength": null,
+    "source": "Not inferred from photos, color, normal map or an unrelated silk preset"
+  },
+  "required_body_measurements": [
+    "height",
+    "neck_girth",
+    "bust_girth",
+    "underbust_girth",
+    "waist_girth",
+    "hip_girth",
+    "front_waist_length",
+    "back_waist_length",
+    "shoulder_width",
+    "bust_point_separation",
+    "bust_point_height",
+    "arm_length",
+    "upper_arm_girth",
+    "wrist_girth",
+    "inseam",
+    "crotch_depth",
+    "desired_tunic_length",
+    "side_opening_height"
+  ],
+  "required_pattern_fields": [
+    "outline_curves_m",
+    "seam_pairs_with_direction",
+    "darts",
+    "grain_direction",
+    "ease_m",
+    "seam_allowance_m",
+    "closure_landmarks",
+    "material_assignment",
+    "uv_and_texture_scale",
+    "local_layer_order"
+  ],
+  "training": {
+    "run": false,
+    "aodai_specific_paired_3d_samples": 0,
+    "calibrated_aodai_motion_sequences": 0,
+    "measured_matching_fabric_samples": 0,
+    "generic_support_examples": 6,
+    "pattern_pdf_numeric_autolabels_allowed": false
+  },
+  "validation_before_runtime": [
+    "flat panel validity and seam-length correspondence",
+    "static fit, anterior/lateral/posterior views",
+    "continuous triangle/body and cloth/cloth contact, not vertices only",
+    "slow gait, turn, stop and settle",
+    "one/two-hand grab at side-opening roots, tail tips and sleeves",
+    "increase motion speed only after contact QA passes",
+    "measure frame time and contact depth distribution on target PCVR"
+  ]
+}

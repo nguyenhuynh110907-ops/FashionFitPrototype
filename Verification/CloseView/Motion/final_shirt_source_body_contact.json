@@ -1,0 +1,53 @@
+{
+  "scope": "All referenced render vertices plus triangle centroids against original posed body; static sampled QA only",
+  "status": "passed",
+  "masked_body_used": false,
+  "poses": [
+    {
+      "pose": "Look5_Standing",
+      "source_body_watertight": true,
+      "source_body_winding_consistent": true,
+      "samples": 11586,
+      "vertices": 3994,
+      "referenced_vertices": 3970,
+      "unused_vertices_omitted": 24,
+      "faces": 7616,
+      "samples_inside_over_1mm": 0,
+      "samples_inside_over_3mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "median_signed_clearance_mm": 25.596102402496932
+    },
+    {
+      "pose": "Look5_WalkingA",
+      "source_body_watertight": true,
+      "source_body_winding_consistent": true,
+      "samples": 11586,
+      "vertices": 3994,
+      "referenced_vertices": 3970,
+      "unused_vertices_omitted": 24,
+      "faces": 7616,
+      "samples_inside_over_1mm": 0,
+      "samples_inside_over_3mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "median_signed_clearance_mm": 25.074559440918673
+    },
+    {
+      "pose": "Look5_WalkingB",
+      "source_body_watertight": true,
+      "source_body_winding_consistent": true,
+      "samples": 11586,
+      "vertices": 3994,
+      "referenced_vertices": 3970,
+      "unused_vertices_omitted": 24,
+      "faces": 7616,
+      "samples_inside_over_1mm": 0,
+      "samples_inside_over_3mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "median_signed_clearance_mm": 25.24506231073026
+    }
+  ],
+  "samples_inside_over_1mm": 0,
+  "samples_inside_over_3mm": 0,
+  "max_sampled_penetration_mm": 0.0,
+  "continuous_triangle_nonpenetration_certified": false
+}

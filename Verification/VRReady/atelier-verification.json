@@ -1,0 +1,21 @@
+{
+    "status": "passed",
+    "checks": 31,
+    "previews": 6,
+    "previewVertices": 29604,
+    "panelButtons": 10,
+    "wardrobeChoices": 6,
+    "shaderErrors": 0,
+    "worldAnchored": true,
+    "menuEdges": true,
+    "recenter": true,
+    "hover": true,
+    "buttonRaycasts": true,
+    "previewDoesNotStartXR": true,
+    "gripHidesMenu": true,
+    "closePreview": true,
+    "settings": true,
+    "panelDistanceM": 1.3124022483825684,
+    "actionTargetAngleDeg": 5.724810600280762,
+    "scope": "Unity mono renders, software input/collider checks, shader compile; not a headset test"
+}

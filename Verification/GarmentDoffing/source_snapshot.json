@@ -1,0 +1,78 @@
+[
+  {
+    "path": "Assets/FashionFit/Editor/VRReadyVerification.cs",
+    "sha256": "dfd5a4528570b114a295ba6d21e28c48a488212280f5df797966ed900ff64b16"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/DoffableBlouse.cs",
+    "sha256": "b51f21195e6cf5df0af8e19d3457938af6d36de7bb8497473f981c26aae979f5"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/DoffableBodySdf.cs",
+    "sha256": "5a72b638dd3464df310956df90ea24f70c551cb845e5f0c5ddb132e5e1774964"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/DoffableClothSolver.cs",
+    "sha256": "8ce0701559c7b78ef6647cc76bb6d7edf9399ff43dbacd4d645445ffa759caa6"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/DoffableMeshAsset.cs",
+    "sha256": "93c4c45ebe60ab24b314ccc1781fbb84639a0c6d4eff88af1fc6e10dc0e83585"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/DoffablePlayerVerification.cs",
+    "sha256": "6d5534204bcf32b0828ef19057bc321463bc07fc536ff6b7fe4399e5b1b24b6c"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/FashionFitApp.cs",
+    "sha256": "9d5e37500eb7ff50f1ad4052ca2e3a207f67ef7387bc67d7ca308f551de0123b"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/GarmentFastener.cs",
+    "sha256": "4861f7ab3950b0126960db5543531d3b6397f883a9056ef4339d091edcbb6887"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayUI.cs",
+    "sha256": "d020d3c9db9b07a078215d632259c51e6d1930b93644f73a1ad0fb1ce12d2c77"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayVRGrabTarget.cs",
+    "sha256": "9dec9d319874ea37d5f2cc4d51537e8bf6de194639a8dc2895fc103665289ed4"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayVRHands.cs",
+    "sha256": "624d696f5c8af0f367da0e9c5ee91817fbc81b199f222cd0c6ac06a714414d01"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayVRPanel.cs",
+    "sha256": "a2b8f857533d95c4564aebe5bbf056d8d1386164cb2ec22511ca969b591f7a4f"
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayWardrobe.cs",
+    "sha256": "31879e39b9332c3914f2b2d322a7534d82f5de8a8bb5dc5970c6b8b7099022e4"
+  },
+  {
+    "path": "Assets/Resources/Fitting/BlouseBodySdf.bytes",
+    "sha256": "cef38a20ef739b3bc2c1b94900e77bf90deccff6dad3d3b05566ac642a93f2f7"
+  },
+  {
+    "path": "Assets/Resources/Fitting/DoffableBlouseMesh.bytes",
+    "sha256": "a1e9652548d36b22b68fdf5fd6129b3c4c796dfd234c4a4bae97537a6aa9c838"
+  },
+  {
+    "path": "Assets/FashionFit/Editor/DoffableVerification.cs",
+    "sha256": "48252e8259dabd6ab1336b2c3fe596f1b62c06f253a22898a94c42ebe320c861"
+  },
+  {
+    "path": "C:\\Users\\HUYNH\\Downloads\\FashionFit_Run\\FashionFittingRoom.exe",
+    "sha256": "0b62e9914456f6315d2d5799314c3cdcd398bd59f15ea24662c41a356a4e8669"
+  },
+  {
+    "path": "C:\\Users\\HUYNH\\Downloads\\FashionFit_Run\\FashionFittingRoom_Data\\Managed\\Assembly-CSharp.dll",
+    "sha256": "faf6a580df14df5aa7c33677478cd9d6102c6f0c6c98faefab17f227811f8f89"
+  },
+  {
+    "path": "C:\\Users\\HUYNH\\Downloads\\FashionFit_Run\\FashionFittingRoom_Data\\resources.assets",
+    "sha256": "bd2d90d63d9fbae105e2b10f2c767d9507db3b3d5a29f882d48ec93f14c3454a"
+  }
+]

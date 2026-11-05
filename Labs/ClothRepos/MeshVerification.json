@@ -1,0 +1,71 @@
+[
+  {
+    "name": "tee",
+    "glbSha256": "d60e241d3d1d258c171375e16bb44ec1ad94a5ee1865b3405f95ee45b85b8d84",
+    "geometryCount": 2,
+    "result": {
+      "fails": {},
+      "sim_time": {
+        "tee": 97.6764829158783
+      },
+      "spf": {
+        "tee": 0.24117650102686
+      },
+      "fin_frame": {
+        "tee": 405
+      },
+      "self_collisions": {
+        "tee": 0
+      },
+      "body_collisions": {
+        "tee": 0
+      }
+    }
+  },
+  {
+    "name": "skirt",
+    "glbSha256": "ebf25eed7111b8294829691f7ecbc37353b7601a5f1a18b8dd6ebd2aa3d2978b",
+    "geometryCount": 2,
+    "result": {
+      "fails": {},
+      "sim_time": {
+        "skirt": 92.10830211639404
+      },
+      "spf": {
+        "skirt": 0.2274279064602322
+      },
+      "fin_frame": {
+        "skirt": 405
+      },
+      "self_collisions": {
+        "skirt": 0
+      },
+      "body_collisions": {
+        "skirt": 0
+      }
+    }
+  },
+  {
+    "name": "custom",
+    "glbSha256": "11d22b9ed61a471d5dd918e4ab50d0d61c51ad005cee5f6a6e42dbfd62e2ba70",
+    "geometryCount": 2,
+    "result": {
+      "fails": {},
+      "sim_time": {
+        "custom": 77.53140592575073
+      },
+      "spf": {
+        "custom": 0.19143557018703886
+      },
+      "fin_frame": {
+        "custom": 405
+      },
+      "self_collisions": {
+        "custom": 0
+      },
+      "body_collisions": {
+        "custom": 0
+      }
+    }
+  }
+]

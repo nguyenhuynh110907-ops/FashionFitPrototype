@@ -1,0 +1,80 @@
+{
+  "status": "failed",
+  "method": "Full original body; libigl triangle distance + Embree ray parity; vertices, face centres and edge midpoints; 1 mm tolerance",
+  "continuous_collision_certified": false,
+  "self_collision_certified": false,
+  "cases": [
+    {
+      "file": "foreign_hand_body.bin",
+      "sha256": "fef9c20d3a283090b4536bc86d5eeba9d9f6f9177f47c6f2a63a3b74675d4929",
+      "body": [
+        {
+          "samples": 45788,
+          "inside_over_1mm": 531,
+          "max_depth_mm": 49.407070491203605
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "initial.bin",
+      "sha256": "f232b7d713042f962e3614335da0cbff5111223176628de8cce691aee742e75a",
+      "body": [
+        {
+          "samples": 45788,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "mannequin_hold.bin",
+      "sha256": "4730c9cab8ae0d107958001d319afc25ca2f50abe7d9fb0b8d6bc363dc89f65b",
+      "body": [
+        {
+          "samples": 45788,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "pulled.bin",
+      "sha256": "7f684fc7977a1d55d722806b2509073ffc25715700a63af8331cff8705f9a92a",
+      "body": [
+        {
+          "samples": 45788,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "released.bin",
+      "sha256": "119d5a9a53b5e53d489822f4109a8699cdc02587eae28589261d92b23aa9049d",
+      "body": [
+        {
+          "samples": 45788,
+          "inside_over_1mm": 73,
+          "max_depth_mm": 88.80755393112427
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "two_hands.bin",
+      "sha256": "4a46b71833537878b35ecc55a258a2288f71989e1ee51f99f4c730a79f14c2ef",
+      "body": [
+        {
+          "samples": 45788,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    }
+  ]
+}

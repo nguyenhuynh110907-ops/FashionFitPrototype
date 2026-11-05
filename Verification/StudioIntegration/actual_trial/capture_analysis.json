@@ -1,0 +1,180 @@
+{
+  "status": "passed",
+  "csvSha256": "74076623f17431b100049d1a038eca0f8cc9b926b19c36b80d8b70cdf58db1f3",
+  "frames": 864,
+  "renderedFrames": 864,
+  "fullyRenderedFraction": 1.0,
+  "syntheticInput": true,
+  "headsetAssessment": "NOT_ASSESSED",
+  "note": "Validates recording and math, not performance acceptance. Phase tags and delayed platform CPU/GPU timings are not exact per-phase attribution.",
+  "phases": [
+    {
+      "phase": "ivory_neutral",
+      "renderedWallFrameMs": {
+        "status": "RECORDED",
+        "samples": 107,
+        "mean": 21.933770093457944,
+        "p50": 16.3486,
+        "p95": 59.3001,
+        "p99": 92.4334,
+        "max": 102.4124
+      },
+      "cpuMainThreadMs": {
+        "status": "RECORDED",
+        "samples": 107,
+        "mean": 17.831779439252337,
+        "p50": 10.2199,
+        "p95": 59.5361,
+        "p99": 92.1147,
+        "max": 102.5692
+      }
+    },
+    {
+      "phase": "ivory_pull",
+      "renderedWallFrameMs": {
+        "status": "RECORDED",
+        "samples": 75,
+        "mean": 20.05458133333333,
+        "p50": 15.553,
+        "p95": 58.5771,
+        "p99": 104.6615,
+        "max": 104.6615
+      },
+      "cpuMainThreadMs": {
+        "status": "RECORDED",
+        "samples": 75,
+        "mean": 18.641454666666665,
+        "p50": 10.7849,
+        "p95": 58.9304,
+        "p99": 106.6623,
+        "max": 106.6623
+      }
+    },
+    {
+      "phase": "ivory_recovery",
+      "renderedWallFrameMs": {
+        "status": "RECORDED",
+        "samples": 212,
+        "mean": 15.160175471698112,
+        "p50": 13.032,
+        "p95": 40.8682,
+        "p99": 50.293,
+        "max": 70.2353
+      },
+      "cpuMainThreadMs": {
+        "status": "RECORDED",
+        "samples": 212,
+        "mean": 12.318816981132075,
+        "p50": 10.284,
+        "p95": 40.6121,
+        "p99": 43.4271,
+        "max": 70.5624
+      }
+    },
+    {
+      "phase": "ivory_pose",
+      "renderedWallFrameMs": {
+        "status": "RECORDED",
+        "samples": 70,
+        "mean": 15.150141428571429,
+        "p50": 12.4482,
+        "p95": 39.0713,
+        "p99": 52.3534,
+        "max": 52.3534
+      },
+      "cpuMainThreadMs": {
+        "status": "RECORDED",
+        "samples": 70,
+        "mean": 11.788675714285715,
+        "p50": 10.055,
+        "p95": 38.7166,
+        "p99": 42.0222,
+        "max": 42.0222
+      }
+    },
+    {
+      "phase": "red_hat_stretch",
+      "renderedWallFrameMs": {
+        "status": "RECORDED",
+        "samples": 94,
+        "mean": 16.10761170212766,
+        "p50": 13.0051,
+        "p95": 42.7628,
+        "p99": 51.4581,
+        "max": 51.4581
+      },
+      "cpuMainThreadMs": {
+        "status": "RECORDED",
+        "samples": 94,
+        "mean": 13.721618085106384,
+        "p50": 11.6223,
+        "p95": 42.797,
+        "p99": 44.9995,
+        "max": 44.9995
+      }
+    },
+    {
+      "phase": "red_hat_compression",
+      "renderedWallFrameMs": {
+        "status": "RECORDED",
+        "samples": 96,
+        "mean": 15.825389583333333,
+        "p50": 12.79,
+        "p95": 42.0968,
+        "p99": 54.2168,
+        "max": 54.2168
+      },
+      "cpuMainThreadMs": {
+        "status": "RECORDED",
+        "samples": 96,
+        "mean": 13.571129166666667,
+        "p50": 11.4435,
+        "p95": 41.7466,
+        "p99": 51.9163,
+        "max": 51.9163
+      }
+    },
+    {
+      "phase": "red_hat_equip_detach",
+      "renderedWallFrameMs": {
+        "status": "RECORDED",
+        "samples": 123,
+        "mean": 10.866660975609756,
+        "p50": 12.2949,
+        "p95": 23.4896,
+        "p99": 32.4513,
+        "max": 48.0066
+      },
+      "cpuMainThreadMs": {
+        "status": "RECORDED",
+        "samples": 123,
+        "mean": 8.004618699186992,
+        "p50": 9.8855,
+        "p95": 18.7249,
+        "p99": 32.5495,
+        "max": 48.4568
+      }
+    },
+    {
+      "phase": "red_hat_gravity",
+      "renderedWallFrameMs": {
+        "status": "RECORDED",
+        "samples": 87,
+        "mean": 10.336914942528736,
+        "p50": 10.5576,
+        "p95": 24.4893,
+        "p99": 28.557,
+        "max": 28.557
+      },
+      "cpuMainThreadMs": {
+        "status": "RECORDED",
+        "samples": 87,
+        "mean": 7.327826436781609,
+        "p50": 9.8433,
+        "p95": 14.9233,
+        "p99": 23.5533,
+        "max": 23.5533
+      }
+    }
+  ]
+}

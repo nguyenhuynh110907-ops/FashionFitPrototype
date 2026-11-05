@@ -1,0 +1,12 @@
+{
+    "status": "passed",
+    "scope": "Six-look closure, authored 2D-reference geometry, sampled Unity poses. Not full CCD/headset certification.",
+    "closedSkirts": 6,
+    "detailVertices": 5264,
+    "upperVertices": 7586,
+    "steps": 1080,
+    "proxyViolations": 0,
+    "checks": 45025,
+    "maxStretch": 1.2814408540725709,
+    "contactFitApplied": true
+}

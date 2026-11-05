@@ -1,0 +1,128 @@
+{
+  "status": "downloaded_and_checksums_verified",
+  "retrieved_utc": "2026-10-30T00:06:13.907987+00:00",
+  "project": "C:\\Users\\HUYNH\\OneDrive\\Desktop\\FashionFitPrototype",
+  "initial_data_bytes": 28861827322,
+  "final_data_bytes": 29746576479,
+  "budget_bytes": 30000000000,
+  "additions_bytes": 884749157,
+  "files": [
+    {
+      "path": "Raw/EG2024/dataset_for_eg2024.zip",
+      "url": "https://diglib.eg.org/server/api/core/bitstreams/d454e936-fb73-4009-ab36-d9aeaaefbfc6/content",
+      "bytes": 673630805,
+      "sha256": "aa0a13aa3fc599a8b142216103a252faa0718ce6d08b769a61aca7c199334e65",
+      "source_md5": "af59542ce1727e5003ff44aad8bb1560"
+    },
+    {
+      "path": "Raw/Knitted2018/Read me.txt",
+      "url": "https://zenodo.org/api/records/17075127/files/Read%20me.txt/content",
+      "bytes": 3431,
+      "sha256": "75e0b3e0916924c8ce578b347592ced53a8c39a8244232ff0841a51df90a92b9",
+      "source_md5": "819bd06725800041190b97068a0ef1c6"
+    },
+    {
+      "path": "Raw/Knitted2018/clamped_force_data.txt",
+      "url": "https://zenodo.org/api/records/17075127/files/clamped_force_data.txt/content",
+      "bytes": 1442702,
+      "sha256": "7cd7ac0b92a9f22b568c4bf90aa59386862c7cf4eac78e45aed96830592734bf",
+      "source_md5": "611c276c6e63e6f2e152148e4a91d165"
+    },
+    {
+      "path": "Raw/Knitted2018/clamped_stitch_pos_ref.mat",
+      "url": "https://zenodo.org/api/records/17075127/files/clamped_stitch_pos_ref.mat/content",
+      "bytes": 1737,
+      "sha256": "140180ccc7f5034328d3c4cd42eb40221a26255104ab68d8c2160184e7070674",
+      "source_md5": "50e04aebe0d9e8589f990745dae04e0d"
+    },
+    {
+      "path": "Raw/Knitted2018/sliding_picture_info.txt",
+      "url": "https://zenodo.org/api/records/17075127/files/sliding_picture_info.txt/content",
+      "bytes": 1874,
+      "sha256": "bf64a6fbfc1a789f898b96bda515614e088c80beac781f9fbbbeb7c111e1af7e",
+      "source_md5": "dc5b669aa37d8dcb88d006531481ca32"
+    },
+    {
+      "path": "Raw/Knitted2018/clamped_stitch_posx.h5",
+      "url": "https://zenodo.org/api/records/17075127/files/clamped_stitch_posx.h5/content",
+      "bytes": 1858752,
+      "sha256": "8a6f61770bcd58c746cf89a39e73e791b43b9adef924e2510c0eae98a82cd6b4",
+      "source_md5": "8eefa4f5a370b126f05732f846b07acc"
+    },
+    {
+      "path": "Raw/Knitted2018/clamped_picture_info.txt",
+      "url": "https://zenodo.org/api/records/17075127/files/clamped_picture_info.txt/content",
+      "bytes": 2916,
+      "sha256": "ee8279f07c85b93ff79cd49bd133925729936dfb9a6a545daee03b4c90d287a5",
+      "source_md5": "8bab1bf5de6ef5fc2b00ff667508d68c"
+    },
+    {
+      "path": "Raw/Knitted2018/clamped_stitch_posy.h5",
+      "url": "https://zenodo.org/api/records/17075127/files/clamped_stitch_posy.h5/content",
+      "bytes": 1858752,
+      "sha256": "7b3d0736e5afe497ebffdaaa585cca3eb9b8cd1edf92729ffca138d652d520bb",
+      "source_md5": "5be9aa0e174847579ffad7bc68806427"
+    },
+    {
+      "path": "Raw/Knitted2018/sliding_force_data.txt",
+      "url": "https://zenodo.org/api/records/17075127/files/sliding_force_data.txt/content",
+      "bytes": 387305,
+      "sha256": "8ff6d6980d5229558f0aea3df78b6c20b28e0828ff5677266960b42fa5f8d4d1",
+      "source_md5": "1d821853a5e90c4ac56fb668347173e5"
+    },
+    {
+      "path": "Raw/ambientCG/Fabric086_1K-PNG.zip",
+      "url": "https://ambientcg.com/get?file=Fabric086_1K-PNG.zip",
+      "bytes": 17856444,
+      "sha256": "035cd21e2f231b877a356668c500cdb8eedf624ea986d9f926cdb550508a9670",
+      "source_md5": null
+    },
+    {
+      "path": "Raw/ambientCG/Fabric085_1K-PNG.zip",
+      "url": "https://ambientcg.com/get?file=Fabric085_1K-PNG.zip",
+      "bytes": 19841769,
+      "sha256": "d17fea265e70b49782e042d103f4ea873e483ed12b0510dd36a1cd8c58135bba",
+      "source_md5": null
+    },
+    {
+      "path": "Raw/ambientCG/Fabric084_1K-PNG.zip",
+      "url": "https://ambientcg.com/get?file=Fabric084_1K-PNG.zip",
+      "bytes": 19391488,
+      "sha256": "5866ecc7bf47b0b1c97796df7e5ad5e4975df906db1e0812a1c3aaf792ed23ca",
+      "source_md5": null
+    },
+    {
+      "path": "Raw/ambientCG/Fabric083_1K-PNG.zip",
+      "url": "https://ambientcg.com/get?file=Fabric083_1K-PNG.zip",
+      "bytes": 18968551,
+      "sha256": "f2f2c344fdd6acb68b55033f93654572f36819e6c890a4e0face5fb85ddd7624",
+      "source_md5": null
+    },
+    {
+      "path": "Raw/ambientCG/Fabric081C_1K-PNG.zip",
+      "url": "https://ambientcg.com/get?file=Fabric081C_1K-PNG.zip",
+      "bytes": 14421965,
+      "sha256": "c9de806827984e7f80a69c917661a78449fe08f217e87661b182a6e19951f489",
+      "source_md5": null
+    },
+    {
+      "path": "Raw/ambientCG/Fabric082A_1K-PNG.zip",
+      "url": "https://ambientcg.com/get?file=Fabric082A_1K-PNG.zip",
+      "bytes": 14710719,
+      "sha256": "15810f52cbcce871515348921127daf22362c1f89b329d144b8aecfa9e92c48d",
+      "source_md5": null
+    }
+  ],
+  "texture_assets": 6,
+  "licenses": {
+    "ambientCG": "CC0-1.0",
+    "knitted2018": "CC-BY-4.0",
+    "EG2024": "Academic use per publication; inspect included terms; not approved for commercial runtime redistribution"
+  },
+  "not_downloaded": [
+    "MIT video archive already documented; not duplicated",
+    "Zenodo sliding photographs to avoid duplication/budget pressure"
+  ],
+  "mechanics_runtime_changed": false,
+  "trained_model": false
+}

@@ -1,0 +1,227 @@
+[
+  {
+    "path": "Assets/FashionFit/Runtime/BodyContactShell.cs",
+    "sha256": "378f72f16f4bd80569bf29c603aa2b80ba97a5968ba5e15379aab2fb88c00a42",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/BodyFitProfile.cs",
+    "sha256": "ecfac35ea9a0e50c40b67e2281878819e722fb542afbe36dfe57e0fe356a5e43",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/ClothDisplayMesh.cs",
+    "sha256": "3b29c9671417a57e318b2f7180da7c4cdf4d0cefa7d47cb9e47ee466895869d9",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/ClothMaterialProfile.cs",
+    "sha256": "1164d518c7b172b3d4ffe34ae947e3bae878c63a3a48db3a4d864edf1ba1420e",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/FabricDetailTrial.cs",
+    "sha256": "341acbaa18a5b8455a08ac3641d378223c7039410f19c46d99743da8b280fd21",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/FashionFitApp.cs",
+    "sha256": "9969473c3e5ae82de4f4a5caf92b382e526c651346bc9744497110ce79928d34",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/FashionFitBootstrap.cs",
+    "sha256": "e445ec0f63230bbb40dde5ef389b7dc99df1a970f8ee132e79c08bde80b7b4a1",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/FittingCloth.cs",
+    "sha256": "355d89ce34b8497e1e1431a08ce7b4362f66b9d2f94ca6b2211b0ac41908fe2d",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/FittingClothSolver.cs",
+    "sha256": "42d3c3c2113ce5bc54342db853387403c42bbea354acc67f41f09ae9fe197344",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/GarmentFit.cs",
+    "sha256": "223c926e8d6fff4f9e04b948e3225c9423bf82617d06e42b0435a66825d313ec",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/InteractiveShirt.cs",
+    "sha256": "6924ef4af9ae0be64e8d0bd0fb81cf2680f806bff235b80a76504743c28e8265",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/MeshyGarmentClient.cs",
+    "sha256": "d46f1d24c7c554ff40454203c110e8b7c6c7945f58dd2e9eda61b9ae342def42",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/NanoBananaClient.cs",
+    "sha256": "6f15634d331b040c76e3f3e6e72e3af0875a523c74008e6229a22f212ea612cd",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/ReferenceHatCatalog.cs",
+    "sha256": "aacb5cac09a758a0b164c5b5fc2ba66a6389868aae891b04e83ac3f9f96aed26",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayAvatar.cs",
+    "sha256": "ed0253109d0c74d0a3bc802dd4925ea7ebb83af7f2a22600ae59b70f0654fb49",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayBodyCoverage.cs",
+    "sha256": "465d595adfd6dccf0f34058cc10dbfa2f14603b6c41c582040d40abcf0d7f6dc",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayFiles.cs",
+    "sha256": "28d9f01d9a35a8e9b9c46e93f5ca8b3d1a07990f065dc0b78af5b7d4b89a915d",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayGait.cs",
+    "sha256": "3d138ff7e01d90930327ee8158cb1f87170e16345690d523895f1b55c395a519",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayOBJ.cs",
+    "sha256": "7418a5329a542464207ea389e2f0e7132db29a4a70c38fefbf77d54a2b6d0dd4",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayPickup.cs",
+    "sha256": "70eda7e21789ade4819d9aef117d39ecc68d8efc9c62d0cda8ff233a23e74b47",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayPlayer.cs",
+    "sha256": "ac0cc26539abafbd733ecdf3b69f4582f4a9eae16c36d6e06eb793efe6e662fa",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayPoseRig.cs",
+    "sha256": "89c71c3e728175ebf9565f192c2bc6d1d723439a105e2d38e08744cc73d6aed0",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayPoseStudio.cs",
+    "sha256": "0cb45e95cc6895281579e21a822d8dcf1cd55464883a490174f8fccec226e76a",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayShowroom.cs",
+    "sha256": "fe6eb09ebf1a57c49ad5109a4e6adc21e2a0499ec7976f997ca9db6d0e9d6136",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayStage.cs",
+    "sha256": "a33ae49942a862fe9bd56f388e13226521c34f7d438bfbb6b0e41330f2537804",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayUI.cs",
+    "sha256": "020ff41f0b23cba8d18630aa106205c583aef8696116ae715e362102c6d73db9",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayVRButton.cs",
+    "sha256": "a8324a75a141fa30de5e81fe3ec66b20ec85fcd002373ce980999efb266271e7",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayVRGrabTarget.cs",
+    "sha256": "b7b8c75852f9810c1b925db85d3ccbbe8e99a6b60662bca8a9ac16b3e9d67156",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayVRPanel.cs",
+    "sha256": "74e7060b09eae865fe7b9bfef9015609b56b153afe95c70f350e3dcfca84714b",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayWardrobe.cs",
+    "sha256": "61547527c0406821d2daa9356531dd6208ea2a3431ca36eaae5a7e8c232ad0e9",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/SampleSkirtGeometry.cs",
+    "sha256": "736bdfb5e7ea8a437a6310d9cda6ed004c8e35e1bcfbc4ad865579b369443e9f",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/ShowroomPreviewCatalog.cs",
+    "sha256": "b5d90115c973af9fa8a05b33414e56ea250d705ce8a5da3cd2fa26bcce70577f",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/SkinnedBounds.cs",
+    "sha256": "59d1c1c9c4f3285ae2c41031cff6edd53454b0c7a6bd5ad17cc51743c8903059",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/TailoredPoloStudy.cs",
+    "sha256": "6aa510f7f1423e2a0e468a51493b852aebc8c66a513a940d28399da45afb7c6a",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/TailoredSurfaceDynamics.cs",
+    "sha256": "3d708fff1419da73b06f8afcb3063792cde825dd4d70a95dbb0d7c09179ef00b",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/TechnicalBodyFitData.cs",
+    "sha256": "4e5518289dfa2907d30a6bf511563738741bb7b56d64943152d02c9a0dd7130f",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/WovenFabricDetail.cs",
+    "sha256": "900108ac6378180af3cda75d147a48d68a0513e7e7c7015ec343f8fb5a464fd7",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Editor/SpeedContactVerification.cs",
+    "sha256": "99373c2180ce8bb82091ca28b95faab3a679213d9c847a456d13a4fc18030b7a",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Verification/check_speed_contact.py",
+    "sha256": "07ff44fb1fcdfc0052fd9457ab4dce357d438d9eeaff9e5c4684e106f332e67e",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Verification/check_slow_body_contact.py",
+    "sha256": "c60df2a40518f06b7d229701f442b8fc03d9c52b5e4213c433c5c6af58a7048f",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/Resources/Fitting/cloth-materials.json",
+    "sha256": "b59e9d6e8ebd0801362a194fe70988315880157a8d64a91afd4e9e2406d958a4",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/Resources/Fitting/female-mesh.bytes",
+    "sha256": "1483998b04e614cb9541099f5a39964e6f141c70e539de87082dd774fc342b58",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/Resources/Fitting/female-rig.json",
+    "sha256": "6eb8668917ebe14d6928a6401b4d10499429bb72670007c39a2a0255658e41f7",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/Resources/Fitting/gucci864361-reference.jpg",
+    "sha256": "0351360af6ebf4c89e74530b88e35507b01e1c44636ac4c03e1bd14b66b444ef",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/Resources/Fitting/polo-contact-fit.json",
+    "sha256": "fabf5e633aeff0ba0f379818c02ce3c2920ce3eb49e984eed9fbdfda13f1a41d",
+    "isolatedCopyMatches": true
+  }
+]

@@ -1,0 +1,173 @@
+{
+  "schema": 1,
+  "status": "passed",
+  "startedUtc": "2026-11-03T03:06:59.422012+00:00",
+  "updatedUtc": "2026-11-03T03:11:15.612437+00:00",
+  "suite": "full",
+  "project": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\ModelGrip_Work\\UnityProject",
+  "output": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\_Luu_tru\\Phat_trien_2026-11-02\\ContactDressing\\FinalSuite\\20261103T030659421511Z",
+  "checks": [
+    {
+      "id": "evidence_gate",
+      "status": "passed",
+      "startedUtc": "2026-11-03T03:07:00.032517+00:00",
+      "exitCode": 0,
+      "seconds": 0.53
+    },
+    {
+      "id": "vr_config",
+      "status": "passed",
+      "startedUtc": "2026-11-03T03:07:00.564831+00:00",
+      "exitCode": 0,
+      "checks": 37,
+      "evidence": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\ModelGrip_Work\\UnityProject\\Verification\\VRReady\\verification.json",
+      "sha256": "ddac71ad5b96311514ee9e9975df53abb5371da4b5b163adb14eab62d55ecc5d",
+      "seconds": 15.561
+    },
+    {
+      "id": "picking_equivalence",
+      "status": "passed",
+      "startedUtc": "2026-11-03T03:07:16.127607+00:00",
+      "exitCode": 0,
+      "checks": 660,
+      "evidence": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\ModelGrip_Work\\UnityProject\\Verification\\ResponseOptimization\\picking.json",
+      "sha256": "495e7db6209ad11accd4e4b4d4099d64982780b8b4bc29035345f8199e19a1d5",
+      "seconds": 11.25
+    },
+    {
+      "id": "readout_equivalence",
+      "status": "passed",
+      "startedUtc": "2026-11-03T03:07:27.379515+00:00",
+      "exitCode": 0,
+      "checks": 168,
+      "evidence": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\ModelGrip_Work\\UnityProject\\Verification\\ResponseOptimization\\native_readout.json",
+      "sha256": "2bc495a7dbfa12144fdb8bccdca69443bfafc4ad8852d483b315eaf154cf0a64",
+      "seconds": 29.209
+    },
+    {
+      "id": "bimanual",
+      "status": "passed",
+      "startedUtc": "2026-11-03T03:07:56.591091+00:00",
+      "exitCode": 0,
+      "checks": 91,
+      "evidence": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\ModelGrip_Work\\UnityProject\\Verification\\Bimanual\\verification.json",
+      "sha256": "1a2d49ee287d7f3c4122f525de6deacd424876654f5e87c10f448e7787f7c869",
+      "seconds": 42.857
+    },
+    {
+      "id": "pose_joints",
+      "status": "passed",
+      "startedUtc": "2026-11-03T03:08:39.450009+00:00",
+      "exitCode": 0,
+      "checks": 68,
+      "evidence": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\ModelGrip_Work\\UnityProject\\Verification\\ContactPose\\verification.json",
+      "sha256": "8caf33fd0593a6fc0ebdb5e30b8341abb18f6cbe1eecff8fae493db6e6da77c3",
+      "seconds": 9.956
+    },
+    {
+      "id": "build",
+      "status": "passed",
+      "startedUtc": "2026-11-03T03:08:49.407638+00:00",
+      "exitCode": 0,
+      "checks": 0,
+      "evidence": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\ModelGrip_Work\\UnityProject\\Verification\\ProjectRecovery\\build.json",
+      "sha256": "664d392f3ddcbdd4618a92aa0e5770b427317ed7106bdf5a5ab70215660be269",
+      "seconds": 22.093
+    },
+    {
+      "id": "surface",
+      "status": "passed",
+      "startedUtc": "2026-11-03T03:09:11.910281+00:00",
+      "exitCode": 0,
+      "checks": 28,
+      "evidence": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\_Luu_tru\\Phat_trien_2026-11-02\\ContactDressing\\FinalSuite\\20261103T030659421511Z\\surface\\verification.json",
+      "sha256": "c67ecb661929388124794ff8eb7881ebeb86c03bab76737ca97bec1eec19f0d1",
+      "seconds": 15.63
+    },
+    {
+      "id": "surface_contact",
+      "status": "passed",
+      "startedUtc": "2026-11-03T03:09:27.542142+00:00",
+      "exitCode": 0,
+      "checks": 8,
+      "evidence": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\_Luu_tru\\Phat_trien_2026-11-02\\ContactDressing\\FinalSuite\\20261103T030659421511Z\\surface\\Contact\\independent_contact.json",
+      "sha256": "f5ea53ceb8c732151c4401ebb536f02950e77571f0b55b8c1408bb525f1e8dad",
+      "seconds": 3.889
+    },
+    {
+      "id": "pose_hat",
+      "status": "passed",
+      "startedUtc": "2026-11-03T03:09:31.432498+00:00",
+      "exitCode": 0,
+      "checks": 29,
+      "evidence": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\_Luu_tru\\Phat_trien_2026-11-02\\ContactDressing\\FinalSuite\\20261103T030659421511Z\\pose_hat\\verification.json",
+      "sha256": "b5e269ce0e69add8d50832492f17d39deffabdd3ccc70a71b5c5be90d514ca84",
+      "seconds": 14.304
+    },
+    {
+      "id": "rendered_trial",
+      "status": "passed",
+      "startedUtc": "2026-11-03T03:09:45.738140+00:00",
+      "exitCode": 0,
+      "checks": 19,
+      "evidence": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\_Luu_tru\\Phat_trien_2026-11-02\\ContactDressing\\FinalSuite\\20261103T030659421511Z\\rendered_trial\\trial.json",
+      "sha256": "68a5fa7e683c75cbb2b7c1a7dcd47140f16ce79a3932c8de985156665c15c363",
+      "seconds": 19.893
+    },
+    {
+      "id": "capture_analysis",
+      "status": "passed",
+      "startedUtc": "2026-11-03T03:10:05.633456+00:00",
+      "exitCode": 0,
+      "checks": 0,
+      "evidence": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\_Luu_tru\\Phat_trien_2026-11-02\\ContactDressing\\FinalSuite\\20261103T030659421511Z\\rendered_trial\\capture_analysis.json",
+      "sha256": "92c3926868698a8dfc6eca0d3002b363b15c213b679548aa90f7dad0026f424c",
+      "seconds": 0.108
+    },
+    {
+      "id": "mens",
+      "status": "passed",
+      "startedUtc": "2026-11-03T03:10:05.744171+00:00",
+      "exitCode": 0,
+      "checks": 55,
+      "evidence": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\_Luu_tru\\Phat_trien_2026-11-02\\ContactDressing\\FinalSuite\\20261103T030659421511Z\\mens\\verification.json",
+      "sha256": "c5687d5e74e0e3be0bc0c54cc76218e0be2fe2ea2472d576f1eb5ffe2e1bf94b",
+      "seconds": 29.498
+    },
+    {
+      "id": "mens_contact",
+      "status": "passed",
+      "startedUtc": "2026-11-03T03:10:35.243818+00:00",
+      "exitCode": 0,
+      "checks": 20,
+      "evidence": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\_Luu_tru\\Phat_trien_2026-11-02\\ContactDressing\\FinalSuite\\20261103T030659421511Z\\mens\\Contact\\independent_contact.json",
+      "sha256": "67b4beb0220b87710d7e1878a6c6b3370b124f18a43d1b95f3e9872daea430b8",
+      "seconds": 6.529
+    },
+    {
+      "id": "layers",
+      "status": "passed",
+      "startedUtc": "2026-11-03T03:10:41.774338+00:00",
+      "exitCode": 0,
+      "checks": 18,
+      "evidence": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\_Luu_tru\\Phat_trien_2026-11-02\\ContactDressing\\FinalSuite\\20261103T030659421511Z\\layers\\player.json",
+      "sha256": "e11e79756da9be56ea103497277875c790e267bb2d674a98ea2b36f2270c1ffb",
+      "seconds": 27.381
+    },
+    {
+      "id": "layers_contact",
+      "status": "passed",
+      "startedUtc": "2026-11-03T03:11:09.157264+00:00",
+      "exitCode": 0,
+      "checks": 5,
+      "evidence": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\_Luu_tru\\Phat_trien_2026-11-02\\ContactDressing\\FinalSuite\\20261103T030659421511Z\\layers\\Contact\\independent_contact.json",
+      "sha256": "7686d2d475eae090717a28b5b625a3db6a4e6c2e5b5dd20f3ceb5331e6635abb",
+      "seconds": 3.141
+    }
+  ],
+  "physicalHeadset": "NOT_ASSESSED",
+  "realControllerAcceptance": "NOT_ASSESSED",
+  "materialCalibration": "NOT_ASSESSED",
+  "continuousCollision": "NOT_ASSESSED",
+  "note": "A passed automated suite does not certify all poses, headset comfort, textile strength or 72 Hz."
+}

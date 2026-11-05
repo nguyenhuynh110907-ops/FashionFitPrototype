@@ -1,0 +1,50 @@
+{
+  "source_record": "https://zenodo.org/records/17075127",
+  "license": "CC-BY-4.0",
+  "material_systems": 1,
+  "boundary_conditions": 2,
+  "curves": [
+    {
+      "boundary_condition": "clamped",
+      "rows": 60115,
+      "time_s": [
+        0.0,
+        3004.49
+      ],
+      "total_vertical_size_m": [
+        0.116996,
+        0.147004
+      ],
+      "measured_force_N": [
+        -0.01749,
+        7.87711
+      ],
+      "breaking_force_N": null,
+      "measured_area_or_gauge_length_for_stress": null,
+      "negative_force_offsets_preserved": true
+    },
+    {
+      "boundary_condition": "sliding",
+      "rows": 18141,
+      "time_s": [
+        0.0,
+        905.963
+      ],
+      "total_vertical_size_m": [
+        0.053096,
+        0.143165
+      ],
+      "measured_force_N": [
+        -0.018,
+        10.849
+      ],
+      "breaking_force_N": null,
+      "measured_area_or_gauge_length_for_stress": null,
+      "negative_force_offsets_preserved": true
+    }
+  ],
+  "force_unit": "N",
+  "source_length_unit": "mm",
+  "prepared_length_unit": "m",
+  "note": "Header says extension; author README specifies total vertical fabric size. No strain/Young modulus/strength inferred without natural gauge length and geometry."
+}

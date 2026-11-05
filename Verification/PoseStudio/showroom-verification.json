@@ -1,0 +1,23 @@
+{
+    "status": "passed",
+    "hats": 10,
+    "garmentSamples": 6,
+    "lookSelections": 6,
+    "rayGrip": true,
+    "nearGrip": true,
+    "occlusion": true,
+    "gravityTable": true,
+    "gravityFloor": true,
+    "hatAttach": true,
+    "hatReplace": true,
+    "reset": true,
+    "collisionBoundary": true,
+    "openXRLoader": true,
+    "touchProfile": true,
+    "totalClothSolvers": 1,
+    "vrPanelButtons": 10,
+    "hatMeshes": 11,
+    "hatVertices": 45102,
+    "wearChecks": 10,
+    "capHeadEnvelopeMax": 0.9745664000511169
+}

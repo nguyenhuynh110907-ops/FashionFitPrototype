@@ -1,0 +1,15 @@
+{
+  "vertices": 646,
+  "triangles": 1189,
+  "front_banks": [
+    18,
+    18
+  ],
+  "components": 1,
+  "source_sha256": "477bfb2fe10cfec7085a022488e0fdfade73acf808074c44512ce817a03a6b4e",
+  "sha256": "a1e9652548d36b22b68fdf5fd6129b3c4c796dfd234c4a4bae97537a6aa9c838",
+  "authoring": "Original full-front blouse made from the existing fitted neutral shell; no brand hardware copied",
+  "tool": "fast-simplification 0.2.0 (offline only)",
+  "uv": "Planar UV authored for the prototype, not imported student garment UVs",
+  "offline_body_clearance_m": 0.007
+}

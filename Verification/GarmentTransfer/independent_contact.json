@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "method": "libigl exact triangle distance, trimesh closest-face sign plus Embree fallback; vertices, face centroids and three samples per unique edge",
+  "threshold_mm": 1,
+  "body_mask_used": false,
+  "stationary_only": true,
+  "continuous_contact_certified": false,
+  "garment_self_collision_checked": false,
+  "cases": [
+    {
+      "file": "Look1_Identity.bin",
+      "sha256": "fdec831b5fc31b0a0556501fa52ad4b497172af0cb22bbc6138b42d4569306ff",
+      "unique_surface_samples": 173737,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.8660054769133179,
+      "deepest_point_m": [
+        -0.18295319378376007,
+        1.3191659152507782,
+        0.07286707498133183
+      ],
+      "positive_inside_control_mm": 25.415794685254024,
+      "full_body_watertight": true
+    },
+    {
+      "file": "Look2_ChangedShape.bin",
+      "sha256": "31379cb44e088d0703c23b332e135fee77ae6694d6b4fd7e3f2b6cc616909d8e",
+      "unique_surface_samples": 173718,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.8659952984454186,
+      "deepest_point_m": [
+        -0.18295319750905037,
+        1.3191660344600677,
+        0.07286707498133183
+      ],
+      "positive_inside_control_mm": 25.415794685254024,
+      "full_body_watertight": true
+    }
+  ]
+}

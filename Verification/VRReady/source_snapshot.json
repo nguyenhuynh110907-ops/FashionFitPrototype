@@ -1,0 +1,77 @@
+[
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayPlayer.cs",
+    "sha256": "8f752dce026515d60521968334b908d2ed60bc0d6318defed4d68cfed7d4d7a0",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayUI.cs",
+    "sha256": "8c6fafcca3d38fa6902d673c2ec9f706df1338802961c99e2428faba92a3a73f",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Editor/VRReadyVerification.cs",
+    "sha256": "b5ddba616b23765b4007f8003850acb8f0bc20b7160f543bf66fce375eaebc55",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Editor/QuestLinkTrialLauncher.cs",
+    "sha256": "c57224453382b040219b0e459e18158734c30fa9140df2b959f701288329f7ee",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayVRPanel.cs",
+    "sha256": "74e7060b09eae865fe7b9bfef9015609b56b153afe95c70f350e3dcfca84714b",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayVRGrabTarget.cs",
+    "sha256": "b7b8c75852f9810c1b925db85d3ccbbe8e99a6b60662bca8a9ac16b3e9d67156",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayPoseRig.cs",
+    "sha256": "89c71c3e728175ebf9565f192c2bc6d1d723439a105e2d38e08744cc73d6aed0",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayShowroom.cs",
+    "sha256": "fe6eb09ebf1a57c49ad5109a4e6adc21e2a0499ec7976f997ca9db6d0e9d6136",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/Resources/Runway/VRPanel.shader",
+    "sha256": "235ef65fdf044fb910f2aae68aef24ddd5a9df08db38701b7c16a4b5e9f3f180",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/Resources/Runway/WorldText.shader",
+    "sha256": "81d0f37d4dd0aeee2f6bd7a36c8bce133c6bbf9d0cdbaec5b3bf351bc91470c1",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Packages/manifest.json",
+    "sha256": "1d5235364eb741f1c18025ae16e59aebbfecfb4c494fc0b4fc24544bfb53541c",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Packages/packages-lock.json",
+    "sha256": "bd21b5c479aa4504c18e61b0caeab594e217e486985e1770418bfef2cd62faf0",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/XR/RunwayXR.asset",
+    "sha256": "6e8f4a50b917c01f6d794c1eee03bc4449c2402c1e5fc96b720865a93ec59957",
+    "configuration_asset": true
+  },
+  {
+    "path": "Assets/XR/Loaders/OpenXRLoader.asset",
+    "sha256": "6489cd5500c64a356888e57846a3b8580b288e18b5bbe7472bc13a10405d7915",
+    "configuration_asset": true
+  },
+  {
+    "path": "Assets/XR/Settings/OpenXRPackageSettings.asset",
+    "sha256": "b567326c0bc40a2f0f29b40b09ca1e3fd6ba457769ea8eeb6b9c0a115a195a20",
+    "configuration_asset": true
+  }
+]

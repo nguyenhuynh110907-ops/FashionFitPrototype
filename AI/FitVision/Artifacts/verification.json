@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "dataset_images_verified": 100,
+  "group_leakage": false,
+  "trainable_parameters": 4620,
+  "independent_inference_examples": [
+    "MW013",
+    "MW016",
+    "MW024"
+  ],
+  "max_probability_difference": 0.0,
+  "tampered_checkpoint_rejected": true,
+  "offline_inference": true,
+  "checkpoint_sha256": "195f9f5b7e5ebaf8f30451037b44e6ef2a97262c0d81a18e4415e6b41fa630c1",
+  "repeat_training_same_checkpoint_as_first_run": true
+}

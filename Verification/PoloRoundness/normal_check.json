@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "normals": 7586,
+  "all_finite": true,
+  "max_unit_length_error": 4.200705649992642e-08,
+  "positions_and_topology_unchanged_after_normal_fit": true
+}

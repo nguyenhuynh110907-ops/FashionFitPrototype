@@ -1,0 +1,726 @@
+{
+  "id": "chibifire/datasource-garmentcodedata-v2-parquet",
+  "sha": "0e900868c0f7728b0522a13f917203082e8395d4",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 2578,
+      "blob_id": "3e2a3f6d989582eeffcb899df9c5a6a285235a0f",
+      "lfs_sha256": null
+    },
+    {
+      "path": "CITATION.cff",
+      "size": 2137,
+      "blob_id": "08851f691b3106e77042f23951aa19519f961e38",
+      "lfs_sha256": null
+    },
+    {
+      "path": "README.md",
+      "size": 3218,
+      "blob_id": "6e5108e01b1caad9125498eb9da25c6d4723cd13",
+      "lfs_sha256": null
+    },
+    {
+      "path": "default_body/batch-00.parquet",
+      "size": 3523351314,
+      "blob_id": "ec9af7050a7ab4453df54b0d15e17e3246cad4a5",
+      "lfs_sha256": "c1d1b0ed5dfee7d576e3364d7b57ba53dbfc38febe0890c5601fde8918b7f3ad"
+    },
+    {
+      "path": "default_body/batch-01.parquet",
+      "size": 3477626560,
+      "blob_id": "ffee3350283244a35c9d3607c0320df26182b1d0",
+      "lfs_sha256": "74deace2426aeed95b3722bd4a71c9941ae2edea5b6b553179c541eb1e22327c"
+    },
+    {
+      "path": "default_body/batch-02.parquet",
+      "size": 3522615499,
+      "blob_id": "05d89d00c0acfe13472abd3f2bac965f98e67640",
+      "lfs_sha256": "d19891fb631cb1736a69ebaad170f7a8c371d883258aeede4503cdff626da138"
+    },
+    {
+      "path": "default_body/batch-03.parquet",
+      "size": 3466612165,
+      "blob_id": "06d77feee4d7144de76fe89bfd46773b2a85f82e",
+      "lfs_sha256": "1855c82720dc1f47cda5fe91256478456bc52229cf79ccb1c67652325595081f"
+    },
+    {
+      "path": "default_body/batch-04.parquet",
+      "size": 3464527301,
+      "blob_id": "a4125a7dc3eb9486da9a68f0bbd7a0a786348e59",
+      "lfs_sha256": "108ea68edad7b582dec79d0222f1ccdd95803afffc898a84114a00f286fb2312"
+    },
+    {
+      "path": "default_body/batch-05.parquet",
+      "size": 3456717322,
+      "blob_id": "f605377d2e3241cd3e77879df8868a85a3208b84",
+      "lfs_sha256": "6320bd8a1b72596156675cf8de9f782d4994f7aa136b0a3900c62d697fd8b58b"
+    },
+    {
+      "path": "default_body/batch-06.parquet",
+      "size": 3545053757,
+      "blob_id": "306b9f3f61aff3ee26c6e930770d3c7c7a5b127b",
+      "lfs_sha256": "75f0aec31e266752e10b8597af563535926dc2dae056643bec43ed4c6e564c9c"
+    },
+    {
+      "path": "default_body/batch-07.parquet",
+      "size": 3973566837,
+      "blob_id": "55f0a136c2b8946b0454c29000287989c78ac67f",
+      "lfs_sha256": "3b3b66b106ddcf952c259cfa0971cf7c654da846e29985ccd81d959554f0bd08"
+    },
+    {
+      "path": "default_body/batch-08.parquet",
+      "size": 3946833049,
+      "blob_id": "f7d262125eb67df1d300cea5ceaed07133df37d6",
+      "lfs_sha256": "c0b2be493626e4ef0abab225f6bfeb095243d99755e2aae38a80be84c77b4400"
+    },
+    {
+      "path": "default_body/batch-09.parquet",
+      "size": 3997615094,
+      "blob_id": "b26e61210e0c9967612026bcecce23678ee10a49",
+      "lfs_sha256": "957309f55d6a808f9291f6376a8b6bf01ca95e8cc21a3c7492fde4245e04b4cb"
+    },
+    {
+      "path": "default_body/batch-10.parquet",
+      "size": 3914663870,
+      "blob_id": "c500cd3465fecb883b2cffb607b83a18944d56b5",
+      "lfs_sha256": "acd821d47807c59d9897c07244a3f7669cc6889167478ebba327e79fc5e0c957"
+    },
+    {
+      "path": "default_body/batch-11.parquet",
+      "size": 4000651409,
+      "blob_id": "4f9f03831b7157d65b4c0a3b6f3e039ed4d88c20",
+      "lfs_sha256": "0120558c45a5b40c53f606720cb8d64772262f4983893fa307dc59d876992e57"
+    },
+    {
+      "path": "default_body/batch-12.parquet",
+      "size": 3953787123,
+      "blob_id": "21a845343d35f978eabc49fcca8b9ed55a375fe0",
+      "lfs_sha256": "72469fc3f872dc4c722acba195cb791b67b18759c06d08e075e8c8c2b32660b8"
+    },
+    {
+      "path": "default_body/batch-13.parquet",
+      "size": 3943095809,
+      "blob_id": "cd8b635acf65cbd2296e19224738b4a438f2de8c",
+      "lfs_sha256": "b30228685e9effd50d49ddc60265e8dbfb60d34846e8d39ef75590745fddf771"
+    },
+    {
+      "path": "default_body/batch-14.parquet",
+      "size": 4033138880,
+      "blob_id": "efc4bc587e0b1a44cfb6151c85aa827be3493d86",
+      "lfs_sha256": "c854412fae70cfc9a34698fc5097cfbd0da86a4c522912b6b31ad7287b633da9"
+    },
+    {
+      "path": "default_body/batch-15.parquet",
+      "size": 4063454342,
+      "blob_id": "bd37f7595b2641883a97d6dc96aec76638ed3738",
+      "lfs_sha256": "51a0b2bbb30f6cc907951ee0e05ab2214f47312437a3fd7a4a8fa5f51472fc45"
+    },
+    {
+      "path": "default_body/batch-16.parquet",
+      "size": 4021442495,
+      "blob_id": "08383c88f3aca5ca53352f76578a7b26ca57f32d",
+      "lfs_sha256": "ffa7b4a7db068a76df84ca3be20d2a0a8da4fa79102f7421fa332091b2c781a6"
+    },
+    {
+      "path": "default_body/batch-17.parquet",
+      "size": 3985469112,
+      "blob_id": "136e248cd971b912f896386ccdbdf369b7f5df3b",
+      "lfs_sha256": "0b6908b6a0668c7ad2b000b5e6ad95a6e2ff973961063d25bd6c6e89a3898d03"
+    },
+    {
+      "path": "default_body/batch-18.parquet",
+      "size": 4018250989,
+      "blob_id": "bf212b1ac7b456515df973a1fd5e4333ec9a7794",
+      "lfs_sha256": "6a1b43ceff8c528c16fb540fde4c5367c24016323bc897e8204d5b115dec68f6"
+    },
+    {
+      "path": "default_body/batch-19.parquet",
+      "size": 3984266804,
+      "blob_id": "5931b9cbdd78733c3a32f68b3a9fa8d768a40795",
+      "lfs_sha256": "4c91f8de3c78fa5041e335a74acb352871fba59d87a33cf168a3216c46b550e3"
+    },
+    {
+      "path": "random_body/batch-00.parquet",
+      "size": 3367650361,
+      "blob_id": "066d5910ea87231dd5da67065d8f2ac1daf497e9",
+      "lfs_sha256": "cd417e55724171f0bfc0f6f797cd7b030bf87be6f3d8348fd26d63e7d07ee1c0"
+    },
+    {
+      "path": "random_body/batch-01.parquet",
+      "size": 3234368633,
+      "blob_id": "17eb412864a2b0013636b3f3ee22e37283dd1a45",
+      "lfs_sha256": "a847abd1663136bea7c168d000f0335ea25b2bffab429aab381a837e27449c00"
+    },
+    {
+      "path": "random_body/batch-02.parquet",
+      "size": 3266047274,
+      "blob_id": "60494a677dc3731da988543e6f75077f7d7d839f",
+      "lfs_sha256": "4384825a2c09a271f0a401d6e2ffbd76fe7fa64f157792b7b74a3cdcfb7fc0a6"
+    },
+    {
+      "path": "random_body/batch-03.parquet",
+      "size": 3266005260,
+      "blob_id": "573e59030dd4e2f6715e65c47238d4dae1bb60a3",
+      "lfs_sha256": "3fab553aa889fc857545f50cf62b8fd6434f1d2d2082aa7847084ed226e8ccdb"
+    },
+    {
+      "path": "random_body/batch-04.parquet",
+      "size": 3249474017,
+      "blob_id": "88d7ebd67c2700e38860d7b21c4e1a163b370485",
+      "lfs_sha256": "0e241b0fad4858b3c1a44a7392f9c68a3ea69e7cd37d49f1856c3a935f471bd7"
+    },
+    {
+      "path": "random_body/batch-05.parquet",
+      "size": 3256307140,
+      "blob_id": "4da14f3a55278330411356b2836dd8e9bf85d0fd",
+      "lfs_sha256": "3259d4f3c8e52ebbb87bbc8e63bc95d514ab35a66196c408111f3bfe34e4a1db"
+    },
+    {
+      "path": "random_body/batch-06.parquet",
+      "size": 3355982400,
+      "blob_id": "c44e27ad8cf5371e974b505250257a8364df847c",
+      "lfs_sha256": "bc5bfb1de5df0181df311d9fe4776d21a304aa017a7668302b5ef4cb7d51ccfc"
+    },
+    {
+      "path": "random_body/batch-07.parquet",
+      "size": 3730567976,
+      "blob_id": "2f8dce97ce5d7cab97116bb0b04952cd4fd16c7b",
+      "lfs_sha256": "575c05f4b60b99f59fac678a524bd63e9b7a58cbbbc8b8ddba9e0b3de775541e"
+    },
+    {
+      "path": "random_body/batch-08.parquet",
+      "size": 3728041278,
+      "blob_id": "305a47ae230321c2c44e54166ef698a052844020",
+      "lfs_sha256": "3fad861b0bcec9f88c0dd9d2254f1a624393f8703da05e3e8a309ba198068401"
+    },
+    {
+      "path": "random_body/batch-09.parquet",
+      "size": 3727774745,
+      "blob_id": "bbdd3f10fc55a775ef388cf40e197afe71accb32",
+      "lfs_sha256": "857ca36682186586bb788301bc065e25e44ea73b141fa9d057be801cee69c83e"
+    },
+    {
+      "path": "random_body/batch-10.parquet",
+      "size": 3663840488,
+      "blob_id": "7389eeff722be24005075bdaa5a800dd7831fd8c",
+      "lfs_sha256": "0e030040cb0a8230b22052608e5dbc3f0175eec7c0dc172b1b2bc297756b936e"
+    },
+    {
+      "path": "random_body/batch-11.parquet",
+      "size": 3710238190,
+      "blob_id": "cf3d95d1cf421aca9ac81f1439fa5743178f4cb5",
+      "lfs_sha256": "fb13e2cc46c86e54c50e1ee68e596fe413fd8723aa93f3944425e3cec35fec7b"
+    },
+    {
+      "path": "random_body/batch-12.parquet",
+      "size": 3603662768,
+      "blob_id": "fb70323f99033a68c65ffedc3457b7405cae29f2",
+      "lfs_sha256": "dc802dd8d14fc3ff187f8d2681d0e3981731b27b8893e16d64954a70ecb29aae"
+    },
+    {
+      "path": "random_body/batch-13.parquet",
+      "size": 3636454610,
+      "blob_id": "13bf59b3ed6e70985152ddd43ae105387c500ca7",
+      "lfs_sha256": "0becba124ccefe596d67dac57d26761100cb23641a478b09b0399a52f7975621"
+    },
+    {
+      "path": "random_body/batch-14.parquet",
+      "size": 3773747648,
+      "blob_id": "8086363af6631b68cd409fe546134193d6debb27",
+      "lfs_sha256": "14f2c2a8630b260d6f8df24437f9e5592010b6d4711e54e1ce8e26ac5a579fcd"
+    },
+    {
+      "path": "random_body/batch-15.parquet",
+      "size": 3811510701,
+      "blob_id": "43a654561e59054cbcadcce9a77c4856a2ca36b8",
+      "lfs_sha256": "015b43566aef541c586eabd2e569987f019fac8cbc3879268abbe234a70a6ae7"
+    },
+    {
+      "path": "random_body/batch-16.parquet",
+      "size": 3720472363,
+      "blob_id": "717e557b6fb30fb512b32c895dca44737ae7b316",
+      "lfs_sha256": "b17e62e02beb92d4e558613be2cbd66746005c9b80e7d7b25436413bb22fc2b0"
+    },
+    {
+      "path": "random_body/batch-17.parquet",
+      "size": 3742866586,
+      "blob_id": "8e48f0a385a480aa450486e53531f935197d1e11",
+      "lfs_sha256": "6a7753804fd580815f584dfbdcf4be05507c19b0508708ae66bd5213eb716707"
+    },
+    {
+      "path": "random_body/batch-18.parquet",
+      "size": 3742647579,
+      "blob_id": "48317ffce8b91072bccc03a68b3bd1864034e2cf",
+      "lfs_sha256": "45847ca7e3d35d94070e555f4e98edf357585c8d4eb72cac050699a723f28fef"
+    },
+    {
+      "path": "random_body/batch-19.parquet",
+      "size": 3698058871,
+      "blob_id": "d93a9f23a8076dfa7dc4ba675007ba29ed24c8bf",
+      "lfs_sha256": "b94ebd93e91bbabd3d7ea280512b4986e92d49cd89daaf24b01e8fcd92426a0b"
+    },
+    {
+      "path": "upstream/Dataset_documentation_v2.pdf",
+      "size": 605885,
+      "blob_id": "650b4b85724f6d1dd90d382fb660735b1c41b569",
+      "lfs_sha256": "5d35bd7ebf8cf37ed3ced6493cb75aa839f106235e73b1a425951017b87cbe5d"
+    },
+    {
+      "path": "upstream/GarmentCodeData_v2_official_train_valid_test_data_split.json",
+      "size": 6074953,
+      "blob_id": "dddd00bb22f8c5589faad8fffcca86df6ae4112b",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_0/default_body/dataset_properties_default_body.yaml",
+      "size": 1798982,
+      "blob_id": "de114db7cba65e46db3da1b1fcf91a332f9b6892",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_0/random_body/dataset_properties_random_body.yaml",
+      "size": 1802825,
+      "blob_id": "cae0ac0fc8b5dda3ef088bfd20193ababd5e941f",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_1/default_body/dataset_properties_default_body.yaml",
+      "size": 1796040,
+      "blob_id": "b5ee96d6ea66995d34899a50e3fb044589657208",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_1/random_body/dataset_properties_random_body.yaml",
+      "size": 1798834,
+      "blob_id": "9d90fa061242ecd40a2f1303ad4f069bba1a010d",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_10/default_body/dataset_properties_default_body.yaml",
+      "size": 1785434,
+      "blob_id": "784da0ea2a41614d5d2233e9b485a0877aa8fb4b",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_10/random_body/dataset_properties_random_body.yaml",
+      "size": 1786529,
+      "blob_id": "43324ffbfb6ca44140420997821b5b4264aa2644",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_11/default_body/dataset_properties_default_body.yaml",
+      "size": 1782775,
+      "blob_id": "0275a59fb90eb64c64786ad421df69382ae8af14",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_11/random_body/dataset_properties_random_body.yaml",
+      "size": 1787349,
+      "blob_id": "348ef3d34477c159ad62cd39d17e6eb74a4b2dc7",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_12/default_body/dataset_properties_default_body.yaml",
+      "size": 1783006,
+      "blob_id": "f8d121cf4b0acbfdcfe510353b386fc24727987b",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_12/random_body/dataset_properties_random_body.yaml",
+      "size": 1787295,
+      "blob_id": "fbd4a87c259607782ce509ab21d4997f1fd4a7fd",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_13/default_body/dataset_properties_default_body.yaml",
+      "size": 1783055,
+      "blob_id": "9f638b4a4e0a4953f06386e34cc5bab66b4e5ab9",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_13/random_body/dataset_properties_random_body.yaml",
+      "size": 1786577,
+      "blob_id": "9807e19ba503d90c87e4a9cc588e2b52fa677f9d",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_14/default_body/dataset_properties_default_body.yaml",
+      "size": 1778822,
+      "blob_id": "5e639baed9741db004f5c3e30b36c7b856b25fd1",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_14/random_body/dataset_properties_random_body.yaml",
+      "size": 1780706,
+      "blob_id": "42f4ec559e4d02c3672ab314590b01c439d2b654",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_15/default_body/dataset_properties_default_body.yaml",
+      "size": 1783026,
+      "blob_id": "00d283ca35d7e2a3c10dffc2965461de6c4ee2b0",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_15/random_body/dataset_properties_random_body.yaml",
+      "size": 1782814,
+      "blob_id": "f43084623b8ee1824e64fd24f4cbbc26253eaf37",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_16/default_body/dataset_properties_default_body.yaml",
+      "size": 1782082,
+      "blob_id": "427efa9bb23b39ae03ae502b33f58f64403f6e41",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_16/random_body/dataset_properties_random_body.yaml",
+      "size": 1785246,
+      "blob_id": "a0c5d6eb942ecbc2a991edf9167d7a902e1fde3f",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_17/default_body/dataset_properties_default_body.yaml",
+      "size": 1777178,
+      "blob_id": "27d3655e99500f7e95000abacc9f63f5beae01be",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_17/random_body/dataset_properties_random_body.yaml",
+      "size": 1775970,
+      "blob_id": "2bb945b2cd111f89b9b9d7c1861087dd9847f3e8",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_18/default_body/dataset_properties_default_body.yaml",
+      "size": 1779009,
+      "blob_id": "bd679e25241984eeaf250626b80c46f7ae0b64a8",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_18/random_body/dataset_properties_random_body.yaml",
+      "size": 1780962,
+      "blob_id": "2346ca8f1f0331bcd818f3e37e4b9c0c298b5068",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_19/default_body/dataset_properties_default_body.yaml",
+      "size": 1780488,
+      "blob_id": "f6d10c1cd5c2fd30e231a44353f9189ea6d0b0cf",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_19/random_body/dataset_properties_random_body.yaml",
+      "size": 1777671,
+      "blob_id": "6e17609931ca9e8004cae4755d8080bfbff606b6",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_2/default_body/dataset_properties_default_body.yaml",
+      "size": 1796220,
+      "blob_id": "db34c6ddefe60134dabdb7792b7e77f7be39eb55",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_2/random_body/dataset_properties_random_body.yaml",
+      "size": 1801408,
+      "blob_id": "c5efc34838ddd4b650cc27ad5d081e9e285ed636",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_20/default_body/dataset_properties_default_body.yaml",
+      "size": 1782101,
+      "blob_id": "13993fa303c1ea07921937bf56f0d117482e0c72",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_20/random_body/dataset_properties_random_body.yaml",
+      "size": 1778504,
+      "blob_id": "a6e8514508ae01c83b0e0d11c6191f1d75064951",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_21/default_body/dataset_properties_default_body.yaml",
+      "size": 1793264,
+      "blob_id": "8c1173e4515ddd8170a61f1620bad165e014bdce",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_21/random_body/dataset_properties_random_body.yaml",
+      "size": 1795586,
+      "blob_id": "d3e08ad45e24c7ba8dadc338f696cdf3f6edc785",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_22/default_body/dataset_properties_default_body.yaml",
+      "size": 1803310,
+      "blob_id": "02a30aca131be5f475d438c31098ba83ddc7363d",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_22/random_body/dataset_properties_random_body.yaml",
+      "size": 1805286,
+      "blob_id": "8218331f5c4d43c56a3b0f1fb6eb7623e981b7fd",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_23/default_body/dataset_properties_default_body.yaml",
+      "size": 1796025,
+      "blob_id": "92d1ffe3a2344a7fbe160a7493fd90198e69ee8e",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_23/random_body/dataset_properties_random_body.yaml",
+      "size": 1801121,
+      "blob_id": "f43517d031fcd93840ebc1ef90d67880ce940f60",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_24/default_body/dataset_properties_default_body.yaml",
+      "size": 1796223,
+      "blob_id": "5befe1d78ec30de0e3f51ef57518689032b2edc0",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_24/random_body/dataset_properties_random_body.yaml",
+      "size": 1793551,
+      "blob_id": "551f354de0a61c8b771a656450a4c58b6df78128",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_25/default_body/dataset_properties_default_body.yaml",
+      "size": 1797157,
+      "blob_id": "a37397f0b20ecee28271725f7a5785354c78079b",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_25/random_body/dataset_properties_random_body.yaml",
+      "size": 1797374,
+      "blob_id": "2f5b7be0be9a62ba8afd2268306d489e8f276e51",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_26/default_body/dataset_properties_default_body.yaml",
+      "size": 1781072,
+      "blob_id": "8f0827367cf391aa1dad654453a2cf15de0219c2",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_26/random_body/dataset_properties_random_body.yaml",
+      "size": 1782062,
+      "blob_id": "85dc11cdea51729bcbf0562768978ab70c3c8404",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_27/default_body/dataset_properties_default_body.yaml",
+      "size": 1777830,
+      "blob_id": "d0024e5dec1ac2da55c07c0d41ec0501fc538287",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_27/random_body/dataset_properties_random_body.yaml",
+      "size": 1779106,
+      "blob_id": "15f5069dd9d76cfb4c850b1882aa4b1ffbf2da1c",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_28/default_body/dataset_properties_default_body.yaml",
+      "size": 1783726,
+      "blob_id": "c8d52ec8553d36fd0528013abb7a4f4177192622",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_28/random_body/dataset_properties_random_body.yaml",
+      "size": 1786532,
+      "blob_id": "2c686f4c08d0b3f617276204d57afb2b85f668f0",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_29/default_body/dataset_properties_default_body.yaml",
+      "size": 1783206,
+      "blob_id": "6fe943b8284990ec61def13d292e4ba5cb1566bf",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_29/random_body/dataset_properties_random_body.yaml",
+      "size": 1784293,
+      "blob_id": "fdd6d7d24fa6f5e229f936ed83966c489048bfef",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_3/default_body/dataset_properties_default_body.yaml",
+      "size": 1802271,
+      "blob_id": "0995e2bdbe0538d4d31fdefd970c5ca5e82fe166",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_3/random_body/dataset_properties_random_body.yaml",
+      "size": 1803333,
+      "blob_id": "e239eec764b1826b467592e4c0b220e3928bed00",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_30/default_body/dataset_properties_default_body.yaml",
+      "size": 1780021,
+      "blob_id": "a63fc97c5dff9616c984b75943a00f811c6dd410",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_30/random_body/dataset_properties_random_body.yaml",
+      "size": 1781217,
+      "blob_id": "e3539b744cc85d26cd5a1aa4fcb7eb027264879d",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_31/default_body/dataset_properties_default_body.yaml",
+      "size": 1780088,
+      "blob_id": "1afdf4ecb4d617830e3cb3171b7585c4b4b86a38",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_31/random_body/dataset_properties_random_body.yaml",
+      "size": 1780500,
+      "blob_id": "05d6b4673b0c872ff6ce3a6a4645ff3ea41ed461",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_32/default_body/dataset_properties_default_body.yaml",
+      "size": 1777855,
+      "blob_id": "aa7f14fc4e9135cff7d97488fcbb2387f5e3171c",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_32/random_body/dataset_properties_random_body.yaml",
+      "size": 1780132,
+      "blob_id": "94be490a00e20fd2a0d5d72f29c15f44b746f9bf",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_33/default_body/dataset_properties_default_body.yaml",
+      "size": 1774442,
+      "blob_id": "6c1a94a25288ebd69fb04819bf46bafaf7180309",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_33/random_body/dataset_properties_random_body.yaml",
+      "size": 1779292,
+      "blob_id": "65f6a4ec913f5657f8357db80ebcebfb300e303b",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_34/default_body/dataset_properties_default_body.yaml",
+      "size": 1777405,
+      "blob_id": "9c1a5a163bf42dc59638837bd3c1df639f44cfce",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_34/random_body/dataset_properties_random_body.yaml",
+      "size": 1782141,
+      "blob_id": "f1423b9d4dcbdf87bf7fed56df8bb735a9ff7a4d",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_35/default_body/dataset_properties_default_body.yaml",
+      "size": 1784941,
+      "blob_id": "2b4aebd4b609d37f1ee9ccf07924d7ed5780b7df",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_35/random_body/dataset_properties_random_body.yaml",
+      "size": 1788980,
+      "blob_id": "e8f938f57c35afd3924735e76eb83afbeb79a98e",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_4/default_body/dataset_properties_default_body.yaml",
+      "size": 1795113,
+      "blob_id": "a39bf9906667e54eb6f8e9e509e4665dc042916a",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_4/random_body/dataset_properties_random_body.yaml",
+      "size": 1797786,
+      "blob_id": "a5b7123952b25a060777e9d85a3d78c8b1027b79",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_5/default_body/dataset_properties_default_body.yaml",
+      "size": 1800977,
+      "blob_id": "227c13e3cc88f9b64ecbfdf25360c58442c85e7d",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_5/random_body/dataset_properties_random_body.yaml",
+      "size": 1797717,
+      "blob_id": "dd87c8192188ccc736375fb417cf9c8604172cf2",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_6/default_body/dataset_properties_default_body.yaml",
+      "size": 1799905,
+      "blob_id": "809afd3e6c7f4f6ba7902e6b3f50849df9642458",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_6/random_body/dataset_properties_random_body.yaml",
+      "size": 1805913,
+      "blob_id": "579ea19260cca24d33d29ca2da820051d1991752",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_7/default_body/dataset_properties_default_body.yaml",
+      "size": 1783436,
+      "blob_id": "bf99a75610c2eea3503c7ac106571d054944bf08",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_7/random_body/dataset_properties_random_body.yaml",
+      "size": 1785581,
+      "blob_id": "84f9475f35503d840f28794d2db5bcd9a392b748",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_8/default_body/dataset_properties_default_body.yaml",
+      "size": 1787028,
+      "blob_id": "8442247a98ed185d1531a73ae66f170526d5564e",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_8/random_body/dataset_properties_random_body.yaml",
+      "size": 1784856,
+      "blob_id": "66adb6ad3042fe8153075cb6a259e8a9e319c6d3",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_9/default_body/dataset_properties_default_body.yaml",
+      "size": 1780698,
+      "blob_id": "f1dcc1293f33b11540d2320ce463a24768e50288",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/batch_properties/garments_5000_9/random_body/dataset_properties_random_body.yaml",
+      "size": 1781782,
+      "blob_id": "68294696f6fc32c043fff4751acb2c31d3a8377f",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/doi.txt",
+      "size": 40,
+      "blob_id": "f18f3fda9071b464c5f95f18ac940572b7c82e0e",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/neutral_body/mean_all.obj",
+      "size": 1940521,
+      "blob_id": "65b2a7a12e9eba83b8155aa2fdf0bfa46d552ad5",
+      "lfs_sha256": null
+    },
+    {
+      "path": "upstream/neutral_body/mean_all.yaml",
+      "size": 609,
+      "blob_id": "3261aa8107de46d7a1dfff867b0f9647c7d8284c",
+      "lfs_sha256": null
+    }
+  ]
+}

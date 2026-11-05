@@ -1,0 +1,92 @@
+{
+  "status": "passed",
+  "poses": [
+    {
+      "pose": "Look2_Standing",
+      "samples": 10688,
+      "body_watertight": true,
+      "source_mesh_sha256": "da0fec62a25c05c7b50548d9d403cedec3a3bb3ec1ed22a25ace786206331423",
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1200000047683716,
+        0.06668753921985626
+      ],
+      "reused_identical_binary_measurement": true
+    },
+    {
+      "pose": "Look2_WalkingA",
+      "samples": 10688,
+      "body_watertight": true,
+      "source_mesh_sha256": "1fa358938d33043bf1f7057cc0cc5b45e4588f9d37735bfd8f559f547c8aa64e",
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1157200336456299,
+        0.06668753921985626
+      ],
+      "reused_identical_binary_measurement": true
+    },
+    {
+      "pose": "Look2_WalkingB",
+      "samples": 10688,
+      "body_watertight": true,
+      "source_mesh_sha256": "34a3eb68dadc410b9aff86cdb47357996c0e01e7123c0ef2ed336d677aa96ab5",
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.0,
+      "deepest_point_m": [
+        0.13708466291427612,
+        1.1154319047927856,
+        0.06668753921985626
+      ],
+      "reused_identical_binary_measurement": true
+    },
+    {
+      "pose": "Look6_Standing",
+      "samples": 43984,
+      "body_watertight": true,
+      "source_mesh_sha256": "2cedb2845589f2e6bf123f95a5cd4c538db5ff94bb14aa6b969e53283f5231dc",
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.21231986208928794,
+      "deepest_point_m": [
+        -0.1829050580660502,
+        1.3193580309549968,
+        0.07167033106088638
+      ]
+    },
+    {
+      "pose": "Look6_WalkingA",
+      "samples": 43984,
+      "body_watertight": true,
+      "source_mesh_sha256": "9e9b09236562d396cb056ad94916627e7bf8e05e44981a7483b6eb75ded145a7",
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.21231986208928794,
+      "deepest_point_m": [
+        -0.1829050580660502,
+        1.3150781790415447,
+        0.07167033106088638
+      ]
+    },
+    {
+      "pose": "Look6_WalkingB",
+      "samples": 43984,
+      "body_watertight": true,
+      "source_mesh_sha256": "cd0867c4298bfe3ccd6b66c9b55647af1948673d07f32a0f6091db6ec35bba71",
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.21231986208928794,
+      "deepest_point_m": [
+        -0.1829050580660502,
+        1.3147899309794109,
+        0.07167033106088638
+      ]
+    }
+  ],
+  "samples": 164016,
+  "masked_body_used": false,
+  "samples_inside_over_1mm": 0,
+  "max_sampled_penetration_mm": 0.21231986208928794,
+  "scope": "Referenced garment vertices and triangle centroids against original body at six sampled poses; not full triangle CCD",
+  "continuous_contact_certified": false
+}

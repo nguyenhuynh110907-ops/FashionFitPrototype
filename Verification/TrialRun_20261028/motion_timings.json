@@ -1,0 +1,45 @@
+{
+  "context": "Unity Editor batch-mode CPU timings, NOT headset FPS or whole-frame GPU measurements; skirt timings exclude additional blouse CPU work in look 5",
+  "rows": [
+    {
+      "look": 1,
+      "max_stretch": 1.276041,
+      "proxy_violations": 0,
+      "physics_ms_per_step": 11.4659622222222,
+      "display_ms_per_step": 5.88303444444445,
+      "skirt_physics_plus_display_ms_per_step": 17.34899666666665
+    },
+    {
+      "look": 2,
+      "max_stretch": 1.296923,
+      "proxy_violations": 0,
+      "physics_ms_per_step": 14.0258733333333,
+      "display_ms_per_step": 5.68247222222222,
+      "skirt_physics_plus_display_ms_per_step": 19.708345555555518
+    },
+    {
+      "look": 3,
+      "max_stretch": 1.240636,
+      "proxy_violations": 0,
+      "physics_ms_per_step": 10.6564466666667,
+      "display_ms_per_step": 5.26911777777778,
+      "skirt_physics_plus_display_ms_per_step": 15.925564444444479
+    },
+    {
+      "look": 4,
+      "max_stretch": 1.251138,
+      "proxy_violations": 0,
+      "physics_ms_per_step": 11.5929222222222,
+      "display_ms_per_step": 5.90552222222222,
+      "skirt_physics_plus_display_ms_per_step": 17.49844444444442
+    },
+    {
+      "look": 5,
+      "max_stretch": 1.235419,
+      "proxy_violations": 0,
+      "physics_ms_per_step": 12.0148388888889,
+      "display_ms_per_step": 6.19625333333333,
+      "skirt_physics_plus_display_ms_per_step": 18.21109222222223
+    }
+  ]
+}

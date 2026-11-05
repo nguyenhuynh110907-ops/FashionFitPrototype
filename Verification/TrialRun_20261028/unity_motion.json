@@ -1,0 +1,10 @@
+{
+    "scope": "Unity engine: actual rig IK, five render meshes, blouse, moving rig. No headset or full triangle contact certification.",
+    "checks": 78605,
+    "looks": 5,
+    "physicsSteps": 450,
+    "proxyViolations": 0,
+    "maxStretch": 1.2969231605529786,
+    "maxAnkleHeightError": 0.00009393692016601563,
+    "milliseconds": 10374.888
+}

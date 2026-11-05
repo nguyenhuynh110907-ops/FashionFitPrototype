@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "image": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\FashionFitPrototype\\References\\ModelWear100\\Images\\MW013.jpg",
+  "deployment_status": "research_only",
+  "requires_review": true,
+  "checkpoint_sha256": "195f9f5b7e5ebaf8f30451037b44e6ef2a97262c0d81a18e4415e6b41fa630c1",
+  "predictions": [
+    {
+      "task": "category",
+      "label": "outerwear",
+      "probability": 0.4173465967178345,
+      "top3": [
+        {
+          "label": "outerwear",
+          "probability": 0.4173465967178345
+        },
+        {
+          "label": "trousers",
+          "probability": 0.3381747603416443
+        },
+        {
+          "label": "separates",
+          "probability": 0.08244895935058594
+        }
+      ]
+    },
+    {
+      "task": "appearance",
+      "label": "tailored",
+      "probability": 0.8320228457450867,
+      "top3": [
+        {
+          "label": "tailored",
+          "probability": 0.8320228457450867
+        },
+        {
+          "label": "draped_layered",
+          "probability": 0.06933202594518661
+        },
+        {
+          "label": "straight_relaxed",
+          "probability": 0.05548868700861931
+        }
+      ]
+    }
+  ],
+  "guidance": "Can cau truc vai, ve, cap va duong may phu hop; anh khong cho thong so vat lieu.",
+  "warning": "Research classifier trained on 100 photos. Verify manually; no 3D, cloth physics, or nonpenetration guarantee."
+}

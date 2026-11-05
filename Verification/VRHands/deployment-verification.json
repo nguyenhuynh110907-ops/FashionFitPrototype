@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "source_files": 17,
+  "player_files_verified": true,
+  "web_samples": 12,
+  "web_runtime_samples": 6,
+  "web_and_packaged_map_checks": 54,
+  "hands_checks": 69,
+  "standalone_checks": 28,
+  "hardware_tested": false,
+  "browser_visual_tested": false
+}

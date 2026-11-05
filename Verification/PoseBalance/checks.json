@@ -1,0 +1,50 @@
+[
+  {
+    "check": "LayeredGarmentVerification_RepairIvory",
+    "exit_code": 0
+  },
+  {
+    "check": "PoseBalanceVerification_RunBatch",
+    "exit_code": 0
+  },
+  {
+    "check": "LayeredGarmentVerification_RunBatch",
+    "exit_code": 0
+  },
+  {
+    "check": "PoseMaterialVerification_RunBatch",
+    "exit_code": 0
+  },
+  {
+    "check": "VRReadyVerification_RunBatch",
+    "exit_code": 0
+  },
+  {
+    "check": "BimanualVerification_RunBatch",
+    "exit_code": 0
+  },
+  {
+    "check": "layer_contact",
+    "exit_code": 0
+  },
+  {
+    "check": "native_contact",
+    "exit_code": 0
+  },
+  {
+    "check": "windows_build",
+    "exit_code": 0
+  },
+  {
+    "check": "player",
+    "exit_code": 0
+  },
+  {
+    "check": "player_contact",
+    "exit_code": 0
+  },
+  {
+    "check": "balance_player",
+    "exit_code": 0
+  }
+]

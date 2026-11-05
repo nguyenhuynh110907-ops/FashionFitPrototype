@@ -1,0 +1,247 @@
+[
+  {
+    "path": "Assets/FashionFit/Editor/PoseMannequinAssets.cs",
+    "sha256": "94e5cd739f6b254cd958f8777de71f91c75662c8194865282eefc5aa09cab1f3",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Editor/PoseMannequinAssets.cs.meta",
+    "sha256": "9245c065e1b3546c59858e7ca39a45d825b07927ee70bc1f7c83ca070278eb86",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Editor/PoseStudioVerification.cs",
+    "sha256": "5b64eb00751c26bda376b8a6f37ea53e70f03f428e0048f6df30007c9d02031e",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Editor/PoseStudioVerification.cs.meta",
+    "sha256": "99920eb6fda8f513e40b2c1000bf236f6fc5b3556a1e3b4c23e8a5ef7b1d5574",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Models.meta",
+    "sha256": "8917498a626e67d9a281e62a0d573780763139b148cd53cbfa2ccb4ff8b5bbca",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Models/PoseMannequins.meta",
+    "sha256": "e622a370b9740ed1847e7c6e350b2c393f5b08adaea729a94e536f2d5b91e490",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Models/PoseMannequins/Female.asset",
+    "sha256": "e31ab7b11620d57029a2c67069c52fcf86ebaa0856f3420eee4381b0a1b4cbe3",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Models/PoseMannequins/Female.asset.meta",
+    "sha256": "4899b2679dff57ca7dcee5c89c66c39761aa0c39da5a4a98e24a97189b286377",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Models/PoseMannequins/Female.mat",
+    "sha256": "4bf0d0134ca811734654c70df70913be8f288c775d94e31e913e233d90021005",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Models/PoseMannequins/Female.mat.meta",
+    "sha256": "7df1dc5aa4646807de4d54ba979b3521b033cf1bd14d4c288e7df9a2b86f6d86",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Models/PoseMannequins/FemaleCC0.prefab",
+    "sha256": "979bf0a65ba68a3675fc9ef1607d1518e2db1e6bd66ebb8e48225ce0a900a216",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Models/PoseMannequins/FemaleCC0.prefab.meta",
+    "sha256": "1772fc5d10ecd416b35f52daca746e0eb5d7e1efa076fea993bf1e92486af5e9",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Models/PoseMannequins/Male.asset",
+    "sha256": "ace6a92a5b31268a2beea9a358b16afca54c31357afd584b3f71db27bd9f763f",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Models/PoseMannequins/Male.asset.meta",
+    "sha256": "241c53bd986650b5f5d48f3d5488711ecd06b57d765fdd5572a25b4f24413a0e",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Models/PoseMannequins/Male.mat",
+    "sha256": "984a9f6be1e93c7879e192c295f08debf3633925ca19d48f01cbe7691fa66b2a",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Models/PoseMannequins/Male.mat.meta",
+    "sha256": "54bce68338e06713092a646e44f86c674a2f3cc3df2a69ba950318cda6afff8a",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Models/PoseMannequins/MaleCC0.prefab",
+    "sha256": "04e4bd62f9540a239664463a44b1dcb454a62372e01665de17578802b470ebb2",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Models/PoseMannequins/MaleCC0.prefab.meta",
+    "sha256": "8362835e4b533ece75b9bbdadc5e84e633ffcf930a576a674986d7a231876250",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/FashionFitApp.cs",
+    "sha256": "d6015557344236ae7b81d5d2938b45661624037b9531c41596c02109be1cbebd",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/FashionFitApp.cs.meta",
+    "sha256": "99e4fc2fe566e3a436fc65ae013ff75613d467b091b7707419472db8b55cc652",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayAvatar.cs",
+    "sha256": "ed0253109d0c74d0a3bc802dd4925ea7ebb83af7f2a22600ae59b70f0654fb49",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayAvatar.cs.meta",
+    "sha256": "c314ebd5eba75856de9badc9c7803887235fcd4e2cde39f2955ec433666c651d",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayPlayer.cs",
+    "sha256": "ac0cc26539abafbd733ecdf3b69f4582f4a9eae16c36d6e06eb793efe6e662fa",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayPlayer.cs.meta",
+    "sha256": "c6512173d1ecb02ac71c66ab6f58b54deb6af7ae0bee91437bd3cb6768a2c12e",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayPoseRig.cs",
+    "sha256": "89c71c3e728175ebf9565f192c2bc6d1d723439a105e2d38e08744cc73d6aed0",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayPoseRig.cs.meta",
+    "sha256": "05d8d26814b6c8a0bcc252f5d9a6e587fca72e0f304ede18f68efea4fed2d6d5",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayPoseStudio.cs",
+    "sha256": "0cb45e95cc6895281579e21a822d8dcf1cd55464883a490174f8fccec226e76a",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayPoseStudio.cs.meta",
+    "sha256": "8311663d6e68f07b3b41c8a46e6963ec816385471518d923dc77c33d5134ca4b",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayShowroom.cs",
+    "sha256": "fe6eb09ebf1a57c49ad5109a4e6adc21e2a0499ec7976f997ca9db6d0e9d6136",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayShowroom.cs.meta",
+    "sha256": "adda2854afad722dabf6d9f8554ad365a06bf300e773426dfe1d6e218eeeb5ab",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayUI.cs",
+    "sha256": "9173307be0f6ae0260d4b22f574ad6891cd1a6d492e3343ba50c9ca7ce5212e2",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayUI.cs.meta",
+    "sha256": "3a59885fc3a6251f44ac3f1140e0602ac1d6a6d4775e479eea96c05ca922ed34",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayVRGrabTarget.cs",
+    "sha256": "b7b8c75852f9810c1b925db85d3ccbbe8e99a6b60662bca8a9ac16b3e9d67156",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayVRGrabTarget.cs.meta",
+    "sha256": "49db41da3b21d5759a1e8011619662af151c96e12b0b59d1f79badfd44be6054",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayVRPanel.cs",
+    "sha256": "608748ee857901b5bce20f03c4e72714c3fdd9666ac71b65cd4f2e5d01904a22",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayVRPanel.cs.meta",
+    "sha256": "3962e410e64a9f944d1f20a4db1baa8cbbfa037cbb3cb54066ef47ce6c778bb2",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/Resources/PoseModels.meta",
+    "sha256": "d65ae846d94623a9fb9f6c5c78c2e86b5304e4338a1672b599715076cc3fdcf0",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/Resources/PoseModels/female-mesh.bytes",
+    "sha256": "79d17c7160a04a808fc5723e4e1635cac72b68507fdf7cdff1935b3541155a92",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/Resources/PoseModels/female-mesh.bytes.meta",
+    "sha256": "f26278c7646f343d105ea395ecfff5f6dd60e6ce28c4939e67c8c6f41bedc05d",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/Resources/PoseModels/female-rig.json",
+    "sha256": "3e8780decc2fcc1cc5068d4a4ffbe435f2698b1ee5090540f7a8a1b88cce8cba",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/Resources/PoseModels/female-rig.json.meta",
+    "sha256": "cddaccc0e549687beeaff41e6604132f487d3aeeb71e6f6230b35e6d690561c5",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/Resources/PoseModels/male-mesh.bytes",
+    "sha256": "cbe01cf008223390da1b85880f1de14db3450e03571fd353ddbd44632d03c315",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/Resources/PoseModels/male-mesh.bytes.meta",
+    "sha256": "f01ea95cc571a860a0191b90d7cd0e08ea1f121008b7392c2e89956b0b8d3db6",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/Resources/PoseModels/male-rig.json",
+    "sha256": "a4005eba595e474263df052d499e90550dcc4862a71f366746fef6a359e918e9",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Assets/Resources/PoseModels/male-rig.json.meta",
+    "sha256": "6867a03b8163b216cd4681920f08ed7e67fae25f41b0f6512d882a8822867268",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Samples/Pose_Female_Body.obj",
+    "sha256": "df3a9e1dc99cdeb8a08536f304c4fe75fb3f49b1ccfd45e65c914088b6131eca",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Samples/Pose_Male_Body.obj",
+    "sha256": "7e9765d9a5dece8df7faba9eaefa5716da42f9933ba9aef31c7579f19957e047",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Tools/SourceAssets/caucasian-male-young.target",
+    "sha256": "70e228ba7164737dae664454394536fc5935fa48d333c1a97d77e2dc6eacc5f5",
+    "isolatedCopyMatches": true
+  },
+  {
+    "path": "Tools/build_pose_mannequins.py",
+    "sha256": "16381d119ac888dab8a406ffd27e6ba1b89a0574c2786a51ca86e322ba58c557",
+    "isolatedCopyMatches": true
+  }
+]

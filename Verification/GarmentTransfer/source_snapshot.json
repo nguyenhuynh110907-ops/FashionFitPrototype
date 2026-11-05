@@ -1,0 +1,287 @@
+[
+  {
+    "path": "Assets/FashionFit/Runtime/FashionFitApp.cs",
+    "sha256": "bd999b88995885016e2fb612d9739625c325783792a198790b7ddbc95ee6e336",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayWardrobe.cs",
+    "sha256": "d602e4769f26ce1e6e9b0dfe63e0b70184427ce12505d14a4ffcbb3cc561201b",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayUI.cs",
+    "sha256": "9b5f11456ed2dc01d61a9239d8efcc9f74cc4f13ad2b540ae579b89cbbd8d593",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/GarmentSurfaceTransfer.cs",
+    "sha256": "6b6c8b7f21b0371a5ac65cc8cacdcf0baf1f5f94695754e22de1f5f14c40e9ab",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/TransferredGarmentAsset.cs",
+    "sha256": "d37447c0a1699a5de88c161dcef192786551a3f6e7126ab26a3730e7d0e29a7d",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Editor/GarmentTransferStudio.cs",
+    "sha256": "9cc71ac26d2327f6646d2b5640dae77bfbf4f13b6d8152322c7664e432f433d8",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Editor/GarmentTransferVerification.cs",
+    "sha256": "a76b2da258d8412b47bda4427769ecad45d3ea04a5861d76f38de1432956777e",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Editor/GarmentFormatVerification.cs",
+    "sha256": "8b0df3440a2f70aa18f4c3617955acba64c6d853d3eca2b6c80a6267546c84cd",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Editor/GarmentImportPreparation.cs",
+    "sha256": "f939c50ed494007297450b1e8c61cc502afdaf502329e82d9553686dda6c073c",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/Resources/TransferredGarments/DetailDemo.meta",
+    "sha256": "1a9248b198b20fb7424a7269374aef25a7b4517574f1f5ce69ba60711e9fa875",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/Resources/TransferredGarments/DetailDemo/Garment.asset",
+    "sha256": "c351a87681a789f2894e5a45a259ebfa8c7f32f818b549c3a7aae620b71c9195",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/Resources/TransferredGarments/DetailDemo/Garment.asset.meta",
+    "sha256": "7dac7cefe51e92bc0fa9f856efb563a29661b3a9e01d9f001a9f0a797becc602",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/Resources/TransferredGarments/DetailDemo/transfer-report.json",
+    "sha256": "73efe44014507e9f6471525a94375645ec61a36aa6f718b6acd01286d592d024",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/Resources/TransferredGarments/DetailDemo/transfer-report.json.meta",
+    "sha256": "f81a42eab8359ea2c14bf5833344b3ee33369a18ed5f0fad7e03fab1d5837156",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/Resources/TransferredGarments.meta",
+    "sha256": "8f5b453abf5620bdf1292c11b77132f62e0fc2db7c4dcce382ee21cbfa8a701d",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferTemplates/FittingReference.prefab",
+    "sha256": "daf2beacb42b678aac3b5d02d660308ffaaa22076b292017a7d01336be937dc6",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferTemplates/FittingReference.prefab.meta",
+    "sha256": "4da3c80addbdbb0a3a66bf8689a10fda517202ec481d0e7058cbaf1845ba9b71",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferTemplates/Material00.mat",
+    "sha256": "57f3dfb2e6fce34a142d0ce1339bf342af73c89e02942497b55ca621282e5d49",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferTemplates/Material00.mat.meta",
+    "sha256": "5b5a22d8f164767a50886d03bf1c573ec8e3c5729d4bbe5d05531c95c9d66e6f",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferTemplates/Material01.mat",
+    "sha256": "6594bb24a0db82cba5acd674312510b81e9cee3810f2512ce70baed1430bf336",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferTemplates/Material01.mat.meta",
+    "sha256": "8c7331d9ca9ed7ba125ff3b5fd8fc06955a538c9e71b54092a43c4f0cf8e7ee5",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferTemplates/Material02.mat",
+    "sha256": "64b63265c94672f4947c58128eeb1f07b4b41852070efce888b77603f9aa5810",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferTemplates/Material02.mat.meta",
+    "sha256": "32380dca17dbe82109708cfd545d4aeecda95b1b8121ff9f6d939b63faf9fa06",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferTemplates/Material03.mat",
+    "sha256": "6d6091d731f969fd48cbb630c8fe9a8018e0b2131e6591713fa11f20624bffb7",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferTemplates/Material03.mat.meta",
+    "sha256": "7aacdce8c976da68c12e8e87a17c6eb857f0b32abedb97e05703ec70ebb8309d",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferTemplates/Material04.mat",
+    "sha256": "381b4e4d5e622492fa2beeb67827b2a0c48023a7c97f0476efc9f2c00e44174c",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferTemplates/Material04.mat.meta",
+    "sha256": "c9c474a0bfc0e1989b0793a6d8d12f4be4054a371cf351c3bfe62d486f8fcb8c",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferTemplates/Mesh00.asset",
+    "sha256": "983e8deaa10d5ef37557400df207a3ef632bf343646b700592a0029e92037ff3",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferTemplates/Mesh00.asset.meta",
+    "sha256": "37cc466171d933df774ea2ff633c4af3446b1fc3b49ef8d6b6653a20edf59fe7",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferTemplates/Mesh01.asset",
+    "sha256": "883c85d8fa6bbe018056f2475f025494ed7c1fd729a4d51a07c04b955b9bde6d",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferTemplates/Mesh01.asset.meta",
+    "sha256": "d9e4fb8f54255133cccc94dc942c22d4c3714fe8b3bd891608428902eda69a0f",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferTemplates/Mesh02.asset",
+    "sha256": "d053a093de1768de5bc92eedc4429f115fbb570e374bf8bc5469d2dcf5549992",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferTemplates/Mesh02.asset.meta",
+    "sha256": "fcabe2048a9e2fc5b1d4da95edc6e535c6bd8a69393f75235993bb3e4a4b492d",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferTemplates.meta",
+    "sha256": "570d8c43a7d818a16c77d5aaef83c768470eb98741763b6c3a8172e87f9623ac",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferSamples/checker.png",
+    "sha256": "581524b49afb8d189657f25137658a54b7c296360bd2c4c16bf09bead2ee4923",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferSamples/checker.png.meta",
+    "sha256": "83864612f9ac0498ef62387a830c477c7d0c55a93bd48c50aad12b271d96fdfe",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferSamples/DetailFixture.fbx",
+    "sha256": "23dfeb917e0086f9891a9bd01525d4dec1b4d358e78b84d3d343e72bd7b409c2",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferSamples/DetailFixture.fbx.meta",
+    "sha256": "14f058730c1bc77993d60f9cc2e71b7c95319656ca86f638799e50a3e1085e50",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferSamples/DetailFixture.glb",
+    "sha256": "f2e2f2b49a677305dfc57593d171e34bc701dc6f15a2a4a716ec5137d2fe5229",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferSamples/DetailFixture.glb.meta",
+    "sha256": "268799b18aaa0eaa580176da77046e48711cab80b8dd6239b714f9bc054d56b8",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferSamples/DetailFixture.mtl",
+    "sha256": "ff5302ab02f540d7adacb111bbb3f10c2799ed03e564fe9dfa81f16de1d0dd0a",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferSamples/DetailFixture.mtl.meta",
+    "sha256": "b95257e667eae535d0229c581f8c91f8c1fc602b46f7f67733c13d0f12c3c2c7",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferSamples/DetailFixture.obj",
+    "sha256": "6b2d0eb10d268b0a3b07c50eb60accec39e7ffe1154fa1d2e645de9a81f5832e",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferSamples/DetailFixture.obj.meta",
+    "sha256": "7314869151310459457fbb6f063b905e9888dec6e50d93059b6613d1298cf115",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/TransferSamples.meta",
+    "sha256": "f53e6b247faebdeb31b6687834092854dd50ab0a7b42de97548ec51fbb03a15e",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Samples/3DTransfer/FittingBodyReference.obj",
+    "sha256": "a1a8ef01a70f5d87daca23dab508025a9c096694e8b70e5d4ba4e508368cfd11",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/FashionFitApp.cs.meta",
+    "sha256": "99e4fc2fe566e3a436fc65ae013ff75613d467b091b7707419472db8b55cc652",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayWardrobe.cs.meta",
+    "sha256": "a1cb7b9381717d46105cf4e9318624226c40e60c0cae27d8ec42eb944b6b2424",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/RunwayUI.cs.meta",
+    "sha256": "3a59885fc3a6251f44ac3f1140e0602ac1d6a6d4775e479eea96c05ca922ed34",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/GarmentSurfaceTransfer.cs.meta",
+    "sha256": "31ed2b748552c3a668dd3968a40d8ea54200a71d380292d65ae3e6a36e00c35e",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Runtime/TransferredGarmentAsset.cs.meta",
+    "sha256": "144f0a7fe95ec3a6d092e69dcfebed4e3478251e4c7b8fe5995144f7ddb44452",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Editor/GarmentTransferStudio.cs.meta",
+    "sha256": "3d4acd894e61c5d774432a91f9b48b74680215cbe1878e58d3f76171c2953a07",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Editor/GarmentTransferVerification.cs.meta",
+    "sha256": "12fa04551492c647e32e6f54be435fc0d333b147f69cf21a7d8a3988fbdb4abe",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Editor/GarmentFormatVerification.cs.meta",
+    "sha256": "f9afdf3ee0951ce1831ac9d989ee775919881b48d82ed1905ee2e3cf367ca918",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Assets/FashionFit/Editor/GarmentImportPreparation.cs.meta",
+    "sha256": "cfc998203ae12de3c8c09686e53ed5e9a0cbe82ca455f8ab7f2303ec8da9f48d",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Packages/packages-lock.json",
+    "sha256": "d396dea5c6c852d8f3979cac164d5323f0b1c2504b0c425737e42ee4c8cc98f9",
+    "isolated_copy_matches": true
+  },
+  {
+    "path": "Packages/manifest.json",
+    "sha256": "355ed5912d261f13129c0cd72e0f98c816d9f5c207a972e1c6b0685b05db75cc",
+    "isolated_copy_matches": true
+  }
+]

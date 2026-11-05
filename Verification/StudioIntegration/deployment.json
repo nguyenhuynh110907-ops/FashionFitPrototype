@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "version": "V089_STUDIO_TRIAL",
+  "source": "C:\\Users\\HUYNH\\OneDrive\\Desktop\\FashionFitPrototype",
+  "player": "C:\\Users\\HUYNH\\Downloads\\FashionFit_Run\\Versions\\V089_Studio\\FashionFittingRoom.exe",
+  "sourceFiles": 58,
+  "playerFiles": 175,
+  "sourceHashVerified": true,
+  "playerHashVerified": true,
+  "oldV088Preserved": true,
+  "physicalHeadset": "NOT_ASSESSED",
+  "fullSuite": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\_Luu_tru\\Phat_trien_2026-11-02\\StudioIntegration\\ReleaseRuns\\20261102T204838990048Z\\summary.json"
+}

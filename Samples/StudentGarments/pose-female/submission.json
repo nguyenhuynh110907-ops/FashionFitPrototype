@@ -1,0 +1,21 @@
+{
+    "schema": 1,
+    "displayName": "Student garment pose-female",
+    "targetBodyId": "pose-female",
+    "referenceBodyKey": "362274761b7ccba4f93d75e0f3aa9280062add49b7b328f75182cb7b5f3bebb7",
+    "sourceMode": "canonical",
+    "sourceBodyPath": "SourceBody",
+    "garmentPath": "Garment",
+    "restPose": "reference-neutral",
+    "unitMeters": 1.0,
+    "rotationEuler": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "offsetMeters": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    }
+}

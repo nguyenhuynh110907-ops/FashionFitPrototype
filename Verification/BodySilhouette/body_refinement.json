@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "source_sha256": "390a75e3d0f72fd95488f8a6e956cee7825a20137739c6ec505366a325a4cdcd",
+  "result_sha256": "1483998b04e614cb9541099f5a39964e6f141c70e539de87082dd774fc342b58",
+  "vertices": 53514,
+  "changed_vertices": 1795,
+  "max_displacement_mm": 5.797516099988962,
+  "outside_region_positions_identical": true,
+  "rig_uv_weights_topology_bytes_identical": true,
+  "watertight": true,
+  "winding_consistent": true,
+  "flipped_faces": 0,
+  "scope": "Generic technical mannequin chest only, not reconstruction of the reference person"
+}

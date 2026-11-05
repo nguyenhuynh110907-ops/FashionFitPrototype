@@ -1,0 +1,1633 @@
+{
+  "status": "research_baseline_trained",
+  "task": "3d_construction_region_recognition",
+  "split_counts": {
+    "train": 144,
+    "validation": 28,
+    "test": 28
+  },
+  "epochs": 30,
+  "best_epoch": 24,
+  "seed": 28102026,
+  "parameters": 7268,
+  "optimizer_steps": 4320,
+  "training_vertices": 2205433,
+  "validation": {
+    "unweighted_bce": 0.2022646720022369,
+    "macro_f1_supported": 0.2542025941703497,
+    "threshold": 0.5,
+    "labels": {
+      "sewn_vertex": {
+        "f1": 0.1991023411912175,
+        "precision": 0.11554165037152914,
+        "recall": 0.7193221659524737,
+        "positives": 20536,
+        "valid_vertices": 377763,
+        "always_positive_f1": 0.10311851147002629
+      },
+      "collar_panel": {
+        "f1": 0.25187821273230526,
+        "precision": 0.15028310789556465,
+        "recall": 0.7774613506916193,
+        "positives": 2458,
+        "valid_vertices": 377763,
+        "always_positive_f1": 0.012929322683386767
+      },
+      "neck_attachment": {
+        "f1": 0.3150799060819511,
+        "precision": 0.1908782233642287,
+        "recall": 0.9019947961838681,
+        "positives": 2306,
+        "valid_vertices": 347508,
+        "always_positive_f1": 0.01318414929076595
+      },
+      "armhole_attachment": {
+        "f1": 0.2507499166759249,
+        "precision": 0.14599909437867908,
+        "recall": 0.8875344081793157,
+        "positives": 2543,
+        "valid_vertices": 347508,
+        "always_positive_f1": 0.014529311443189707
+      }
+    }
+  },
+  "test": {
+    "unweighted_bce": 0.2130957166335726,
+    "macro_f1_supported": 0.21760950768611104,
+    "threshold": 0.5,
+    "labels": {
+      "sewn_vertex": {
+        "f1": 0.19832500619643345,
+        "precision": 0.11577504473974794,
+        "recall": 0.6910768671303241,
+        "positives": 21999,
+        "valid_vertices": 395248,
+        "always_positive_f1": 0.10544833156379795
+      },
+      "collar_panel": {
+        "f1": 0.09163112222385644,
+        "precision": 0.04898954155854368,
+        "recall": 0.7071509648127128,
+        "positives": 881,
+        "valid_vertices": 395248,
+        "always_positive_f1": 0.00444804596482459
+      },
+      "neck_attachment": {
+        "f1": 0.34574689660918106,
+        "precision": 0.2106171335769387,
+        "recall": 0.9646675964667596,
+        "positives": 2151,
+        "valid_vertices": 314660,
+        "always_positive_f1": 0.013579073958921882
+      },
+      "armhole_attachment": {
+        "f1": 0.23473500571497322,
+        "precision": 0.13486796626572653,
+        "recall": 0.904496986555401,
+        "positives": 2157,
+        "valid_vertices": 314660,
+        "always_positive_f1": 0.013616693548641645
+      }
+    }
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_weighted_loss": 0.9897325150668621,
+      "validation": {
+        "unweighted_bce": 0.325554590246482,
+        "macro_f1_supported": 0.10788590025419731,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.12764755262818028,
+            "precision": 0.0765055344840932,
+            "recall": 0.3850311647837943,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.09207478045363936,
+            "precision": 0.04930186937456727,
+            "recall": 0.6952807160292921,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.12104997175897024,
+            "precision": 0.0649794146746242,
+            "recall": 0.8829141370338248,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.09077129617599931,
+            "precision": 0.04803043149476386,
+            "recall": 0.8242233582383012,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 2,
+      "train_weighted_loss": 0.6896791656812032,
+      "validation": {
+        "unweighted_bce": 0.2912588220795227,
+        "macro_f1_supported": 0.13929106604933156,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.1348877797524663,
+            "precision": 0.0757177505107588,
+            "recall": 0.6172088040514219,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.12964498379437703,
+            "precision": 0.07144043861106496,
+            "recall": 0.6997558991049634,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.1781631848640126,
+            "precision": 0.09908900472548351,
+            "recall": 0.8820468343451865,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.11446831578647038,
+            "precision": 0.06171168399680059,
+            "recall": 0.7888320880849391,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 3,
+      "train_weighted_loss": 0.646921169012785,
+      "validation": {
+        "unweighted_bce": 0.29577830258340504,
+        "macro_f1_supported": 0.12894510711641338,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.1400030937280613,
+            "precision": 0.07974462201618478,
+            "recall": 0.5729450720685625,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.11986843708125229,
+            "precision": 0.0647837250641912,
+            "recall": 0.8006509357200976,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.15673724556246046,
+            "precision": 0.08572475271705947,
+            "recall": 0.9132697311361665,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.09917165209387943,
+            "precision": 0.052667595376005086,
+            "recall": 0.8474243020055053,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 4,
+      "train_weighted_loss": 0.6420065430510375,
+      "validation": {
+        "unweighted_bce": 0.30468706104769805,
+        "macro_f1_supported": 0.13985620521380582,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.13696378211638663,
+            "precision": 0.07583897883916194,
+            "recall": 0.705931047915855,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.1443091070420263,
+            "precision": 0.08009491404011461,
+            "recall": 0.7278275020341741,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.17994087278824517,
+            "precision": 0.10016210640074667,
+            "recall": 0.8842150910667823,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.09821105890856523,
+            "precision": 0.05209806130029476,
+            "recall": 0.854895792371215,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 5,
+      "train_weighted_loss": 0.6276940405368805,
+      "validation": {
+        "unweighted_bce": 0.2602081522049172,
+        "macro_f1_supported": 0.15395208914635644,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.14522786180648972,
+            "precision": 0.08392297833291622,
+            "recall": 0.5388585897935333,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.15190839694656488,
+            "precision": 0.08479310671337942,
+            "recall": 0.7286411716842962,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.20403035328408461,
+            "precision": 0.11538680156880578,
+            "recall": 0.8803122289679098,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.1146417445482866,
+            "precision": 0.06156173629698592,
+            "recall": 0.8320880849390484,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 6,
+      "train_weighted_loss": 0.634328320208523,
+      "validation": {
+        "unweighted_bce": 0.2871037702792732,
+        "macro_f1_supported": 0.14933256861369404,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.13974227704038542,
+            "precision": 0.07736798382419788,
+            "recall": 0.7210751850409037,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.15082918739635157,
+            "precision": 0.08397193241621272,
+            "recall": 0.7400325467860048,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.19583866533958955,
+            "precision": 0.10993455009844091,
+            "recall": 0.8959236773633998,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.11092014467844959,
+            "precision": 0.059330406147091105,
+            "recall": 0.8501769563507668,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 7,
+      "train_weighted_loss": 0.6245542162408432,
+      "validation": {
+        "unweighted_bce": 0.2654637536994792,
+        "macro_f1_supported": 0.17598464657324364,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.14136167986492593,
+            "precision": 0.07833163784333673,
+            "recall": 0.7236560186988703,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.16943053056460633,
+            "precision": 0.09621651477492406,
+            "recall": 0.708706265256306,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.26169455791276847,
+            "precision": 0.15428837787445618,
+            "recall": 0.8612315698178664,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.1314518179506738,
+            "precision": 0.07150513467722416,
+            "recall": 0.8132127408572553,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 8,
+      "train_weighted_loss": 0.6355325754524933,
+      "validation": {
+        "unweighted_bce": 0.26870182808176185,
+        "macro_f1_supported": 0.1572760880945002,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.1493164406183167,
+            "precision": 0.08399783137080513,
+            "recall": 0.671455005843397,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.15998602742118592,
+            "precision": 0.08961064370964586,
+            "recall": 0.7453213995117982,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.21186397077738334,
+            "precision": 0.12019146576381998,
+            "recall": 0.8928881179531657,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.1079379135611148,
+            "precision": 0.05757019155077407,
+            "recall": 0.8627605190719623,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 9,
+      "train_weighted_loss": 0.6121210664924648,
+      "validation": {
+        "unweighted_bce": 0.24454586616911989,
+        "macro_f1_supported": 0.16144823474335263,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.15924960371005986,
+            "precision": 0.09200030273215773,
+            "recall": 0.5919361121932216,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.15611760174605213,
+            "precision": 0.08723516189200822,
+            "recall": 0.74206672091131,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.1949219659911484,
+            "precision": 0.10919150268803174,
+            "recall": 0.9071986123156982,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.13550376752615012,
+            "precision": 0.07371151850570737,
+            "recall": 0.8379866299646087,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 10,
+      "train_weighted_loss": 0.6049564031677114,
+      "validation": {
+        "unweighted_bce": 0.24533667644253837,
+        "macro_f1_supported": 0.18839160957684858,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.15879560591027644,
+            "precision": 0.09043111090058939,
+            "recall": 0.6507596416049863,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.18722334553800754,
+            "precision": 0.1081371125560255,
+            "recall": 0.6969080553295363,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.28240118786678925,
+            "precision": 0.16870828757286474,
+            "recall": 0.8660017346053773,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.12514629899232108,
+            "precision": 0.0674710662398424,
+            "recall": 0.8619740464018876,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 11,
+      "train_weighted_loss": 0.5882499000678459,
+      "validation": {
+        "unweighted_bce": 0.23255205297022163,
+        "macro_f1_supported": 0.1865475769101984,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.1685018543541385,
+            "precision": 0.09883975850787548,
+            "recall": 0.5708024931827036,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.2023121387283237,
+            "precision": 0.11752699499604952,
+            "recall": 0.7262001627339301,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.2533349956364543,
+            "precision": 0.14793244030285382,
+            "recall": 0.8811795316565482,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.12204131892187714,
+            "precision": 0.06558437738956532,
+            "recall": 0.8769170271333071,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 12,
+      "train_weighted_loss": 0.5924063647786776,
+      "validation": {
+        "unweighted_bce": 0.2853743800081495,
+        "macro_f1_supported": 0.14234656893450814,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.16714176139941156,
+            "precision": 0.09470311222967451,
+            "recall": 0.7109466303077523,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.1301242422423624,
+            "precision": 0.07024364955935718,
+            "recall": 0.8820179007323027,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.15296526355970433,
+            "precision": 0.08313530232733582,
+            "recall": 0.955767562879445,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.1191550085365543,
+            "precision": 0.06370572207084468,
+            "recall": 0.9193865513173417,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 13,
+      "train_weighted_loss": 0.5922134866317114,
+      "validation": {
+        "unweighted_bce": 0.2528583045649919,
+        "macro_f1_supported": 0.18428342681242704,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.16450425645492092,
+            "precision": 0.0929815980537258,
+            "recall": 0.7127970393455395,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.19382180239979577,
+            "precision": 0.11081917440298943,
+            "recall": 0.7721724979658259,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.2313507504168983,
+            "precision": 0.13268298903340983,
+            "recall": 0.9024284475281873,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.14745689797809325,
+            "precision": 0.08050296285590403,
+            "recall": 0.8761305544632324,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 14,
+      "train_weighted_loss": 0.5826658465796046,
+      "validation": {
+        "unweighted_bce": 0.22058888194087536,
+        "macro_f1_supported": 0.219746241200637,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.178008746970176,
+            "precision": 0.10292639083541527,
+            "recall": 0.6580151928320997,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.23620677155078662,
+            "precision": 0.14371415968239964,
+            "recall": 0.6627339300244101,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.3099135268684373,
+            "precision": 0.18852151042645124,
+            "recall": 0.870338248048569,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.15485591941314802,
+            "precision": 0.08501618621859103,
+            "recall": 0.8674793550924106,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 15,
+      "train_weighted_loss": 0.5602535763755441,
+      "validation": {
+        "unweighted_bce": 0.24440584846366908,
+        "macro_f1_supported": 0.17632845453860194,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.18299824637465462,
+            "precision": 0.10552160058507026,
+            "recall": 0.6885469419555902,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.17017259978425028,
+            "precision": 0.0956543708943911,
+            "recall": 0.7701383238405207,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.20486226747228697,
+            "precision": 0.11505370597980014,
+            "recall": 0.9336513443191674,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.14728070452321582,
+            "precision": 0.08006726611297961,
+            "recall": 0.9174203696421549,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 16,
+      "train_weighted_loss": 0.5650507721842991,
+      "validation": {
+        "unweighted_bce": 0.25073577090602167,
+        "macro_f1_supported": 0.18745213745095501,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.1714415840725238,
+            "precision": 0.09646125686394143,
+            "recall": 0.7698675496688742,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.17142063345063902,
+            "precision": 0.09671857038353016,
+            "recall": 0.7530512611879577,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.2108219988172679,
+            "precision": 0.11892583120204604,
+            "recall": 0.927580225498699,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.19612433346338926,
+            "precision": 0.11021243422334827,
+            "recall": 0.8895005898545025,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 17,
+      "train_weighted_loss": 0.5780085638786355,
+      "validation": {
+        "unweighted_bce": 0.2411282242770073,
+        "macro_f1_supported": 0.20379059604430785,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.1763595318787781,
+            "precision": 0.1000412662854448,
+            "recall": 0.7437183482664589,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.2122791119166289,
+            "precision": 0.12330569811817345,
+            "recall": 0.7624084621643613,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.2544943133178427,
+            "precision": 0.14813496583143507,
+            "recall": 0.9024284475281873,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.17202942706398158,
+            "precision": 0.09498994706823684,
+            "recall": 0.9103421156114825,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 18,
+      "train_weighted_loss": 0.5557573560832275,
+      "validation": {
+        "unweighted_bce": 0.20771141837359328,
+        "macro_f1_supported": 0.21755054278699668,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.19785413112986716,
+            "precision": 0.11661023440424069,
+            "recall": 0.6523665757693806,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.22375947851536518,
+            "precision": 0.1337468193384224,
+            "recall": 0.6842961757526445,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.26127196548058285,
+            "precision": 0.152648885641213,
+            "recall": 0.9058976582827407,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.18731659602217152,
+            "precision": 0.10448779157004501,
+            "recall": 0.9036570979158475,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 19,
+      "train_weighted_loss": 0.5649103979683585,
+      "validation": {
+        "unweighted_bce": 0.2372053492951902,
+        "macro_f1_supported": 0.20263736327794568,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.18471717824983833,
+            "precision": 0.10588000456256416,
+            "recall": 0.7232177639267627,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.21394997028472634,
+            "precision": 0.12335680019936453,
+            "recall": 0.80553295362083,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.2567200241618846,
+            "precision": 0.1491332725103516,
+            "recall": 0.9215091066782307,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.15516228041533336,
+            "precision": 0.0846063454759107,
+            "recall": 0.9343295320487613,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 20,
+      "train_weighted_loss": 0.5593865173351433,
+      "validation": {
+        "unweighted_bce": 0.22609226864369922,
+        "macro_f1_supported": 0.21092327986817386,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.18884790738179397,
+            "precision": 0.10872065589241477,
+            "recall": 0.7180560966108298,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.22413295631600208,
+            "precision": 0.13058973841705332,
+            "recall": 0.790073230268511,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.24373956594323873,
+            "precision": 0.14052439429140393,
+            "recall": 0.9180398959236774,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.1869726898316606,
+            "precision": 0.10406836998130509,
+            "recall": 0.9193865513173417,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 21,
+      "train_weighted_loss": 0.5668877590861585,
+      "validation": {
+        "unweighted_bce": 0.21322854791896323,
+        "macro_f1_supported": 0.22389598336749345,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.19629619307730894,
+            "precision": 0.11453590477429426,
+            "recall": 0.6859661082976237,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.21409574468085107,
+            "precision": 0.12392559332905709,
+            "recall": 0.7860048820179008,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.2764259808770195,
+            "precision": 0.16299867796873785,
+            "recall": 0.9089332176929749,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.20876601483479434,
+            "precision": 0.11785605522282001,
+            "recall": 0.913094769956744,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 22,
+      "train_weighted_loss": 0.55041186666737,
+      "validation": {
+        "unweighted_bce": 0.2092848671366246,
+        "macro_f1_supported": 0.2383660151796766,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.19800935002262102,
+            "precision": 0.11522505704210745,
+            "recall": 0.7033015192832099,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.22208309618668184,
+            "precision": 0.1291026998411858,
+            "recall": 0.7937347436940602,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.29346761784865016,
+            "precision": 0.17494996664442963,
+            "recall": 0.9098005203816132,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.2399039966607534,
+            "precision": 0.13830235216266618,
+            "recall": 0.9040503342508848,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 23,
+      "train_weighted_loss": 0.557212653880318,
+      "validation": {
+        "unweighted_bce": 0.210334431713176,
+        "macro_f1_supported": 0.22714234290013485,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.20115036741908585,
+            "precision": 0.11782043467733182,
+            "recall": 0.6871347876899104,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.23102272727272727,
+            "precision": 0.13426231673490951,
+            "recall": 0.8270951993490643,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.2811791383219955,
+            "precision": 0.16614123581336696,
+            "recall": 0.9141370338248048,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.19521713858673087,
+            "precision": 0.10913057605718796,
+            "recall": 0.9244986236728274,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 24,
+      "train_weighted_loss": 0.5490412659322222,
+      "validation": {
+        "unweighted_bce": 0.2022646720022369,
+        "macro_f1_supported": 0.2542025941703497,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.1991023411912175,
+            "precision": 0.11554165037152914,
+            "recall": 0.7193221659524737,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.25187821273230526,
+            "precision": 0.15028310789556465,
+            "recall": 0.7774613506916193,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.3150799060819511,
+            "precision": 0.1908782233642287,
+            "recall": 0.9019947961838681,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.2507499166759249,
+            "precision": 0.14599909437867908,
+            "recall": 0.8875344081793157,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 25,
+      "train_weighted_loss": 0.5348199917417433,
+      "validation": {
+        "unweighted_bce": 0.20862864354377966,
+        "macro_f1_supported": 0.238725651892423,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.2019350789961864,
+            "precision": 0.1176257923532389,
+            "recall": 0.7129431242695754,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.2624473176655475,
+            "precision": 0.1591716489039078,
+            "recall": 0.7473555736371034,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.28854700854700854,
+            "precision": 0.17128013637470574,
+            "recall": 0.9150043365134432,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.20197320236094954,
+            "precision": 0.11341203793303657,
+            "recall": 0.9217459693275659,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 26,
+      "train_weighted_loss": 0.541862833003203,
+      "validation": {
+        "unweighted_bce": 0.20895255870036425,
+        "macro_f1_supported": 0.22757639143420494,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.20409466246701286,
+            "precision": 0.11944896535689374,
+            "recall": 0.7004772107518504,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.22958323295591423,
+            "precision": 0.13473773504877704,
+            "recall": 0.7754271765663141,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.272036765175209,
+            "precision": 0.15949404984656837,
+            "recall": 0.9241110147441457,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.20459090513868358,
+            "precision": 0.11501050882252309,
+            "recall": 0.9252850963429021,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 27,
+      "train_weighted_loss": 0.5377912333028184,
+      "validation": {
+        "unweighted_bce": 0.23721080018063936,
+        "macro_f1_supported": 0.20760822308023777,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.1916337671199493,
+            "precision": 0.10951949860724235,
+            "recall": 0.7658258667705493,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.22285324852339847,
+            "precision": 0.1295049504950495,
+            "recall": 0.7982099267697315,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.23215627347858753,
+            "precision": 0.1324718275355218,
+            "recall": 0.937987857762359,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.1837896031990157,
+            "precision": 0.1018538248455146,
+            "recall": 0.9398348407392844,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 28,
+      "train_weighted_loss": 0.5370022063660953,
+      "validation": {
+        "unweighted_bce": 0.20434935376741936,
+        "macro_f1_supported": 0.2284100524826381,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.21408370189848663,
+            "precision": 0.1265968046116073,
+            "recall": 0.692978184651344,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.2142638193522019,
+            "precision": 0.12251694321103061,
+            "recall": 0.8531326281529699,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.2591990364348088,
+            "precision": 0.15050003496748024,
+            "recall": 0.9332176929748482,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.2260936522450551,
+            "precision": 0.12881114279447248,
+            "recall": 0.9237121510027526,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 29,
+      "train_weighted_loss": 0.5300693657870094,
+      "validation": {
+        "unweighted_bce": 0.2121457956534523,
+        "macro_f1_supported": 0.2170858723547023,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.20986015096191316,
+            "precision": 0.12318496806221514,
+            "recall": 0.708073626801714,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.20293459338473016,
+            "precision": 0.11560038533461778,
+            "recall": 0.8299430431244914,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.2238126885128572,
+            "precision": 0.1268617791944364,
+            "recall": 0.9492627927146574,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.2317360565593087,
+            "precision": 0.132398316970547,
+            "recall": 0.9280377506881636,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    },
+    {
+      "epoch": 30,
+      "train_weighted_loss": 0.5225334713856379,
+      "validation": {
+        "unweighted_bce": 0.2182012157055992,
+        "macro_f1_supported": 0.23692853554166365,
+        "threshold": 0.5,
+        "labels": {
+          "sewn_vertex": {
+            "f1": 0.20013637474751372,
+            "precision": 0.11529966349931069,
+            "recall": 0.7574990261005065,
+            "positives": 20536,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.10311851147002629
+          },
+          "collar_panel": {
+            "f1": 0.22989679029148236,
+            "precision": 0.13356615709014233,
+            "recall": 0.8246541903986981,
+            "positives": 2458,
+            "valid_vertices": 377763,
+            "always_positive_f1": 0.012929322683386767
+          },
+          "neck_attachment": {
+            "f1": 0.28746796168892486,
+            "precision": 0.1702076677316294,
+            "recall": 0.9241110147441457,
+            "positives": 2306,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.01318414929076595
+          },
+          "armhole_attachment": {
+            "f1": 0.23021301543873363,
+            "precision": 0.1314365411436541,
+            "recall": 0.9264648053480141,
+            "positives": 2543,
+            "valid_vertices": 347508,
+            "always_positive_f1": 0.014529311443189707
+          }
+        }
+      }
+    }
+  ],
+  "checkpoint_sha256": "010ccaf7ad76db2ed4431bbc83d03367d316c6e1839b0bf30917b4c1058772ad",
+  "manifest_sha256": "b2720e86b15996c7172af1f79c5ef6c792b29bda53239d9206b8df8334b65761",
+  "training_ids": [
+    "gcd_b00_default_rand_0UHSE020SQ",
+    "gcd_b00_default_rand_0UWAC9MSFE",
+    "gcd_b00_default_rand_1E57OJZ96D",
+    "gcd_b00_default_rand_1FD5WAL3V5",
+    "gcd_b00_default_rand_1NKG6I69HH",
+    "gcd_b00_default_rand_1PSXI9D50T",
+    "gcd_b00_default_rand_1Q7SCGVCYH",
+    "gcd_b00_default_rand_1SE6KLSL01",
+    "gcd_b00_default_rand_1YMR466YTG",
+    "gcd_b00_default_rand_2OPSLPOO9Z",
+    "gcd_b00_default_rand_2XGUYOFFG6",
+    "gcd_b00_default_rand_3VVEOIHDZD",
+    "gcd_b00_default_rand_4NO8R0JW64",
+    "gcd_b00_default_rand_57E7VGS0Z2",
+    "gcd_b00_default_rand_5M9KOKO7IP",
+    "gcd_b00_default_rand_5U2NQK2T1D",
+    "gcd_b00_default_rand_6125D60EDP",
+    "gcd_b00_default_rand_6130G2A3QF",
+    "gcd_b00_default_rand_63MJ2TYOFP",
+    "gcd_b00_default_rand_69JE3NBZQ6",
+    "gcd_b00_default_rand_6W3XGQZOE9",
+    "gcd_b00_default_rand_7SUHORO96H",
+    "gcd_b00_default_rand_7URPB3H9NR",
+    "gcd_b00_default_rand_8J2FANKZH5",
+    "gcd_b00_default_rand_8KSPZBRHU8",
+    "gcd_b00_default_rand_9D90JSDGQ0",
+    "gcd_b00_default_rand_9MH9DCQK4G",
+    "gcd_b00_default_rand_A4YEIY8KEO",
+    "gcd_b00_default_rand_AYDHRKE416",
+    "gcd_b00_default_rand_B37YOEBEU8",
+    "gcd_b00_default_rand_BDVMG11VI0",
+    "gcd_b00_default_rand_C3J6DT9VQ3",
+    "gcd_b00_default_rand_CL9JJZ566U",
+    "gcd_b00_default_rand_D4WTYT0XBE",
+    "gcd_b00_default_rand_DHRYGTWCA8",
+    "gcd_b00_default_rand_E1WRFXE0MB",
+    "gcd_b00_default_rand_E4NVZYA6FH",
+    "gcd_b00_default_rand_GD1NH8M8LP",
+    "gcd_b00_default_rand_GIGG5N0IW1",
+    "gcd_b00_default_rand_GQ7KTZI1QX",
+    "gcd_b00_default_rand_HGU8B48VE7",
+    "gcd_b00_default_rand_HW93XZY9D4",
+    "gcd_b00_default_rand_IG3A7HXB96",
+    "gcd_b00_default_rand_K19RYCCI2Q",
+    "gcd_b00_default_rand_KX293XU7R5",
+    "gcd_b00_default_rand_L5CPJCCDIU",
+    "gcd_b00_default_rand_L7MR5GX4DE",
+    "gcd_b00_default_rand_L9N4SLB9PE",
+    "gcd_b00_default_rand_LVRBLUOGTQ",
+    "gcd_b00_default_rand_NEK3V06LHD",
+    "gcd_b00_default_rand_NHS9KDGOIA",
+    "gcd_b00_default_rand_NRKCZA37BC",
+    "gcd_b00_default_rand_NUS6A09H7Z",
+    "gcd_b00_default_rand_OB7Z78HDIP",
+    "gcd_b00_default_rand_OFF0X7RQ27",
+    "gcd_b00_default_rand_PEDLTXH3OW",
+    "gcd_b00_default_rand_PJV70270CK",
+    "gcd_b00_default_rand_PY6TP6Q2MF",
+    "gcd_b00_default_rand_QEBH21AMR9",
+    "gcd_b00_default_rand_RTIQNQ91N0",
+    "gcd_b00_default_rand_RTUDPBKMGG",
+    "gcd_b00_default_rand_T8VYI3NU3Y",
+    "gcd_b00_default_rand_TW54V8RPGO",
+    "gcd_b00_default_rand_VUWCAG4VZP",
+    "gcd_b00_default_rand_WHFDDGEJTF",
+    "gcd_b00_default_rand_WQATEX63Z9",
+    "gcd_b00_default_rand_WR2637ALGV",
+    "gcd_b00_default_rand_WYLBSH1DFW",
+    "gcd_b00_default_rand_XUK4AUN2VI",
+    "gcd_b00_default_rand_XXRSU3D2KT",
+    "gcd_b00_default_rand_ZQZ05Q9GN3",
+    "gcd_b00_default_rand_ZUH7B4R3TK",
+    "gcd_b14_default_rand_0X8S85VGK4",
+    "gcd_b14_default_rand_1CWWK65EVR",
+    "gcd_b14_default_rand_1M30N2RBSC",
+    "gcd_b14_default_rand_2AZCPAPIXO",
+    "gcd_b14_default_rand_2DWT0OUAWM",
+    "gcd_b14_default_rand_2EQOT9WHYY",
+    "gcd_b14_default_rand_2QVMW9PU8E",
+    "gcd_b14_default_rand_2T0FTQV8J1",
+    "gcd_b14_default_rand_34IYV2MHN5",
+    "gcd_b14_default_rand_3IA6MAUV4L",
+    "gcd_b14_default_rand_4UNUHGHI49",
+    "gcd_b14_default_rand_55O11I3M5J",
+    "gcd_b14_default_rand_5QAWYXGBIA",
+    "gcd_b14_default_rand_61HYFDQ4EN",
+    "gcd_b14_default_rand_66CS9Z6OOI",
+    "gcd_b14_default_rand_71EO9TWJ9B",
+    "gcd_b14_default_rand_7G3XXVD8Z5",
+    "gcd_b14_default_rand_7PM9WVULV8",
+    "gcd_b14_default_rand_8CUZJHQ5W3",
+    "gcd_b14_default_rand_8GK91LS2SZ",
+    "gcd_b14_default_rand_9F8C5KGOXA",
+    "gcd_b14_default_rand_9P3QZSYN9A",
+    "gcd_b14_default_rand_A82C9RV76Q",
+    "gcd_b14_default_rand_A9ULAVU8KO",
+    "gcd_b14_default_rand_AI4NA2GB6C",
+    "gcd_b14_default_rand_AKSUGI1QSE",
+    "gcd_b14_default_rand_AM0F92KWCQ",
+    "gcd_b14_default_rand_BBKWRIT3IX",
+    "gcd_b14_default_rand_CN0EWOQFRB",
+    "gcd_b14_default_rand_CNB1IOKG9L",
+    "gcd_b14_default_rand_CNCGQU6VMM",
+    "gcd_b14_default_rand_DL0HX8K70T",
+    "gcd_b14_default_rand_DPSHMA8HEK",
+    "gcd_b14_default_rand_DVGRHMOS0Q",
+    "gcd_b14_default_rand_ETEL1M8HJQ",
+    "gcd_b14_default_rand_F52J6RA0ED",
+    "gcd_b14_default_rand_FZJJMU9NCQ",
+    "gcd_b14_default_rand_IEWH3TXVUP",
+    "gcd_b14_default_rand_IQ7XJAVISB",
+    "gcd_b14_default_rand_J4D90T8V96",
+    "gcd_b14_default_rand_JFTEAG3FGD",
+    "gcd_b14_default_rand_JIFRN6YEN4",
+    "gcd_b14_default_rand_JOL7Z1FDF6",
+    "gcd_b14_default_rand_K8TR43289W",
+    "gcd_b14_default_rand_LAC85OQ7NM",
+    "gcd_b14_default_rand_LN7AJ4YDQR",
+    "gcd_b14_default_rand_M5ZFVGFRSX",
+    "gcd_b14_default_rand_M729PXFHOR",
+    "gcd_b14_default_rand_MK79PEP9FS",
+    "gcd_b14_default_rand_NM6TMFPVJV",
+    "gcd_b14_default_rand_P17DCXVC8U",
+    "gcd_b14_default_rand_PB6F7CT4MP",
+    "gcd_b14_default_rand_PUGOF2X94C",
+    "gcd_b14_default_rand_Q6X6CFKH5F",
+    "gcd_b14_default_rand_Q81AS97IM9",
+    "gcd_b14_default_rand_QFXUCZ9ATT",
+    "gcd_b14_default_rand_R4BGIQHPNR",
+    "gcd_b14_default_rand_RQ93GX9TTH",
+    "gcd_b14_default_rand_SJUMZ6XBP1",
+    "gcd_b14_default_rand_TYFA7WCQ3C",
+    "gcd_b14_default_rand_U6H7K568DT",
+    "gcd_b14_default_rand_UCPO3LDM56",
+    "gcd_b14_default_rand_V9FVVAX1EN",
+    "gcd_b14_default_rand_W1J3XZ9T71",
+    "gcd_b14_default_rand_W4K61630K6",
+    "gcd_b14_default_rand_X4OO213A13",
+    "gcd_b14_default_rand_XB5EK8BJV6",
+    "gcd_b14_default_rand_XP0U2OU128",
+    "gcd_b14_default_rand_XZCK4PRFPT",
+    "gcd_b14_default_rand_YGTA65O1HG",
+    "gcd_b14_default_rand_YPJ8OVB4G1",
+    "gcd_b14_default_rand_ZVL6YNSEAZ"
+  ],
+  "validation_ids": [
+    "gcd_b00_default_rand_40B81PVUQ2",
+    "gcd_b00_default_rand_A51KBA8XQP",
+    "gcd_b00_default_rand_BLWA9S33FD",
+    "gcd_b00_default_rand_D9RMV2SYPC",
+    "gcd_b00_default_rand_F5Q2BSXZWY",
+    "gcd_b00_default_rand_F6EALBWXTT",
+    "gcd_b00_default_rand_G55CFYW2WX",
+    "gcd_b00_default_rand_H18UBG0939",
+    "gcd_b00_default_rand_IHFZTWR67W",
+    "gcd_b00_default_rand_J8QMPEHICF",
+    "gcd_b00_default_rand_JR424WP53D",
+    "gcd_b00_default_rand_K1BGHOLA3C",
+    "gcd_b00_default_rand_KSO2HT1HTR",
+    "gcd_b00_default_rand_OLVSBMGNZ0",
+    "gcd_b14_default_rand_0NOK1W6U6O",
+    "gcd_b14_default_rand_4FKVUHKM4K",
+    "gcd_b14_default_rand_91L1AF0XMD",
+    "gcd_b14_default_rand_B6OMZ0MRQA",
+    "gcd_b14_default_rand_BLR0VUJDJ8",
+    "gcd_b14_default_rand_HCZZLTPD14",
+    "gcd_b14_default_rand_HMU9O1V2D2",
+    "gcd_b14_default_rand_NDBOMQNY0P",
+    "gcd_b14_default_rand_O0FKQM5MSQ",
+    "gcd_b14_default_rand_QTN28BYX2D",
+    "gcd_b14_default_rand_QWBW4MO96B",
+    "gcd_b14_default_rand_TWV0KM2UUA",
+    "gcd_b14_default_rand_XOBGH4Q7M7",
+    "gcd_b14_default_rand_YOM1XG6Z52"
+  ],
+  "test_ids": [
+    "gcd_b00_default_rand_18GU2GADHJ",
+    "gcd_b00_default_rand_8FXYQW8GJ9",
+    "gcd_b00_default_rand_8XXMSSIB7Q",
+    "gcd_b00_default_rand_AD5AOUSQFK",
+    "gcd_b00_default_rand_CM3QENKJAX",
+    "gcd_b00_default_rand_DL8CTQA0KP",
+    "gcd_b00_default_rand_E489IFV849",
+    "gcd_b00_default_rand_HGVXYLC30G",
+    "gcd_b00_default_rand_JLALI9PQSB",
+    "gcd_b00_default_rand_NT19SEZ4XS",
+    "gcd_b00_default_rand_OXI3X7VXX0",
+    "gcd_b00_default_rand_U6KNOVG9KM",
+    "gcd_b00_default_rand_XDX2N1D6CI",
+    "gcd_b00_default_rand_ZUH68RCP25",
+    "gcd_b14_default_rand_147P892RBT",
+    "gcd_b14_default_rand_6C4QV45O16",
+    "gcd_b14_default_rand_9DXDXUKL9F",
+    "gcd_b14_default_rand_GKF9K8TEUI",
+    "gcd_b14_default_rand_H905I0MIXA",
+    "gcd_b14_default_rand_LCYNOV2MWT",
+    "gcd_b14_default_rand_LG2VHVEIRY",
+    "gcd_b14_default_rand_N3YQWOFV4X",
+    "gcd_b14_default_rand_Q2BM47G67Y",
+    "gcd_b14_default_rand_UL8317UVY8",
+    "gcd_b14_default_rand_V2NNM7KC4M",
+    "gcd_b14_default_rand_W3WLPG84T2",
+    "gcd_b14_default_rand_XAI3DVGAUT",
+    "gcd_b14_default_rand_ZMUIVY56RD"
+  ],
+  "features": [
+    "position_x",
+    "position_y",
+    "position_z",
+    "normal_x",
+    "normal_y",
+    "normal_z",
+    "neighbor_mean_x",
+    "neighbor_mean_y",
+    "neighbor_mean_z",
+    "neighbor_std_x",
+    "neighbor_std_y",
+    "neighbor_std_z",
+    "log_degree"
+  ],
+  "targets": [
+    "sewn_vertex",
+    "collar_panel",
+    "neck_attachment",
+    "armhole_attachment"
+  ],
+  "train_only_positive_weights": [
+    18.097137451171875,
+    100.0,
+    100.0,
+    100.0
+  ],
+  "test_used_for_optimizer_or_selection": false,
+  "parameter_update_squared_norm": 164.3093648236245,
+  "elapsed_seconds": 31.005118099972606,
+  "torch_version": "2.14.1+cpu",
+  "device": "cpu",
+  "source_license": "CC-BY-4.0",
+  "source": "GarmentCodeData v2, existing verified Parquet archives",
+  "synthetic_geometry": true,
+  "student_file_generalization_validated": false,
+  "generates_embroidery": false,
+  "generates_new_geometry": false,
+  "retargets_to_mannequin": false,
+  "deployment": "offline research only; no Unity runtime change"
+}

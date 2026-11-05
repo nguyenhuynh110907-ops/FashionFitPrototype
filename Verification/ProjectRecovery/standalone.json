@@ -1,0 +1,14 @@
+{
+    "status": "passed",
+    "checks": 16,
+    "exceptions": 0,
+    "looks": 6,
+    "poseModels": 2,
+    "transferPackages": 1,
+    "started": true,
+    "standing": true,
+    "canPresent": true,
+    "transferMotionBlocked": true,
+    "rendered": true,
+    "screenshotSaved": true
+}

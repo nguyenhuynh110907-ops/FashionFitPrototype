@@ -1,0 +1,22 @@
+{
+  "Assets/FashionFit/Runtime/TailoredPoloStudy.cs": {
+    "sha256": "4fceeafe056b94cf7558629581079b2e2215de9f8f8cc3c8a9683d112036d829",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/RunwayWardrobe.cs": {
+    "sha256": "16bc1a7df68f678cf4cb86d553dbcf8ffb20595707c3bd1a4fcfa7e4bf1c0ed6",
+    "matches_test_project": true
+  },
+  "Assets/Resources/Runway/DressFabric.shader": {
+    "sha256": "ad5a3ae9fa3f3891a6ba1d92931c89ec4f0503392cab9edcb82b714c0f0d21fd",
+    "matches_test_project": true
+  },
+  "Assets/Resources/Fitting/polo-contact-fit.json": {
+    "sha256": "189785c82a9e7108110f97cb2c779744f42d6b7b7aece33d350d12b99506b998",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Editor/PoloStudyVerification.cs": {
+    "sha256": "7d2dd1016eaed4f97933b61533f57922e64229172bf55bce92e498d703be0a97",
+    "matches_test_project": true
+  }
+}

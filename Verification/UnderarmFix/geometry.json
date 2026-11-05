@@ -1,0 +1,9 @@
+{
+  "method": "Local rear clearance, dense barycentric contact constraints, then submillimetre visibility finish",
+  "finish_visible_pixels": 12,
+  "changed_vertices": 484,
+  "max_displacement_mm": 3.5948870418742285,
+  "source_upper_key": "ae9e64748c920332e573def451146825e04130e3bde9e6ca1f9d662070ff716a",
+  "topology_uv_weights_unchanged": true,
+  "body_unchanged": true
+}

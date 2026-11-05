@@ -1,0 +1,18 @@
+{
+  "Assets/FashionFit/Runtime/RunwayPlayer.cs": {
+    "sha256": "3bdab3b5a61d1f08953058084f0e470186c0fe1ff1c1c3727551f9b8303ff637",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/RunwayShowroom.cs": {
+    "sha256": "f9fc4a2d37f67fb1045460e1c1bfbae618de114ac859f7574d3dd16f7ccd653b",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/RunwayUI.cs": {
+    "sha256": "444d306b6091e03fae2a73e96fda5b77a76a8c6529c2107480c2d00dc09d3ed7",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Editor/VRLocomotionVerification.cs": {
+    "sha256": "45c2dafa7ecd92f2cf0d8f72eb42b7079d13f48cb7b5ff667a98249111f5f1a9",
+    "matches_test_project": true
+  }
+}

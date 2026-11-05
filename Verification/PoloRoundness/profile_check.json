@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "scope": "Rest shape only; contact and gait verified separately",
+  "vertex_count_unchanged": true,
+  "uv_weights_topology_unchanged": true,
+  "outward_only": true,
+  "apex_profile_15mm_span": [
+    {
+      "x_m": -0.09,
+      "before_peak_excess_mm": 0.5258617285947009,
+      "after_peak_excess_mm": 0.259879168300281
+    },
+    {
+      "x_m": 0.09,
+      "before_peak_excess_mm": 0.5168587959404891,
+      "after_peak_excess_mm": 0.2599549482852903
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "repository": "maria-korosteleva/GarmentCode",
+    "commit": "d449629979028123a5c4dc9e732a2ec19b7fce31",
+    "archiveSha256": "73703c47b4659430375f0e43ca473013be899703fd3c1ccd16623d35994c79e4",
+    "bytes": 28259262,
+    "source": "Sources/GarmentCode",
+    "fetchedUtc": "2026-11-03T20:37:13.914593+00:00"
+  },
+  {
+    "repository": "Healthcare-Robotics/assistive-gym",
+    "commit": "fb799c377e1f144ff96044fb9096725f7f9cfc61",
+    "archiveSha256": "88b4bd896174ccdf836caa8f76258a52fa1b249ff523f88c74f83f299ebd2869",
+    "bytes": 96853765,
+    "source": "Sources/assistive-gym",
+    "fetchedUtc": "2026-11-03T20:37:13.933578+00:00"
+  },
+  {
+    "repository": "maria-korosteleva/NvidiaWarp-GarmentCode",
+    "commit": "63baf6855efdd89b2834b74640f84b3bb0d86b50",
+    "archiveSha256": "0a489cd08779e968baf75fea6a899b22df3f94fc1b8f5dcb4357353f715bfa22",
+    "bytes": 70887268,
+    "source": "Sources/NvidiaWarp-GarmentCode",
+    "fetchedUtc": "2026-11-03T20:37:19.488614+00:00"
+  }
+]

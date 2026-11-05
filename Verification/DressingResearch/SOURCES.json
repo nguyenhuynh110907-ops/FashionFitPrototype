@@ -1,0 +1,210 @@
+{
+  "reviewDate": "2026-11-03",
+  "mode": "README, code, installation and code-license review; repository simulations not executed; runtime code not changed",
+  "repositories": [
+    {
+      "name": "GarmentCode",
+      "repository": "maria-korosteleva/GarmentCode",
+      "codeLicense": "MIT",
+      "execution": "NOT_RUN",
+      "unityCompatibility": "NOT_VALIDATED",
+      "files": [
+        {
+          "path": "ReadMe.md",
+          "gitBlobSha": "162951be47b08e6b31b6c23975c4b6f90c35deb3",
+          "url": "https://github.com/maria-korosteleva/GarmentCode/blob/main/ReadMe.md"
+        },
+        {
+          "path": "LICENSE",
+          "gitBlobSha": "c35600839d01ba0f3f37be2d0f8754fa51e07598",
+          "url": "https://github.com/maria-korosteleva/GarmentCode/blob/main/LICENSE"
+        },
+        {
+          "path": "assets/garment_programs/collars.py",
+          "gitBlobSha": "feedd4f4552439faa1cb7f6330a2f4a7ac216635",
+          "url": "https://github.com/maria-korosteleva/GarmentCode/blob/main/assets/garment_programs/collars.py"
+        },
+        {
+          "path": "assets/garment_programs/tee.py",
+          "gitBlobSha": "e3675a7d9eee4d3722d8f97eb92aba4dc43c9210",
+          "url": "https://github.com/maria-korosteleva/GarmentCode/blob/main/assets/garment_programs/tee.py"
+        },
+        {
+          "path": "assets/garment_programs/bands.py",
+          "gitBlobSha": "b829457c859d181446c4806b5d4509926fb0f644",
+          "url": "https://github.com/maria-korosteleva/GarmentCode/blob/main/assets/garment_programs/bands.py"
+        },
+        {
+          "path": "assets/garment_programs/circle_skirt.py",
+          "gitBlobSha": "b5ee02f4f7545d87c75851bc42992425c6a84c7e",
+          "url": "https://github.com/maria-korosteleva/GarmentCode/blob/main/assets/garment_programs/circle_skirt.py"
+        },
+        {
+          "path": "pygarment/meshgen/garment.py",
+          "gitBlobSha": "2a75f81815908dd2f07c2c57973f01ed757c9cec",
+          "url": "https://github.com/maria-korosteleva/GarmentCode/blob/main/pygarment/meshgen/garment.py"
+        }
+      ]
+    },
+    {
+      "name": "HOOD",
+      "repository": "Dolorousrtur/HOOD",
+      "codeLicense": "MIT",
+      "execution": "NOT_RUN",
+      "unityCompatibility": "NOT_VALIDATED",
+      "files": [
+        {
+          "path": "README.md",
+          "gitBlobSha": "857977a5c2199f6b48e1dd9836b0c026d36cfba1",
+          "url": "https://github.com/Dolorousrtur/HOOD/blob/main/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "gitBlobSha": "990a861e7a450f32ab3d0e961a7afee455a2ff1b",
+          "url": "https://github.com/Dolorousrtur/HOOD/blob/main/LICENSE"
+        },
+        {
+          "path": "criterions/postcvpr/collision_penalty.py",
+          "gitBlobSha": "18a0e117213ace5da84acd25a0502f0b7108246f",
+          "url": "https://github.com/Dolorousrtur/HOOD/blob/main/criterions/postcvpr/collision_penalty.py"
+        }
+      ]
+    },
+    {
+      "name": "ContourCraft",
+      "repository": "Dolorousrtur/ContourCraft",
+      "codeLicense": "MIT",
+      "execution": "NOT_RUN",
+      "unityCompatibility": "NOT_VALIDATED",
+      "files": [
+        {
+          "path": "README.md",
+          "gitBlobSha": "902b07ac0d3c062191edbbcbf03730102520f37a",
+          "url": "https://github.com/Dolorousrtur/ContourCraft/blob/main/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "gitBlobSha": "990a861e7a450f32ab3d0e961a7afee455a2ff1b",
+          "url": "https://github.com/Dolorousrtur/ContourCraft/blob/main/LICENSE"
+        },
+        {
+          "path": "INSTALL.md",
+          "gitBlobSha": "005932af04904c072918a22fba14a893073e8645",
+          "url": "https://github.com/Dolorousrtur/ContourCraft/blob/main/INSTALL.md"
+        },
+        {
+          "path": "criterions/ccraft/collision_penalty.py",
+          "gitBlobSha": "eeebf843be4764e7e91fee69898634769f4ecd00",
+          "url": "https://github.com/Dolorousrtur/ContourCraft/blob/main/criterions/ccraft/collision_penalty.py"
+        },
+        {
+          "path": "criterions/ccraft/icontour_loss.py",
+          "gitBlobSha": "60909bb35c95a0841731095fd0beefd5953435d4",
+          "url": "https://github.com/Dolorousrtur/ContourCraft/blob/main/criterions/ccraft/icontour_loss.py"
+        },
+        {
+          "path": "criterions/ccraft/repulsion_loss.py",
+          "gitBlobSha": "89beeb23c0d79aa4b9e1991e9801ee9e13c1e646",
+          "url": "https://github.com/Dolorousrtur/ContourCraft/blob/main/criterions/ccraft/repulsion_loss.py"
+        }
+      ]
+    },
+    {
+      "name": "AssistiveGym",
+      "repository": "Healthcare-Robotics/assistive-gym",
+      "codeLicense": "MIT",
+      "execution": "NOT_RUN",
+      "unityCompatibility": "NOT_VALIDATED",
+      "files": [
+        {
+          "path": "README.md",
+          "gitBlobSha": "e620d5577d2b39ae271b782ed58d76c6f1899562",
+          "url": "https://github.com/Healthcare-Robotics/assistive-gym/blob/main/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "gitBlobSha": "3a97695fceb957f61ce31a3b46cfb22fe23993d8",
+          "url": "https://github.com/Healthcare-Robotics/assistive-gym/blob/main/LICENSE"
+        },
+        {
+          "path": "assistive_gym/envs/dressing.py",
+          "gitBlobSha": "a8cee81ba5b76d1f4d0926a9775bfbd792f5080d",
+          "url": "https://github.com/Healthcare-Robotics/assistive-gym/blob/main/assistive_gym/envs/dressing.py"
+        }
+      ]
+    }
+  ],
+  "webSources": [
+    {
+      "title": "Drafting a Crew Neckline for Knits",
+      "url": "https://www.universityoffashion.com/lessons/drafting-a-crew-neckline-for-knits/",
+      "review": "Public lesson overview only"
+    },
+    {
+      "title": "Tips for sewing knit necklines",
+      "url": "https://inthefolds.com/q-a-series/2023/tips-for-sewing-knit-necklines",
+      "review": "Designer sewing guidance"
+    },
+    {
+      "title": "Draping the Human Form \u2014 Straight Skirt",
+      "url": "https://fit.cit.cornell.edu/textiles/draping/drapes/straightskirt/steps/print.html",
+      "review": "University draping steps"
+    },
+    {
+      "title": "Animating Human Dressing",
+      "url": "https://web.engr.oregonstate.edu/~mjb/cs550/Projects/Papers/CAnimatingHumanDressing.pdf",
+      "review": "Research overview and primitive-action description"
+    },
+    {
+      "title": "HOOD method",
+      "url": "https://dolorousrtur.github.io/hood/",
+      "review": "Authors' project page"
+    },
+    {
+      "title": "ContourCraft method",
+      "url": "https://dolorousrtur.github.io/contourcraft/",
+      "review": "Authors' project page"
+    }
+  ],
+  "additionalDocumentsReviewed": [
+    {
+      "url": "https://github.com/maria-korosteleva/GarmentCode/blob/main/docs/Installation.md"
+    },
+    {
+      "url": "https://github.com/Dolorousrtur/ContourCraft/blob/main/INSTALL.md"
+    },
+    {
+      "url": "https://github.com/Dolorousrtur/HOOD/blob/main/README.md"
+    }
+  ],
+  "localCodeReview": [
+    {
+      "path": "Assets/FashionFit/Runtime/TailoredPoloStudy.cs",
+      "sha256": "6aa510f7f1423e2a0e468a51493b852aebc8c66a513a940d28399da45afb7c6a"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/TailoredSurfaceDynamics.cs",
+      "sha256": "3d708fff1419da73b06f8afcb3063792cde825dd4d70a95dbb0d7c09179ef00b"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/ContinuousShirtShell.cs",
+      "sha256": "b024a5cc483711e7b834f55085888145edcd3b763e1a874147035d90e45800da"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/GarmentCloseFit.cs",
+      "sha256": "843d0030abe6ac0d8c841109707636dc2ec59f0deac58cce9bee5a3b0b60752f"
+    },
+    {
+      "path": "Assets/FashionFit/Runtime/BodyFitProfile.cs",
+      "sha256": "ecfac35ea9a0e50c40b67e2281878819e722fb542afbe36dfe57e0fe356a5e43"
+    },
+    {
+      "path": "Assets/FashionFit/Editor/MensReferenceBaker.cs",
+      "sha256": "f280322105572ebee54f50cdb0edfc012d7e9ff983bc5f6b702d2264d2fefdf3"
+    },
+    {
+      "path": "Assets/Resources/Fitting/polo-contact-fit.json",
+      "sha256": "fabf5e633aeff0ba0f379818c02ce3c2920ce3eb49e984eed9fbdfda13f1a41d"
+    }
+  ]
+}

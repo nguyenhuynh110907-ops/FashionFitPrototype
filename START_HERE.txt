@@ -1,0 +1,20 @@
+﻿FASHIONFIT — BẮT ĐẦU Ở ĐÂY
+
+CHƠI BẢN ĐẦY ĐỦ
+Desktop → FashionFit VR → 01 - VAO GAME VR
+Hoặc nhấp Open_FashionFit_Model.bat trong thư mục này.
+
+VÀO KÍNH META
+1. Cắm cáp dữ liệu, mở Meta Horizon Link trên PC.
+2. Trong kính vào Quest Link, chọn PC và Launch.
+3. Trong game: VR / CAMERA → Chuẩn bị phiên VR → Vào VR.
+4. Thả Grip/Trigger một lần. Y mở menu; X đưa menu về trước.
+Cần trái đi, cần phải quay; Trigger chọn; Grip hai tay cầm/kéo.
+
+CHỈNH CODE
+Open_FashionFit.bat mở Unity Editor, không phải launcher để chơi nhanh.
+
+TÀI LIỆU: Docs\INDEX.md
+CÔNG CỤ THU THẬP / HUẤN LUYỆN: Tools\Launchers
+SOURCE: C:\Users\HUYNH\OneDrive\Desktop\FashionFitPrototype
+GAME: C:\Users\HUYNH\Downloads\FashionFit_Run

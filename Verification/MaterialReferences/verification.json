@@ -1,0 +1,17 @@
+{
+  "status": "audited_reference_data_prepared",
+  "sample_rows": 1469,
+  "verified_image_references": 2938,
+  "missing_image_references": 0,
+  "cross_split_identical_images": 0,
+  "texture_assets": 6,
+  "texture_maps": 40,
+  "experimental_curve_rows": 78256,
+  "runtime_profile_sha256_before": "b59e9d6e8ebd0801362a194fe70988315880157a8d64a91afd4e9e2406d958a4",
+  "runtime_profile_sha256_after": "b59e9d6e8ebd0801362a194fe70988315880157a8d64a91afd4e9e2406d958a4",
+  "runtime_changed": false,
+  "ground_truth_strength_labels_created": 0,
+  "trained_model": false,
+  "final_data_bytes": 29755331840,
+  "budget_bytes": 30000000000
+}

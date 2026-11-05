@@ -1,0 +1,26 @@
+{
+  "Assets/Resources/Fitting/female-mesh.bytes": {
+    "sha256": "1483998b04e614cb9541099f5a39964e6f141c70e539de87082dd774fc342b58",
+    "matches_test_project": true
+  },
+  "Assets/Resources/Fitting/female-rig.json": {
+    "sha256": "6eb8668917ebe14d6928a6401b4d10499429bb72670007c39a2a0255658e41f7",
+    "matches_test_project": true
+  },
+  "Assets/Resources/Fitting/polo-contact-fit.json": {
+    "sha256": "8f4819e0f9d35910c0be7a1a98e71e60e5f6e8c677b538e3d03bdd2279b9c02c",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/TechnicalBodyFitData.cs": {
+    "sha256": "4e5518289dfa2907d30a6bf511563738741bb7b56d64943152d02c9a0dd7130f",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/TailoredPoloStudy.cs": {
+    "sha256": "83b19acd1d1458c5cd41547413e27f3acb20ab50439ae82c8d53044761518769",
+    "matches_test_project": true
+  },
+  "Assets/FashionFit/Runtime/RunwayUI.cs": {
+    "sha256": "4a2aceaff806843c1095f5d71c42428d198e54d76361172e9b1f6fec5a787559",
+    "matches_test_project": true
+  }
+}

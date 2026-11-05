@@ -1,0 +1,30 @@
+[
+  {
+    "gender": "Female",
+    "source_sha256": "210a3134bea558b9a1d254e179b65397a4b5aae5ea9de8dc6509c7d4f0553352",
+    "raw_body_sha256": "79d17c7160a04a808fc5723e4e1635cac72b68507fdf7cdff1935b3541155a92",
+    "field_sha256": "9f1c0967ec5555e4a0f3459b3e14520225d66e8ca9ba18366e36c1d75b3e7c5b",
+    "dimensions": [
+      103,
+      232,
+      69
+    ],
+    "step_m": 0.008,
+    "bytes": 6595393,
+    "method": "Exact neutral body triangle distance, negative inside by Embree global ray parity; warped by skin matrices at runtime"
+  },
+  {
+    "gender": "Male",
+    "source_sha256": "90b0d5276d5f2f54f683323f700fc43605dde4b952d2769d1e0dbb3402e6da54",
+    "raw_body_sha256": "cbe01cf008223390da1b85880f1de14db3450e03571fd353ddbd44632d03c315",
+    "field_sha256": "207dfa0a0050dae395d80f6f712d86afea81ca8a856c5b217c570b11ee43bc5a",
+    "dimensions": [
+      117,
+      245,
+      79
+    ],
+    "step_m": 0.008,
+    "bytes": 9058237,
+    "method": "Exact neutral body triangle distance, negative inside by Embree global ray parity; warped by skin matrices at runtime"
+  }
+]

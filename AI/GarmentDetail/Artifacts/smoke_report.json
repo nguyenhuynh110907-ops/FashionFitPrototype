@@ -1,0 +1,68 @@
+{
+  "status": "smoke_passed",
+  "dataset": "pilot",
+  "epochs": 1,
+  "training_samples": 2,
+  "validation_samples": 0,
+  "test_samples_used": 0,
+  "parameters": 15907,
+  "parameter_update_squared_norm": 0.0005434798574697197,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.019134291913360357,
+      "optimizer_steps": 2,
+      "loss_terms_last_sample": {
+        "vertex": 0.004174746572971344,
+        "edge": 0.00030801730463281274,
+        "seam": 0.000292403157800436,
+        "normal": 0.4380175471305847,
+        "attachment": 0.005253669805824757
+      }
+    }
+  ],
+  "elapsed_seconds": 0.9301903999876231,
+  "checkpoint_sha256": "5a7b9fc2fa32ef14f01fb9377bda6ff29965629e89a5b82e9c5c372698ce1d25",
+  "feature_names": [
+    "rest_x",
+    "rest_y",
+    "rest_z",
+    "normal_x",
+    "normal_y",
+    "normal_z",
+    "near_waist",
+    "near_hip",
+    "near_upper_reference",
+    "seam",
+    "free_boundary",
+    "collar_annotation",
+    "waist_annotation",
+    "armhole_annotation",
+    "role_torso",
+    "role_leg_or_skirt",
+    "role_sleeve",
+    "role_collar",
+    "role_waistband",
+    "role_cuff",
+    "role_strap",
+    "role_other",
+    "body_height",
+    "waist_ratio",
+    "hips_ratio",
+    "bust_ratio",
+    "log_bending"
+  ],
+  "loss_weights": {
+    "vertex": 1,
+    "edge": 0.5,
+    "seam": 0.3,
+    "normal": 0.001,
+    "attachment": 2
+  },
+  "supports_source_panels": true,
+  "source_uv_reconstruction": true,
+  "contact_loss_enabled": false,
+  "deployment": "research_only",
+  "nonpenetration_certified": false,
+  "warning": "Static pattern-graph baseline. Smoke mode checks the training path only; it is not a quality evaluation or an image-to-3D generator."
+}

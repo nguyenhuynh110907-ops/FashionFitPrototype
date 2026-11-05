@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "image": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\FashionFitPrototype\\References\\ModelWear100\\Images\\MW002.jpg",
+  "deployment_status": "research_only",
+  "requires_review": true,
+  "checkpoint_sha256": "195f9f5b7e5ebaf8f30451037b44e6ef2a97262c0d81a18e4415e6b41fa630c1",
+  "predictions": [
+    {
+      "task": "category",
+      "label": "top",
+      "probability": 0.5358200073242188,
+      "top3": [
+        {
+          "label": "top",
+          "probability": 0.5358200073242188
+        },
+        {
+          "label": "trousers",
+          "probability": 0.15177123248577118
+        },
+        {
+          "label": "separates",
+          "probability": 0.09411140531301498
+        }
+      ]
+    },
+    {
+      "task": "appearance",
+      "label": "straight_relaxed",
+      "probability": 0.6481190919876099,
+      "top3": [
+        {
+          "label": "straight_relaxed",
+          "probability": 0.6481190919876099
+        },
+        {
+          "label": "volume",
+          "probability": 0.13618405163288116
+        },
+        {
+          "label": "tailored",
+          "probability": 0.11680040508508682
+        }
+      ]
+    }
+  ],
+  "guidance": "Giu do du theo thiet ke; khong ep vai sat moi diem cua body.",
+  "warning": "Research classifier trained on 100 photos. Verify manually; no 3D, cloth physics, or nonpenetration guarantee."
+}

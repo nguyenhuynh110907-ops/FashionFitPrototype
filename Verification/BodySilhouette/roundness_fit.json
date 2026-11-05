@@ -1,0 +1,9 @@
+{
+  "method": "outward-only local rounded fit with subtle authored tension ridges",
+  "horizontal_support_radius_m": 0.16,
+  "vertical_support_radius_m": 0.075,
+  "changed_vertices": 2264,
+  "max_added_ease_mm": 57.066565351231866,
+  "vertices": 7582,
+  "topology_uv_and_weights_changed": false
+}

@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "checks": 7,
+  "exceptions": 0,
+  "note": "Neutral pose sampled shirt check. 50 mm torso p95 regression limit. No continuous collision certification.",
+  "cases": [
+    {
+      "name": "FemaleIvory",
+      "torso_gap_p50_mm": 22.000025007063094,
+      "torso_gap_p95_mm": 32.88639224243235,
+      "torso_gap_max_mm": 49.986742363136955,
+      "contact_samples": 32988,
+      "inside_over_1mm": 0,
+      "max_depth_mm": 0.0
+    },
+    {
+      "name": "MaleDefaultPolo",
+      "torso_gap_p50_mm": 25.805703037033705,
+      "torso_gap_p95_mm": 33.78415689047531,
+      "torso_gap_max_mm": 45.09092657653301,
+      "contact_samples": 37371,
+      "inside_over_1mm": 0,
+      "max_depth_mm": 0.0
+    },
+    {
+      "name": "MaleHenley",
+      "torso_gap_p50_mm": 23.296837319835067,
+      "torso_gap_p95_mm": 35.7968216024601,
+      "torso_gap_max_mm": 59.229263067018636,
+      "contact_samples": 51484,
+      "inside_over_1mm": 0,
+      "max_depth_mm": 0.0
+    },
+    {
+      "name": "MaleOvershirt",
+      "torso_gap_p50_mm": 25.8713357263461,
+      "torso_gap_p95_mm": 37.12279652006502,
+      "torso_gap_max_mm": 60.45818473021396,
+      "contact_samples": 51484,
+      "inside_over_1mm": 0,
+      "max_depth_mm": 0.0
+    },
+    {
+      "name": "MalePolo",
+      "torso_gap_p50_mm": 25.805703037033705,
+      "torso_gap_p95_mm": 33.78415689047531,
+      "torso_gap_max_mm": 45.09092657653301,
+      "contact_samples": 37371,
+      "inside_over_1mm": 0,
+      "max_depth_mm": 0.0
+    },
+    {
+      "name": "MaleRugby",
+      "torso_gap_p50_mm": 32.16857028612104,
+      "torso_gap_p95_mm": 40.37519122337709,
+      "torso_gap_max_mm": 62.06815119495866,
+      "contact_samples": 51484,
+      "inside_over_1mm": 0,
+      "max_depth_mm": 0.0
+    },
+    {
+      "name": "MaleTee",
+      "torso_gap_p50_mm": 29.544735633315426,
+      "torso_gap_p95_mm": 36.124568188587865,
+      "torso_gap_max_mm": 47.65214455774818,
+      "contact_samples": 37371,
+      "inside_over_1mm": 0,
+      "max_depth_mm": 0.0
+    }
+  ]
+}

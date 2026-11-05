@@ -1,0 +1,11 @@
+{
+  "checks": 99,
+  "clothSubsteps": 1920,
+  "simulatedSeconds": 16,
+  "dressPresets": 5,
+  "vrGrabReleaseTests": 5,
+  "maxConstraintStretch": 1.445675,
+  "minY": 0.09482867,
+  "cpuMilliseconds": 425424,
+  "scope": "Actual five-look fitting/solver source with test-only math substitutes. Swept hip and leg proxies, VR cloth grab/release and post-release gravity; no Unity rendering or headset."
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "path": "AI/MaterialLab/collect_material_data.py",
+    "sha256": "3bb0b80378063ea9c72d108277d9a35e2b5ff339ea5f6c388bfe8512f82cd5ca"
+  },
+  {
+    "path": "AI/MaterialLab/index.html",
+    "sha256": "2ce3e2f442d9760a249a354ecad5f066bca08412aa7fcc5cd40d9f4ea823a1b2"
+  },
+  {
+    "path": "AI/MaterialLab/material_reference.py",
+    "sha256": "2976a08dd2b032709de106bcf29100e1c19ddf1da1f6af0324a96021764f4bdd"
+  },
+  {
+    "path": "AI/MaterialLab/prepare_material_data.py",
+    "sha256": "1464079f8fcb01a8284fe3bcbfec135ce4aa66f550d65bb48885e87e503a7e11"
+  },
+  {
+    "path": "AI/MaterialLab/README.md",
+    "sha256": "e4a7001be6e366231d4942ee093fde8016080e561f8b1f1e29b535a873b57c24"
+  }
+]

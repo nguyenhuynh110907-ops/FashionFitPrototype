@@ -1,0 +1,8 @@
+{
+    "status": "passed",
+    "scope": "Native material reduction versus original managed reading on male/female fitted outfits, four materials, neutral/pull/recovery; same calibrated edge reference",
+    "checks": 168,
+    "states": 24,
+    "maxStrainError": 2.086162567138672e-7,
+    "maxTensionError": 0.0000021457672119140627
+}

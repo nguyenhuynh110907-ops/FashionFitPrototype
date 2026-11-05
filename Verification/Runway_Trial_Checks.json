@@ -1,0 +1,18 @@
+{
+  "scope": "Production 672-point cages, authored gait and solver with test-only math. Point/proxy contacts only; no rendered triangle or headset guarantee.",
+  "presets": [
+    {"look": 1, "physicsPoints": 672, "maxStretch": 1.26290822, "pointProxyViolations": 0},
+    {"look": 2, "physicsPoints": 672, "maxStretch": 1.25557625, "pointProxyViolations": 0},
+    {"look": 3, "physicsPoints": 672, "maxStretch": 1.24924672, "pointProxyViolations": 0},
+    {"look": 4, "physicsPoints": 672, "maxStretch": 1.2566452, "pointProxyViolations": 0},
+    {"look": 5, "physicsPoints": 672, "maxStretch": 1.29565585, "pointProxyViolations": 0}
+  ],
+  "checks": 1376,
+  "clothSubsteps": 720,
+  "gaitCyclesPerLook": 2,
+  "maxStretch": 1.29565585,
+  "pointProxyViolations": 0,
+  "ellipsoidGrabMinX": 0.129958659,
+  "capsuleGrabMinX": 0.13,
+  "cpuMilliseconds": 8890
+}

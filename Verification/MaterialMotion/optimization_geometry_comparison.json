@@ -1,0 +1,132 @@
+{
+  "poses": [
+    {
+      "pose": "Look1_Standing",
+      "body_equal": true,
+      "max_cloth_delta_mm": 0.0053105499510577485,
+      "sha_before": "eba1817ba6feea00fbd473f9e772b8311a7b8110f511912b5bc4af609cfe96ec",
+      "sha_after": "3b8e5acbe00988ac44a8d9a86ba51e7c48e14cb75ab453cd29ee3ab5daccf541"
+    },
+    {
+      "pose": "Look1_WalkingA",
+      "body_equal": true,
+      "max_cloth_delta_mm": 0.0017576741671840549,
+      "sha_before": "f00c664c3adb29083daaafb4cc69893503ccf1a382299c174563d8d838fc68cc",
+      "sha_after": "129fa9861f3c8779936ab550282ade3e94efb22d9225587968e0f2d7f5ad6941"
+    },
+    {
+      "pose": "Look1_WalkingB",
+      "body_equal": true,
+      "max_cloth_delta_mm": 0.0016863433452924792,
+      "sha_before": "e02bccb97bb226848fca96c1012f9688a6be4576c214223c052ac488dbaf17c7",
+      "sha_after": "4c5527613a28ade137b352713092dd32fe263e12ff4b511619caaa1fed87b302"
+    },
+    {
+      "pose": "Look2_Standing",
+      "body_equal": true,
+      "max_cloth_delta_mm": 0.12375526914667587,
+      "sha_before": "3144f717eada630391c0e79924b9fbeba49bf0b7094e1624a344cd561bfea772",
+      "sha_after": "36193811cd037bfd99d862897b77a57c1e51b90c89373ee1d983e3c24918b21e"
+    },
+    {
+      "pose": "Look2_WalkingA",
+      "body_equal": true,
+      "max_cloth_delta_mm": 0.0070253677654376085,
+      "sha_before": "0d9ca5f41066f5e077dbd40b0e868894ead86cc319057a64000ebbe37ae1c45a",
+      "sha_after": "f010944b0e27f5b0d9d593f6cecc73f974d65cba681b59964890c6f77a1e013d"
+    },
+    {
+      "pose": "Look2_WalkingB",
+      "body_equal": true,
+      "max_cloth_delta_mm": 0.0023293999249920545,
+      "sha_before": "45a24f583a7483aeb32fbc4018b2ee11767be20fe10a06da2c9679a58413f6db",
+      "sha_after": "d9bc0c23298b74f49106ee24374cdae66a55de4e76d9961d8da2cd75b43929c9"
+    },
+    {
+      "pose": "Look3_Standing",
+      "body_equal": true,
+      "max_cloth_delta_mm": 0.0,
+      "sha_before": "5a03c8214b5c50f937e1f058224d860bdffbe2b0d580126ca553693f705a9858",
+      "sha_after": "5a03c8214b5c50f937e1f058224d860bdffbe2b0d580126ca553693f705a9858"
+    },
+    {
+      "pose": "Look3_WalkingA",
+      "body_equal": true,
+      "max_cloth_delta_mm": 0.0012424387684867283,
+      "sha_before": "5297c03aba4b3f95d06e1b7e75971bf05799bc963a79e832ec05ee8a822c10b2",
+      "sha_after": "38ac43ee8f54d4bfe761a450733c6f1bbf0990b042d62a3b1595801e294c2d53"
+    },
+    {
+      "pose": "Look3_WalkingB",
+      "body_equal": true,
+      "max_cloth_delta_mm": 0.0010457388198091238,
+      "sha_before": "264a34550ea1464b4c71060e7f23ea3aca22e1cb1bff479757e1d6488243d1e9",
+      "sha_after": "505f549b2453ae909b534ad7f03b3be3deca192009fa2015b23ef046c7caeca4"
+    },
+    {
+      "pose": "Look4_Standing",
+      "body_equal": true,
+      "max_cloth_delta_mm": 0.004473327597644043,
+      "sha_before": "8afe2b56edc3983b7eee7010036346d3945ba4c2afbb5493aa217e8253c237f3",
+      "sha_after": "b1ff237fcb011ceeedd47ea59cce49569a53c66e0f0f0e28149138cf1bd9fd68"
+    },
+    {
+      "pose": "Look4_WalkingA",
+      "body_equal": true,
+      "max_cloth_delta_mm": 0.0010942972879253124,
+      "sha_before": "ef0940131201ff7ea7a5af1abb5ff1528ee35bbc191823b929ac63f12d838066",
+      "sha_after": "a61a741a63a2bccadcb60914c0919780dcf88d92da4f4e602d8ddb415d0d2009"
+    },
+    {
+      "pose": "Look4_WalkingB",
+      "body_equal": true,
+      "max_cloth_delta_mm": 0.0014378076307362097,
+      "sha_before": "a047ae09ca5d7e112b21d47266276783d7408181bf0d1bd088c6ea823c34dcec",
+      "sha_after": "06d01c5ae0bbd1c15745abfa6486365a169895eedd66f19ebdba880e5cd5924f"
+    },
+    {
+      "pose": "Look5_Standing",
+      "body_equal": true,
+      "max_cloth_delta_mm": 0.0,
+      "sha_before": "aa6cc9068f3a4759c3116505b90ff744c325d33ea8ed5ab1151e08f86abe0646",
+      "sha_after": "aa6cc9068f3a4759c3116505b90ff744c325d33ea8ed5ab1151e08f86abe0646"
+    },
+    {
+      "pose": "Look5_WalkingA",
+      "body_equal": true,
+      "max_cloth_delta_mm": 0.0,
+      "sha_before": "2313087f97ecac999c1df065eb7aa48cf459bacca0d83675237575f419950901",
+      "sha_after": "2313087f97ecac999c1df065eb7aa48cf459bacca0d83675237575f419950901"
+    },
+    {
+      "pose": "Look5_WalkingB",
+      "body_equal": true,
+      "max_cloth_delta_mm": 0.0019878534403715703,
+      "sha_before": "fc35b17b1af912cb86f42b836831ca6c25bf380bbb492e53f701ea269ac1cf89",
+      "sha_after": "72f8c45447ed8c09344382e6dcaa89c1fd68af2d4763537aa2b618ca012a9173"
+    },
+    {
+      "pose": "Look6_Standing",
+      "body_equal": true,
+      "max_cloth_delta_mm": 0.0006387786679064296,
+      "sha_before": "670cd61175d16e54f8709c5df0fb140852b9bf3056f56ab88a570e64c0e8c512",
+      "sha_after": "090448ec3f1c095512bb721250ce250ec923a9248c1e57763a0de2d1b1d9d60c"
+    },
+    {
+      "pose": "Look6_WalkingA",
+      "body_equal": true,
+      "max_cloth_delta_mm": 0.0036294848779279184,
+      "sha_before": "55a7276676bca5c8be2381d2aa5084c973ee522fba52d867a452094602a54320",
+      "sha_after": "bc4ddc8442570952171a9244a33deacc021ce774a00d3df71e91a48db742cf20"
+    },
+    {
+      "pose": "Look6_WalkingB",
+      "body_equal": true,
+      "max_cloth_delta_mm": 0.005098000906168683,
+      "sha_before": "5f0336f571e2248195b182369406cf018b2adcc3cf6dd8f20385f37a7b2234af",
+      "sha_after": "7b82be81c463035f79c0de546bdb2daa52de5b5e5dfe0cf91e64fd22a3d29602"
+    }
+  ],
+  "max_cloth_delta_mm": 0.12375526914667587,
+  "body_equal": true
+}

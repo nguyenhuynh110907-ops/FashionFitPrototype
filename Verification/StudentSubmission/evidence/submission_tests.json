@@ -1,0 +1,1171 @@
+{
+    "status": "passed",
+    "scope": "Authored fixtures and current project garments; no real student submissions supplied.",
+    "checks": 162,
+    "exceptions": 0,
+    "contactExports": 12,
+    "texturePairs": 9,
+    "maxTextureSampleError": 0.0,
+    "cases": [
+        {
+            "name": "fitting-female_Identity",
+            "expected": "STATIC_PREVIEW_READY",
+            "actual": "STATIC_PREVIEW_READY",
+            "report": {
+                "status": "STATIC_PREVIEW_READY",
+                "bodyId": "fitting-female",
+                "referenceBodyKey": "5c397e0369fd4bf52af09db1e8941882b76f6951c9666defffb3a51c2c38a226",
+                "sourceMode": "canonical",
+                "reviewReasons": [],
+                "bodyMatch": {
+                    "sourceVertices": 53514,
+                    "referenceVertices": 53514,
+                    "triangles": 107024,
+                    "reorderedOrSplit": false,
+                    "maxErrorMeters": 1.1926748300084e-7
+                },
+                "parts": [
+                    {
+                        "name": "Gucci 864361 - 2D reference study · procedural PBD",
+                        "sourceGeometryKey": "6753cb1c19532a60e1142b0ac2bf69ae8c709d03ac4288db297e2ec05ec5f9c0",
+                        "resultGeometryKey": "6753cb1c19532a60e1142b0ac2bf69ae8c709d03ac4288db297e2ec05ec5f9c0",
+                        "vertices": 2624,
+                        "triangles": 5120,
+                        "materialSlots": 1,
+                        "textureSlots": 2,
+                        "identityAssessed": true,
+                        "identityErrorMeters": 0.0,
+                        "geometry": {
+                            "vertices": 2624,
+                            "triangles": 5120,
+                            "submeshes": 1,
+                            "contactSamples": 15488,
+                            "localPenetrationSamples": 0,
+                            "collapsedTriangles": 0,
+                            "maxSourceDistance": 0.13513056933879853,
+                            "maxDisplacement": 0.0,
+                            "maxRelativeEdgeChange": 0.0,
+                            "maxLocalPenetration": 0.0
+                        }
+                    },
+                    {
+                        "name": "Fitted short sleeve shell",
+                        "sourceGeometryKey": "f4e202fb175f3b65fa4b96fa24ba569f3682d84e786a47f237d31387cff22acf",
+                        "resultGeometryKey": "f4e202fb175f3b65fa4b96fa24ba569f3682d84e786a47f237d31387cff22acf",
+                        "vertices": 7583,
+                        "triangles": 13174,
+                        "materialSlots": 1,
+                        "textureSlots": 2,
+                        "identityAssessed": true,
+                        "identityErrorMeters": 0.0,
+                        "geometry": {
+                            "vertices": 7583,
+                            "triangles": 13174,
+                            "submeshes": 1,
+                            "contactSamples": 41934,
+                            "localPenetrationSamples": 0,
+                            "collapsedTriangles": 0,
+                            "maxSourceDistance": 0.03234391659498215,
+                            "maxDisplacement": 0.0,
+                            "maxRelativeEdgeChange": 0.0,
+                            "maxLocalPenetration": 0.0007982466486282647
+                        }
+                    },
+                    {
+                        "name": "Collar stand, fold and hardware",
+                        "sourceGeometryKey": "3eb436a5d4fdf1b588fff19466e5004c308a6857b3cc95bb687c044ad17e6271",
+                        "resultGeometryKey": "3eb436a5d4fdf1b588fff19466e5004c308a6857b3cc95bb687c044ad17e6271",
+                        "vertices": 5264,
+                        "triangles": 10216,
+                        "materialSlots": 3,
+                        "textureSlots": 4,
+                        "identityAssessed": true,
+                        "identityErrorMeters": 0.0,
+                        "geometry": {
+                            "vertices": 5264,
+                            "triangles": 10216,
+                            "submeshes": 3,
+                            "contactSamples": 30954,
+                            "localPenetrationSamples": 0,
+                            "collapsedTriangles": 0,
+                            "maxSourceDistance": 0.029718901962041856,
+                            "maxDisplacement": 0.0,
+                            "maxRelativeEdgeChange": 0.0,
+                            "maxLocalPenetration": 0.0
+                        }
+                    }
+                ],
+                "edgeChangeLimit": 0.05000000074505806,
+                "penetrationToleranceMeters": 0.0010000000474974514,
+                "detailsPreserved": true,
+                "stationarySamplesPassed": true,
+                "motionAssessed": false,
+                "selfCollisionAssessed": false,
+                "physicalMaterialCalibrated": false
+            }
+        },
+        {
+            "name": "StaleReference",
+            "expected": "BODY_REFERENCE_VERSION_MISMATCH",
+            "actual": "BODY_REFERENCE_VERSION_MISMATCH. Dùng submission.json đi cùng body mẫu hiện tại.",
+            "report": {
+                "status": "",
+                "bodyId": "",
+                "referenceBodyKey": "",
+                "sourceMode": "",
+                "reviewReasons": [],
+                "bodyMatch": {
+                    "sourceVertices": 0,
+                    "referenceVertices": 0,
+                    "triangles": 0,
+                    "reorderedOrSplit": false,
+                    "maxErrorMeters": 0.0
+                },
+                "parts": [],
+                "edgeChangeLimit": 0.05000000074505806,
+                "penetrationToleranceMeters": 0.0010000000474974514,
+                "detailsPreserved": false,
+                "stationarySamplesPassed": false,
+                "motionAssessed": false,
+                "selfCollisionAssessed": false,
+                "physicalMaterialCalibrated": false
+            }
+        },
+        {
+            "name": "WrongBodyShape",
+            "expected": "BODY_REFERENCE_MISMATCH",
+            "actual": "BODY_REFERENCE_MISMATCH vertex 0. Cơ thể hoặc tư thế khác body mẫu. Cần đăng ký tương ứng trước khi chuyển.",
+            "report": {
+                "status": "",
+                "bodyId": "",
+                "referenceBodyKey": "",
+                "sourceMode": "",
+                "reviewReasons": [],
+                "bodyMatch": {
+                    "sourceVertices": 0,
+                    "referenceVertices": 0,
+                    "triangles": 0,
+                    "reorderedOrSplit": false,
+                    "maxErrorMeters": 0.0
+                },
+                "parts": [],
+                "edgeChangeLimit": 0.05000000074505806,
+                "penetrationToleranceMeters": 0.0010000000474974514,
+                "detailsPreserved": false,
+                "stationarySamplesPassed": false,
+                "motionAssessed": false,
+                "selfCollisionAssessed": false,
+                "physicalMaterialCalibrated": false
+            }
+        },
+        {
+            "name": "WrongBodyWinding",
+            "expected": "BODY_TRIANGLES_CHANGED",
+            "actual": "BODY_TRIANGLES_CHANGED. Kiểm tra topology và chiều mặt body.",
+            "report": {
+                "status": "",
+                "bodyId": "",
+                "referenceBodyKey": "",
+                "sourceMode": "",
+                "reviewReasons": [],
+                "bodyMatch": {
+                    "sourceVertices": 0,
+                    "referenceVertices": 0,
+                    "triangles": 0,
+                    "reorderedOrSplit": false,
+                    "maxErrorMeters": 0.0
+                },
+                "parts": [],
+                "edgeChangeLimit": 0.05000000074505806,
+                "penetrationToleranceMeters": 0.0010000000474974514,
+                "detailsPreserved": false,
+                "stationarySamplesPassed": false,
+                "motionAssessed": false,
+                "selfCollisionAssessed": false,
+                "physicalMaterialCalibrated": false
+            }
+        },
+        {
+            "name": "MissingMaterial",
+            "expected": "MATERIAL_OR_SHADER_UNSUPPORTED",
+            "actual": "MATERIAL_OR_SHADER_UNSUPPORTED Gucci 864361 - 2D reference study · procedural PBD",
+            "report": {
+                "status": "",
+                "bodyId": "",
+                "referenceBodyKey": "",
+                "sourceMode": "",
+                "reviewReasons": [],
+                "bodyMatch": {
+                    "sourceVertices": 0,
+                    "referenceVertices": 0,
+                    "triangles": 0,
+                    "reorderedOrSplit": false,
+                    "maxErrorMeters": 0.0
+                },
+                "parts": [],
+                "edgeChangeLimit": 0.05000000074505806,
+                "penetrationToleranceMeters": 0.0010000000474974514,
+                "detailsPreserved": false,
+                "stationarySamplesPassed": false,
+                "motionAssessed": false,
+                "selfCollisionAssessed": false,
+                "physicalMaterialCalibrated": false
+            }
+        },
+        {
+            "name": "DistantGarment",
+            "expected": "over 50 cm",
+            "actual": "Garment is over 50 cm from source body. Check source frame, units or loose panels.",
+            "report": {
+                "status": "",
+                "bodyId": "",
+                "referenceBodyKey": "",
+                "sourceMode": "",
+                "reviewReasons": [],
+                "bodyMatch": {
+                    "sourceVertices": 0,
+                    "referenceVertices": 0,
+                    "triangles": 0,
+                    "reorderedOrSplit": false,
+                    "maxErrorMeters": 0.0
+                },
+                "parts": [],
+                "edgeChangeLimit": 0.05000000074505806,
+                "penetrationToleranceMeters": 0.0010000000474974514,
+                "detailsPreserved": false,
+                "stationarySamplesPassed": false,
+                "motionAssessed": false,
+                "selfCollisionAssessed": false,
+                "physicalMaterialCalibrated": false
+            }
+        },
+        {
+            "name": "HiddenGarmentPart",
+            "expected": "HIDDEN_GARMENT_PART",
+            "actual": "HIDDEN_GARMENT_PART Gucci 864361 - 2D reference study · procedural PBD. Khai báo rõ các mảnh sẽ nộp.",
+            "report": {
+                "status": "",
+                "bodyId": "",
+                "referenceBodyKey": "",
+                "sourceMode": "",
+                "reviewReasons": [],
+                "bodyMatch": {
+                    "sourceVertices": 0,
+                    "referenceVertices": 0,
+                    "triangles": 0,
+                    "reorderedOrSplit": false,
+                    "maxErrorMeters": 0.0
+                },
+                "parts": [],
+                "edgeChangeLimit": 0.05000000074505806,
+                "penetrationToleranceMeters": 0.0010000000474974514,
+                "detailsPreserved": false,
+                "stationarySamplesPassed": false,
+                "motionAssessed": false,
+                "selfCollisionAssessed": false,
+                "physicalMaterialCalibrated": false
+            }
+        },
+        {
+            "name": "WrongUnits",
+            "expected": "SOURCE_UNIT_INVALID",
+            "actual": "SOURCE_UNIT_INVALID",
+            "report": {
+                "status": "",
+                "bodyId": "",
+                "referenceBodyKey": "",
+                "sourceMode": "",
+                "reviewReasons": [],
+                "bodyMatch": {
+                    "sourceVertices": 0,
+                    "referenceVertices": 0,
+                    "triangles": 0,
+                    "reorderedOrSplit": false,
+                    "maxErrorMeters": 0.0
+                },
+                "parts": [],
+                "edgeChangeLimit": 0.05000000074505806,
+                "penetrationToleranceMeters": 0.0010000000474974514,
+                "detailsPreserved": false,
+                "stationarySamplesPassed": false,
+                "motionAssessed": false,
+                "selfCollisionAssessed": false,
+                "physicalMaterialCalibrated": false
+            }
+        },
+        {
+            "name": "WrongBodyId",
+            "expected": "BODY_REFERENCE_VERSION_MISMATCH",
+            "actual": "BODY_REFERENCE_VERSION_MISMATCH. Dùng submission.json đi cùng body mẫu hiện tại.",
+            "report": {
+                "status": "",
+                "bodyId": "",
+                "referenceBodyKey": "",
+                "sourceMode": "",
+                "reviewReasons": [],
+                "bodyMatch": {
+                    "sourceVertices": 0,
+                    "referenceVertices": 0,
+                    "triangles": 0,
+                    "reorderedOrSplit": false,
+                    "maxErrorMeters": 0.0
+                },
+                "parts": [],
+                "edgeChangeLimit": 0.05000000074505806,
+                "penetrationToleranceMeters": 0.0010000000474974514,
+                "detailsPreserved": false,
+                "stationarySamplesPassed": false,
+                "motionAssessed": false,
+                "selfCollisionAssessed": false,
+                "physicalMaterialCalibrated": false
+            }
+        },
+        {
+            "name": "FittingMovedSceneRoot",
+            "expected": "STATIC_PREVIEW_READY",
+            "actual": "STATIC_PREVIEW_READY",
+            "report": {
+                "status": "STATIC_PREVIEW_READY",
+                "bodyId": "fitting-female",
+                "referenceBodyKey": "5c397e0369fd4bf52af09db1e8941882b76f6951c9666defffb3a51c2c38a226",
+                "sourceMode": "canonical",
+                "reviewReasons": [],
+                "bodyMatch": {
+                    "sourceVertices": 53514,
+                    "referenceVertices": 53514,
+                    "triangles": 107024,
+                    "reorderedOrSplit": false,
+                    "maxErrorMeters": 1.8021768255493954e-7
+                },
+                "parts": [
+                    {
+                        "name": "Gucci 864361 - 2D reference study · procedural PBD",
+                        "sourceGeometryKey": "6753cb1c19532a60e1142b0ac2bf69ae8c709d03ac4288db297e2ec05ec5f9c0",
+                        "resultGeometryKey": "d0af863427a7d78de99663eaf27aada2e71c31a3fe2a827ee1a7fb20a88536e3",
+                        "vertices": 2624,
+                        "triangles": 5120,
+                        "materialSlots": 1,
+                        "textureSlots": 2,
+                        "identityAssessed": true,
+                        "identityErrorMeters": 0.0,
+                        "geometry": {
+                            "vertices": 2624,
+                            "triangles": 5120,
+                            "submeshes": 1,
+                            "contactSamples": 15488,
+                            "localPenetrationSamples": 0,
+                            "collapsedTriangles": 0,
+                            "maxSourceDistance": 0.13513058423995973,
+                            "maxDisplacement": 0.0,
+                            "maxRelativeEdgeChange": 0.0,
+                            "maxLocalPenetration": 0.0
+                        }
+                    },
+                    {
+                        "name": "Fitted short sleeve shell",
+                        "sourceGeometryKey": "f4e202fb175f3b65fa4b96fa24ba569f3682d84e786a47f237d31387cff22acf",
+                        "resultGeometryKey": "2243d0197fa8cfb8dc60d9eec1fc0c6c67fde64a6c7727642eaf33cf4a02174b",
+                        "vertices": 7583,
+                        "triangles": 13174,
+                        "materialSlots": 1,
+                        "textureSlots": 2,
+                        "identityAssessed": true,
+                        "identityErrorMeters": 0.0,
+                        "geometry": {
+                            "vertices": 7583,
+                            "triangles": 13174,
+                            "submeshes": 1,
+                            "contactSamples": 41934,
+                            "localPenetrationSamples": 0,
+                            "collapsedTriangles": 0,
+                            "maxSourceDistance": 0.0323440283536911,
+                            "maxDisplacement": 0.0,
+                            "maxRelativeEdgeChange": 0.0,
+                            "maxLocalPenetration": 0.000798333203420043
+                        }
+                    },
+                    {
+                        "name": "Collar stand, fold and hardware",
+                        "sourceGeometryKey": "3eb436a5d4fdf1b588fff19466e5004c308a6857b3cc95bb687c044ad17e6271",
+                        "resultGeometryKey": "c0912cc56f87fcf066ba73ddf99968f34d028c8d5f652893d5d81403003b4640",
+                        "vertices": 5264,
+                        "triangles": 10216,
+                        "materialSlots": 3,
+                        "textureSlots": 4,
+                        "identityAssessed": true,
+                        "identityErrorMeters": 0.0,
+                        "geometry": {
+                            "vertices": 5264,
+                            "triangles": 10216,
+                            "submeshes": 3,
+                            "contactSamples": 30954,
+                            "localPenetrationSamples": 0,
+                            "collapsedTriangles": 0,
+                            "maxSourceDistance": 0.02971893548965454,
+                            "maxDisplacement": 0.0,
+                            "maxRelativeEdgeChange": 0.0,
+                            "maxLocalPenetration": 0.0
+                        }
+                    }
+                ],
+                "edgeChangeLimit": 0.05000000074505806,
+                "penetrationToleranceMeters": 0.0010000000474974514,
+                "detailsPreserved": true,
+                "stationarySamplesPassed": true,
+                "motionAssessed": false,
+                "selfCollisionAssessed": false,
+                "physicalMaterialCalibrated": false
+            }
+        },
+        {
+            "name": "FittingCentimetres",
+            "expected": "STATIC_PREVIEW_READY",
+            "actual": "STATIC_PREVIEW_READY",
+            "report": {
+                "status": "STATIC_PREVIEW_READY",
+                "bodyId": "fitting-female",
+                "referenceBodyKey": "5c397e0369fd4bf52af09db1e8941882b76f6951c9666defffb3a51c2c38a226",
+                "sourceMode": "canonical",
+                "reviewReasons": [],
+                "bodyMatch": {
+                    "sourceVertices": 53514,
+                    "referenceVertices": 53514,
+                    "triangles": 107024,
+                    "reorderedOrSplit": false,
+                    "maxErrorMeters": 1.1926748300084e-7
+                },
+                "parts": [
+                    {
+                        "name": "Gucci 864361 - 2D reference study · procedural PBD",
+                        "sourceGeometryKey": "6753cb1c19532a60e1142b0ac2bf69ae8c709d03ac4288db297e2ec05ec5f9c0",
+                        "resultGeometryKey": "6753cb1c19532a60e1142b0ac2bf69ae8c709d03ac4288db297e2ec05ec5f9c0",
+                        "vertices": 2624,
+                        "triangles": 5120,
+                        "materialSlots": 1,
+                        "textureSlots": 2,
+                        "identityAssessed": true,
+                        "identityErrorMeters": 0.0,
+                        "geometry": {
+                            "vertices": 2624,
+                            "triangles": 5120,
+                            "submeshes": 1,
+                            "contactSamples": 15488,
+                            "localPenetrationSamples": 0,
+                            "collapsedTriangles": 0,
+                            "maxSourceDistance": 0.13513056933879853,
+                            "maxDisplacement": 0.0,
+                            "maxRelativeEdgeChange": 0.0,
+                            "maxLocalPenetration": 0.0
+                        }
+                    },
+                    {
+                        "name": "Fitted short sleeve shell",
+                        "sourceGeometryKey": "f4e202fb175f3b65fa4b96fa24ba569f3682d84e786a47f237d31387cff22acf",
+                        "resultGeometryKey": "f4e202fb175f3b65fa4b96fa24ba569f3682d84e786a47f237d31387cff22acf",
+                        "vertices": 7583,
+                        "triangles": 13174,
+                        "materialSlots": 1,
+                        "textureSlots": 2,
+                        "identityAssessed": true,
+                        "identityErrorMeters": 0.0,
+                        "geometry": {
+                            "vertices": 7583,
+                            "triangles": 13174,
+                            "submeshes": 1,
+                            "contactSamples": 41934,
+                            "localPenetrationSamples": 0,
+                            "collapsedTriangles": 0,
+                            "maxSourceDistance": 0.03234391659498215,
+                            "maxDisplacement": 0.0,
+                            "maxRelativeEdgeChange": 0.0,
+                            "maxLocalPenetration": 0.0007982466486282647
+                        }
+                    },
+                    {
+                        "name": "Collar stand, fold and hardware",
+                        "sourceGeometryKey": "3eb436a5d4fdf1b588fff19466e5004c308a6857b3cc95bb687c044ad17e6271",
+                        "resultGeometryKey": "3eb436a5d4fdf1b588fff19466e5004c308a6857b3cc95bb687c044ad17e6271",
+                        "vertices": 5264,
+                        "triangles": 10216,
+                        "materialSlots": 3,
+                        "textureSlots": 4,
+                        "identityAssessed": true,
+                        "identityErrorMeters": 0.0,
+                        "geometry": {
+                            "vertices": 5264,
+                            "triangles": 10216,
+                            "submeshes": 3,
+                            "contactSamples": 30954,
+                            "localPenetrationSamples": 0,
+                            "collapsedTriangles": 0,
+                            "maxSourceDistance": 0.029718901962041856,
+                            "maxDisplacement": 0.0,
+                            "maxRelativeEdgeChange": 0.0,
+                            "maxLocalPenetration": 0.0
+                        }
+                    }
+                ],
+                "edgeChangeLimit": 0.05000000074505806,
+                "penetrationToleranceMeters": 0.0010000000474974514,
+                "detailsPreserved": true,
+                "stationarySamplesPassed": true,
+                "motionAssessed": false,
+                "selfCollisionAssessed": false,
+                "physicalMaterialCalibrated": false
+            }
+        },
+        {
+            "name": "RegisteredBodyTwoPercent",
+            "expected": "STATIC_PREVIEW_READY",
+            "actual": "STATIC_PREVIEW_READY",
+            "report": {
+                "status": "STATIC_PREVIEW_READY",
+                "bodyId": "fitting-female",
+                "referenceBodyKey": "5c397e0369fd4bf52af09db1e8941882b76f6951c9666defffb3a51c2c38a226",
+                "sourceMode": "paired-body",
+                "reviewReasons": [],
+                "bodyMatch": {
+                    "sourceVertices": 0,
+                    "referenceVertices": 0,
+                    "triangles": 0,
+                    "reorderedOrSplit": false,
+                    "maxErrorMeters": 0.0
+                },
+                "parts": [
+                    {
+                        "name": "Gucci 864361 - 2D reference study · procedural PBD",
+                        "sourceGeometryKey": "6753cb1c19532a60e1142b0ac2bf69ae8c709d03ac4288db297e2ec05ec5f9c0",
+                        "resultGeometryKey": "65bf56ee38e9a06f983c366bb51a3c158b33a8fec6d928403445df42fc0abe54",
+                        "vertices": 2624,
+                        "triangles": 5120,
+                        "materialSlots": 1,
+                        "textureSlots": 2,
+                        "identityAssessed": false,
+                        "identityErrorMeters": 0.0,
+                        "geometry": {
+                            "vertices": 2624,
+                            "triangles": 5120,
+                            "submeshes": 1,
+                            "contactSamples": 15488,
+                            "localPenetrationSamples": 0,
+                            "collapsedTriangles": 0,
+                            "maxSourceDistance": 0.13246974349021913,
+                            "maxDisplacement": 0.005160854663699865,
+                            "maxRelativeEdgeChange": 0.020410139113664628,
+                            "maxLocalPenetration": 0.0
+                        }
+                    },
+                    {
+                        "name": "Fitted short sleeve shell",
+                        "sourceGeometryKey": "f4e202fb175f3b65fa4b96fa24ba569f3682d84e786a47f237d31387cff22acf",
+                        "resultGeometryKey": "f04af56e0691f0d1aefd3b690ddb60ae46108fb900898ea0f0102e51ed09fdcf",
+                        "vertices": 7583,
+                        "triangles": 13174,
+                        "materialSlots": 1,
+                        "textureSlots": 2,
+                        "identityAssessed": false,
+                        "identityErrorMeters": 0.0,
+                        "geometry": {
+                            "vertices": 7583,
+                            "triangles": 13174,
+                            "submeshes": 1,
+                            "contactSamples": 41934,
+                            "localPenetrationSamples": 0,
+                            "collapsedTriangles": 0,
+                            "maxSourceDistance": 0.03169889375567436,
+                            "maxDisplacement": 0.005016612354665995,
+                            "maxRelativeEdgeChange": 0.025137396529316903,
+                            "maxLocalPenetration": 0.0007982320967130363
+                        }
+                    },
+                    {
+                        "name": "Collar stand, fold and hardware",
+                        "sourceGeometryKey": "3eb436a5d4fdf1b588fff19466e5004c308a6857b3cc95bb687c044ad17e6271",
+                        "resultGeometryKey": "f409fb3362d2cf2e64b2edd947b519a325d312ce6a3af8e96fb88319b1d111d8",
+                        "vertices": 5264,
+                        "triangles": 10216,
+                        "materialSlots": 3,
+                        "textureSlots": 4,
+                        "identityAssessed": false,
+                        "identityErrorMeters": 0.0,
+                        "geometry": {
+                            "vertices": 5264,
+                            "triangles": 10216,
+                            "submeshes": 3,
+                            "contactSamples": 30954,
+                            "localPenetrationSamples": 0,
+                            "collapsedTriangles": 0,
+                            "maxSourceDistance": 0.029473301023244859,
+                            "maxDisplacement": 0.004045124165713787,
+                            "maxRelativeEdgeChange": 0.02049514837563038,
+                            "maxLocalPenetration": 0.0
+                        }
+                    }
+                ],
+                "edgeChangeLimit": 0.05000000074505806,
+                "penetrationToleranceMeters": 0.0010000000474974514,
+                "detailsPreserved": true,
+                "stationarySamplesPassed": true,
+                "motionAssessed": false,
+                "selfCollisionAssessed": false,
+                "physicalMaterialCalibrated": false
+            }
+        },
+        {
+            "name": "RegisteredBodyTenPercent",
+            "expected": "NEEDS_REVIEW",
+            "actual": "NEEDS_REVIEW",
+            "report": {
+                "status": "NEEDS_REVIEW",
+                "bodyId": "fitting-female",
+                "referenceBodyKey": "5c397e0369fd4bf52af09db1e8941882b76f6951c9666defffb3a51c2c38a226",
+                "sourceMode": "paired-body",
+                "reviewReasons": [
+                    "Gucci 864361 - 2D reference study · procedural PBD thay đổi cạnh vượt 5% so với bài gốc.",
+                    "Fitted short sleeve shell thay đổi cạnh vượt 5% so với bài gốc.",
+                    "Collar stand, fold and hardware thay đổi cạnh vượt 5% so với bài gốc."
+                ],
+                "bodyMatch": {
+                    "sourceVertices": 0,
+                    "referenceVertices": 0,
+                    "triangles": 0,
+                    "reorderedOrSplit": false,
+                    "maxErrorMeters": 0.0
+                },
+                "parts": [
+                    {
+                        "name": "Gucci 864361 - 2D reference study · procedural PBD",
+                        "sourceGeometryKey": "6753cb1c19532a60e1142b0ac2bf69ae8c709d03ac4288db297e2ec05ec5f9c0",
+                        "resultGeometryKey": "bef9d7f089ef614c596906877089aba749ec2c3537ea998aa3bbd8bb9f907e92",
+                        "vertices": 2624,
+                        "triangles": 5120,
+                        "materialSlots": 1,
+                        "textureSlots": 2,
+                        "identityAssessed": false,
+                        "identityErrorMeters": 0.0,
+                        "geometry": {
+                            "vertices": 2624,
+                            "triangles": 5120,
+                            "submeshes": 1,
+                            "contactSamples": 15488,
+                            "localPenetrationSamples": 0,
+                            "collapsedTriangles": 0,
+                            "maxSourceDistance": 0.12183558940887451,
+                            "maxDisplacement": 0.025804266333580018,
+                            "maxRelativeEdgeChange": 0.11111263930797577,
+                            "maxLocalPenetration": 0.0
+                        }
+                    },
+                    {
+                        "name": "Fitted short sleeve shell",
+                        "sourceGeometryKey": "f4e202fb175f3b65fa4b96fa24ba569f3682d84e786a47f237d31387cff22acf",
+                        "resultGeometryKey": "7490bf1c7a70d92d11c96cec6c26ad746f0e78f214e8c7d4b5395f73ac6a1c98",
+                        "vertices": 7583,
+                        "triangles": 13174,
+                        "materialSlots": 1,
+                        "textureSlots": 2,
+                        "identityAssessed": false,
+                        "identityErrorMeters": 0.0,
+                        "geometry": {
+                            "vertices": 7583,
+                            "triangles": 13174,
+                            "submeshes": 1,
+                            "contactSamples": 41934,
+                            "localPenetrationSamples": 0,
+                            "collapsedTriangles": 0,
+                            "maxSourceDistance": 0.030299672856926919,
+                            "maxDisplacement": 0.025083106011152269,
+                            "maxRelativeEdgeChange": 0.11120522767305374,
+                            "maxLocalPenetration": 0.0007982429233379662
+                        }
+                    },
+                    {
+                        "name": "Collar stand, fold and hardware",
+                        "sourceGeometryKey": "3eb436a5d4fdf1b588fff19466e5004c308a6857b3cc95bb687c044ad17e6271",
+                        "resultGeometryKey": "e3113da619d646623b59a2d63fd7cc0eacaca4a9f02a6377ef5886b99a8de69d",
+                        "vertices": 5264,
+                        "triangles": 10216,
+                        "materialSlots": 3,
+                        "textureSlots": 4,
+                        "identityAssessed": false,
+                        "identityErrorMeters": 0.0,
+                        "geometry": {
+                            "vertices": 5264,
+                            "triangles": 10216,
+                            "submeshes": 3,
+                            "contactSamples": 30954,
+                            "localPenetrationSamples": 0,
+                            "collapsedTriangles": 0,
+                            "maxSourceDistance": 0.028160562738776208,
+                            "maxDisplacement": 0.02022564224898815,
+                            "maxRelativeEdgeChange": 0.11116322875022888,
+                            "maxLocalPenetration": 0.0
+                        }
+                    }
+                ],
+                "edgeChangeLimit": 0.05000000074505806,
+                "penetrationToleranceMeters": 0.0010000000474974514,
+                "detailsPreserved": true,
+                "stationarySamplesPassed": false,
+                "motionAssessed": false,
+                "selfCollisionAssessed": false,
+                "physicalMaterialCalibrated": false
+            }
+        },
+        {
+            "name": "FittingUVSplitAndReorder",
+            "expected": "STATIC_PREVIEW_READY",
+            "actual": "STATIC_PREVIEW_READY",
+            "report": {
+                "status": "STATIC_PREVIEW_READY",
+                "bodyId": "fitting-female",
+                "referenceBodyKey": "5c397e0369fd4bf52af09db1e8941882b76f6951c9666defffb3a51c2c38a226",
+                "sourceMode": "canonical",
+                "reviewReasons": [],
+                "bodyMatch": {
+                    "sourceVertices": 321072,
+                    "referenceVertices": 53514,
+                    "triangles": 107024,
+                    "reorderedOrSplit": true,
+                    "maxErrorMeters": 1.2036781527058339e-7
+                },
+                "parts": [
+                    {
+                        "name": "Gucci 864361 - 2D reference study · procedural PBD",
+                        "sourceGeometryKey": "6753cb1c19532a60e1142b0ac2bf69ae8c709d03ac4288db297e2ec05ec5f9c0",
+                        "resultGeometryKey": "6753cb1c19532a60e1142b0ac2bf69ae8c709d03ac4288db297e2ec05ec5f9c0",
+                        "vertices": 2624,
+                        "triangles": 5120,
+                        "materialSlots": 1,
+                        "textureSlots": 2,
+                        "identityAssessed": true,
+                        "identityErrorMeters": 0.0,
+                        "geometry": {
+                            "vertices": 2624,
+                            "triangles": 5120,
+                            "submeshes": 1,
+                            "contactSamples": 15488,
+                            "localPenetrationSamples": 0,
+                            "collapsedTriangles": 0,
+                            "maxSourceDistance": 0.13513056933879853,
+                            "maxDisplacement": 0.0,
+                            "maxRelativeEdgeChange": 0.0,
+                            "maxLocalPenetration": 0.0
+                        }
+                    },
+                    {
+                        "name": "Fitted short sleeve shell",
+                        "sourceGeometryKey": "f4e202fb175f3b65fa4b96fa24ba569f3682d84e786a47f237d31387cff22acf",
+                        "resultGeometryKey": "f4e202fb175f3b65fa4b96fa24ba569f3682d84e786a47f237d31387cff22acf",
+                        "vertices": 7583,
+                        "triangles": 13174,
+                        "materialSlots": 1,
+                        "textureSlots": 2,
+                        "identityAssessed": true,
+                        "identityErrorMeters": 0.0,
+                        "geometry": {
+                            "vertices": 7583,
+                            "triangles": 13174,
+                            "submeshes": 1,
+                            "contactSamples": 41934,
+                            "localPenetrationSamples": 0,
+                            "collapsedTriangles": 0,
+                            "maxSourceDistance": 0.03234391659498215,
+                            "maxDisplacement": 0.0,
+                            "maxRelativeEdgeChange": 0.0,
+                            "maxLocalPenetration": 0.0007982466486282647
+                        }
+                    },
+                    {
+                        "name": "Collar stand, fold and hardware",
+                        "sourceGeometryKey": "3eb436a5d4fdf1b588fff19466e5004c308a6857b3cc95bb687c044ad17e6271",
+                        "resultGeometryKey": "3eb436a5d4fdf1b588fff19466e5004c308a6857b3cc95bb687c044ad17e6271",
+                        "vertices": 5264,
+                        "triangles": 10216,
+                        "materialSlots": 3,
+                        "textureSlots": 4,
+                        "identityAssessed": true,
+                        "identityErrorMeters": 0.0,
+                        "geometry": {
+                            "vertices": 5264,
+                            "triangles": 10216,
+                            "submeshes": 3,
+                            "contactSamples": 30954,
+                            "localPenetrationSamples": 0,
+                            "collapsedTriangles": 0,
+                            "maxSourceDistance": 0.029718901962041856,
+                            "maxDisplacement": 0.0,
+                            "maxRelativeEdgeChange": 0.0,
+                            "maxLocalPenetration": 0.0
+                        }
+                    }
+                ],
+                "edgeChangeLimit": 0.05000000074505806,
+                "penetrationToleranceMeters": 0.0010000000474974514,
+                "detailsPreserved": true,
+                "stationarySamplesPassed": true,
+                "motionAssessed": false,
+                "selfCollisionAssessed": false,
+                "physicalMaterialCalibrated": false
+            }
+        },
+        {
+            "name": "pose-female_Identity",
+            "expected": "STATIC_PREVIEW_READY",
+            "actual": "STATIC_PREVIEW_READY",
+            "report": {
+                "status": "STATIC_PREVIEW_READY",
+                "bodyId": "pose-female",
+                "referenceBodyKey": "362274761b7ccba4f93d75e0f3aa9280062add49b7b328f75182cb7b5f3bebb7",
+                "sourceMode": "canonical",
+                "reviewReasons": [],
+                "bodyMatch": {
+                    "sourceVertices": 13380,
+                    "referenceVertices": 13380,
+                    "triangles": 26756,
+                    "reorderedOrSplit": false,
+                    "maxErrorMeters": 1.1926748300084e-7
+                },
+                "parts": [
+                    {
+                        "name": "Outfit",
+                        "sourceGeometryKey": "42b5455bd9c897d6fde8ac534495894b246492ca85756cd53e72664b3cb1aa27",
+                        "resultGeometryKey": "42b5455bd9c897d6fde8ac534495894b246492ca85756cd53e72664b3cb1aa27",
+                        "vertices": 7821,
+                        "triangles": 15072,
+                        "materialSlots": 2,
+                        "textureSlots": 0,
+                        "identityAssessed": true,
+                        "identityErrorMeters": 0.0,
+                        "geometry": {
+                            "vertices": 7821,
+                            "triangles": 15072,
+                            "submeshes": 2,
+                            "contactSamples": 45788,
+                            "localPenetrationSamples": 0,
+                            "collapsedTriangles": 0,
+                            "maxSourceDistance": 0.13303126394748689,
+                            "maxDisplacement": 0.0,
+                            "maxRelativeEdgeChange": 0.0,
+                            "maxLocalPenetration": 0.0
+                        }
+                    }
+                ],
+                "edgeChangeLimit": 0.05000000074505806,
+                "penetrationToleranceMeters": 0.0010000000474974514,
+                "detailsPreserved": true,
+                "stationarySamplesPassed": true,
+                "motionAssessed": false,
+                "selfCollisionAssessed": false,
+                "physicalMaterialCalibrated": false
+            }
+        },
+        {
+            "name": "pose-female_UVSplit",
+            "expected": "STATIC_PREVIEW_READY",
+            "actual": "STATIC_PREVIEW_READY",
+            "report": {
+                "status": "STATIC_PREVIEW_READY",
+                "bodyId": "pose-female",
+                "referenceBodyKey": "362274761b7ccba4f93d75e0f3aa9280062add49b7b328f75182cb7b5f3bebb7",
+                "sourceMode": "canonical",
+                "reviewReasons": [],
+                "bodyMatch": {
+                    "sourceVertices": 80268,
+                    "referenceVertices": 13380,
+                    "triangles": 26756,
+                    "reorderedOrSplit": true,
+                    "maxErrorMeters": 1.1926748300084e-7
+                },
+                "parts": [
+                    {
+                        "name": "Outfit",
+                        "sourceGeometryKey": "42b5455bd9c897d6fde8ac534495894b246492ca85756cd53e72664b3cb1aa27",
+                        "resultGeometryKey": "42b5455bd9c897d6fde8ac534495894b246492ca85756cd53e72664b3cb1aa27",
+                        "vertices": 7821,
+                        "triangles": 15072,
+                        "materialSlots": 2,
+                        "textureSlots": 0,
+                        "identityAssessed": true,
+                        "identityErrorMeters": 0.0,
+                        "geometry": {
+                            "vertices": 7821,
+                            "triangles": 15072,
+                            "submeshes": 2,
+                            "contactSamples": 45788,
+                            "localPenetrationSamples": 0,
+                            "collapsedTriangles": 0,
+                            "maxSourceDistance": 0.13303126394748689,
+                            "maxDisplacement": 0.0,
+                            "maxRelativeEdgeChange": 0.0,
+                            "maxLocalPenetration": 0.0
+                        }
+                    }
+                ],
+                "edgeChangeLimit": 0.05000000074505806,
+                "penetrationToleranceMeters": 0.0010000000474974514,
+                "detailsPreserved": true,
+                "stationarySamplesPassed": true,
+                "motionAssessed": false,
+                "selfCollisionAssessed": false,
+                "physicalMaterialCalibrated": false
+            }
+        },
+        {
+            "name": "pose-male_Identity",
+            "expected": "STATIC_PREVIEW_READY",
+            "actual": "STATIC_PREVIEW_READY",
+            "report": {
+                "status": "STATIC_PREVIEW_READY",
+                "bodyId": "pose-male",
+                "referenceBodyKey": "b79c8621f5f26b1995de4e0599ccdfa4c7d23b5ae04a15774b3ed645cd3e2c72",
+                "sourceMode": "canonical",
+                "reviewReasons": [],
+                "bodyMatch": {
+                    "sourceVertices": 13380,
+                    "referenceVertices": 13380,
+                    "triangles": 26756,
+                    "reorderedOrSplit": false,
+                    "maxErrorMeters": 1.2287812012345967e-7
+                },
+                "parts": [
+                    {
+                        "name": "Outfit",
+                        "sourceGeometryKey": "97a843a8714952b0484a6a3222ee34a2670b08f189b1e0fc4967a83cb78c9212",
+                        "resultGeometryKey": "97a843a8714952b0484a6a3222ee34a2670b08f189b1e0fc4967a83cb78c9212",
+                        "vertices": 8694,
+                        "triangles": 16503,
+                        "materialSlots": 4,
+                        "textureSlots": 4,
+                        "identityAssessed": true,
+                        "identityErrorMeters": 0.0,
+                        "geometry": {
+                            "vertices": 8694,
+                            "triangles": 16503,
+                            "submeshes": 4,
+                            "contactSamples": 50391,
+                            "localPenetrationSamples": 0,
+                            "collapsedTriangles": 0,
+                            "maxSourceDistance": 0.04509091004729271,
+                            "maxDisplacement": 0.0,
+                            "maxRelativeEdgeChange": 0.0,
+                            "maxLocalPenetration": 0.0
+                        }
+                    }
+                ],
+                "edgeChangeLimit": 0.05000000074505806,
+                "penetrationToleranceMeters": 0.0010000000474974514,
+                "detailsPreserved": true,
+                "stationarySamplesPassed": true,
+                "motionAssessed": false,
+                "selfCollisionAssessed": false,
+                "physicalMaterialCalibrated": false
+            }
+        },
+        {
+            "name": "pose-male_UVSplit",
+            "expected": "STATIC_PREVIEW_READY",
+            "actual": "STATIC_PREVIEW_READY",
+            "report": {
+                "status": "STATIC_PREVIEW_READY",
+                "bodyId": "pose-male",
+                "referenceBodyKey": "b79c8621f5f26b1995de4e0599ccdfa4c7d23b5ae04a15774b3ed645cd3e2c72",
+                "sourceMode": "canonical",
+                "reviewReasons": [],
+                "bodyMatch": {
+                    "sourceVertices": 80268,
+                    "referenceVertices": 13380,
+                    "triangles": 26756,
+                    "reorderedOrSplit": true,
+                    "maxErrorMeters": 1.2287812012345967e-7
+                },
+                "parts": [
+                    {
+                        "name": "Outfit",
+                        "sourceGeometryKey": "97a843a8714952b0484a6a3222ee34a2670b08f189b1e0fc4967a83cb78c9212",
+                        "resultGeometryKey": "97a843a8714952b0484a6a3222ee34a2670b08f189b1e0fc4967a83cb78c9212",
+                        "vertices": 8694,
+                        "triangles": 16503,
+                        "materialSlots": 4,
+                        "textureSlots": 4,
+                        "identityAssessed": true,
+                        "identityErrorMeters": 0.0,
+                        "geometry": {
+                            "vertices": 8694,
+                            "triangles": 16503,
+                            "submeshes": 4,
+                            "contactSamples": 50391,
+                            "localPenetrationSamples": 0,
+                            "collapsedTriangles": 0,
+                            "maxSourceDistance": 0.04509091004729271,
+                            "maxDisplacement": 0.0,
+                            "maxRelativeEdgeChange": 0.0,
+                            "maxLocalPenetration": 0.0
+                        }
+                    }
+                ],
+                "edgeChangeLimit": 0.05000000074505806,
+                "penetrationToleranceMeters": 0.0010000000474974514,
+                "detailsPreserved": true,
+                "stationarySamplesPassed": true,
+                "motionAssessed": false,
+                "selfCollisionAssessed": false,
+                "physicalMaterialCalibrated": false
+            }
+        },
+        {
+            "name": "Native_fbx",
+            "expected": "STATIC_PREVIEW_READY",
+            "actual": "STATIC_PREVIEW_READY",
+            "report": {
+                "status": "STATIC_PREVIEW_READY",
+                "bodyId": "fitting-female",
+                "referenceBodyKey": "5c397e0369fd4bf52af09db1e8941882b76f6951c9666defffb3a51c2c38a226",
+                "sourceMode": "canonical",
+                "reviewReasons": [],
+                "bodyMatch": {
+                    "sourceVertices": 53514,
+                    "referenceVertices": 53514,
+                    "triangles": 107024,
+                    "reorderedOrSplit": false,
+                    "maxErrorMeters": 0.0
+                },
+                "parts": [
+                    {
+                        "name": "DetailFixture",
+                        "sourceGeometryKey": "78d59001a66c7aca35312688aabd0d08fb0c873fa9c8adca0ff1f129d7153a0f",
+                        "resultGeometryKey": "e58d56ac4d338a17280dc257322164d4b49a02384d1e8da894c6e4e95cbca72e",
+                        "vertices": 6,
+                        "triangles": 2,
+                        "materialSlots": 2,
+                        "textureSlots": 0,
+                        "identityAssessed": true,
+                        "identityErrorMeters": 0.0,
+                        "geometry": {
+                            "vertices": 6,
+                            "triangles": 2,
+                            "submeshes": 2,
+                            "contactSamples": 14,
+                            "localPenetrationSamples": 0,
+                            "collapsedTriangles": 0,
+                            "maxSourceDistance": 0.16372975707054139,
+                            "maxDisplacement": 0.0,
+                            "maxRelativeEdgeChange": 0.0,
+                            "maxLocalPenetration": 0.0
+                        }
+                    }
+                ],
+                "edgeChangeLimit": 0.05000000074505806,
+                "penetrationToleranceMeters": 0.0010000000474974514,
+                "detailsPreserved": true,
+                "stationarySamplesPassed": true,
+                "motionAssessed": false,
+                "selfCollisionAssessed": false,
+                "physicalMaterialCalibrated": false
+            }
+        },
+        {
+            "name": "Native_obj",
+            "expected": "STATIC_PREVIEW_READY",
+            "actual": "STATIC_PREVIEW_READY",
+            "report": {
+                "status": "STATIC_PREVIEW_READY",
+                "bodyId": "fitting-female",
+                "referenceBodyKey": "5c397e0369fd4bf52af09db1e8941882b76f6951c9666defffb3a51c2c38a226",
+                "sourceMode": "canonical",
+                "reviewReasons": [],
+                "bodyMatch": {
+                    "sourceVertices": 53514,
+                    "referenceVertices": 53514,
+                    "triangles": 107024,
+                    "reorderedOrSplit": false,
+                    "maxErrorMeters": 0.0
+                },
+                "parts": [
+                    {
+                        "name": "default",
+                        "sourceGeometryKey": "78d59001a66c7aca35312688aabd0d08fb0c873fa9c8adca0ff1f129d7153a0f",
+                        "resultGeometryKey": "9a07267cb2ffff2e7a929f95b66e302eab81b49ebe368f70ed14c88d8fa9a8db",
+                        "vertices": 6,
+                        "triangles": 2,
+                        "materialSlots": 2,
+                        "textureSlots": 2,
+                        "identityAssessed": true,
+                        "identityErrorMeters": 0.0,
+                        "geometry": {
+                            "vertices": 6,
+                            "triangles": 2,
+                            "submeshes": 2,
+                            "contactSamples": 14,
+                            "localPenetrationSamples": 0,
+                            "collapsedTriangles": 0,
+                            "maxSourceDistance": 0.16372978687286378,
+                            "maxDisplacement": 0.0,
+                            "maxRelativeEdgeChange": 0.0,
+                            "maxLocalPenetration": 0.0
+                        }
+                    }
+                ],
+                "edgeChangeLimit": 0.05000000074505806,
+                "penetrationToleranceMeters": 0.0010000000474974514,
+                "detailsPreserved": true,
+                "stationarySamplesPassed": true,
+                "motionAssessed": false,
+                "selfCollisionAssessed": false,
+                "physicalMaterialCalibrated": false
+            }
+        },
+        {
+            "name": "Native_glb",
+            "expected": "STATIC_PREVIEW_READY",
+            "actual": "STATIC_PREVIEW_READY",
+            "report": {
+                "status": "STATIC_PREVIEW_READY",
+                "bodyId": "fitting-female",
+                "referenceBodyKey": "5c397e0369fd4bf52af09db1e8941882b76f6951c9666defffb3a51c2c38a226",
+                "sourceMode": "canonical",
+                "reviewReasons": [],
+                "bodyMatch": {
+                    "sourceVertices": 53514,
+                    "referenceVertices": 53514,
+                    "triangles": 107024,
+                    "reorderedOrSplit": false,
+                    "maxErrorMeters": 0.0
+                },
+                "parts": [
+                    {
+                        "name": "DetailFixture",
+                        "sourceGeometryKey": "78d59001a66c7aca35312688aabd0d08fb0c873fa9c8adca0ff1f129d7153a0f",
+                        "resultGeometryKey": "9a07267cb2ffff2e7a929f95b66e302eab81b49ebe368f70ed14c88d8fa9a8db",
+                        "vertices": 6,
+                        "triangles": 2,
+                        "materialSlots": 2,
+                        "textureSlots": 1,
+                        "identityAssessed": true,
+                        "identityErrorMeters": 0.0,
+                        "geometry": {
+                            "vertices": 6,
+                            "triangles": 2,
+                            "submeshes": 2,
+                            "contactSamples": 14,
+                            "localPenetrationSamples": 0,
+                            "collapsedTriangles": 0,
+                            "maxSourceDistance": 0.16372978687286378,
+                            "maxDisplacement": 0.0,
+                            "maxRelativeEdgeChange": 0.0,
+                            "maxLocalPenetration": 0.0
+                        }
+                    }
+                ],
+                "edgeChangeLimit": 0.05000000074505806,
+                "penetrationToleranceMeters": 0.0010000000474974514,
+                "detailsPreserved": true,
+                "stationarySamplesPassed": true,
+                "motionAssessed": false,
+                "selfCollisionAssessed": false,
+                "physicalMaterialCalibrated": false
+            }
+        }
+    ],
+    "failure": ""
+}

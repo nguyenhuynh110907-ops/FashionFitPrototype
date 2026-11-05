@@ -1,0 +1,448 @@
+{
+  "created_utc": "2026-10-31T02:18:17.670113+00:00",
+  "scope": "Read-only source review; no live HMD, gameplay, cloth-removal or performance validation",
+  "runtime_cs_file_count": 42,
+  "runtime_before": {
+    "BodyContactShell.cs": "378f72f16f4bd80569bf29c603aa2b80ba97a5968ba5e15379aab2fb88c00a42",
+    "BodyFitProfile.cs": "ecfac35ea9a0e50c40b67e2281878819e722fb542afbe36dfe57e0fe356a5e43",
+    "ClothDisplayMesh.cs": "3b29c9671417a57e318b2f7180da7c4cdf4d0cefa7d47cb9e47ee466895869d9",
+    "ClothMaterialProfile.cs": "1164d518c7b172b3d4ffe34ae947e3bae878c63a3a48db3a4d864edf1ba1420e",
+    "FabricDetailTrial.cs": "328e5c41bfff0d0c7d2ce34f688c5ec4b32dc5a5c9fc0443d5a758a21ba3cbb0",
+    "FashionFitApp.cs": "38bf2b14b6d532f86a1700d17a0f5e6d71915a88500548655216cfb721c2fe7d",
+    "FashionFitBootstrap.cs": "e445ec0f63230bbb40dde5ef389b7dc99df1a970f8ee132e79c08bde80b7b4a1",
+    "FittingCloth.cs": "043e82dce4347ed271429bc7a72ed4da32f087dae64447cac2ee2ac34efb901c",
+    "FittingClothSolver.cs": "248bee827f1f509b6c8f4a747a22b716e7606a1191bd4f4dc9e15f28e3052212",
+    "GarmentFit.cs": "223c926e8d6fff4f9e04b948e3225c9423bf82617d06e42b0435a66825d313ec",
+    "GarmentSurfaceTransfer.cs": "6b6c8b7f21b0371a5ac65cc8cacdcf0baf1f5f94695754e22de1f5f14c40e9ab",
+    "InteractiveShirt.cs": "91e107c52e7468696e68bc7a98ce7a4f8bd809fc4306178afa80c594aa52022c",
+    "MeshyGarmentClient.cs": "d46f1d24c7c554ff40454203c110e8b7c6c7945f58dd2e9eda61b9ae342def42",
+    "NanoBananaClient.cs": "6f15634d331b040c76e3f3e6e72e3af0875a523c74008e6229a22f212ea612cd",
+    "ReferenceHatCatalog.cs": "0b24c1727e927f5c0771bfd2dc13790425d7347b72f85dac8f498e6bdcf87dca",
+    "RunwayAvatar.cs": "ed0253109d0c74d0a3bc802dd4925ea7ebb83af7f2a22600ae59b70f0654fb49",
+    "RunwayBodyCoverage.cs": "465d595adfd6dccf0f34058cc10dbfa2f14603b6c41c582040d40abcf0d7f6dc",
+    "RunwayFiles.cs": "28d9f01d9a35a8e9b9c46e93f5ca8b3d1a07990f065dc0b78af5b7d4b89a915d",
+    "RunwayGait.cs": "3d138ff7e01d90930327ee8158cb1f87170e16345690d523895f1b55c395a519",
+    "RunwayOBJ.cs": "7418a5329a542464207ea389e2f0e7132db29a4a70c38fefbf77d54a2b6d0dd4",
+    "RunwayPickup.cs": "44acfc3f106c070b9e747299d63e31ccce9ea111866707030f3907e4cdcbdd84",
+    "RunwayPlayer.cs": "24e772daaf9f251a336055c4bcbcbfa95f80bddf85b9e129227b50159c2dff2c",
+    "RunwayPoseBase.cs": "295718e608645ae50c5ad2726e6504f4acad1f77f8eb85db08c9de211e23040d",
+    "RunwayPoseRig.cs": "512c3d6488a7be65fdfd3dafbc5641db3048827dd0e8c43775c2c72170516023",
+    "RunwayPoseStudio.cs": "798e499d98647cedf482ad4a80acf7f3c23681d692c4eb3dc0dbcaf8eff59357",
+    "RunwayShowroom.cs": "fe6eb09ebf1a57c49ad5109a4e6adc21e2a0499ec7976f997ca9db6d0e9d6136",
+    "RunwayStage.cs": "a33ae49942a862fe9bd56f388e13226521c34f7d438bfbb6b0e41330f2537804",
+    "RunwayUI.cs": "c70039844a230abca2a66f713c7caa1952952f019ed6856d35df748e11839c3d",
+    "RunwayVRButton.cs": "a8324a75a141fa30de5e81fe3ec66b20ec85fcd002373ce980999efb266271e7",
+    "RunwayVRGrabTarget.cs": "fcd55ca0574f087eeeaf86f4a59f0d3330b0f91cc5b2e41e7efe2ac5e8acb857",
+    "RunwayVRHands.cs": "943e5d765e6b464416a555a1589d24189ae8e73f0d66f51912186bc86113053b",
+    "RunwayVRPanel.cs": "aa9fce3eb4fb04f2ba5c3b6f5ae46154c563bdf8c88e867bd0112c018ff380c9",
+    "RunwayWardrobe.cs": "d13f563b317914a7883a6ae370d47f8a62114785f82bde7d8bfcd499b46cb41c",
+    "SampleSkirtGeometry.cs": "736bdfb5e7ea8a437a6310d9cda6ed004c8e35e1bcfbc4ad865579b369443e9f",
+    "ShowroomPreviewCatalog.cs": "0f7b9b47689cdf407e5bff0ecadffef09af8933947f2ca104f74c102b767367a",
+    "SkinnedBounds.cs": "59d1c1c9c4f3285ae2c41031cff6edd53454b0c7a6bd5ad17cc51743c8903059",
+    "StandaloneVerification.cs": "fdb7be56f9b3ede71be65777ac26dddf2ec4f4b1a73abfa6342dc23fa85de3c8",
+    "TailoredPoloStudy.cs": "6aa510f7f1423e2a0e468a51493b852aebc8c66a513a940d28399da45afb7c6a",
+    "TailoredSurfaceDynamics.cs": "3d708fff1419da73b06f8afcb3063792cde825dd4d70a95dbb0d7c09179ef00b",
+    "TechnicalBodyFitData.cs": "4e5518289dfa2907d30a6bf511563738741bb7b56d64943152d02c9a0dd7130f",
+    "TransferredGarmentAsset.cs": "d37447c0a1699a5de88c161dcef192786551a3f6e7126ab26a3730e7d0e29a7d",
+    "WovenFabricDetail.cs": "900108ac6378180af3cda75d147a48d68a0513e7e7c7015ec343f8fb5a464fd7"
+  },
+  "findings": [
+    {
+      "id": "decorative_buttons",
+      "file": "Assets/FashionFit/Runtime/TailoredPoloStudy.cs",
+      "sha256": "6aa510f7f1423e2a0e468a51493b852aebc8c66a513a940d28399da45afb7c6a",
+      "finding": "BuildButtons adds geometry into a shared detail mesh; no fastener constraint state or per-button interaction.",
+      "excerpts": [
+        {
+          "line": 26,
+          "text": "        public const int ButtonCount=4;"
+        },
+        {
+          "line": 100,
+          "text": "        public void Initialize(RunwayAvatar avatar,Material fabric)"
+        },
+        {
+          "line": 104,
+          "text": "            detailMesh=detail.Mesh(\"Polo collar, placket, four GG-study buttons and tailoring seams\",body.GarmentBindposes);"
+        },
+        {
+          "line": 112,
+          "text": "            UpperSurface=Skin(\"Fitted short sleeve shell\",upperMesh,new[]{fabric});DetailSurface=Skin(\"Collar stand, fold and hardware\",detailMesh,new[]{collar,thread,gold});"
+        },
+        {
+          "line": 241,
+          "text": "        void BuildButtons(Builder b)"
+        },
+        {
+          "line": 254,
+          "text": "                Tube(b,new List<Vector3>{center+new Vector3(.011f,-.003f,-.001f),center+new Vector3(.011f,.003f,-.001f)},.0006f,1);"
+        }
+      ]
+    },
+    {
+      "id": "polo_body_shell",
+      "file": "Assets/FashionFit/Runtime/TailoredPoloStudy.cs",
+      "sha256": "6aa510f7f1423e2a0e468a51493b852aebc8c66a513a940d28399da45afb7c6a",
+      "finding": "Upper shell derived from body surface; no operable front opening authored here.",
+      "excerpts": [
+        {
+          "line": 153,
+          "text": "        void BuildUpper()"
+        },
+        {
+          "line": 155,
+          "text": "            var source=body.BodyMesh;Vector3[] p=source.vertices,n=source.normals;BoneWeight[] w=source.boneWeights;var b=new Builder(1);"
+        },
+        {
+          "line": 163,
+          "text": "                var centre=Clip(Clip(Clip(polygon,Vector3.right,.073f),Vector3.left,.073f),Vector3.down,1.465f);"
+        },
+        {
+          "line": 169,
+          "text": "                    if(part.Count<3)continue;int first=b.p.Count;"
+        }
+      ]
+    },
+    {
+      "id": "pinned_shirt",
+      "file": "Assets/FashionFit/Runtime/InteractiveShirt.cs",
+      "sha256": "91e107c52e7468696e68bc7a98ce7a4f8bd809fc4306178afa80c594aa52022c",
+      "finding": "Two fixed rings plus torso support and animated spine anchors prevent doffing.",
+      "excerpts": [
+        {
+          "line": 47,
+          "text": "            solver = new FittingClothSolver(rest, Segments, Rings, 2, false, .014f, 6, .24f, .16f,true);"
+        },
+        {
+          "line": 51,
+          "text": "            solver.SupportUpperBody(7);"
+        },
+        {
+          "line": 129,
+          "text": "            for (int i = 0; i < rest.Length; i++) anchors[i] = m.MultiplyPoint3x4(rest[i]);"
+        }
+      ]
+    },
+    {
+      "id": "limited_grip",
+      "file": "Assets/FashionFit/Runtime/FittingClothSolver.cs",
+      "sha256": "248bee827f1f509b6c8f4a747a22b716e7606a1191bd4f4dc9e15f28e3052212",
+      "finding": "Fixed particles cannot be grabbed; grab targets limited to 0.12 m from grab start; animated tethers remain active.",
+      "excerpts": [
+        {
+          "line": 108,
+          "text": "                bool fixedPoint = ring < fixedRings||!activePoints[i];"
+        },
+        {
+          "line": 199,
+          "text": "            for(int i=2*segments;i<Positions.Length;i++){"
+        },
+        {
+          "line": 217,
+          "text": "        public void MoveGrab(int slot,Vector3 localPoint){if(slot>=0&&slot<2&&grabIndices[slot]>=0&&FinitePoint(localPoint))grabTargets[slot]=grabStarts[slot]+Vector3.ClampMagnitude(localPoint+grabOffsets[slot]-grabStarts[slot],.12f);}"
+        },
+        {
+          "line": 332,
+          "text": "        void ApplyAnimatedTethers(Vector3[] anchors)"
+        },
+        {
+          "line": 340,
+          "text": "                if(i/segments<supportedUpperRings&&!heldPatch){limit=Mathf.Min(limit,.008f);strength=.45f;}"
+        }
+      ]
+    },
+    {
+      "id": "closed_topology",
+      "file": "Assets/FashionFit/Runtime/FittingClothSolver.cs",
+      "sha256": "248bee827f1f509b6c8f4a747a22b716e7606a1191bd4f4dc9e15f28e3052212",
+      "finding": "Circumferential links and fixed ring layout, not removable button edge pairs.",
+      "excerpts": [
+        {
+          "line": 115,
+          "text": "            for (int r = 0; r < rings; r++)"
+        },
+        {
+          "line": 118,
+          "text": "                int i = r * segments + s, j = r * segments + (s + 1) % segments;"
+        },
+        {
+          "line": 120,
+          "text": "                bool openSlit = openLowerFrontSlit && r >= rings / 2 && s == slitColumn;"
+        }
+      ]
+    },
+    {
+      "id": "secondary_membrane",
+      "file": "Assets/FashionFit/Runtime/TailoredSurfaceDynamics.cs",
+      "sha256": "3d708fff1419da73b06f8afcb3063792cde825dd4d70a95dbb0d7c09179ef00b",
+      "finding": "Small normal-only secondary motion with pinned placket; not free sliding/detachable cloth.",
+      "excerpts": [
+        {
+          "line": 5,
+          "text": "    // A conservative normal-only secondary membrane over the fitted front."
+        },
+        {
+          "line": 31,
+          "text": "                pinned[id]=r==0||r==Height-1||c==0||c==Width-1||Mathf.Abs(x)<.025f;"
+        },
+        {
+          "line": 60,
+          "text": "            float maximum=material.arealMass<.08f?.006f:material.arealMass<.2f?.0045f:.003f;"
+        },
+        {
+          "line": 65,
+          "text": "                q[i]=Mathf.Clamp(q[i]+(q[i]-previous[i])*damping+Mathf.Clamp(a,-12,12)*dt*dt,0,maximum);previous[i]=old;"
+        }
+      ]
+    },
+    {
+      "id": "delete_instead_of_doff",
+      "file": "Assets/FashionFit/Runtime/RunwayWardrobe.cs",
+      "sha256": "d13f563b317914a7883a6ae370d47f8a62114785f82bde7d8bfcd499b46cb41c",
+      "finding": "ClearGarment destroys the garment and owned resources; cannot serve as persistent doffing.",
+      "excerpts": [
+        {
+          "line": 179,
+          "text": "        public void ClearGarment()"
+        },
+        {
+          "line": 181,
+          "text": "            if(app!=null&&app.Model!=null){app.Model.SetGarmentCoverage(0);app.Model.HoldUpperBodyForFitting=false;}"
+        },
+        {
+          "line": 182,
+          "text": "            if(garmentObject){garmentObject.SetActive(false);Release(garmentObject);}garmentObject=null;cloth=null;shirt=null;tailored=null;transferred=null;"
+        },
+        {
+          "line": 183,
+          "text": "            if(display)Release(display);display=null;if(material)Release(material);material=null;if(shirtMaterial)Release(shirtMaterial);shirtMaterial=null;GarmentName=\"Chưa có trang phục\";"
+        }
+      ]
+    },
+    {
+      "id": "simulation_lifetime",
+      "file": "Assets/FashionFit/Runtime/FashionFitApp.cs",
+      "sha256": "38bf2b14b6d532f86a1700d17a0f5e6d71915a88500548655216cfb721c2fe7d",
+      "finding": "Simulation gate knows current wardrobe interaction and settle timer; detached cloth needs its own active/sleep scheduler.",
+      "excerpts": [
+        {
+          "line": 99,
+          "text": "        public void AdvanceSimulation(float deltaTime)"
+        },
+        {
+          "line": 105,
+          "text": "            bool simulate = Playing || stopping || settleRemaining > 0 || modelGrabbed || Wardrobe.ClothGrabbed || Wardrobe.AirDemo;"
+        },
+        {
+          "line": 106,
+          "text": "            if (!simulate) return;"
+        }
+      ]
+    },
+    {
+      "id": "body_visibility",
+      "file": "Assets/FashionFit/Runtime/RunwayBodyCoverage.cs",
+      "sha256": "465d595adfd6dccf0f34058cc10dbfa2f14603b6c41c582040d40abcf0d7f6dc",
+      "finding": "Body masking must be cleared or recomputed when clothing opens; original body is retained.",
+      "excerpts": [
+        {
+          "line": 18,
+          "text": "        public void Clear()"
+        },
+        {
+          "line": 20,
+          "text": "            if (body.Renderer) body.Renderer.sharedMesh = body.BodyMesh;"
+        },
+        {
+          "line": 25,
+          "text": "        public void Wear(DressPreset preset)"
+        },
+        {
+          "line": 39,
+          "text": "            masked = Object.Instantiate(body.BodyMesh); masked.name = \"Body with covered interior triangles omitted\";"
+        },
+        {
+          "line": 45,
+          "text": "                    if (covered[a] && covered[b] && covered[c] && Covered((vertices[a] + vertices[b] + vertices[c]) / 3, preset)) { HiddenTriangles++; continue; }"
+        }
+      ]
+    },
+    {
+      "id": "two_hands",
+      "file": "Assets/FashionFit/Runtime/RunwayVRGrabTarget.cs",
+      "sha256": "fcd55ca0574f087eeeaf86f4a59f0d3330b0f91cc5b2e41e7efe2ac5e8acb857",
+      "finding": "Independent owners and two cloth grips already exist; closures need separate action priority.",
+      "excerpts": [
+        {
+          "line": 33,
+          "text": "        public int OwnerCount=>(owners[0]!=null?1:0)+(owners[1]!=null?1:0);"
+        },
+        {
+          "line": 34,
+          "text": "        public bool SupportsTwoHands=>pickup||cloth||shirt||poseBase||mannequin;"
+        },
+        {
+          "line": 38,
+          "text": "        public int GripPriority=>joint?0:pickup?1:shirt?2:cloth?3:4;"
+        },
+        {
+          "line": 46,
+          "text": "            if(owner==null||OwnedBy(owner)||!CanGrab||!RunwayVRHands.ValidPose(point,rotation))return false;"
+        },
+        {
+          "line": 60,
+          "text": "            if(cloth)cloth.MoveVRGrab(slot,point);else if(shirt)shirt.MoveVRGrab(slot,point);"
+        },
+        {
+          "line": 74,
+          "text": "        public void Release(object owner,bool cancelled)"
+        }
+      ]
+    },
+    {
+      "id": "ui_vs_physical_button",
+      "file": "Assets/FashionFit/Runtime/RunwayVRHands.cs",
+      "sha256": "943e5d765e6b464416a555a1589d24189ae8e73f0d66f51912186bc86113053b",
+      "finding": "UI Trigger can operate via 4 m ray; physical fasteners must use a distinct short-range interaction.",
+      "excerpts": [
+        {
+          "line": 10,
+          "text": "        public const float NearRadius=.16f, ForwardReach=.25f;"
+        },
+        {
+          "line": 65,
+          "text": "            bool hit=Physics.Raycast(ray,out RaycastHit ui,4,(1<<8)|(1<<9)|(1<<10),QueryTriggerInteraction.Ignore);"
+        },
+        {
+          "line": 68,
+          "text": "            if(pressed&&!h.trigger&&button){button.Activate();Pulse(side,.12f);if(!player.InVR){ReleaseAll(true);return;}}"
+        },
+        {
+          "line": 109,
+          "text": "            int count=Physics.OverlapSphereNonAlloc(p,NearRadius,candidates,1<<9,QueryTriggerInteraction.Collide);"
+        }
+      ]
+    },
+    {
+      "id": "showroom_tokens",
+      "file": "Assets/FashionFit/Runtime/RunwayShowroom.cs",
+      "sha256": "fe6eb09ebf1a57c49ad5109a4e6adc21e2a0499ec7976f997ca9db6d0e9d6136",
+      "finding": "Hat is equipped pickup; clothing pickup selects preset and returns display token, not same cloth instance.",
+      "excerpts": [
+        {
+          "line": 125,
+          "text": "        public bool TryWear(RunwayPickup item)"
+        },
+        {
+          "line": 129,
+          "text": "                item.Equip(hatAnchor,item.HatFitOffset,Quaternion.identity);Report(\"Đã đội \"+item.Label+\" • Grip để tháo\");return true;}"
+        },
+        {
+          "line": 130,
+          "text": "            if(Vector3.Distance(item.FittingPoint,WearPoint)>.65f)return false;"
+        },
+        {
+          "line": 131,
+          "text": "            WearLook(item.Look);item.ReturnToDisplay();return true;"
+        }
+      ]
+    },
+    {
+      "id": "import_static_only",
+      "file": "Assets/FashionFit/Runtime/TransferredGarmentAsset.cs",
+      "sha256": "d37447c0a1699a5de88c161dcef192786551a3f6e7126ab26a3730e7d0e29a7d",
+      "finding": "Transfer metadata has parts/materials and static validation, no authored opening/fasteners or live doffing support.",
+      "excerpts": [
+        {
+          "line": 9,
+          "text": "        [Serializable] public sealed class Part {public string name,fittedGeometryKey;public Mesh mesh;public Material[] materials;public TransferMetrics metrics;}"
+        },
+        {
+          "line": 14,
+          "text": "        public bool stationarySamplesPassed;"
+        },
+        {
+          "line": 15,
+          "text": "        public bool continuousCollisionTested=false,selfCollisionTested=false;"
+        },
+        {
+          "line": 16,
+          "text": "        public bool CanPreview=>schema==1&&stationarySamplesPassed&&parts!=null&&parts.Length>0;"
+        }
+      ]
+    },
+    {
+      "id": "pose_mannequins_separate",
+      "file": "Assets/FashionFit/Runtime/RunwayPoseStudio.cs",
+      "sha256": "798e499d98647cedf482ad4a80acf7f3c23681d692c4eb3dc0dbcaf8eff59357",
+      "finding": "Two pose mannequins are separate from the current fitted mannequin; require garment state per avatar.",
+      "excerpts": [
+        {
+          "line": 6,
+          "text": "    // Separate pose study: the current fitted female and its cloth remain independent."
+        },
+        {
+          "line": 28,
+          "text": "                var rig=avatar.gameObject.AddComponent<RunwayPoseRig>();rig.Initialize(app,avatar,i==0?\"Mẫu nữ\":\"Mẫu nam\");rigs.Add(rig);"
+        }
+      ]
+    },
+    {
+      "id": "local_gravity",
+      "file": "Assets/FashionFit/Runtime/FittingClothSolver.cs",
+      "sha256": "248bee827f1f509b6c8f4a747a22b716e7606a1191bd4f4dc9e15f28e3052212",
+      "finding": "Gravity is local -Y; detached rotated cloth needs correct world gravity and coordinate conversion.",
+      "excerpts": [
+        {
+          "line": 271,
+          "text": "                if (invMass[i] == 0) { x[i] = previous[i] = anchors[i]; if(activePoints[i])ProjectCollisions(ref x[i],ref previous[i],capsules,ellipsoids,collisionMargin); continue; }"
+        },
+        {
+          "line": 273,
+          "text": "                Vector3 displacement = (x[i] - previous[i]) * damping + Vector3.down * (9.81f * dt * dt);"
+        }
+      ]
+    }
+  ],
+  "packages": {
+    "com.unity.cloud.gltfast": "6.12.1",
+    "com.unity.inputsystem": "1.7.0",
+    "com.unity.xr.management": "4.4.0",
+    "com.unity.xr.openxr": "1.11.0",
+    "com.unity.modules.animation": "1.0.0",
+    "com.unity.modules.audio": "1.0.0",
+    "com.unity.modules.imageconversion": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.screencapture": "1.0.0",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.subsystems": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.modules.vr": "1.0.0",
+    "com.unity.modules.xr": "1.0.0"
+  },
+  "xr_interaction_toolkit_present": false,
+  "runtime_search_hits": [
+    {
+      "file": "TailoredPoloStudy.cs",
+      "line": 253,
+      "text": "// Small dark buttonhole beside the raised hardware."
+    }
+  ],
+  "external_references": [
+    {
+      "url": "https://docs.unity3d.com/2022.3/Documentation/Manual/class-Cloth.html",
+      "use": "Native Cloth constraints, supported collision shapes and one-way body coupling; not a doffing implementation"
+    },
+    {
+      "url": "https://github.com/InteractiveComputerGraphics/PositionBasedDynamics",
+      "use": "MIT reference implementation of PBD/XPBD constraints and SDF contact; C++ library, not a drop-in Unity component"
+    }
+  ],
+  "limitations": [
+    "Source findings are not runtime test passes",
+    "No full fastener or multi-panel doffing implementation exists in this reviewed path",
+    "No new asset downloaded, AI model trained or paid dependency installed"
+  ],
+  "runtime_unchanged": true
+}

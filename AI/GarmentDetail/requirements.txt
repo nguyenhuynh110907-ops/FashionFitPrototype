@@ -1,0 +1,5 @@
+# Versions used by the local CPU pilot; use a separate environment if recreating it.
+--extra-index-url https://download.pytorch.org/whl/cpu
+-r ../ClothData/requirements.txt
+torch==2.14.1+cpu
+safetensors==0.8.0

@@ -1,0 +1,23 @@
+{
+  "filesRemoved": 528,
+  "items": [
+    {
+      "path": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\_Luu_tru\\Phat_trien_2026-11-02\\ResponseOptimization\\BaselinePlayer",
+      "bytes": 161878154,
+      "files": 176
+    },
+    {
+      "path": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\_Luu_tru\\Phat_trien_2026-11-02\\ResponseOptimization\\OptimizedPlayer",
+      "bytes": 161879690,
+      "files": 176
+    },
+    {
+      "path": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\_Luu_tru\\Phat_trien_2026-11-02\\ResponseOptimization\\ReleaseRuns\\20261102T211749339230Z\\Player",
+      "bytes": 161884298,
+      "files": 176
+    }
+  ],
+  "bytesRemoved": 485642142,
+  "uniqueArchiveBytes": 562825,
+  "status": "passed"
+}

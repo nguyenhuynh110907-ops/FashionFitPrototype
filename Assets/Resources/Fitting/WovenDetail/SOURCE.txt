@@ -1,0 +1,15 @@
+Fine woven surface from the existing project dataset.
+Author/provider: ambientCG
+Asset: Fabric061
+Source: https://ambientcg.com/a/Fabric061
+License: CC0-1.0
+License information: https://docs.ambientcg.com/license/
+
+normal.jpg = Fabric061_1K-JPG_NormalGL.jpg (unmodified)
+SHA256: 528808da93efcd6a4cf0370c6647af748115c54db7b7ee5f983f2d8a0d0eb2aa
+roughness.jpg = Fabric061_1K-JPG_Roughness.jpg (unmodified)
+SHA256: dd486d17cea570bf971b3f09b6bcf888b5926894c9ce65e136498690bc098680
+
+Both maps are linear RGB data, with mipmaps and trilinear filtering.
+No garment photographs or person photographs are used as these textures.
+The maps only change surface shading; they do not change cloth physics.

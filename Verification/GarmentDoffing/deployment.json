@@ -1,0 +1,13 @@
+{
+  "status": "applied",
+  "source": "C:\\Users\\HUYNH\\OneDrive\\Desktop\\FashionFitPrototype",
+  "player": "C:\\Users\\HUYNH\\Downloads\\FashionFit_Run\\FashionFittingRoom.exe",
+  "date": "2026-10-31T02:22:55.395289-04:00",
+  "source_and_player_hashes_verified": true,
+  "blouse_checks": 43,
+  "player_checks": 18,
+  "contact_poses": 11,
+  "contact_samples": 80773,
+  "samples_inside_over_1mm": 0,
+  "hardware_tested": false
+}

@@ -1,0 +1,104 @@
+{
+  "status": "passed",
+  "method": "Full original body; libigl triangle distance + Embree ray parity; vertices, face centres and edge midpoints; 1 mm tolerance",
+  "continuous_collision_certified": false,
+  "self_collision_certified": false,
+  "cases": [
+    {
+      "file": "0_Neutral.bin",
+      "sha256": "c5cdeee8b383fee62a5024fcfac9fbd2c5d89e06b10a52af44360c9f74e36329",
+      "body": [
+        {
+          "samples": 45788,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "0_Posed.bin",
+      "sha256": "1c0e04d0881ba0bddbba09a245fde910c358d302f8eb8fc2b5bb3a0597e4a559",
+      "body": [
+        {
+          "samples": 45788,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "0_Pulled.bin",
+      "sha256": "7b97bcc9d2e3faa78d91b383b79e192a763de07b9295b82ab34d9d19f46e35f2",
+      "body": [
+        {
+          "samples": 45788,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "0_Recovered.bin",
+      "sha256": "ae20b36275daa2401defd4c29504d9e18a608c2befcbccc9b2718762dcd688b6",
+      "body": [
+        {
+          "samples": 45788,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "1_Neutral.bin",
+      "sha256": "2a1e959c6a8ee0296a492825aff36d684f5edfa16152fdfb7ddab6ef624089fa",
+      "body": [
+        {
+          "samples": 49999,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "1_Posed.bin",
+      "sha256": "bc104e39bff905379b86264a72aac97c45d1b3152de6058850116b7a5e292a0e",
+      "body": [
+        {
+          "samples": 49999,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "1_Pulled.bin",
+      "sha256": "6a755779255b3de84819d4478ba05a830bdc252d7f6f75b4d6531e19ffa7d57a",
+      "body": [
+        {
+          "samples": 49999,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    },
+    {
+      "file": "1_Recovered.bin",
+      "sha256": "b51aadae76190284dff60a2d3719bbb748c7876e2a69a0545a3f1c97d3171970",
+      "body": [
+        {
+          "samples": 49999,
+          "inside_over_1mm": 0,
+          "max_depth_mm": 0.0
+        }
+      ],
+      "layer_pairs": []
+    }
+  ]
+}

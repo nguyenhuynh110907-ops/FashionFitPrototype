@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "scope": "Six default outfits on the fitted female mannequin, discrete full-body mesh samples; not continuous contact or headset certification",
+  "threshold_mm": 1,
+  "stages": [
+    {
+      "stage": "Standing",
+      "poses": 12,
+      "samples": 190750,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.7982481009924726,
+      "advance_calls": 1440
+    },
+    {
+      "stage": "Speed035_60fps",
+      "poses": 54,
+      "samples": 858375,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.7982815785209678,
+      "advance_calls": 6048
+    },
+    {
+      "stage": "Speed050_60fps",
+      "poses": 54,
+      "samples": 858375,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.7982799286996168,
+      "advance_calls": 5778
+    },
+    {
+      "stage": "Speed050_30fps",
+      "poses": 54,
+      "samples": 858375,
+      "samples_inside_over_1mm": 0,
+      "max_sampled_penetration_mm": 0.7982799286996168,
+      "advance_calls": 3612
+    }
+  ],
+  "raw_exports_location": "C:\\Users\\HUYNH\\Downloads\\Fashion_Fitting_Room_v0.5.2\\ModelGrip_Work\\UnityProject\\Verification\\SpeedContact",
+  "qa_packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "trimesh": "5.2.0",
+    "rtree": "1.4.1",
+    "libigl": "2.6.3",
+    "embreex": "4.4.0.post1"
+  },
+  "poses": 174,
+  "samples": 2765875
+}

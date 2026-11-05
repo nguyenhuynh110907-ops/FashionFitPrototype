@@ -1,0 +1,51 @@
+{
+  "status": "known_gaps_reproduced",
+  "results": [
+    {
+      "case": "material_index_out_of_range",
+      "status": "dependencies_found_requires_render_review",
+      "issues": [],
+      "invalid_input_undetected": true
+    },
+    {
+      "case": "missing_buffer_control",
+      "status": "needs_source_fix",
+      "issues": [
+        "Missing buffer: absent.bin"
+      ],
+      "invalid_input_undetected": false
+    },
+    {
+      "case": "missing_texture_reference",
+      "status": "dependencies_found_requires_render_review",
+      "issues": [],
+      "invalid_input_undetected": true
+    },
+    {
+      "case": "missing_uv_control",
+      "status": "needs_source_fix",
+      "issues": [
+        "Primitive lacks TEXCOORD_0: None"
+      ],
+      "invalid_input_undetected": false
+    },
+    {
+      "case": "truncated_geometry_buffer",
+      "status": "dependencies_found_requires_render_review",
+      "issues": [],
+      "invalid_input_undetected": true
+    },
+    {
+      "case": "uv_accessor_out_of_range",
+      "status": "dependencies_found_requires_render_review",
+      "issues": [],
+      "invalid_input_undetected": true
+    },
+    {
+      "case": "valid_geometry_control",
+      "status": "dependencies_found_requires_render_review",
+      "issues": [],
+      "invalid_input_undetected": false
+    }
+  ]
+}
